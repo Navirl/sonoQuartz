@@ -6,8 +6,8 @@ aliases:
 ---
 
 daily:: [2024-12-06 FX](../../Daily_Note/2024-12-06%20FX.md)
-up:: [AI_local](AI_local.md)
-up:: [AI_online](AI_online.md)
+up:: [AI\_local](<./AI_local.md>)
+up:: [AI\_online](<./AI_online.md>)
 
 ## local
 

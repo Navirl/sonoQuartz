@@ -7,7 +7,7 @@ aliases: 艇教
 ---
 
 daily:: [2022-08-05](../../../Daily_Note/2022-08-05.md)
-up:: [Sist](Sist.md)
+up:: [Sist](<./Sist.md>)
 
 ナカリアそのものを楽園へ向かう船として奉る宗教。
 

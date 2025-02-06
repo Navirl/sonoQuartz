@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2023-03-11](/Daily_Note/2023-03-11.md)
-up:: [Rust](../Bar/Program/Rust.md)
+up:: [Rust](<../Bar/Program/Rust.md>)
 
 構造体に紐づけたメソッドのこと。
 implをつけ構造体と同じ名前で定義する。
@@ -12,7 +12,7 @@ implをつけ構造体と同じ名前で定義する。
 複数作っても問題ない。
 implブロック内に関数は複数入れられるので、単純に分割することに意味はないものの、Traitを使うときに効果を発揮する。
 
-[Rust Traits](Rust%20Traits.md)
+[Rust Traits](<./Rust Traits.md>)
 
 ```rust
 

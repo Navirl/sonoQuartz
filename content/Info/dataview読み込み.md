@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2024-01-29](/Daily_Note/2024-01-29.md)
-up:: [Obsidian](../Bar/App/Obsidian.md)
+up:: [Obsidian](<../Bar/App/Obsidian.md>)
 
 ソース内にdebugger;という一文を入れるとブレークポイントを置いたのと同等の動作になる
 

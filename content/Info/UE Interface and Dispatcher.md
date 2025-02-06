@@ -5,7 +5,7 @@ tags:
 
 daily:: [2022-07-14](Daily_Note/2022-07-14.md)
 up:: [Unreal_Engine](../Bar/App/Unreal_Engine.md)
-up:: [インターフェース](インターフェース.md)
+up:: [インターフェース](<./インターフェース.md>)
 source:: [【UE4】InterfaceとDispatcherの使い分け方-自分流【★★☆】 \| キンアジのブログ](https://kinnaji.com/2018/12/15/interfaceanddispatcher/)
 source:: [ブループリント インターフェースの実装 \| Unreal Engine ドキュメント](https://docs.unrealengine.com/4.27/ja/ProgrammingAndScripting/Blueprints/UserGuide/Types/Interface/UsingInterfaces/)
 source:: [イベント ディスパッチャー | Unreal Engine ドキュメント](https://docs.unrealengine.com/4.27/ja/ProgrammingAndScripting/Blueprints/UserGuide/EventDispatcher/)

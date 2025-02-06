@@ -5,7 +5,7 @@ tags:
 
 daily:: [2024-06-04](/Daily_Note/2024-06-04.md)
 up:: [sd](../Bar/Stable%20Diffusion.md)
-down:: [sd work2](sd%20work2.md)
+down:: [sd work2](<./sd work2.md>)
 
 [2024-06-14](../Daily_Note/2024-06-14.md)
 
@@ -22,7 +22,7 @@ sdを使用した仕事のメモ。
 鬼瓦：胸小さめ、美人ではない、ギャグキャラ、強面
 ```
 
-[sdwebui 問題確認](sdwebui%20問題確認.md)
+[sdwebui 問題確認](<./sdwebui 問題確認.md>)
 
 基本一枚、厳しければ背景とキャラで分けて編集で合わせる
 - rembgなどによる切抜き

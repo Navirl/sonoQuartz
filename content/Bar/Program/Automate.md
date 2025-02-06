@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2022-04-24](/Daily_Note/2022-04-24.md)
-up:: [Programming](Programming.md)
+up:: [Programming](<./Programming.md>)
 
 ## 変数
 pythonと同じく、事前に宣言する必要はない。

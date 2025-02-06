@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2022-07-28](Daily_Note/2022-07-28.md)
-up:: [Google Apps Script](../Bar/Program/Google%20Apps%20Script.md)
+up:: [Google Apps Script](<../Bar/Program/Google Apps Script.md>)
 source:: [Class UrlFetchApp  |  Apps Script  |  Google Developers](https://developers.google.com/apps-script/reference/url-fetch/url-fetch-app)
 
 Httpを経由して情報を取る関数。

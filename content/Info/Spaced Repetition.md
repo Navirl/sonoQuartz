@@ -5,9 +5,9 @@ aliases: 間隔反復
 ---
 
 daily:: [2023-03-07](/Daily_Note/2023-03-07.md)
-up:: [Component](../Bar/Novel/Chaos/Component.md)
+up:: [Component](<../Bar/Novel/Chaos/Component.md>)
 up:: [Product](../Bar/Product.md)
-same:: [Incremental Reading](Incremental%20Reading.md)
+same:: [Incremental Reading](<./Incremental Reading.md>)
 up:: [Product](../Bar/Product.md)
 
 日を改めて同じ学習を続けることで、記憶を増強する手法。

@@ -5,7 +5,7 @@ tags:
 
 daily:: [2024-06-23](/Daily_Note/2024-06-23.md)
 up:: [sd](../Bar/Stable%20Diffusion.md)
-up:: [sd work](sd%20work.md)
+up:: [sd work](<./sd work.md>)
 
 lancersのほう。
 

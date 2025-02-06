@@ -7,7 +7,7 @@ aliases: シャーレット
 ---
 
 daily:: [2022-11-14](Daily_Note/2022-11-14.md)
-up:: [Riitsu_Reuke](Riitsu_Reuke.md)
+up:: [Riitsu\_Reuke](<./Riitsu_Reuke.md>)
 
 シャーレット
 性自認はオスだが、レウリィにちょっとずつ惹かれていく。

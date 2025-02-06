@@ -5,7 +5,7 @@ tags:
 
 daily:: [2022-07-15](Daily_Note/2022-07-15.md)
 up:: [Unreal_Engine](../Bar/App/Unreal_Engine.md)
-up:: [Cpp](../Bar/Program/Cpp.md)
+up:: [Cpp](<../Bar/Program/Cpp.md>)
 source:: [いまさら聞きづらいUPROPERTY・UFUNCTION – 株式会社ロジカルビート](https://logicalbeat.jp/blog/8212/)
 source:: [Unreal Engine の UFunction | Unreal Engine ドキュメント](https://docs.unrealengine.com/5.0/ja/ufunctions-in-unreal-engine/)
 
@@ -46,7 +46,7 @@ source:: [Blueprint Function Libraries in Unreal Engine | Unreal Engine 5.0 Docu
 作った関数をどのblueprintからでも呼びたい、つまり関数ライブラリを作りたいなら、BlueprintFunctionLibraryを直接継承すれば自動でそうなる。
 
 ### BlueprintPure
-[純粋関数](Pure%20Function.md)を作成する。const関数はこれを付けずCallableにしようとしても強制で純粋関数になる。
+[純粋関数](<./Pure Function.md>)を作成する。const関数はこれを付けずCallableにしようとしても強制で純粋関数になる。
 
 ### BlueprintImplementableEvent
 Blueprintから呼べる、C++に実装を持たない関数。

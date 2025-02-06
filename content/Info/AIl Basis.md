@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2023-06-22](/Daily_Note/2023-06-22.md)
-up:: [AI_local](../Bar/AI/AI_local.md)
+up:: [AI\_local](<../Bar/AI/AI_local.md>)
 
 `nvidia/cuda:12.1.1-runtime-ubuntu22.04`をpull。
 `apt update && apt install software-properties-common -y && add-apt-repository ppa:deadsnakes/ppa && apt install python3.10`でpython3.10をインストール。

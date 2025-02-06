@@ -5,10 +5,10 @@ tags:
 
 daily:: [2024-05-06](/Daily_Note/2024-05-06.md)
 up:: [sdwebui](../Bar/App/stable-diffusion-webui.md)
-up:: [ComfyUI](../Bar/App/ComfyUI.md)
+up:: [ComfyUI](<../Bar/App/ComfyUI.md>)
 up:: [Stable Diffusion](../Bar/Stable%20Diffusion.md)
 
-[controlnet](sd%20ControlNet.md)を使用する。
+[controlnet](<./sd controlnet.md>)を使用する。
 古いのだとReferenceを使うが、これは構図も持ってかれるのでなし。
 
 メインはIP-Adapterになるが、これでもあくまで顔を似せるだけであって他の要素、例えば髪などは変わる。

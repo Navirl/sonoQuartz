@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2025-01-07](/Daily_Note/2025-01-07.md)
-up:: [Elm](../Bar/Program/Elm.md)
+up:: [Elm](<../Bar/Program/Elm.md>)
 
 
 [Beginning Elm: a gentle introduction to Elm programming language - Beginning Elm](https://elmprogramming.com)

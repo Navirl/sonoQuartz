@@ -8,8 +8,8 @@ banner_y: 0.21285
 ---
 
 daily:: [2022-09-20](Daily_Note/2022-09-20.md)
-up:: [Crazy_Quartet](Crazy_Quartet.md)
-up:: [SA](Subterranean_Animism.md)
+up:: [Crazy\_Quartet](<./Crazy_Quartet.md>)
+up:: [SA](<./Subterranean_Animism.md>)
 
 「無人」古明地こいし。枯れ木も山の賑わい。
 

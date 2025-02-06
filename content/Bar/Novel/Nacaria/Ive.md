@@ -6,7 +6,7 @@ tags:
 ---
 
 daily:: [2022-10-27](Daily_Note/2022-10-27.md)
-up:: [Cricia](Cricia.md)
+up:: [Cricia](<./Cricia.md>)
 
 
 夜と発明の街。全員狂人。

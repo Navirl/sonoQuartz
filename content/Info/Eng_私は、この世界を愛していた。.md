@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2022-07-27](Daily_Note/2022-07-27.md)
-up:: [私は、この世界を愛していた。](Info/私は、この世界を愛していた。.md)
+up:: [私は、この世界を愛していた。](<./私は、この世界を愛していた。.md>)
 source:: [「Anything」と「whatever」の違いは？ | by オフィスG-FIX](https://officegfix.com/difference_anything_whatever/)
 
 私は、この世界を愛していた。

@@ -7,8 +7,8 @@ aliases: アーシャ
 ---
 
 daily:: [2022-07-03](Daily_Note/2022-07-03.md)
-up:: [Biscarnya](Biscarnya.md)
-same:: [Pansel](Pansel.md)
+up:: [Biscarnya](<./Biscarnya.md>)
+same:: [Pansel](<./Pansel.md>)
 
 能力
 複数の枠を飛ばす。
@@ -17,7 +17,7 @@ same:: [Pansel](Pansel.md)
 - 銃弾を弾くほどに硬くする
 - 人の周りを囲むことで声を反射、偏見強化エコーチェンバー
 
-down:: [KOW](KOW.md)
+down:: [KOW](<./KOW.md>)
 実はKOW使い。
 飛ばす枠は、元KOW。
 

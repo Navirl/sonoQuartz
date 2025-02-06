@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2024-01-05](/Daily_Note/2024-01-05.md)
-up:: [Me](../Bar/Novel/Chaos/Me.md)
+up:: [Me](<../Bar/Novel/Chaos/Me.md>)
 
 PvP
 困難

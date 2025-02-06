@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2025-01-01](/Daily_Note/2025-01-01.md)
-up:: [Tauri](../Bar/Framework/Tauri.md)
+up:: [Tauri](<../Bar/Framework/Tauri.md>)
 
 [Configuration | Tauri](https://v2.tauri.app/reference/config/)
 
@@ -15,7 +15,7 @@ up:: [Tauri](../Bar/Framework/Tauri.md)
 
 - app
     - Tauriの構成
-    - [CSP](tauri%20security.md#Content%20Security%20Policy(CSP))もここ
+    - [CSP](<./tauri security.md#Content Security Policy(CSP)>)もここ
 - build
     - ビルドの構成
     - 短いからかappより先に書かれてる

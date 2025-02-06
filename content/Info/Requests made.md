@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2022-07-27](Daily_Note/2022-07-27.md)
-up:: [Component](../Bar/Novel/Chaos/Component.md)
+up:: [Component](<../Bar/Novel/Chaos/Component.md>)
 
 Requests made using this service originate from a set pool of IP ranges.
 

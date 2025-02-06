@@ -6,7 +6,7 @@ aliases: 未来体験
 ---
 
 daily:: [2022-06-15](../../../Daily_Note/2022-06-15.md)
-up:: [Component](Component.md)
+up:: [Component](<./Component.md>)
 
 未来体験
 自身の時間を遅め、自身の中に形作った内世界を自由に歩き回る。

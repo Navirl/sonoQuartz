@@ -4,8 +4,8 @@ tags:
 ---
 
 daily:: [2023-03-02](/Daily_Note/2023-03-02.md)
-up:: [Cpp](../Bar/Program/Cpp.md)
-up:: [水素脆性](水素脆性.md)
+up:: [Cpp](<../Bar/Program/Cpp.md>)
+up:: [水素脆性](<./水素脆性.md>)
 
 金属
 

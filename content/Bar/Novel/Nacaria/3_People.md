@@ -7,7 +7,7 @@ aliases: Satori_People
 ---
 
 daily:: [2022-07-27](Daily_Note/2022-07-27.md)
-up:: [Satori](Satori.md)
+up:: [Satori](<./Satori.md>)
 
 
 世界観察系。

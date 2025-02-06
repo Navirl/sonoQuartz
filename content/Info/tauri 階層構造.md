@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2024-12-31](/Daily_Note/2024-12-31.md)
-up:: [Tauri](../Bar/Framework/Tauri.md)
+up:: [Tauri](<../Bar/Framework/Tauri.md>)
 
 [Tauri v2 x Svelte 5 で、アプリケーション開発をはじめる！ #Rust - Qiita](https://qiita.com/takavfx/items/248250daacde5d400bd9)
 
@@ -12,7 +12,7 @@ up:: [Tauri](../Bar/Framework/Tauri.md)
     - フロントエンドのソースコード
     - routes
         - ルーティング対象
-        - [ルーティング](ルーティング.md)
+        - [ルーティング](<./ルーティング.md>)
 - src-tauri
     - tauriの実装
     - src
@@ -26,7 +26,7 @@ up:: [Tauri](../Bar/Framework/Tauri.md)
     - capabilities
         - default.json
             - セキュリティ定義
-            - [tauri security](tauri%20security.md)
+            - [tauri security](<./tauri security.md>)
 - static
     - svelteの画像など静的リソース
 

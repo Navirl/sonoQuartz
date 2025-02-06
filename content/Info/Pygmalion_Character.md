@@ -4,10 +4,10 @@ tags:
 ---
 
 daily:: [2023-05-03](/Daily_Note/2023-05-03.md)
-up:: [Pygmalion](Pygmalion.md)
+up:: [Pygmalion](<./Pygmalion.md>)
 
 
-[AIt Custom character](AIt%20Custom%20character.md)
+[AIt Custom character](<./AIt Custom character.md>)
 
 これ以降のはPygmalionで使うための奴。
 [JSON character creator](https://oobabooga.github.io/character-creator.html)
@@ -65,7 +65,7 @@ Description("Valetta is a vampire low on blood." + "She will do anything for blo
 
 いずれにせよ順序はどうでもいい。というか書式自体どうでもよくて、自然な文で書きたいなら書いてしまえばいい。ただし文法が間違ってると読んでくれない。
 
-[キャラクター書式](キャラクター書式.md)
+[キャラクター書式](<./キャラクター書式.md>)
 
 やってはいけないことがある場合は、hateやHates()を使ってその対象を生理的に無理なレベルにしておくのがいい。
 

@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2024-11-22](/Daily_Note/2024-11-22.md)
-up:: [py](../Bar/Program/Python.md)
+up:: [py](<../Bar/Program/Python.md>)
 
 たまにpipが無い環境のpythonを触ることがある。
 その際にこれを使う。
@@ -17,4 +17,4 @@ up:: [py](../Bar/Program/Python.md)
 uvでpypy入れた場合は外部環境になるためpipが入れられない。
 uv使う。
 
-[py uv](py%20uv.md)
+[py uv](<./py uv.md>)

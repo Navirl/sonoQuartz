@@ -4,8 +4,8 @@ tags:
 ---
 
 daily:: [2022-09-03](Daily_Note/2022-09-03.md)
-up:: [Obsidian](../Bar/App/Obsidian.md)
-up:: [Dataview inlink and tags](Dataview%20inlink%20and%20tags.md)
+up:: [Obsidian](<../Bar/App/Obsidian.md>)
+up:: [Dataview inlink and tags](<./Dataview inlink and tags.md>)
 source:: [Dataview](https://blacksmithgu.github.io/obsidian-dataview/)
 
 

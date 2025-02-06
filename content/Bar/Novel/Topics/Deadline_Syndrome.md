@@ -5,8 +5,8 @@ tags:
 ---
 
 daily:: [2022-11-23](Daily_Note/2022-11-23.md)
-up:: [Me](../Chaos/Me.md)
-up:: [Deal_with](Deal_with.md)
+up:: [Me](<../Chaos/Me.md>)
+up:: [Deal\_with](<./Deal_with.md>)
 
 - この仕事が終わるまでではなく、この時間になるまでと定めて、それまでに仕事を終わらせる。
 	- A job done is job done well.

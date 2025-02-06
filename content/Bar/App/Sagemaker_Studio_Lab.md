@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2024-05-06](Daily_Note/2024-05-06.md)
-up:: [Python](../Program/Python.md)
+up:: [Python](<../Program/Python.md>)
 
 Amazonが手掛けるColab競合。
 

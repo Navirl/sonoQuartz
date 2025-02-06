@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2024-06-21](/Daily_Note/2024-06-21.md)
-up:: [AI_text](../Bar/AI/AI_text.md)
+up:: [AI\_text](<../Bar/AI/AI_text.md>)
 
 - 役割を与える
 - 目標を定義する

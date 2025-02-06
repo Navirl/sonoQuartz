@@ -4,12 +4,12 @@ tags:
 ---
 
 daily:: [2024-03-12](/Daily_Note/2024-03-12.md)
-up:: [regex](../Bar/Program/Reguler%20Expression.md)
+up:: [regex](<../Bar/Program/Reguler Expression.md>)
 
 ## ""の中のエスケープ無し"に一致
 `(?<=[\s\S]+"\[.*)"(?=.*"\n)`
 肯定先読み後読みを使用した。
-[Scoopマニフェスト](Scoopマニフェスト.md)の制作に使用。
+[Scoopマニフェスト](<./Scoopマニフェスト.md>)の制作に使用。
 
 そのままだと`"github": "https://github.com/pyenv-win/pyenv-win"`などにも引っかかるが、たまたま対象が`[`から始まってたのでそれで無理矢理弾いた。
 
@@ -28,7 +28,7 @@ up:: [regex](../Bar/Program/Reguler%20Expression.md)
 
 ## pythonのリストを文字列にしたものを再リスト化
 `(?<=')(?!, ).*?(?=')`
-[""の中のエスケープ無し"に一致](#""の中のエスケープ無し"に一致)とあまり変わらない。
+[""の中のエスケープ無し"に一致](<#""の中のエスケープ無し"に一致>)とあまり変わらない。
 実際にpythonで使うときは`'`が邪魔なのでraw文字列で弾く。
 
 ## MarkdownのHeadingだけ抜き出し

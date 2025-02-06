@@ -7,9 +7,9 @@ aliases: 二条奏海
 ---
 
 daily:: [2022-08-04](Daily_Note/2022-08-04.md)
-up:: [Saki_Yanasaki](Saki_Yanasaki.md)
-up:: [Huo](Huo.md)
-same:: [Kanami_Nijo_Edu](Kanami_Nijo_Edu.md)
+up:: [Saki\_Yanasaki](<./Saki_Yanasaki.md>)
+up:: [Huo](<./Huo.md>)
+same:: [Kanami\_Nijo\_Edu](<./Kanami_Nijo_Edu.md>)
 
 0
 カスタム可能
@@ -32,7 +32,7 @@ same:: [Kanami_Nijo_Edu](Kanami_Nijo_Edu.md)
 
 
 
-[誰にも認められてない気がして、不安で不安で仕方なかった。](../../../Info/誰にも認められてない気がして、不安で不安で仕方なかった。.md)
+[誰にも認められてない気がして、不安で不安で仕方なかった。](<../../../Info/誰にも認められてない気がして、不安で不安で仕方なかった。.md>)
 
 近くの他人より、遠くの仲間ですよね。
 血を分けたから仲間なんじゃなく、一緒に過ごしたから仲間なんですよ。
@@ -158,4 +158,4 @@ same:: [Kanami_Nijo_Edu](Kanami_Nijo_Edu.md)
 人として、形を持っているのなら、獣でなくさせた何かがあるはずだ。
 それを愛と呼ぶ。
 
-[[bingKANAMI]]
+[[../../../../../Teino/Info/bingKANAMI]]

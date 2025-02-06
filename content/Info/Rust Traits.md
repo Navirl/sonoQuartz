@@ -4,9 +4,9 @@ tags:
 ---
 
 daily:: [2023-03-11](/Daily_Note/2023-03-11.md)
-up:: [Rust](../Bar/Program/Rust.md)
+up:: [Rust](<../Bar/Program/Rust.md>)
 
-[interface](インターフェース.md)
+[interface](<./インターフェース.md>)
 
 インターフェースみたいなやつ。
 違いはインターフェースが生産性や表現力を目的にして導入された一方、traitsは**安全性と並行性**を目的に導入している。だからデフォルトで実装を置いておけるし、

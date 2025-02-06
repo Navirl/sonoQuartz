@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2023-06-29](/Daily_Note/2023-06-29.md)
-up:: [Job](Bar/Job.md)
+up:: [Job](<../../../Teino/Bar/Job.md>)
 
 資料は配られる
 アンケ出した人に次を繋げる

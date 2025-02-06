@@ -4,8 +4,8 @@ tags:
 ---
 
 daily:: [2022-08-19](Daily_Note/2022-08-19.md)
-up:: [Game](../Bar/Novel/Topics/Game.md)
-up:: [Reincarnation](../Bar/Novel/Topics/Reincarnation.md)
+up:: [Game](<../Bar/Novel/Topics/Game.md>)
+up:: [Reincarnation](<../Bar/Novel/Topics/Reincarnation.md>)
 
 死ぬとNPCに憑依していくゲーム
 ようやく……ようやく、おいでなさったか！

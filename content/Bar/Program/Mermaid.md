@@ -4,8 +4,8 @@ tags:
 ---
 
 daily:: [2021-07-28](/Daily_Note/2021-07-28.md)
-up:: [Programming](Programming.md)
-same:: [PlantUML](Program/PlantUML.md)
+up:: [Programming](<./Programming.md>)
+same:: [PlantUML](<./PlantUML.md>)
 
 [About Mermaid | Mermaid](https://mermaid.js.org/intro/)
 

@@ -5,9 +5,9 @@ tags:
 
 daily:: [2023-05-08](/Daily_Note/2023-05-08.md)
 up:: [WSL](../Bar/App/WSL.md)
-up:: [GAI](../Bar/AI/AI_local.md)
-up:: [AIl local textchatbot](AIl%20local%20textchatbot.md)
-up:: [sdwebui docker](sdwebui%20docker.md)
+up:: [GAI](<../Bar/AI/AI_local.md>)
+up:: [AIl local textchatbot](<./AIl local textchatbot.md>)
+up:: [sdwebui docker](<./sdwebui docker.md>)
 up:: [stable-diffusion-webui](../Bar/App/stable-diffusion-webui.md)
 up:: [text-generation-webui](../Bar/App/text-generation-webui.md)
 

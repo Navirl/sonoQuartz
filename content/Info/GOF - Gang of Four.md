@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2021-07-23](/Daily_Note/2021-07-23.md)
-up:: [Programming](Bar/Program/Programming.md)
+up:: [Programming](<../../../Teino/Bar/Program/Programming.md>)
 
 オブジェクト指向プログラミングにおける、再利用性の高いコーディングのパターン、いわゆる**デザインパターン**をまとめた4人のプログラマ。
 

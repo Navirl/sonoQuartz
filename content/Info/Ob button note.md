@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2023-02-16](/Daily_Note/2023-02-16.md)
-up:: [Obsidian](../Bar/App/Obsidian.md)
+up:: [Obsidian](<../Bar/App/Obsidian.md>)
 
 目的：
 	手動でテンプレートが置いてあるフォルダーを指定すること

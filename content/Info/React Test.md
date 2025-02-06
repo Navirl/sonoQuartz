@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2024-03-28](/Daily_Note/2024-03-28.md)
-up:: [React](../Bar/Library/React.md)
+up:: [React](<../Bar/Library/React.md>)
 
 ## Unit
 Jestが一般的。

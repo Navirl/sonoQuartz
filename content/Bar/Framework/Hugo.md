@@ -6,7 +6,7 @@ tags:
 daily:: [2024-12-07](Daily_Note/2024-12-07.md)
 up::
 
-[Git+Hugo+Netlify](Git+Hugo+Netlify.md)
+[Git+Hugo+Netlify](<../../../../Teino/Git+Hugo+Netlify.md>)
 まさかの三年前からの続き。
 
 ## 特定のディレクトリのみビルド

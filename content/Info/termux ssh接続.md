@@ -4,14 +4,14 @@ tags:
 ---
 
 daily:: [2022-10-06](Daily_Note/2022-10-06.md)
-up:: [Termux](../Bar/App/Termux.md)
+up:: [Termux](<../Bar/App/Termux.md>)
 source:: [AndroidにTermuxを入れてSSHで入ってLinux環境を作る【まとめ版】 | 楽しい活字中毒](https://tanokatu.com/2021/06/22/linux-android-linux-2/)
 source:: [termuxでSSHサーバを動かす - Smart Home](https://scrapbox.io/smart-home/termux%E3%81%A7SSH%E3%82%B5%E3%83%BC%E3%83%90%E3%82%92%E5%8B%95%E3%81%8B%E3%81%99)
 
 `sshd`でサーバーが立つので、`ssh -p port name@ip`で接続してやればいい。
 sshdが無いなら`pkg install openssh`で入れる。
 
-portは8022固定、nameは`id`の`u0_axxx`部分、ipは本体設定から確認してもいいが、`ifconfig`で[確認](ipアドレスが知りたい.md)することも可能。
+portは8022固定、nameは`id`の`u0_axxx`部分、ipは本体設定から確認してもいいが、`ifconfig`で[確認](<./ipアドレスが知りたい.md>)することも可能。
 パスワードが欲しいときは`passwd`で設定。ssh接続時に訊かれる。何も設定してないときに訊かれたら何を入力しても大丈夫。
 
 サーバーを切りたいときは`pkill sshd`。

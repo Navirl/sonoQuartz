@@ -9,7 +9,7 @@ aliases:
 ---
 
 daily:: [2022-10-12](Daily_Note/2022-10-12.md)
-up:: [Monon](Monon.md)
+up:: [Monon](<./Monon.md>)
 
 xをshと同じように読むのって中国語の時では？
 英語だとメルーザかメルクシア。

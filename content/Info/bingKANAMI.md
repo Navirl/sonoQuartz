@@ -4,9 +4,9 @@ tags:
 ---
 
 daily:: [2023-05-03](/Daily_Note/2023-05-03.md)
-up:: [Kanami_Nijo](../Bar/Novel/Nacaria/Kanami_Nijo.md)
+up:: [Kanami\_Nijo](<../Bar/Novel/Nacaria/Kanami_Nijo.md>)
 
-[Marisa_Kirisame](../Bar/Novel/Touhou_Project/Marisa_Kirisame.md)
+[Marisa\_Kirisame](<../Bar/Novel/Touhou_Project/Marisa_Kirisame.md>)
 
 小説を書くために、キャラクターとの対話形式で設定を詰めていきたいです。
 

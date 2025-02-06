@@ -4,10 +4,10 @@ tags:
 ---
 
 daily:: [2024-05-06](Daily_Note/2024-05-06.md)
-up:: [Programming](Programming.md)
+up:: [Programming](<./Programming.md>)
 
 MT5で使われる自動化用言語。
-ヘッダーも使えるのでほぼ[Cpp](Cpp.md)。
+ヘッダーも使えるのでほぼ[Cpp](<./Cpp.md>)。
 
 現在のバーはpythonで`rates = mt5.copy_rates_from_pos("EURUSD", mt5.TIMEFRAME_H1, 0, 1)`などとすることで取得できる
 一つ前のバーは3600s前なので、(現在のバータイム - 欲しいバータイム)/3600で、欲しいところのバーが何番目なのか分かるはず

@@ -10,5 +10,5 @@ aliases:
 ---
 
 daily:: [2022-11-14](Daily_Note/2022-11-14.md)
-up:: [Fourcia](Fourcia.md)
+up:: [Fourcia](<./Fourcia.md>)
 

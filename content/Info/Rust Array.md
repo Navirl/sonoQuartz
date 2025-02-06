@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2023-03-20](/Daily_Note/2023-03-20.md)
-up:: [Rust](../Bar/Program/Rust.md)
+up:: [Rust](<../Bar/Program/Rust.md>)
 
 そのまま回すならforin。添字が要るならタプルとiter().enumerate()。
 参照が欲しいなら&配列かiter()。展開なら`let [一個一個の変数名] = 配列`で済むのがRustのいいところ。

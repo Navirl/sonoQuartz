@@ -7,7 +7,7 @@ aliases: 閠
 ---
 
 daily:: [2022-12-26](Daily_Note/2022-12-26.md)
-up:: [Nacarea](Nacarea.md)
+up:: [Nacarea](<./Nacarea.md>)
 
 うるい。検索しても野菜しかヒットしない。
 さらに玉門は女性の陰部の名称。やっぱラスボスにするのやめようかな。

@@ -5,7 +5,7 @@ tags:
 
 daily:: [2022-07-01](Daily_Note/2022-07-01.md)
 up:: [../Bar/Summareading](../Bar/Summareading.md)
-up:: [Component](../Bar/Novel/Chaos/Component.md)
+up:: [Component](<../Bar/Novel/Chaos/Component.md>)
 source:: [｢これやる意味あるの?｣会議でなぜか自己主張を始める"そもそもオジサン"を黙らせる必殺のひとこと ポイントは｢衝突しない｣｢説き伏せない｣｢相手に言わせる｣ | PRESIDENT Online（プレジデントオンライン）](https://president.jp/articles/-/59117)
 
 - 「そもそも」で会議の前提を問い、==代案を出さない==人間は、悪気が無くとも会議の進行を遅らせ、生産性を下げてしまう。

@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2023-03-01](/Daily_Note/2023-03-01.md)
-up:: [Cpp](../Bar/Program/Cpp.md)
+up:: [Cpp](<../Bar/Program/Cpp.md>)
 
 他のソースファイルを読み込む機能。
 
@@ -51,4 +51,4 @@ ODRと似たようなものだが、標準ライブラリをusingで読んだり
 全部コンパイラ翻訳するのでクソ長い。
 
 
-ここを解決したのが[module](Cpp%20module.md)。
+ここを解決したのが[module](<./Cpp module.md>)。

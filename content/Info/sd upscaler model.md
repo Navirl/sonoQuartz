@@ -5,7 +5,7 @@ tags:
 
 daily:: [2024-06-17](/Daily_Note/2024-06-17.md)
 up:: [sd](../Bar/Stable%20Diffusion.md)
-same:: [sd upscale](sd%20upscale.md)
+same:: [sd upscale](<./sd upscale.md>)
 
 大体OpenModelDBにある。
 

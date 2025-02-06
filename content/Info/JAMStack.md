@@ -4,8 +4,8 @@ tags:
 ---
 
 daily:: [2021-07-10](/Daily_Note/2021-07-10.md)
-up:: [JavaScript and TypeScript](Bar/Program/JavaScript%20and%20TypeScript.md)
-up:: [Markdown](Bar/Program/Markdown.md)
+up:: [JavaScript and TypeScript](<../../../Teino/Bar/Program/JavaScript and TypeScript.md>)
+up:: [Markdown](<../../../Teino/Bar/Program/Markdown.md>)
 
 ## JAMstack
 ウェブサイトを構築・運用するための技術の組み合わせ。**Javascript・APIs・Markup**の頭文字。

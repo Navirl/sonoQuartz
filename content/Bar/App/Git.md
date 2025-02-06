@@ -61,7 +61,7 @@ sshの利点はパスワードを入力せずに済むこと。
 httpsの利点は手軽。こちらでもパスワードを入力しない方法はあるが、その場合credential helperを使わないとセキュリティリスクになる。そのためPCでないとhttpsはほぼ使えない。
 
 [HTTPS vs SSH in git](https://ourtechroom.com/tech/https-vs-ssh-in-git/)
-[termux ssh接続](../../Info/termux%20ssh接続.md)
+[termux ssh接続](<../../Info/termux ssh接続.md>)
 
 ## 文字化け
 utf-8エンコードを指定する。

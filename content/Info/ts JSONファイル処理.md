@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2024-11-09](/Daily_Note/2024-11-09.md)
-up:: [ts](../Bar/Program/JavaScript%20and%20TypeScript.md)
+up:: [ts](<../Bar/Program/JavaScript and TypeScript.md>)
 
 標準のJSONライブラリで可能。
 `JSON.parse()`にstring投げれば終わり。

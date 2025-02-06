@@ -4,10 +4,10 @@ tags:
 ---
 
 daily:: [2023-04-22](/Daily_Note/2023-04-22.md)
-up:: [AIt](../Bar/AI/AI_text.md)
+up:: [AIt](<../Bar/AI/AI_text.md>)
 
 [AI Character Editor](https://zoltanai.github.io/character-editor/)に従い、たぶんこうなんじゃないかをメモ。
-[Pygmalion_Character](Pygmalion_Character.md)にも基づく。
+[Pygmalion\_Character](<./Pygmalion_Character.md>)にも基づく。
 
 ## Name
 キャラ名。`"Moondrop, the sadistic animatronic"`みたいに性格を入れるテクもある。
@@ -34,5 +34,5 @@ tgwebuiだとここはカットされてPersonalityだけになる。
 キャラクターの返答例。
 
 
-[AIi Custom character V2](AIi%20Custom%20character%20V2.md)
+[AIi Custom character V2](<./AIi Custom character V2.md>)
 

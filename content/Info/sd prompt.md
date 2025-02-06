@@ -35,8 +35,8 @@ sd3用リサンプル
 [Sd3 With LLM - a Hugging Face Space by alfredplpl](https://huggingface.co/spaces/alfredplpl/sd3-with-LLM)
 
 ## リーダー
-ComfyUIからa1111のタグを読むなら、[comfyui-prompt-reader-node](comfy%20Custom%20Nodes.md#comfyui-prompt-reader-node)が使える。
-セーブは[ultools-comfyui](comfy%20Custom%20Nodes.md#ultools-comfyui)など。上記のはセーブするのに大量にノード繋ぐことになる。その分信頼性は高いが。
+ComfyUIからa1111のタグを読むなら、[comfyui-prompt-reader-node](<./comfy Custom Nodes.md#comfyui-prompt-reader-node>)が使える。
+セーブは[ultools-comfyui](<./comfy Custom Nodes.md#ultools-comfyui>)など。上記のはセーブするのに大量にノード繋ぐことになる。その分信頼性は高いが。
 
 ## AIbooru
 AI絵だけがあるDanbooru。タグの修練に。
@@ -177,7 +177,7 @@ https://files.catbox.moe/ts7gyy.png
 
 ## コメントアウト
 ComfyUIならC言語宜しく`//`や`/**/`で弾ける。でも効いてない感が凄い。
-sdwebuiなら[sd-dynamic-prompts](sdwebui%20plugin.md#sd-dynamic-prompts)の`#`記法、もしくは`[コメント:999]`が使えるらしい。
+sdwebuiなら[sd-dynamic-prompts](<./sdwebui plugin.md#sd-dynamic-prompts>)の`#`記法、もしくは`[コメント:999]`が使えるらしい。
 
 [プロンプトの一部をコメントアウトする - work4ai](https://scrapbox.io/work4ai/プロンプトの一部をコメントアウトする)
 

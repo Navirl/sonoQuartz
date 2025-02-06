@@ -4,8 +4,8 @@ tags:
 ---
 
 daily:: [2022-11-12](Daily_Note/2022-11-12.md)
-up:: [PowerShell_and_Command-Line](../Bar/App/PowerShell_and_Command-Line.md)
-up:: [Scoop](../Bar/App/Scoop.md)
+up:: [PowerShell\_and\_Command-Line](<../Bar/App/PowerShell_and_Command-Line.md>)
+up:: [Scoop](<../Bar/App/Scoop.md>)
 
 意味が分からないのだが、ダブルクリックじゃなく設定からフォントインストールしないと読み込んでくれないソフトがある。
 インストール場所はどっちにしても`ユーザーフォルダ\AppData\Local\Microsoft\Windows\Fonts`。シンボリックリンクでも張ってるのか。

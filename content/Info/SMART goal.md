@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2023-06-02](/Daily_Note/2023-06-02.md)
-up:: [Component](Bar/Novel/Chaos/Component.md)
+up:: [Component](<../../../Teino/Bar/Novel/Chaos/Component.md>)
 
 
 目標設定の目安。

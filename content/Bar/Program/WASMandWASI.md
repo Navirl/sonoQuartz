@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2023-04-26](Daily_Note/2023-04-26.md)
-up:: [Programming](Programming.md)
+up:: [Programming](<./Programming.md>)
 
 ## wasm
 

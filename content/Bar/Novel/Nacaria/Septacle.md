@@ -6,7 +6,7 @@ tags:
 ---
 
 daily:: [2022-10-27](Daily_Note/2022-10-27.md)
-up:: [Cricia](Cricia.md)
+up:: [Cricia](<./Cricia.md>)
 
 娯楽の街。
 総合芸術。世界のなにもかもを嘘で表している。

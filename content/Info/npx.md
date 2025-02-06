@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2023-02-03](/Daily_Note/2023-02-03.md)
-up:: [JavaScript and TypeScript](../Bar/Program/JavaScript%20and%20TypeScript.md)
+up:: [JavaScript and TypeScript](<../Bar/Program/JavaScript and TypeScript.md>)
 
 ## npx
 一時的にスクリプトをダウンロードして実行するコマンド。

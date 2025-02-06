@@ -11,7 +11,7 @@ up:: [text-generation-webui](../Bar/App/text-generation-webui.md)
 いくつかある小説特化型テキストモデルの中でも有力候補。検閲無しでNSFW含め何でも出せる。
 今はredditを始め、AIにキャラクターを持たせて話す研究の場としてどんどん成長した。一応歴史としては、2023年1月12日にHaggingFaceに公式モデルがアップされ、1月17日にreddit開設。
 
-ここでは[Tavern](../Bar/App/Tavern.md)などを使いAIキャラクターを生成して会話できるモデルとして扱う。
+ここでは[Tavern](<../Bar/App/Tavern.md>)などを使いAIキャラクターを生成して会話できるモデルとして扱う。
 
 関連リンクがまとめられている。
 [Helpful Links](https://rentry.co/PygmalionLinks)
@@ -42,12 +42,12 @@ Tavernとかで読みこめる。
 
 
 ## キャラクター講座
-[Pygmalion_Character](Pygmalion_Character.md)
+[Pygmalion\_Character](<./Pygmalion_Character.md>)
 
 ちょっとひねれば世界を説明するのにも使える。
 
 ## 会話講座
-[Pygmalion_Communication](Pygmalion_Communication.md)
+[Pygmalion\_Communication](<./Pygmalion_Communication.md>)
 
 ## ソフトプロンプト
 [Soft Prompt Guide](https://rentry.org/shiso-softprompt-quickstart)

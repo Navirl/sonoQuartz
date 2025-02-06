@@ -7,9 +7,9 @@ tags:
 ---
 
 daily:: [2024-12-03](/Daily_Note/2024-12-03.md)
-up:: [Vim](Vim.md)
+up:: [Vim](<../../../../Teino/Bar/App/Vim.md>)
 
-[Neovim plugins](Neovim%20plugins.md)
+[Neovim plugins](<../../../../Teino/Info/Neovim plugins.md>)
 
 設定は~APPDATA\Local\nvim\init.lua。
 分からない場合でも`:echo stdpath('config')`で見つかる。

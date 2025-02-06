@@ -4,8 +4,8 @@ tags:
 ---
 
 daily:: [2023-06-29](/Daily_Note/2023-06-29.md)
-up:: [Narana_Tsunohashi](Bar/Novel/Nacaria/Narana_Tsunohashi.md)
-up:: [R18](Bar/Novel/Topics/R18.md)
+up:: [Narana\_Tsunohashi](<../../../Teino/Bar/Novel/Nacaria/Narana_Tsunohashi.md>)
+up:: [R18](<../../../Teino/Bar/Novel/Topics/R18.md>)
 
 NTR趣味ってあれでしょ、
 自分は関係ねえって外して、急に観客になるやつ。

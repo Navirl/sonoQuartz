@@ -7,8 +7,8 @@ aliases: 0の価値
 ---
 
 daily:: [2022-08-05](../../../Daily_Note/2022-08-05.md)
-up:: [Disconnected_Fantasy](../Topics/Disconnected_Fantasy.md)
-up:: [Nacarea](Nacarea.md)
+up:: [Disconnected\_Fantasy](<../Topics/Disconnected_Fantasy.md>)
+up:: [Nacarea](<./Nacarea.md>)
 
 「何も無い」へ見出す価値。
 あるいは自分自身が見出した絶対的な価値。

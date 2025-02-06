@@ -4,13 +4,13 @@ tags:
 ---
 
 daily:: [2023-02-03](/Daily_Note/2023-02-03.md)
-up:: [JavaScript and TypeScript](../Bar/Program/JavaScript%20and%20TypeScript.md)
+up:: [JavaScript and TypeScript](<../Bar/Program/JavaScript and TypeScript.md>)
 
 ## ts asyncとawait
 Promiseという構文を書きやすくしたシンタックスシュガー。
 
-[js コールバック関数](js%20コールバック関数.md)
-[js Promise](js%20Promise.md)
+[js コールバック関数](<./js コールバック関数.md>)
+[js Promise](<./js Promise.md>)
 
 Promiseはjavascriptだが、これはtypescript。
 asyncを付けた関数内を非同期処理にし、awaitを付けた関数を同期処理する。つまりawait付きの関数は実行が終わるまで待つ。

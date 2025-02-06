@@ -5,8 +5,8 @@ tags:
 ---
 
 daily:: [2022-10-26](Daily_Note/2022-10-26.md)
-up:: [Merai_Hezagami](../Nacaria/Merai_Hezagami.md)
-up:: [Timeline_Sheet](../Sheet/Timeline_Sheet.md)
+up:: [Merai\_Hezagami](<../Nacaria/Merai_Hezagami.md>)
+up:: [Timeline\_Sheet](<../Sheet/Timeline_Sheet.md>)
 
 ```timeline
 [line-3, body-2]

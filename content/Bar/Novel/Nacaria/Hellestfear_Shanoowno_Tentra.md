@@ -8,11 +8,11 @@ aliases: ヘレストフィアル・シャノーノ・テントラ
 ---
 
 daily:: [2022-10-14](Daily_Note/2022-10-14.md)
-up:: [Fushibi](Fushibi.md)
+up:: [Fushibi](<./Fushibi.md>)
 
 へレストだ。長いから、すべて覚える必要はない。
 
-[Centipede_Space_Ship](Centipede_Space_Ship.md)Cenがcssだからどれかhtmlにしたいんだけどな……
+[Centipede\_Space\_Ship](<./Centipede_Space_Ship.md>)Cenがcssだからどれかhtmlにしたいんだけどな……
 
 
 世界全てにおいて、人間は他者へなり切ることで、その他者の持つ能力を自らに実現せしめる方法を学んできた。
@@ -50,5 +50,5 @@ up:: [Fushibi](Fushibi.md)
 何が言いたいかというと非戦闘員。
 敵も味方も精神を不老不死にしかできませんが。
 
-[Stone](Stone.md)
+[Stone](<./Stone.md>)
 

@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2023-10-27](/Daily_Note/2023-10-27.md)
-up:: [Blender](../Bar/App/Blender.md)
+up:: [Blender](<../Bar/App/Blender.md>)
 
 ```python
 bl_info = {

@@ -8,8 +8,8 @@ banner_y: 0
 ---
 
 daily:: [2022-11-01](Daily_Note/2022-11-01.md)
-up:: [Crazy_Quartet](Crazy_Quartet.md)
-up:: [EoSD](Embodiment_of_Scarlet_Devil.md)
+up:: [Crazy\_Quartet](<./Crazy_Quartet.md>)
+up:: [EoSD](<./Embodiment_of_Scarlet_Devil.md>)
 
 「終点」フランドール・スカーレット。
 絶対的破壊者。

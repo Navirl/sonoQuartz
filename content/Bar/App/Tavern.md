@@ -6,7 +6,7 @@ aliases: SillyTavern
 ---
 
 daily:: [2023-05-03](Daily_Note/2023-05-03.md)
-up:: [Pygmalion](Pygmalion.md)
+up:: [Pygmalion](<../../../../Teino/Info/Pygmalion.md>)
 
 AIキャラクターに特化したテキスト生成AIのクライアント。
 OodaBoogaかkoboldAIからAPIを貰って動かすのが一番安定。

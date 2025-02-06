@@ -4,8 +4,8 @@ tags:
 ---
 
 daily:: [2024-10-30](/Daily_Note/2024-10-30.md)
-up:: [Rust](../Bar/Program/Rust.md)
-up:: [py](../Bar/Program/Python.md)
+up:: [Rust](<../Bar/Program/Rust.md>)
+up:: [py](<../Bar/Program/Python.md>)
 
 py
 ```python

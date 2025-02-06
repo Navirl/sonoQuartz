@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2023-05-01](/Daily_Note/2023-05-01.md)
-up:: [AI_local](../Bar/AI/AI_local.md)
+up:: [AI\_local](<../Bar/AI/AI_local.md>)
 
 [AI を自分好みに調整できる、追加学習まとめ ( その５: LoRA)｜teftef｜note](https://note.com/te_ftef/n/n096ef64cb6c1)
 

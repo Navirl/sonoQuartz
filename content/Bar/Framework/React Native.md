@@ -4,11 +4,11 @@ tags:
 ---
 
 daily:: [2024-03-01](Daily_Note/2024-03-01.md)
-up:: [React](../Library/React.md)
+up:: [React](<../Library/React.md>)
 
 Web上で動くReactでネイティブアプリを作るプロジェクト。
 ブラウザを含めてアプリ作るElectronより小さくなる。
-簡単に作りたいなら[Expo](../../Info/Expo.md)が使える。
+簡単に作りたいなら[Expo](<../../Info/Expo.md>)が使える。
 
 ## component
 htmlでいう要素の概念。
@@ -231,7 +231,7 @@ const Cafe = () => {
 React Native用フレームワーク。アプリの構築、配布、反復の支援。
 開発ワークフローの自動化に使われる。
 
-[Expo](../../Info/Expo.md)
+[Expo](<../../Info/Expo.md>)
 
 ## Ignite
 ボイラープレートとコンポーネントライブラリを備えた技術スタック。

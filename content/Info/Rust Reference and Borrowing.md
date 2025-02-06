@@ -5,9 +5,9 @@ aliases: Rust 参照と借用
 ---
 
 daily:: [2023-03-09](/Daily_Note/2023-03-09.md)
-up:: [Rust](../Bar/Program/Rust.md)
+up:: [Rust](<../Bar/Program/Rust.md>)
 
-[Rust Ownership](Rust%20Ownership.md)
+[Rust Ownership](<./Rust Ownership.md>)
 
 値のアドレスを参照する変数。
 参照はアドレスを渡すものなのでムーブされない。この参照渡しのことを**借用**と呼ぶ。

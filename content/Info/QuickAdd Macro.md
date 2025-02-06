@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2023-03-19](/Daily_Note/2023-03-19.md)
-up:: [Obsidian](../Bar/App/Obsidian.md)
+up:: [Obsidian](<../Bar/App/Obsidian.md>)
 
 dataviewで取ったリストを上から読み取り、.trashに送る
 贈る前に確認でリストを表示

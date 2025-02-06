@@ -11,9 +11,9 @@ up::
 ローカルじゃないオンラインサービスの整理。多すぎ。
 
 ## テキスト
-[AI_text](AI_text.md)
+[AI\_text](<./AI_text.md>)
 ## 画像
-[AI_image](AI_image.md)
+[AI\_image](<./AI_image.md>)
 
 ## 動画
 ### Nolang
@@ -82,7 +82,7 @@ MIDI変換。
 ## オートメーション
 ### Dify
 いろんなサービスを簡単に接続する。
-[Dify](../App/Dify.md)
+[Dify](<../App/Dify.md>)
 
 ### Restack
 AIエージェント。

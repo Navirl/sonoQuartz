@@ -7,10 +7,10 @@ aliases: 比嘉野双終
 ---
 
 daily:: [2022-10-30](Daily_Note/2022-10-30.md)
-up:: [Ive](Ive.md)
-up:: [Fushibi](Fushibi.md)
-down:: [Action](Action.md)
-down:: [Android](../Topics/Android.md)
+up:: [Ive](<./Ive.md>)
+up:: [Fushibi](<./Fushibi.md>)
+down:: [Action](<../../../../../Teino/Bar/Novel/Topics/Action.md>)
+down:: [Android](<../Topics/Android.md>)
 
 5番地イブが贈るやべーアンドロイド。言葉と行動、知識と経験の塊魂。フシビから来た。
 最後であることそのもの、終了させることをオリジナリティとして持とうとしている。ある意味ターミネーター。

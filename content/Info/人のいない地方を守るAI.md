@@ -4,8 +4,8 @@ tags:
 ---
 
 daily:: [2022-06-24](Daily_Note/2022-06-24.md)
-up:: [Plot](../Bar/Novel/Chaos/Plot.md)
-up:: [Education](../Bar/Novel/Topics/Education.md)
+up:: [Plot](<../Bar/Novel/Chaos/Plot.md>)
+up:: [Education](<../Bar/Novel/Topics/Education.md>)
 
 人のいない地方を守るAI
 

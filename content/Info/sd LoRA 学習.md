@@ -159,7 +159,7 @@ SDXLでは後者の方がいいらしい。
 LoRAを適用する際に混ぜ方をよりいものに変更する。
 [🦊モデルのマージ - work4ai](https://scrapbox.io/work4ai/%F0%9F%A6%8A%E3%83%A2%E3%83%87%E3%83%AB%E3%81%AE%E3%83%9E%E3%83%BC%E3%82%B8)
 [GitHub - ntc-ai/ComfyUI-DARE-LoRA-Merge: Uses DARE to merge LoRA stacks as a ComfyUI node](https://github.com/ntc-ai/ComfyUI-DARE-LoRA-Merge)
-[sd lora model](sd%20lora%20model.md)
+[sd lora model](<./sd lora model.md>)
 
 ## 細かな情報
 シチュLoRAで画風を抑えるなら数増やしてバッチ上げる。

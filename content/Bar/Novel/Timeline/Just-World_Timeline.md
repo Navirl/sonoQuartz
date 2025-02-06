@@ -5,8 +5,8 @@ tags:
 ---
 
 daily:: [2022-10-30](Daily_Note/2022-10-30.md)
-up:: [Timeline_Sheet](../Sheet/Timeline_Sheet.md)
-up:: [Just-World](../Just-World/Just-World.md)
+up:: [Timeline\_Sheet](<../Sheet/Timeline_Sheet.md>)
+up:: [Just-World](<../Just-World/Just-World.md>)
 
 ```timeline
 [line-3, body-2]

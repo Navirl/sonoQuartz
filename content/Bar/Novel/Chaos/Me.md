@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2022-07-24](Daily_Note/2022-07-24.md)
-up:: [Life](Novel/Chaos/Life.md)
+up:: [Life](<./Life.md>)
 
 問題提起。
 

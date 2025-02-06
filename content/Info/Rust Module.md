@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2023-03-12](/Daily_Note/2023-03-12.md)
-up:: [Rust](../Bar/Program/Rust.md)
+up:: [Rust](<../Bar/Program/Rust.md>)
 
 別ファイル読み込むやつ。
 Modを付けて塊を作り、表現する。

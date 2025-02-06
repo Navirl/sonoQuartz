@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2024-08-04](/Daily_Note/2024-08-04.md)
-up:: [Linux](Bar/Linux.md)
+up:: [Linux](<../../../Teino/Bar/Linux.md>)
 
 どれもファイルの中身を表示する。
 lessはmoreの強化版。`-m`で進行度、`-c`で全画面表示？　`-f`でリアルタイム行員、`-p`で文字列指定。

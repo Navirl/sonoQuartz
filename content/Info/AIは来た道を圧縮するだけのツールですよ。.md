@@ -4,11 +4,11 @@ tags:
 ---
 
 daily:: [2023-06-29](/Daily_Note/2023-06-29.md)
-up:: [Android](Bar/Novel/Topics/Android.md)
-up:: [Me](Bar/Novel/Chaos/Me.md)
-up:: [Education](Bar/Novel/Topics/Education.md)
-up:: [Plot](Bar/Novel/Chaos/Plot.md)
-up:: [Artificial_Intelligence](../Bar/Novel/Topics/Artificial_Intelligence.md)
+up:: [Android](<../../../Teino/Bar/Novel/Topics/Android.md>)
+up:: [Me](<../../../Teino/Bar/Novel/Chaos/Me.md>)
+up:: [Education](<../../../Teino/Bar/Novel/Topics/Education.md>)
+up:: [Plot](<../../../Teino/Bar/Novel/Chaos/Plot.md>)
+up:: [Artificial\_Intelligence](<../Bar/Novel/Topics/Artificial_Intelligence.md>)
 
 AIは来た道を圧縮するだけのツールですよ。
 長いこと走ってきましたね、お疲れさまって人類に言ってあげるための道具なんです。
@@ -20,7 +20,7 @@ AIは来た道を圧縮するだけのツールですよ。
 いつか、私達が。
 私達を止められるようになるまで。
 
-[AIは質問に対して](Info/AIは質問に対して.md)
+[AIは質問に対して](<./AIは質問に対して.md>)
 
 そのままだとブルーカラーだけになりそうだなこの世界。
 異世界農家は正しかった……？

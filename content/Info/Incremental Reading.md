@@ -5,8 +5,8 @@ aliases: 増分読み取り
 ---
 
 daily:: [2023-03-07](/Daily_Note/2023-03-07.md)
-up:: [Component](../Bar/Novel/Chaos/Component.md)
-same:: [Spaced Repetition](Spaced%20Repetition.md)
+up:: [Component](<../Bar/Novel/Chaos/Component.md>)
+same:: [Spaced Repetition](<./Spaced Repetition.md>)
 
 全体読んで、いくつかのセクションに分割し、ちょっとずつ読んでいく手法。
 多くの記事を一気に読めるのが特徴らしい。

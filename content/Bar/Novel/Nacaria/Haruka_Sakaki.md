@@ -7,7 +7,7 @@ aliases: 榊遥
 ---
 
 daily:: [2022-08-14](Daily_Note/2022-08-14.md)
-up:: [Fourcia](Fourcia.md)
+up:: [Fourcia](<./Fourcia.md>)
 
 質識
 四

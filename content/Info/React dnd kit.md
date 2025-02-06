@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2024-08-16](/Daily_Note/2024-08-16.md)
-up:: [React](../Bar/Library/React.md)
+up:: [React](<../Bar/Library/React.md>)
 
 droppableとdraggableのセットで入力できる。
 

@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2024-03-12](/Daily_Note/2024-03-12.md)
-up:: [Python](../Bar/Program/Python.md)
+up:: [Python](<../Bar/Program/Python.md>)
 
 
 [GitHub - pyenv/pyenv: Simple Python version management](https://github.com/pyenv/pyenv)
@@ -26,6 +26,6 @@ pipが無い場合は`python -m ensurepip --upgrade`で入れるかget-pip.pyを
 公式手順に従うとPYTHONが通らず[sdwebui](../Bar/App/stable-diffusion-webui.md)で詰む。webui-userに直接exeを書き込んで設定。
 
 ソースからビルドしているらしい。
-その為最適化オプションがついてなく遅い。[mise](../Bar/Tools/mise.md)だと最適化済みpythonを落とす。
+その為最適化オプションがついてなく遅い。[mise](<../Bar/Tools/mise.md>)だと最適化済みpythonを落とす。
 
 [pyenvを初心者に薦めるのはもうやめよう - methaneのブログ](https://methane.hatenablog.jp/entry/2024/05/26/pyenvを初心者に薦めるのはもうやめよう)

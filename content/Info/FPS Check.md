@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2021-10-21](/Daily_Note/2021-10-21.md)
-up:: [Component](../../../../Bar/Novel/Chaos/Component.md)
+up:: [Component](<../../../Teino/Bar/Novel/Chaos/Component.md>)
 
 まず自分のできることを確認する
 これは事前に情報を集めたり、練習したりでどうにかなる

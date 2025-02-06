@@ -8,7 +8,7 @@ daily:: [2024-08-13](Daily_Note/2024-08-13.md)
 up:: 
 
 ブラウザ上で動かすことであらゆるデバイス上でアプリを動くようにしたやつ。
-ブラウザで使える技術は全部使える。[React](../Library/React.md)で組める。
+ブラウザで使える技術は全部使える。[React](<../Library/React.md>)で組める。
 
 ## 最小限
 [クイック スタート | Electron](https://www.electronjs.org/ja/docs/latest/tutorial/quick-start)

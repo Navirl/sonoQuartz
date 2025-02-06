@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2023-03-01](/Daily_Note/2023-03-01.md)
-up:: [Cpp](../Bar/Program/Cpp.md)
+up:: [Cpp](<../Bar/Program/Cpp.md>)
 
 [【C＋＋】C＋＋20のモジュールとincludeの違いについて詳しく調べてみた – 株式会社ロジカルビート](https://logicalbeat.jp/blog/6223/)
 [［C++］モジュール理論 基礎編 - 地面を見下ろす少年の足蹴にされる私](https://onihusube.hatenablog.com/entry/2019/07/07/025446)
@@ -21,7 +21,7 @@ vs2022でやる場合はプロジェクトの`Configuration Properties > C/C++ >
 ## 基本
 
 まずincludeおさらい。プリプロセッサディレクティブでの単純置き換えだった。
-[Cpp include](Cpp%20include.md)
+[Cpp include](<./Cpp include.md>)
 
 moduleはコンパイル時に自動で依存関係を解決する。そのためめちゃくちゃにファイルを分割して適当にimportしてもなんとかなる。読みにくいからある程度は揃えたほうがいいけど。
 ただし依存関係を手繰って一からやるので並列化しにくい。複雑な依存かつ並列ジョブが大量に発行できるPCではincludeよりビルドが長くなる。

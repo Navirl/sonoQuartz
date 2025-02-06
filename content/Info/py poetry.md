@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2024-09-08](/Daily_Note/2024-09-08.md)
-up:: [py](../Bar/Program/Python.md)
+up:: [py](<../Bar/Program/Python.md>)
 
 仮想環境でパッケージ管理までやるツール。
 中身はvenvなので安心。

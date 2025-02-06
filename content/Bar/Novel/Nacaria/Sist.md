@@ -6,7 +6,7 @@ tags:
 ---
 
 daily:: [2022-10-27](Daily_Note/2022-10-27.md)
-up:: [Cricia](Cricia.md)
+up:: [Cricia](<./Cricia.md>)
 
 
 宗教、教育、考古学、言語、文学の街。

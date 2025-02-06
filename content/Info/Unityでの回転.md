@@ -4,10 +4,10 @@ tags:
 ---
 
 daily:: [2021-08-07.](Daily_Note/2021-08-07..md)
-up:: [Unity](Bar/App/Unity.md)
+up:: [Unity](<../../../Teino/Bar/App/Unity.md>)
 
 
-[クォータニオン](Info/クォータニオン.md)
+[クォータニオン](<./クォータニオン.md>)
 ## 基本
 
 **VectorにQuaternionを掛けると回転する**。

@@ -7,10 +7,10 @@ aliases: 形鱈川千喜
 ---
 
 daily:: [2022-07-04](Daily_Note/2022-07-04.md)
-up:: [Cricia](Novel/Nacaria/Cricia.md)
+up:: [Cricia](<./Cricia.md>)
 
 関係
-- [Merai_Hezagami](Novel/Nacaria/Merai_Hezagami.md)
+- [Merai\_Hezagami](<./Merai_Hezagami.md>)
 	- 寄生者。空から寄生しに来たくせにやたらと人間臭いので、元人間か人間に類似した発展を経た生物じゃないかと疑っている。
 
 
@@ -76,7 +76,7 @@ up:: [Cricia](Novel/Nacaria/Cricia.md)
 
 自分と同じという理由で、他人の情報を描写カットして手に入れる。七篠と同じところにアクセスしてる疑惑。
 
-[人間は、最も同族を殺してきた。](../../../Info/人間は、最も同族を殺してきた。.md)
+[人間は、最も同族を殺してきた。](<../../../Info/人間は、最も同族を殺してきた。.md>)
 
 これは我輩の言葉であり、我輩が愛した価値だ。
 お前にも渡そう。

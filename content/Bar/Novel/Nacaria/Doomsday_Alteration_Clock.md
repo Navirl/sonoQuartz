@@ -7,7 +7,7 @@ aliases: 終末改変時計
 ---
 
 daily:: [2022-07-17](Daily_Note/2022-07-17.md)
-up:: [Riitsu_Reuke](Riitsu_Reuke.md)
+up:: [Riitsu\_Reuke](<./Riitsu_Reuke.md>)
 
 終末改変時計
 インテリアとして最適

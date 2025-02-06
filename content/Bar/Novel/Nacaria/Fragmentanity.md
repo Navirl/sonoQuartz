@@ -10,4 +10,4 @@ aliases:
 ---
 
 daily:: [2022-08-05](../../../Daily_Note/2022-08-05.md)
-up:: [Sist](Sist.md)
+up:: [Sist](<./Sist.md>)

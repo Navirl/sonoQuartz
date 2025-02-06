@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2022-10-17](Daily_Note/2022-10-17.md)
-up:: [GAS](../Bar/Program/Google%20Apps%20Script.md)
+up:: [GAS](<../Bar/Program/Google Apps Script.md>)
 source:: [GASでwebアプリの作成とパラメータの確認方法(doGet、doPost) | BREEZE](https://breezegroup.co.jp/201906/gas-get/)
 
 Webアプリに使う関数。

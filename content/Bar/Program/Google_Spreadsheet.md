@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2024-03-15](Daily_Note/2024-03-15.md)
-up:: [Programming](Programming.md)
+up:: [Programming](<./Programming.md>)
 
 コピー時に簡略化できるように=を付けておく。
 
@@ -77,7 +77,7 @@ up:: [Programming](Programming.md)
 空文字列をくっつけることで文字列とする。
 
 ## あるデータを二列以上に分割して表示
-`SPLIT`。分割後に行で表示したいなら`TRANSPOSE`、`FLATTEN`、[空行を含む列から空行を無くす](#空行を含む列から空行を無くす)を使えば出来るかも。
+`SPLIT`。分割後に行で表示したいなら`TRANSPOSE`、`FLATTEN`、[空行を含む列から空行を無くす](<#空行を含む列から空行を無くす>)を使えば出来るかも。
 
 `SPLIT`は右のセルに分割して表記する。なので行データに使うなら`TRANSPOSE`。
 セル内改行に直接`\n`でマッチするのは**出来ない**ので、先に`REGEXREPLACE`などを使い適当なマッチできる文字列に変更しておく。

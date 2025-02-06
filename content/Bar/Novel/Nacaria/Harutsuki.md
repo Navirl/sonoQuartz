@@ -7,8 +7,8 @@ aliases: 春月
 ---
 
 daily:: [2022-09-05](2022-09-05.md)
-up:: [Ayama](Ayama.md)
-down:: [Akinaga](Akinaga.md)
+up:: [Ayama](<./Ayama.md>)
+down:: [Akinaga](<./Akinaga.md>)
 
 秋永の兄。
 女装趣味。

@@ -5,8 +5,8 @@ tags:
 ---
 
 daily:: [2024-07-12](/Daily_Note/2024-07-12.md)
-up:: [AI_local](../AI/AI_local.md)
-up:: [AI_online](../AI/AI_online.md)
+up:: [AI\_local](<../AI/AI_local.md>)
+up:: [AI\_online](<../AI/AI_online.md>)
 
 [GitHub - langgenius/dify: Dify is an open-source LLM app development platform. Dify's intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production.](https://github.com/langgenius/dify)
 
@@ -15,7 +15,7 @@ Docker動作もできる。
 
 最近（2024/07/12）ワークフロー機能が追加されたらしく、全体を見通しながら機能を実装できる。
 
-[Dify 各サービス解説](../../Info/Dify%20各サービス解説.md)
+[Dify 各サービス解説](<../../Info/Dify 各サービス解説.md>)
 
 現在（2024/07/19）GraphRAGには対応していない。
 [Can Microsoft's Graph RAG be added to the new version? · Issue #6019 · langgenius/dify · GitHub](https://github.com/langgenius/dify/issues/6019)

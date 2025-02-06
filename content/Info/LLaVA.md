@@ -4,8 +4,8 @@ tags:
 ---
 
 daily:: [2023-11-07](/Daily_Note/2023-11-07.md)
-up:: [AI_local](../Bar/AI/AI_local.md)
-up:: [AIt](../Bar/AI/AI_text.md)
+up:: [AI\_local](<../Bar/AI/AI_local.md>)
+up:: [AIt](<../Bar/AI/AI_text.md>)
 
 LLaMA2のマルチモーダル化。
 今のところ画像解析のみ。

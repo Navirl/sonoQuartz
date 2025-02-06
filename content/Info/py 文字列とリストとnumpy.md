@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2023-06-29](/Daily_Note/2023-06-29.md)
-up:: [Python](../Bar/Program/Python.md)
+up:: [Python](<../Bar/Program/Python.md>)
 
 ## 文字列→リスト
 split。

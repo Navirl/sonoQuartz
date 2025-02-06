@@ -6,7 +6,7 @@ tags:
 ---
 
 daily:: [2022-07-24](Daily_Note/2022-07-24.md)
-up:: [Cricia](Cricia.md)
+up:: [Cricia](<./Cricia.md>)
 
 
 

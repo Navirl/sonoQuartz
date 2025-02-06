@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2022-10-15](Daily_Note/2022-10-15.md)
-up:: [UE5.0.2](../Bar/App/UE5.0.2.md)
+up:: [UE5.0.2](<../Bar/App/UE5.0.2.md>)
 source:: [UE5 gpu crashed or d3d device removed - Unreal Engine / Getting Started - Unreal Engine Forums](https://forums.unrealengine.com/t/ue5-gpu-crashed-or-d3d-device-removed/524297/50)
 
 GPU Crashed or D3D Device Removed.

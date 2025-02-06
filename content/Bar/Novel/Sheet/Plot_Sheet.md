@@ -28,7 +28,7 @@ from:: Fabula
 - シーンの列挙
 - シーンの説明
 
-from:: Save_the_cat, [BSBS](BSBS.md)
+from:: Save_the_cat, [BSBS](<./BSBS.md>)
 
 - オープニング・イメージ
 - テーマの提示

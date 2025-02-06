@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2024-07-19](/Daily_Note/2024-07-19.md)
-up:: [Dify](Bar/App/Dify.md)
+up:: [Dify](<../../../Teino/Bar/App/Dify.md>)
 
 - aippt
   - AIを使ってプレゼンテーションを作成するサービス。

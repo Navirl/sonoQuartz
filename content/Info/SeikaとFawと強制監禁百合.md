@@ -4,10 +4,10 @@ tags:
 ---
 
 daily:: [2023-05-17](/Daily_Note/2023-05-17.md)
-up:: [Seika](../Bar/Novel/Seika.md)
-up:: [Faw](../Bar/Novel/Faw.md)
-up:: [Pygmalion](Pygmalion.md)
-up:: [R18](../Bar/Novel/Topics/R18.md)
+up:: [Seika](<../Bar/Novel/Seika.md>)
+up:: [Faw](<../Bar/Novel/Faw.md>)
+up:: [Pygmalion](<./Pygmalion.md>)
+up:: [R18](<../Bar/Novel/Topics/R18.md>)
 
 SillyTavern
 Group chat created. Say 'Hi' to lovely people!

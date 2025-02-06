@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2024-12-30](/Daily_Note/2024-12-30.md)
-up:: [Tauri](../Bar/Framework/Tauri.md)
+up:: [Tauri](<../Bar/Framework/Tauri.md>)
 
 
 [アプリ開発者のにとっての Tauri v2 のセキュリティ構造を読み解く #Tauri - Qiita](https://qiita.com/takavfx/items/314a4a79afc38cb4e174)

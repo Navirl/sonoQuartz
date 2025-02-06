@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2023-07-03](/Daily_Note/2023-07-03.md)
-up:: [Python](../Bar/Program/Python.md)
+up:: [Python](<../Bar/Program/Python.md>)
 
 三次元以降だとちょっと違う。
 dotは最初の配列の最後の軸、2番目の配列の最後から二番目の軸の積の合計を出力する。記号は`*`。

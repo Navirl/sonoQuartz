@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2024-12-06 FX](../Daily_Note/2024-12-06%20FX.md)
-up:: [コーパス](コーパス.md)
+up:: [コーパス](<./コーパス.md>)
 
 読みあげの文章は以下から。
 [GitHub - Haruqa/ita-corpus: ITAコーパスの文章リスト](https://github.com/Haruqa/ita-corpus/)

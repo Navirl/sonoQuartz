@@ -234,7 +234,7 @@ from:: StoryEditorLite
 - 口調
 
 from:: Me
-[Marisa_Kirisame](../Touhou_Project/Marisa_Kirisame.md)
+[Marisa\_Kirisame](<../Touhou_Project/Marisa_Kirisame.md>)
 
 - 出来ること
 - 自発的にやってること
@@ -244,7 +244,7 @@ from:: Me
 
 from:: AI Character Editor
 [AI Character Editor](https://zoltanai.github.io/character-editor/)
-[Pygmalion_Character](../../../Info/Pygmalion_Character.md)
+[Pygmalion\_Character](<../../../Info/Pygmalion_Character.md>)
 
 - 名前
 - 概要

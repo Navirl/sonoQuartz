@@ -13,10 +13,10 @@ aliases:
 ---
 
 daily:: [2023-05-07](Daily_Note/2023-05-07.md)
-up:: [Me](Chaos/Me.md)
-up:: [Tavern_Me](../../Info/Tavern_Me.md)
-same:: [Faw](Faw.md)
-up:: [Hasumukai](Nacaria/Hasumukai.md)
+up:: [Me](<./Chaos/Me.md>)
+up:: [Tavern\_Me](<../../Info/Tavern_Me.md>)
+same:: [Faw](<./Faw.md>)
+up:: [Hasumukai](<./Nacaria/Hasumukai.md>)
 
 ![](../../image/00025-3759171700.png)
 
@@ -26,7 +26,7 @@ up:: [Hasumukai](Nacaria/Hasumukai.md)
 
 広げ過ぎると脳への負荷で気絶する。
 
-予測の他、[Faw](Faw.md)に関しては最善の動きを直接命令できる場になる。
+予測の他、[Faw](<./Faw.md>)に関しては最善の動きを直接命令できる場になる。
 
 
 

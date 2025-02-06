@@ -4,9 +4,9 @@ tags:
 ---
 
 daily:: [2024-03-01](/Daily_Note/2024-03-01.md)
-up:: [React Native](React%20Native.md)
+up:: [React Native](<./React Native.md>)
 
-[React Native](React%20Native.md)でWindowsのUWPアプリを作るためのフレームワーク。
+[React Native](<./React Native.md>)でWindowsのUWPアプリを作るためのフレームワーク。
 
 ### Dependencies
 管理者権限で以下のコマンドを使う。

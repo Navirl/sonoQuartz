@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2022-10-06](Daily_Note/2022-10-06.md)
-up:: [Termux](../Bar/App/Termux.md)
+up:: [Termux](<../Bar/App/Termux.md>)
 source:: [netstat: no support for AF INET (tcp) on this system. : termux](https://www.reddit.com/r/termux/comments/j6rzmi/netstat_no_support_for_af_inet_tcp_on_this_system/)
 
 netstat: no support for `AF INET (tcp)' on this system.

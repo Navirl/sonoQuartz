@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2024-05-31](/Daily_Note/2024-05-31.md)
-up:: [py](../Bar/Program/Python.md)
+up:: [py](<../Bar/Program/Python.md>)
 
 isはメモリ上で同じ場所かどうかを判定する。
 `==`は値を比較する。

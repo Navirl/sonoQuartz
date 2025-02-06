@@ -221,7 +221,7 @@ https://civitai.com/models/463436/controlnet-852aclonexl
 
 ## Depth Hand Refiner
 手だけ深度情報を取って作り直し、適用することで手を修正する。
-中身はGraphomorというもの。[ComfyUI-Impact-Pack](comfy%20Custom%20Nodes.md#ComfyUI-Impact-Pack)でも出た奴。
+中身はGraphomorというもの。[ComfyUI-Impact-Pack](<./comfy Custom Nodes.md#ComfyUI-Impact-Pack>)でも出た奴。
 
 ## 線画の種類
 lineart　そんな正確じゃない　雰囲気を変えられる

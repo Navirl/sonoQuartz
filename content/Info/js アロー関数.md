@@ -4,10 +4,10 @@ tags:
 ---
 
 daily:: [2023-02-03](/Daily_Note/2023-02-03.md)
-up:: [JavaScript and TypeScript](../Bar/Program/JavaScript%20and%20TypeScript.md)
+up:: [JavaScript and TypeScript](<../Bar/Program/JavaScript and TypeScript.md>)
 
 ## アロー関数
-[無名関数](js%20%E7%84%A1%E5%90%8D%E9%96%A2%E6%95%B0%E3%81%A8%E5%8D%B3%E6%99%82%E9%96%A2%E6%95%B0.md)をより簡単に書くための表記。
+[無名関数](<./js 無名関数と即時関数.md>)をより簡単に書くための表記。
 functionを省略し、引数と処理の間に=>を挟む。
 ```javascript
 let myfun = (x,y) =>{

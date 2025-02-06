@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2023-12-26](/Daily_Note/2023-12-26.md)
-up:: [Obsidian](../Bar/App/Obsidian.md)
+up:: [Obsidian](<../Bar/App/Obsidian.md>)
 
 ```ts
 import { App, Editor, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Setting } from 'obsidian';

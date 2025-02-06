@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2024-12-17](/Daily_Note/2024-12-17.md)
-up:: [Markdown](../Bar/Program/Markdown.md)
+up:: [Markdown](<../Bar/Program/Markdown.md>)
 
 
 

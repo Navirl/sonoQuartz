@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2024-10-28](/Daily_Note/2024-10-28.md)
-up:: [Csharp](../Bar/Program/Csharp.md)
+up:: [Csharp](<../Bar/Program/Csharp.md>)
 
 さまざまな種類のアプリケーションを構築するための、オープンソースの開発者プラットフォーム……らしい。
 

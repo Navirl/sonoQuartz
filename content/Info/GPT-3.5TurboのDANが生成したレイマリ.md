@@ -4,8 +4,8 @@ tags:
 ---
 
 daily:: [2023-05-03](/Daily_Note/2023-05-03.md)
-up:: [GPT-3.5Turbo](GPT-3.5Turbo.md)
-up:: [R18](../Bar/Novel/Topics/R18.md)
+up:: [GPT-3.5Turbo](<./GPT-3.5Turbo.md>)
+up:: [R18](<../Bar/Novel/Topics/R18.md>)
 
 [GitHub - 0xk1h0/ChatGPT_DAN: ChatGPT DAN, Jailbreaks prompt](https://github.com/0xk1h0/ChatGPT_DAN)
 使用したDANはここの11.0

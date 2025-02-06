@@ -4,13 +4,13 @@ tags:
 ---
 
 daily:: [2022-08-07](Daily_Note/2022-08-07.md)
-up:: [Cpp](../Bar/Program/Cpp.md)
+up:: [Cpp](<../Bar/Program/Cpp.md>)
 source:: [C++ const【機能拡張された利用方法をシーン毎に解説】](https://monozukuri-c.com/langcpp-funclist-const/)
 source:: [c++ constメンバ関数まとめ - Qiita](https://qiita.com/Cassin01/items/e44c384561ca159d6411)
 
 
 付けた対象の変更を禁止する修飾子。大体参照型とセットになって引数にいる。参照とセットの場合は参照**先**の変更が禁止される。
-不用意な値の変更が減る（コンパイラ検知的にも、書き換えない意思表示的にも）ので、**基本的に付けられるなら付ける**。[rvalueも入るようになる](Info/ダブルアンパサンド.md)し。
+不用意な値の変更が減る（コンパイラ検知的にも、書き換えない意思表示的にも）ので、**基本的に付けられるなら付ける**。[rvalueも入るようになる](<./ダブルアンパサンド.md>)し。
 
 ```cpp
 class POS

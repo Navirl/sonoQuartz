@@ -4,8 +4,8 @@ tags:
 ---
 
 daily:: [2022-04-28](/Daily_Note/2022-04-28.md)
-up:: [Shellscript](../Bar/Program/Shellscript.md)
-up:: [Termux](Bar/App/Termux.md)
+up:: [Shellscript](<../Bar/Program/Shellscript.md>)
+up:: [Termux](<../../../Teino/Bar/App/Termux.md>)
 
 ## Shebang
 .shの一行目に書いてるコメントに酷似したこれ。

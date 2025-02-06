@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2023-03-08](/Daily_Note/2023-03-08.md)
-up:: [Fyrox](../Bar/App/Fyrox.md)
+up:: [Fyrox](<../Bar/App/Fyrox.md>)
 
 [FPS Tutorial - Fyrox Book](https://fyrox-book.github.io/fyrox/tutorials/fps/intro.html)
 [Custom game loop (Obsolete) - Fyrox Book](https://fyrox-book.github.io/fyrox/obsolete/custom_game_loop.html?highlight=event%3A%3Amain#custom-game-loop)
@@ -75,7 +75,7 @@ impl Game {
 structが構造体で、implが実装部分。
 rustのクラスはこうやって二つを分離して作る感じっぽい。
 
-[ECS](ECS.md)
+[ECS](<./ECS.md>)
 [Rustのimpl書き方が覚えられないのでまとめてみた](https://zenn.dev/anchor_cable/articles/b073d510c6ff9ff7111e#fnref-519c-1)
 
 pubはpublic。アクセス修飾子。

@@ -5,7 +5,7 @@ aliases: Rust 所有権
 ---
 
 daily:: [2023-03-09](/Daily_Note/2023-03-09.md)
-up:: [Rust](../Bar/Program/Rust.md)
+up:: [Rust](<../Bar/Program/Rust.md>)
 
 日本語では所有権。
 Rustは値を所有者と呼ばれる変数一つと紐づけている。所有者であることを所有権を持つという。
@@ -56,4 +56,4 @@ fn takes_and_gives_back(a_string: String) -> String { // a_stringがスコープ
 何もしないと、引数に取った時点でムーブされる。
 ムーブしたくないときは**参照**で渡せばいい。
 
-[Rust Reference and Borrowing](Rust%20Reference%20and%20Borrowing.md)
+[Rust Reference and Borrowing](<./Rust Reference and Borrowing.md>)

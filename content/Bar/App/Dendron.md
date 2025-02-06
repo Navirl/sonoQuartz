@@ -6,7 +6,7 @@ tags:
 daily:: [2024-11-16](Daily_Note/2024-11-16.md)
 up:: 
 
-[Obsidian](Obsidian.md)と同じく個人ナレッジ管理ツール。（Personal Knowledge Management、PKM）
+[Obsidian](<./Obsidian.md>)と同じく個人ナレッジ管理ツール。（Personal Knowledge Management、PKM）
 
 知識の整理、発見、活用に重点を置いている。あとOSS。
 Self Contained Vaultを使用することで、Vaultを壊さずに持ち運べる。

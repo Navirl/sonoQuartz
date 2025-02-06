@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2024-07-20](/Daily_Note/2024-07-20.md)
-up:: [Linux](Bar/Linux.md)
+up:: [Linux](<../../../Teino/Bar/Linux.md>)
 
 地味だが有り難いotf2ttf。
 コンソール上でフォントファイルを指定するだけの簡単操作。

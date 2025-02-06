@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2022-11-14](Daily_Note/2022-11-14.md)
-up:: [Aido_Itsuragi](Bar/Novel/Nacaria/Aido_Itsuragi.md)
+up:: [Aido\_Itsuragi](<../../../Teino/Bar/Novel/Nacaria/Aido_Itsuragi.md>)
 
 ティザーPV作るぞぉ！
 俺にとっては！　コレでどれだけ数を引き込めるかの闘いだ！
@@ -15,4 +15,4 @@ up:: [Aido_Itsuragi](Bar/Novel/Nacaria/Aido_Itsuragi.md)
 減った！？
 助ける気皆無じゃないか！　お前、本当に五番の主か！？
 
-[その反則じみた強さ……どう利用するか、考えてたのさ。](その反則じみた強さ……どう利用するか、考えてたのさ。.md)
+[その反則じみた強さ……どう利用するか、考えてたのさ。](<./その反則じみた強さ……どう利用するか、考えてたのさ。.md>)

@@ -7,7 +7,7 @@ aliases: クライシア
 ---
 
 daily:: [2022-07-23](Daily_Note/2022-07-23.md)
-up:: [Nacarea](Nacarea.md)
+up:: [Nacarea](<./Nacarea.md>)
 
 
 開発前線特区。失敗の街。

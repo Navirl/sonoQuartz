@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2022-11-02](Daily_Note/2022-11-02.md)
-up:: [JavaScript and TypeScript](../Bar/Program/JavaScript%20and%20TypeScript.md)
+up:: [JavaScript and TypeScript](<../Bar/Program/JavaScript and TypeScript.md>)
 source:: [TypeScriptでモジュールを作成する／インポートする (export, import)｜まくろぐ](https://maku.blog/p/fbu8k8j/)
 
 外部ファイルをモジュールとして読み込むやつ。
@@ -19,4 +19,4 @@ exportしたやつ全部ほしいなら`import * as 適当な名前 from '外部
 
 クラスだけでなく変数、定数、関数、クラスインスタンス入り変数も全部export出来る。
 
-[js export default](js%20export%20default.md)
+[js export default](<./js export default.md>)

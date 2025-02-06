@@ -9,7 +9,7 @@ aliases:
 ---
 
 daily:: [2022-08-21](Daily_Note/2022-08-21.md)
-up:: [Akinaga](Akinaga.md)
-up:: [Cricia](Cricia.md)
+up:: [Akinaga](<./Akinaga.md>)
+up:: [Cricia](<./Cricia.md>)
 
 

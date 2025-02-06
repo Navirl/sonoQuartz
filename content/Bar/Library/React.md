@@ -4,14 +4,14 @@ tags:
 ---
 
 daily:: [2024-03-02](/Daily_Note/2024-03-02.md)
-up:: [ts](../Program/JavaScript%20and%20TypeScript.md)
-up:: [Programming](../Program/Programming.md)
+up:: [ts](<../Program/JavaScript and TypeScript.md>)
+up:: [Programming](<../Program/Programming.md>)
 
 コンポーネントを組み合わせてブラウザの画面を作れるライブラリ。
 
 コンポーネントの組み合わせを作る物であり、コンポーネントそのものがどう実装されるかは関与しない。ここはNext.jsとかの仕事。
 
-これでモバイルアプリを作りたいなら[React Native](React%20Native.md)や[NativeScript](../Framework/NativeScript.md)という方法がある。
+これでモバイルアプリを作りたいなら[React Native](<../../../../Teino/Bar/Framework/React Native.md>)や[NativeScript](<../Framework/NativeScript.md>)という方法がある。
 
 [クイックスタート – React](https://ja.react.dev/learn)
 
@@ -109,7 +109,7 @@ return (
 ```
 
 ## 条件付きレンダー
-ifや?や[&&](../../Info/js%20アンパサンドと縦線.md)を使って分岐させる。
+ifや?や[&&](<../../Info/js アンパサンドと縦線.md>)を使って分岐させる。
 
 ## リストのレンダー
 forやmapを使って一気に書く。
@@ -148,7 +148,7 @@ function MyButton() {
 ```
 
 ## 画面の更新
-コンポーネントに情報を記憶させる。`useState`。[React Native](React%20Native.md#state)も参照のこと。
+コンポーネントに情報を記憶させる。`useState`。[React Native](<../../../../Teino/Bar/Framework/React Native.md#state>)も参照のこと。
 `useState`を用いる。セッタゲッタ初期値渡して使用。
 ```jsx
 import { useState } from 'react';
@@ -184,7 +184,7 @@ function MyButton() {
 条件分岐やループ内で呼ぶ場合は新たなコンポーネントを抽出し配置する。
 
 二つ以上のStateの情報を同期したい場合は、一つ上のコンポーネントに入れる。
-例えばさっきの[画面の更新](#画面の更新)ではMyButtonにフックを入れたが、今度はMyAppにフックを入れる。
+例えばさっきの[画面の更新](<#画面の更新>)ではMyButtonにフックを入れたが、今度はMyAppにフックを入れる。
 ```jsx
 export default function MyApp() {
   const [count, setCount] = useState(0);
@@ -222,7 +222,7 @@ function MyButton({ count, onClick }) {
 もちろんそのまま書き換えるだけではいけない、それぞれ変数を変更する
 
 
-[React Tutorial](../../Info/React%20Tutorial.md)
+[React Tutorial](<../../Info/React Tutorial.md>)
 
 ## useEffect
 関数に副作用、つまり関数外への作用を追加するためのフック。

@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2022-08-18](Daily_Note/2022-08-18.md)
-up:: [Cpp](../Bar/Program/Cpp.md)
+up:: [Cpp](<../Bar/Program/Cpp.md>)
 source:: [怖いものなんてない！！: C++のコンストラクタにある「:(コロン)」について](https://kowaimononantenai.blogspot.com/2012/10/c.html)
 source:: [コンストラクタで書かれるコロン「：」って何？ | C++　フリーでぷろぐらみんぐ](https://ameblo.jp/nana-2007-july/entry-10037680575.html)
 source:: [コンストラクタでは、代入よりも初期化を使おう 12項 - higepon blog](https://higepon.hatenablog.com/entry/20051107/1131335521)

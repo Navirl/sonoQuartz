@@ -5,9 +5,9 @@ aliases: py
 ---
 
 daily:: [2021-10-20](/Daily_Note/2021-10-20.md)
-up:: [Programming](Programming.md)
+up:: [Programming](<./Programming.md>)
 
-[py pyenv](../../Info/py%20pyenv.md)
+[py pyenv](<../../Info/py pyenv.md>)
 
 ## 実行時間計測
 処理前後でtime.time()を測る方法があるが、これは1秒以下の精度が良くない。
@@ -40,9 +40,9 @@ psutilを使う。
 
 例えば`@kb.add(Keys.Tab)`の場合、事前に用意したkb.add関数を利用して、kb関数にkb.tab関数を追加している。
 
-[py 辞書逆検索](../../Info/py%20辞書逆検索.md)
+[py 辞書逆検索](<../../Info/py 辞書逆検索.md>)
 
-[py numpy二次元配列内に一次元配列が完全に存在するか](../../Info/py%20numpy二次元配列内に一次元配列が完全に存在するか.md)
+[py numpy二次元配列内に一次元配列が完全に存在するか](<../../Info/py numpy二次元配列内に一次元配列が完全に存在するか.md>)
 
 ## ストアが開く
 

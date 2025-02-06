@@ -95,7 +95,7 @@ masterpiece, best quality, 1girl/1boy, character name, from what series, everyth
 
 **生成できる解像度に制限がある。**
 サポートしてるのはこれだけという意味。
-[sd resolution](sd%20resolution.md)の通り、ピクセル数制限な気もする。
+[sd resolution](<./sd resolution.md>)の通り、ピクセル数制限な気もする。
 
 | 寸法            | 縦横比     |
 | ------------- | ------- |

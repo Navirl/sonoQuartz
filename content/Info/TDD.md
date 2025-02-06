@@ -6,7 +6,7 @@ aliases:
 ---
 
 daily:: [2024-03-15](/Daily_Note/2024-03-15.md)
-up:: [Programming](../Bar/Program/Programming.md)
+up:: [Programming](<../Bar/Program/Programming.md>)
 
 Test Driven Develop。テストを中心にして開発していく方法。
 

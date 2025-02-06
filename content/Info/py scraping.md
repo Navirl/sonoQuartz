@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2024-05-25](/Daily_Note/2024-05-25.md)
-up:: [Python](../Bar/Program/Python.md)
+up:: [Python](<../Bar/Program/Python.md>)
 
 静的コンテンツならばrequestsでアクセス、BeautifulSoupで解析すればいい。
 動的コンテンツならpyppetter、playwright、seleniumが使える。

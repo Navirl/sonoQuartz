@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2023-05-04](/Daily_Note/2023-05-04.md)
-up:: [Pygmalion](Pygmalion.md)
+up:: [Pygmalion](<./Pygmalion.md>)
 
 
 [Pygmalion Tips](https://rentry.org/PygTips)

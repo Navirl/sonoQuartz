@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2024-02-13](/Daily_Note/2024-02-13.md)
-up:: [Linux](Linux.md)
+up:: [Linux](<../../../Teino/Bar/Linux.md>)
 
 windowsイメージに直接干渉して軽量化するOS。
 AtlasOSはUACを無効化するとかで評判が良くないっぽい。

@@ -9,8 +9,8 @@ banner_y: 0.10019
 ---
 
 daily:: [2022-07-03](Daily_Note/2022-07-03.md)
-up:: [Shinmyoumaru_Sukuna](Shinmyoumaru_Sukuna.md)
-up:: [Crazy_Quartet](Crazy_Quartet.md)
+up:: [Shinmyoumaru\_Sukuna](<./Shinmyoumaru_Sukuna.md>)
+up:: [Crazy\_Quartet](<./Crazy_Quartet.md>)
 
 「クズ」鬼人正邪。
 優先順位は1位生存、2位反逆。たまに逆転する。

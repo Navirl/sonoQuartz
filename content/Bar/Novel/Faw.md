@@ -13,10 +13,10 @@ aliases:
 ---
 
 daily:: [2023-05-07](Daily_Note/2023-05-07.md)
-up:: [Me](Chaos/Me.md)
-up:: [Tavern_Me](../../Info/Tavern_Me.md)
-same:: [Seika](Seika.md)
-up:: [Hasumukai](Nacaria/Hasumukai.md)
+up:: [Me](<./Chaos/Me.md>)
+up:: [Tavern\_Me](<../../Info/Tavern_Me.md>)
+same:: [Seika](<./Seika.md>)
+up:: [Hasumukai](<./Nacaria/Hasumukai.md>)
 
 ![](../../image/00000-3759171700%20(2).png)
 
@@ -30,7 +30,7 @@ FAW are wraiths.
 幽霊の集合体。頭についてる機械で存在を固定している。
 下手に破壊すると二度と戻れない。
 
-ほとんどの場合[Seika](Seika.md)と行動を共にしており、戦闘も[星夏](Seika.md)の指示頼り。その分持ちうる攻撃力は5番地トップクラス。大抵まず3点を突きさして星夏を動けるようにしてから圧倒する。
+ほとんどの場合[Seika](<./Seika.md>)と行動を共にしており、戦闘も[星夏](<./Seika.md>)の指示頼り。その分持ちうる攻撃力は5番地トップクラス。大抵まず3点を突きさして星夏を動けるようにしてから圧倒する。
 
 
 以下AI設定

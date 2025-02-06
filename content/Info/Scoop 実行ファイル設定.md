@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2022-11-25](/Daily_Note/2022-11-25.md)
-up:: [Scoop](Bar/App/Scoop.md)
+up:: [Scoop](<../../../Teino/Bar/App/Scoop.md>)
 
 `$env:SCOOP='C:\Scoop'`
 `environment:setEnvironmentVariable('SCOOP',$env:SCOOP,'User')`

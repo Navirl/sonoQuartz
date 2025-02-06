@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2023-02-10](/Daily_Note/2023-02-10.md)
-up:: [JavaScript and TypeScript](../Bar/Program/JavaScript%20and%20TypeScript.md)
+up:: [JavaScript and TypeScript](<../Bar/Program/JavaScript and TypeScript.md>)
 
 `Array[]`の中から特定条件にあてはまるものを取り出し、新たな配列を作る関数。
 より詳しく言うと、コールバック関数でtrueを返した要素だけ残す関数。なのでコールバック関数は必ず戻り値がbooleanになる。
@@ -29,4 +29,4 @@ console.log(items);
 [【TypeScript】filterで頑張る - Kuzunoha-NEのブログ](https://kuzunoha-ne.hateblo.jp/entry/2020/02/29/214231)
 [【JavaScript入門】filterで配列のデータを抽出する方法 | 侍エンジニアブログ](https://www.sejuku.net/blog/21887)
 
-さらに[js アンパサンドと縦線](js%20アンパサンドと縦線.md)を使って配列内にfalseが含まれた場合、`.filter((v)=>v)`などして値をそのまま入れて出すだけでtrueになる値だけ取り出せる。
+さらに[js アンパサンドと縦線](<./js アンパサンドと縦線.md>)を使って配列内にfalseが含まれた場合、`.filter((v)=>v)`などして値をそのまま入れて出すだけでtrueになる値だけ取り出せる。

@@ -4,8 +4,8 @@ tags:
 ---
 
 daily:: [2023-03-07](/Daily_Note/2023-03-07.md)
-up:: [Programming](../Bar/Program/Programming.md)
-up:: [Unity](../Bar/App/Unity.md)
+up:: [Programming](<../Bar/Program/Programming.md>)
+up:: [Unity](<../Bar/App/Unity.md>)
 
 Entity Component System。
 全てをコンポーネントにし、GameObjectをコンポーネントにアクセスするキーに。

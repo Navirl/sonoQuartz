@@ -9,8 +9,8 @@ aliases:
 ---
 
 daily:: [2023-04-09](Daily_Note/2023-04-09.md)
-up:: [Android](../Topics/Android.md)
-up:: [Bio](../Topics/Bio.md)
+up:: [Android](<../Topics/Android.md>)
+up:: [Bio](<../Topics/Bio.md>)
 
 都市伝説。世界のどこかに、人間と何の違いもなくなったアンドロイドがいるという。
 こいつはその体の組成も含め完全に人間だが、一方でアンドロイド特有の超計算能力をもつとか。テセウスの船理論で少しずつ機械と肉体を入れ替えて完成したとかなんとか。

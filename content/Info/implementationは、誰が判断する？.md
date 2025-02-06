@@ -4,9 +4,9 @@ tags:
 ---
 
 daily:: [2023-05-16](/Daily_Note/2023-05-16.md)
-up:: [God](Bar/Novel/Topics/God.md)
-up:: [Android](Bar/Novel/Topics/Android.md)
-up:: [Machine](../Bar/Novel/Topics/Machine.md)
+up:: [God](<../../../Teino/Bar/Novel/Topics/God.md>)
+up:: [Android](<../../../Teino/Bar/Novel/Topics/Android.md>)
+up:: [Machine](<../Bar/Novel/Topics/Machine.md>)
 
 implementationは、誰が判断する？
 願いを持たせる神でも、願いを運ぶ生物でも、ましてや願いを叶える機械でもない。

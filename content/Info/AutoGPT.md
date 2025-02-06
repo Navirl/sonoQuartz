@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2023-05-28](Daily_Note/2023-05-28.md)
-up:: [AI_local](../Bar/AI/AI_local.md)
+up:: [AI\_local](<../Bar/AI/AI_local.md>)
 
 
 目標、条件、ゴールを与えると自律的に動作するAIアプリケーション。OpenAIのAPIで動作するのが前提。

@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2024-10-28](/Daily_Note/2024-10-28.md)
-up:: [Csharp](../Bar/Program/Csharp.md)
+up:: [Csharp](<../Bar/Program/Csharp.md>)
 
 dotnetをアンインストールする専用ツール。
 

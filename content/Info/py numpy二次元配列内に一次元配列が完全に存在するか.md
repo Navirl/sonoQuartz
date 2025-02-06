@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2023-06-09](/Daily_Note/2023-06-09.md)
-up:: [Python](../Bar/Program/Python.md)
+up:: [Python](<../Bar/Program/Python.md>)
 
 ## numpy二次元配列内に一次元配列が完全に存在するか
 ```python

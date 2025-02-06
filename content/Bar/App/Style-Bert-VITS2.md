@@ -6,8 +6,8 @@ aliases:
 ---
 
 daily:: [2024-10-21](Daily_Note/2024-10-21.md)
-up:: [AI_local](../AI/AI_local.md)
-up:: [AI_voice](../AI/AI_voice.md)
+up:: [AI\_local](<../AI/AI_local.md>)
+up:: [AI\_voice](<../AI/AI_voice.md>)
 
 入力されたテキストの内容をもとに感情豊かな音声を生成する。TTS。
 感情や発話スタイルを制御できる。
@@ -64,4 +64,4 @@ kaunistaの方はそれを元にしたAIVTuberが存在する。
 [ayousanz/style-bert-vits2-pretrained-model-ver2 · Hugging Face](https://huggingface.co/ayousanz/style-bert-vits2-pretrained-model-ver2)
 
 
-[コーパス](../../Info/コーパス.md)
+[コーパス](<../../Info/コーパス.md>)

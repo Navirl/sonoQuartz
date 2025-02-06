@@ -7,8 +7,8 @@ aliases:
 
 daily:: [2024-05-24](/Daily_Note/2024-05-24.md)
 up:: [Stable Diffusion](../Bar/Stable%20Diffusion.md)
-up:: [sd ControlNet](sd%20ControlNet.md)
-up:: [Blender](../Bar/App/Blender.md)
+up:: [sd ControlNet](<./sd controlnet.md>)
+up:: [Blender](<../Bar/App/Blender.md>)
 
 オープンポーズ等をblenderから自由度高く出力するblendファイル。
 そこそこ手間がかかるので事前にSD1.5Scribble出力するなどしてイメージは固めておく。

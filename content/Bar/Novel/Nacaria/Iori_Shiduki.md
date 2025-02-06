@@ -8,7 +8,7 @@ aliases:
 ---
 
 daily:: [2023-06-20](/Daily_Note/2023-06-20.md)
-up:: [Ive](Ive.md)
+up:: [Ive](<./Ive.md>)
 
 「マイクテスト……ok」
 

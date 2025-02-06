@@ -4,7 +4,7 @@ tags:
 ---
 
 daily:: [2023-03-23](/Daily_Note/2023-03-23.md)
-up:: [Game](Bar/Novel/Topics/Game.md)
+up:: [Game](<../../../Teino/Bar/Novel/Topics/Game.md>)
 
 ゲーム直接じゃなくEAのランチャーの方をsteamに追加すればOK。
 
