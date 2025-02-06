@@ -3,7 +3,7 @@ tags:
   - Info
 ---
 
-daily:: [2025-01-08](/Daily_Note/2025-01-08.md)
+daily:: [2025-01-08](<../Daily_Note/2025-01-08.md>)
 up:: [Eclipse](<../Bar/Eclipse.md>)
 
 jp.co.taimee.api.AuthServiceから認証する。

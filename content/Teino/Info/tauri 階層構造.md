@@ -3,7 +3,7 @@ tags:
   - Info
 ---
 
-daily:: [2024-12-31](/Daily_Note/2024-12-31.md)
+daily:: [2024-12-31](<../Daily_Note/2024-12-31.md>)
 up:: [Tauri](<../Bar/Framework/Tauri.md>)
 
 [Tauri v2 x Svelte 5 で、アプリケーション開発をはじめる！ #Rust - Qiita](https://qiita.com/takavfx/items/248250daacde5d400bd9)

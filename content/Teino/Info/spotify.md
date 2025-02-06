@@ -3,7 +3,7 @@ tags:
   - Info
 ---
 
-daily:: [2024-12-30](/Daily_Note/2024-12-30.md)
+daily:: [2024-12-30](<../Daily_Note/2024-12-30.md>)
 up:: [Eclipse](<../Bar/Eclipse.md>)
 
 ハッキー。

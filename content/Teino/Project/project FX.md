@@ -3,7 +3,7 @@ tags:
   - Info
 ---
 
-daily:: [2024-12-31](/Daily_Note/2024-12-31.md)
+daily:: [2024-12-31](<../Daily_Note/2024-12-31.md>)
 up:: [FX](<../Bar/FX.md>)
 
 ![FX初めに](<../Info/FX初めに.md>)
