@@ -1,8 +1,0 @@
----
-address: 
-species:
- - 
-height: 
-age: 
----
-
