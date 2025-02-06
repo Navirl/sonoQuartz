@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"type":"text","text":"[私は道具に存在価値を認めない。](Info/私は道具に存在価値を認めない。.md)\n[Raviqqa](Bar/Novel/Nacaria/Raviqqa.md)の下っ端の脳くちゅに、さすがに憤りを覚えてやってきた怪物[八階堂高目](Bar/Novel/Nacaria/Takame_Hakkaido.md)。\nその下っ端の専門は通信工学。直接相手をどうこうする奴じゃないので、矢面に立って交渉を試みる。まあ無駄。\n\n\n","id":"9f80428a12c82bec","x":-164,"y":-32,"width":405,"height":314},
+		{"type":"text","text":"","id":"a38df2c55218f1a8","x":-86,"y":380,"width":250,"height":50}
+	],
+	"edges":[
+		{"id":"0fd930cd72a20626","fromNode":"9f80428a12c82bec","fromSide":"bottom","toNode":"a38df2c55218f1a8","toSide":"top"}
+	]
+}
