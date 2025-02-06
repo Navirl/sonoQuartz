@@ -1,0 +1,108 @@
+---
+tags:
+  - Info
+---
+
+daily:: [2024-07-19](/Daily_Note/2024-07-19.md)
+up:: [Dify](<../Bar/App/Dify.md>)
+
+- aippt
+  - AIを使ってプレゼンテーションを作成するサービス。
+- arxiv
+  - 科学論文の電子プリントを公開するリポジトリ。
+- azuredalle
+  - Microsoft Azureと統合されたOpenAIのDALL-E。
+- bing
+  - マイクロソフトが開発したウェブ検索エンジン。
+- brave
+  - プライバシー重視のウェブブラウザ。
+- chart
+  - チャートやグラフを作成・表示するツール。
+- code
+  - GitHub Copilotなどのコーディング支援ツール。
+- dalle
+  - テキストの説明から画像を生成するOpenAIのモデル。
+- devdocs
+  - 各種プログラミング言語やフレームワークのAPIドキュメントを提供するブラウザ。
+- dingtalk
+  - アリババが開発した企業向けのコミュニケーションとコラボレーションプラットフォーム。
+- duckduckgo
+  - プライバシー重視のウェブ検索エンジン。
+- feishu
+  - ByteDanceが開発した、Slackに似たコラボレーションオフィススイート。
+- feishu_base
+  - コラボレーションオフィススイートFeishuの基本機能。
+- firecrawl
+  - ウェブクロールのツールまたはサービス。
+  - webサイト→マークダウンや構造化データへの変換、並列化可能
+  - [GitHub - mendableai/firecrawl: 🔥 Turn entire websites into LLM-ready markdown or structured data. Scrape, crawl and extract with a single API.](https://github.com/mendableai/firecrawl)
+  - [Firecrawlをローカルで動かしDifyと繋げてみる](https://zenn.dev/zozotech/articles/d177f4cdc02755)
+- gaode
+  - 中国の地図およびナビゲーションサービス、Amapとも呼ばれる。
+- github
+  - バージョン管理とコラボレーションのためのプラットフォーム。
+- google
+  - 検索エンジンや多くの他のサービスで知られる多国籍テクノロジー企業。
+- jina
+  - オープンソースのニューラル検索フレームワーク。
+  - マルチモーダル高度検索
+  - [GitHub - jina-ai/reader: Convert any URL to an LLM-friendly input with a simple prefix https://r.jina.ai/](https://github.com/jina-ai/reader)
+- json_process
+  - JSONデータを処理するツールまたはサービス。
+- judge0ce
+  - オープンソースのオンラインコード実行エンジン。
+- maths
+  - 数学に関連するツールやサービス（例えばWolframAlpha）。
+- nominatim
+  - ジオコーディングとリバースジオコーディングのツール、OpenStreetMapプロジェクトの一部。
+- novitaai
+  - 人工知能に関連するサービスやプラットフォーム（詳細不明）。
+- openweather
+  - 天気データや予報を提供するサービス。
+- pubmed
+  - 米国国立衛生研究所が維持する生物医学文献データベース。
+- qrcode
+  - QRコードを生成するツールやサービス。
+- searchapi
+  - データベースやウェブの検索API。
+- searxng
+  - プライバシーを尊重するオープンソースのメタ検索エンジン。
+- slack
+  - チーム向けのメッセージングおよびコラボレーションプラットフォーム。
+- spark
+  - Apache Sparkを指すことが多く、ビッグデータ処理のための統一分析エンジン。
+- stability
+  - Stability AIを指すことが多く、オープンソースAI開発に注力する企業。
+- stablediffusion
+  - Stability AIが開発したテキストから画像を生成するオープンソースモデル。
+- stackexchange
+  - 各種トピックに関するQ&Aコミュニティのネットワーク。
+- tavily
+  - 人工知能に関連するサービスやプラットフォーム（詳細不明）。
+  - Difyそのものと同レベルで大体何でもできる、AI特化IaaS
+- time
+  - 時間に関連する機能を提供するツールやサービス、例えば時間API。
+- trello
+  - ボード、リスト、カードを使ったプロジェクト管理ツール。
+- twilio
+  - SMS、音声、メッセージングアプリケーションを構築するためのクラウドコミュニケーションプラットフォーム。
+- vanna
+  - データや人工知能に関連するサービスやプラットフォーム（詳細不明）。
+  - PythonのRAGフレームワーク。データベース→自然言語→SQLクエリのフローで変換を担う。
+- vectorizer
+  - テキストや画像をベクトル表現に変換するツール。
+- webscraper
+  - ウェブサイトからデータを抽出するツールやサービス。
+  - Firecrawlよりも直感的、GUIを備える
+- websearch
+  - ウェブ検索を行うサービス。
+- wecom
+  - テンセントが開発したビジネス向けのコミュニケーションとコラボレーションツール。
+- wikipedia
+  - 誰でも編集できる無料のオンライン百科事典。
+- wolframalpha
+  - 事実に基づくクエリに直接答える計算知識エンジン。
+- yahoo
+  - 検索エンジン、ニュースなどのオンラインサービスで知られるウェブサービスプロバイダー。
+- youtube
+  - ユーザーが動画をアップロード、視聴、共有できるビデオ共有プラットフォーム。
