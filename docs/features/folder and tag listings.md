@@ -14,7 +14,7 @@ Additionally, Quartz will also generate pages for subfolders. Say you have a not
 
 You can link to the folder listing by referencing its name, plus a trailing slash, like this: `[[advanced/]]` (results in [[advanced/]]).
 
-By default, Quartz will title the page `Folder: <folder name>` and no description. You can override this by creating an `index.md` file in the folder with the `title` [[authoring content#Syntax|frontmatter]] field. Any content you write in this file will also be used in the folder description.
+By default, Quartz will title the page `Folder: <folder name>` and no description. You can override this by creating an `index.md` file in the folder with the `title` [[../authoring content#Syntax|frontmatter]] field. Any content you write in this file will also be used in the folder description.
 
 For example, for the folder `content/posts`, you can add another file `content/posts/index.md` to add a specific description for it.
 
@@ -24,10 +24,10 @@ Quartz will also create an index page for each unique tag in your vault and rend
 
 Quartz also supports tag hierarchies as well (e.g. `plugin/emitter`) and will also render a separate tag page for each level of the tag hierarchy. It will also create a default global tag index page at `/tags` that displays a list of all the tags in your Quartz.
 
-You can link to the tag listing by referencing its name with a `tag/` prefix, like this: `[[tags/plugin]]` (results in [[tags/plugin]]).
+You can link to the tag listing by referencing its name with a `tag/` prefix, like this: `[[tags/plugin]]` (results in [[../tags/plugin|tags/plugin]]).
 
 As with folder listings, you can also provide a description and title for a tag page by creating a file for each tag. For example, if you wanted to create a custom description for the #component tag, you would create a file at `content/tags/component.md` with a title and description.
 
 ## Customization
 
-Quartz allows you to define a custom sort ordering for content on both page types. The folder listings are a functionality of the [[FolderPage]] plugin, the tag listings of the [[TagPage]] plugin. See the plugin pages for customization options.
+Quartz allows you to define a custom sort ordering for content on both page types. The folder listings are a functionality of the [[../plugins/FolderPage]] plugin, the tag listings of the [[../plugins/TagPage]] plugin. See the plugin pages for customization options.

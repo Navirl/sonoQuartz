@@ -4,10 +4,10 @@ tags:
   - plugin/transformer
 ---
 
-This plugin generates a table of contents (TOC) for Markdown documents. See [[table of contents]] for more information.
+This plugin generates a table of contents (TOC) for Markdown documents. See [[../features/table of contents]] for more information.
 
 > [!note]
-> For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
+> For information on how to add, remove or configure plugins, see the [[../configuration#Plugins]] page.
 
 This plugin accepts the following configuration options:
 

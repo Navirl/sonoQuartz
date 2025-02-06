@@ -7,7 +7,7 @@ tags:
 [Roam Research](https://roamresearch.com) is a note-taking tool that organizes your knowledge graph in a unique and interconnected way.
 
 Quartz supports transforming the special Markdown syntax from Roam Research (like `{{[[components]]}}` and other formatting) into
-regular Markdown via the [[RoamFlavoredMarkdown]] plugin.
+regular Markdown via the [[../plugins/RoamFlavoredMarkdown]] plugin.
 
 ```typescript title="quartz.config.ts"
 plugins: {
@@ -25,4 +25,4 @@ plugins: {
 
 ## Customization
 
-This functionality is provided by the [[RoamFlavoredMarkdown]] plugin. See the plugin page for customization options.
+This functionality is provided by the [[../plugins/RoamFlavoredMarkdown]] plugin. See the plugin page for customization options.
