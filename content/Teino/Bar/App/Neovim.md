@@ -152,3 +152,5 @@ local, merged, remoteの3ペインならneovimdiff2だけで開ける。
 :doで全部get、:dpで全部put？
 
 [Diff - Neovim docs](https://neovim.io/doc/user/diff.html)
+
+これを知らないと[diffview.nvim](<../../Info/Neovim plugins.md#**[diffview.nvim](https //github.com/sindrets/diffview.nvim)**>)が使えない。

@@ -1,10 +1,11 @@
 ---
+date: {{date}}
+time: {{time}}
 tags:
  - Info
  - Timeline
 ---
 
-daily:: [{{date:yyyy-MM-DD}}](/Daily_Note/{{date:yyyy-MM-DD}}.md)
 up:: [Timeline\_Sheet](<../Bar/Novel/Sheet/Timeline_Sheet.md>)
 up::
 

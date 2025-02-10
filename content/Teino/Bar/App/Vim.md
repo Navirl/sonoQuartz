@@ -189,3 +189,26 @@ q:。q/やq?でも出る。直接編集可。
 なお、:の後に上下キーを押せば直近の履歴は出る。
 
 [コマンド履歴、検索履歴を活用して、作業効率を上げよう。 — 名無しのvim使い](https://nanasi.jp/articles/howto/editing/use-command-history.html)
+
+## mark
+|コマンド|内容|
+|---|---|
+|:marks|mark一覧を表示する|
+|m[a-zA-Z]|カーソル位置をmarkする|
+|``|直前のマークへ移動|
+|C-o|古いマークへ移動|
+|C-i|新しいマークへ移動|
+|`[a-zA-Z]|指定のマークに移動|
+|'[a-zA-Z]|指定のマークの行頭に移動|
+|:delmarks [a-zA-Z]|マークの削除|
+|:delmarks!|マークの一括削除|
+
+使えるとめちゃくちゃ楽。
+このマーク、**ファイルを跨いでセット**するのだけ注意。
+
+[Vimのマーク機能、使い方まとめ #Vim - Qiita](https://qiita.com/syui/items/442fd0905a1f2005c10e)
+
+delmarksは打つのだるい。
+neovimならdmxで消せるプラグインがある。
+
+[GitHub - chentoast/marks.nvim: A better user experience for viewing and interacting with Vim marks.](https://github.com/chentoast/marks.nvim?tab=readme-ov-file)

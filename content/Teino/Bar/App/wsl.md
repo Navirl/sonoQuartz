@@ -85,3 +85,7 @@ appendWindowsPath = false
 
 なお、.exeを付けないとちゃんと読んでくれない。
 しゃーないので[mise](<../Tools/mise.md>)は`mise.exe x -- fd`のようにして呼んでる。
+
+なんかプロセスを消してくれない？
+どんどんたまってタスクマネージャーが効かない位PCを重くしたので、あまり同じmiseをwslから使わないようにする。
+結局`Stop-Process`で止めた。

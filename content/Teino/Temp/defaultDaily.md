@@ -1,4 +1,6 @@
 ---
+date: {{date}}
+time: {{time}}
 tags:
  - Daily
 ---

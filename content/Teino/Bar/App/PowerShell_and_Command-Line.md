@@ -175,6 +175,7 @@ UTF-8のBOM付きでセーブ。
 
 ## プロセス止める
 `Stop-Process`。
+プロセス自体は`Get-Process`で探せる。
 [【Stop-Process】PowerShellでプロセスを強制終了させる方法とは？ | チェシャわら](https://cheshire-wara.com/powershell/ps-cmdlets/system-service/stop-process/)
 
 ## Host

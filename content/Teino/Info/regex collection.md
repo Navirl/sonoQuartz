@@ -36,3 +36,7 @@ up:: [regex](<../Bar/Program/Reguler Expression.md>)
 `# `
 `#`
 アウトラインを抜きたいときに。
+
+
+
+`(\[\d{4,4}.*\))`
