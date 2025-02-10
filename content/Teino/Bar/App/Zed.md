@@ -1,9 +1,9 @@
 ---
+date: 2025-02-09
 tags:
  - Bar
 ---
 
-daily:: [2025-02-09](<../../Daily_Note/2025-02-09.md>)
 up:: [App](<./App.md>)
 
 [GitHub - zed-industries/zed: Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.](https://github.com/zed-industries/zed?tab=readme-ov-file)

@@ -1,9 +1,9 @@
 ---
+date: 2022-11-14
 tags:
  - Info
 ---
 
-daily:: [2022-11-14](Daily_Note/2022-11-14.md)
 up:: [Aido\_Itsuragi](<../Bar/Novel/Nacaria/Aido_Itsuragi.md>)
 
 ティザーPV作るぞぉ！

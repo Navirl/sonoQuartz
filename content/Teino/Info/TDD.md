@@ -1,11 +1,11 @@
 ---
+date: 2024-03-15
 tags:
   - Info
 aliases:
   - Test_Driven_Develop
 ---
 
-daily:: [2024-03-15](/Daily_Note/2024-03-15.md)
 up:: [Programming](<../Bar/Program/Programming.md>)
 
 Test Driven Develop。テストを中心にして開発していく方法。

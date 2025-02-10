@@ -1,11 +1,11 @@
 ---
+date: 2024-05-31
 tags:
   - Bar
 aliases:
   - sd
 ---
 
-daily:: [2024-05-31](Daily_Note/2024-05-31.md)
 up:: 
 
 安定拡散モデル。

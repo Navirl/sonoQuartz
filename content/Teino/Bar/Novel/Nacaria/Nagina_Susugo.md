@@ -1,11 +1,11 @@
 ---
+date: 2022-09-03
 tags:
  - Bar
  - Nacaria
  - Novel/Character
 ---
 
-daily:: [2022-09-03](Daily_Note/2022-09-03.md)
 up:: [Cricia](<./Cricia.md>)
 
 すすごなぎな。扉名と仲良しなお姉さん。201cm。

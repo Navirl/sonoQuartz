@@ -1,9 +1,9 @@
 ---
+date: 2023-04-08
 tags:
  - Info
 ---
 
-daily:: [2023-04-08](/Daily_Note/2023-04-08.md)
 up:: [WSL](<../Bar/App/wsl.md>)
 
 いろいろ情報があるが、今はwslをシャットダウンしてからwindowsのアプリ設定で移動すればいいだけ。redditの二個目の返答がそのまま使える。

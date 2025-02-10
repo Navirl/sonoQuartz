@@ -1,9 +1,9 @@
 ---
+date: 2022-07-28
 tags:
   - Info
 ---
 
-daily:: [2022-07-28](Daily_Note/2022-07-28.md)
 up:: [Google Apps Script](<../Bar/Program/Google Apps Script.md>)
 source:: [【GAS入門】Arrayオブジェクトのmapメソッドの使い方｜もりさんのプログラミング手帳](https://moripro.net/gas-array-map/)
 

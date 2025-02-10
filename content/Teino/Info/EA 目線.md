@@ -1,9 +1,9 @@
 ---
+date: 2025-02-07
 tags:
  - Info
 ---
 
-daily:: [2025-02-07](<../Daily_Note/2025-02-07.md>)
 up:: [FX](<../Bar/FX.md>)
 
 EA

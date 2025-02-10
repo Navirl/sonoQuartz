@@ -1,11 +1,11 @@
 ---
+date: 2022-07-08
 tags:
  - Bar
  - Novel/Character
  - Nacaria
 ---
 
-daily:: [2022-07-08](Daily_Note/2022-07-08.md)
 up:: [Biscarnya](<./Biscarnya.md>)
 
 感謝。

@@ -1,9 +1,9 @@
 ---
+date: 2024-11-23
 tags:
   - Info
 ---
 
-daily:: [2024-11-23](/Daily_Note/2024-11-23.md)
 up:: [Eclipse](<../Bar/Eclipse.md>)
 
 とにかくFPを偽装してplay integrityを回避、さらにmagisk hideや後継のdenylistを使用してroot使用を隠蔽、最後にmagisk自体を検知されないよう偽装という流れ。

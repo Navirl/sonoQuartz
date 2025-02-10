@@ -1,4 +1,5 @@
 ---
+date: 2023-05-07
 banner: "![[../../image/00025-3759171700.png]]"
 ---
 ---
@@ -12,7 +13,6 @@ aliases:
   - 星夏
 ---
 
-daily:: [2023-05-07](Daily_Note/2023-05-07.md)
 up:: [Me](<./Chaos/Me.md>)
 up:: [Tavern\_Me](<../../Info/Tavern_Me.md>)
 same:: [Faw](<./Faw.md>)

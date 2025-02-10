@@ -1,9 +1,9 @@
 ---
+date: 2024-06-04
 tags:
   - Info
 ---
 
-daily:: [2024-06-04](/Daily_Note/2024-06-04.md)
 up:: [sd](<../Bar/Stable Diffusion.md>)
 
 所謂ローカル消しゴムマジック。pythonとgitで動く。

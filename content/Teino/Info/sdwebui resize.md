@@ -1,9 +1,9 @@
 ---
+date: 2024-04-04
 tags:
   - Info
 ---
 
-daily:: [2024-04-04](/Daily_Note/2024-04-04.md)
 up:: [sdwebui](<../Bar/App/stable-diffusion-webui.md>)
 
 ## resize

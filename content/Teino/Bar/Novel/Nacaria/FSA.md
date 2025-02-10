@@ -1,4 +1,5 @@
 ---
+date: 2023-04-09
 tags:
  - Bar
  - Nacaria
@@ -8,7 +9,6 @@ aliases:
  - 完全感性アンドロイド
 ---
 
-daily:: [2023-04-09](Daily_Note/2023-04-09.md)
 up:: [Android](<../Topics/Android.md>)
 up:: [Bio](<../Topics/Bio.md>)
 

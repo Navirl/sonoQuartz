@@ -1,4 +1,5 @@
 ---
+date: 2022-08-04
 tags:
  - Bar
  - Novel/Character
@@ -6,7 +7,6 @@ tags:
 aliases: 五良木愛土
 ---
 
-daily:: [2022-08-04](Daily_Note/2022-08-04.md)
 up:: [Ive](<./Ive.md>)
 down:: [Hasumukai](<./Hasumukai.md>)
 

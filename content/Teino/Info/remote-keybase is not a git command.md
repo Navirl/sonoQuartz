@@ -1,9 +1,9 @@
 ---
+date: 2022-10-28
 tags:
  - Info
 ---
 
-daily:: [2022-10-28](Daily_Note/2022-10-28.md)
 up:: [Termux](<../Bar/App/Termux.md>)
 up:: [Keybase](<../Bar/App/Keybase.md>)
 source:: [git: 'remote-keybase' is not a git command · Issue #15176 · keybase/client · GitHub](https://github.com/keybase/client/issues/15176)

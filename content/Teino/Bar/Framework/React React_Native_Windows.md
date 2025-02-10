@@ -1,9 +1,9 @@
 ---
+date: 2024-03-01
 tags:
   - Info
 ---
 
-daily:: [2024-03-01](/Daily_Note/2024-03-01.md)
 up:: [React Native](<./React Native.md>)
 
 [React Native](<./React Native.md>)でWindowsのUWPアプリを作るためのフレームワーク。

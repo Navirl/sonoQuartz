@@ -1,9 +1,9 @@
 ---
+date: 2022-07-09
 tags:
  - Info
 ---
 
-daily:: [2022-07-09](Daily_Note/2022-07-09.md)
 up:: [UE5.0.2](<../Bar/App/UE5.0.2.md>)
 source:: [UE4でマルチプレイヤーゲームを作ろう](https://www.slideshare.net/EpicGamesJapan/ue4howtocreatemultiplayergame)
 source:: [ゆるゆるUE4ネットワーク入門](https://www.slideshare.net/ssuser221848/ue4-107622315)

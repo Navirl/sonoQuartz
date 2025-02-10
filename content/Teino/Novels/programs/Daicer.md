@@ -1,9 +1,9 @@
 ---
+date: 2024-08-09
 tags:
   - Info
 ---
 
-daily:: [2024-08-09](/Daily_Note/2024-08-09.md)
 up:: [Idea](<../../Bar/Idea.md>)
 
 [Tauri](<../../Bar/Framework/Tauri.md>)

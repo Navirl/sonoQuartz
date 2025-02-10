@@ -1,10 +1,10 @@
 ---
+date: 2024-07-12
 tags:
   - Bar
   - App
 ---
 
-daily:: [2024-07-12](/Daily_Note/2024-07-12.md)
 up:: [AI\_local](<../AI/AI_local.md>)
 up:: [AI\_online](<../AI/AI_online.md>)
 

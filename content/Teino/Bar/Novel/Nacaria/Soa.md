@@ -1,4 +1,5 @@
 ---
+date: 2022-11-12
 tags:
  - Bar
  - Novel/Character
@@ -6,7 +7,6 @@ tags:
 aliases: ソア
 ---
 
-daily:: [2022-11-12](Daily_Note/2022-11-12.md)
 up:: [Sarsh](<./Sarsh.md>)
 
 族長の娘。

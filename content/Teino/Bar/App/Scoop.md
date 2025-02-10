@@ -1,10 +1,10 @@
 ---
+date: 2021-08-28
 tags:
  - Bar
  - App
 ---
 
-daily:: [2021-08-28](Daily_Note/2021-08-28.md)
 up:: [PowerShell\_and\_Command-Line](<./PowerShell_and_Command-Line.md>)
 
 windowsのパッケージインストーラ。

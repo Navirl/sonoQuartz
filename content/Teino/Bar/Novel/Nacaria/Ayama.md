@@ -1,4 +1,5 @@
 ---
+date: 2022-09-20
 tags:
  - Bar
  - Novel/Location
@@ -6,7 +7,6 @@ tags:
 aliases: アヤマ
 ---
 
-daily:: [2022-09-20](Daily_Note/2022-09-20.md)
 up:: [Nacarea](<./Nacarea.md>)
 
 絶対価値、時間の名の下に企業が競い合う企業街。

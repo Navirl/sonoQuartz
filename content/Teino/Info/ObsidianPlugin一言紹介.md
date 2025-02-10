@@ -1,9 +1,9 @@
 ---
+date: 2023-01-30
 tags:
  - Info
 ---
 
-daily:: [2023-01-30](/Daily_Note/2023-01-30.md)
 up:: [Obsidian](<../Bar/App/Obsidian.md>)
 
 ## Graph-analysys

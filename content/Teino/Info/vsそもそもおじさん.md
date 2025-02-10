@@ -1,9 +1,9 @@
 ---
+date: 2022-07-01
 tags:
   - Info
 ---
 
-daily:: [2022-07-01](Daily_Note/2022-07-01.md)
 up:: [../Bar/Summareading](<../Bar/Summareading.md>)
 up:: [Component](<../Bar/Novel/Chaos/Component.md>)
 source:: [｢これやる意味あるの?｣会議でなぜか自己主張を始める"そもそもオジサン"を黙らせる必殺のひとこと ポイントは｢衝突しない｣｢説き伏せない｣｢相手に言わせる｣ | PRESIDENT Online（プレジデントオンライン）](https://president.jp/articles/-/59117)

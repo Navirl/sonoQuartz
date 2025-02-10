@@ -1,11 +1,11 @@
 ---
+date: 2024-09-22
 tags:
   - Bar
 aliases:
   - mc
 ---
 
-daily:: [2024-09-22](Daily_Note/2024-09-22.md)
 up:: [Linux](<../Linux.md>)
 
 ## test

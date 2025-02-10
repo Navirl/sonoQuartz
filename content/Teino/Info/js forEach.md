@@ -1,9 +1,9 @@
 ---
+date: 2023-03-19
 tags:
  - Info
 ---
 
-daily:: [2023-03-19](/Daily_Note/2023-03-19.md)
 up:: [JavaScript and TypeScript](<../Bar/Program/JavaScript and TypeScript.md>)
 
 javascriptの配列の後ろに付けるforeachは、関数なので普通のforof文の様なbreakやcontinueは使えない。

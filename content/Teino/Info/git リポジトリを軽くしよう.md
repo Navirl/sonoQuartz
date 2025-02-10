@@ -1,9 +1,9 @@
 ---
+date: 2022-10-17
 tags:
  - Info
 ---
 
-daily:: [2022-10-17](Daily_Note/2022-10-17.md)
 up:: [Git](<../Bar/App/Git.md>)
 source:: [パーシャルクローンとシャロークローンを活用しよう - GitHubブログ](https://github.blog/jp/2021-01-13-get-up-to-speed-with-partial-clone-and-shallow-clone/)
 source:: [巨大なリポジトリをクローンするときに便利なパーシャルクローンとsparse-checkout - Vがいる日々](https://vlike-vlife.netlify.app/posts/git_partial_clone)

@@ -1,10 +1,10 @@
 ---
+date: 2023-04-26
 tags:
  - Info
 ---
 
-daily:: [2023-04-26](Daily_Note/2023-04-26.md)
-up:: [Docker](../App/Docker.md)
+up:: [Docker](<../Bar/App/Docker.md>)
 
 [buildpacksとは何なのか？ - Qiita](https://qiita.com/souhei-etou/items/5aab1bb02cdded065d05)
 [コンテナ化のメソッドの比較: Buildpacks、Jib、Dockerfile | Google Cloud 公式ブログ](https://cloud.google.com/blog/ja/products/containers-kubernetes/comparing-containerization-methods-buildpacks-jib-and-dockerfile?hl=ja)

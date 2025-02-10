@@ -1,9 +1,9 @@
 ---
+date: 2025-02-03
 tags:
  - Bar
 ---
 
-daily:: [2025-02-03](<../../Daily_Note/2025-02-03.md>)
 up:: [Go](<../Program/Go.md>)
 same:: [Tauri](<./Tauri.md>)
 

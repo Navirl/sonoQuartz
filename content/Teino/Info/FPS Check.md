@@ -1,9 +1,9 @@
 ---
+date: 2021-10-21
 tags:
  - Info
 ---
 
-daily:: [2021-10-21](/Daily_Note/2021-10-21.md)
 up:: [Component](<../Bar/Novel/Chaos/Component.md>)
 
 まず自分のできることを確認する

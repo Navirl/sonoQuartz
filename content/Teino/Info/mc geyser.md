@@ -1,9 +1,9 @@
 ---
+date: 2025-01-18
 tags:
   - Info
 ---
 
-daily:: [2025-01-18](../Daily_Note/2025-01-18.md)
 up:: [minecraft](<../Bar/App/minecraft.md>)
 
 javaサーバーにbedrockから接続するためのプラグイン。

@@ -1,10 +1,10 @@
 ---
+date: 2023-05-03
 tags:
  - Bar
  - Novel/Sheet
 ---
 
-daily:: [2023-05-03](Daily_Note/2023-05-03.md)
 up:: [[../../App/Tavern]]
 
 from:: Tavern

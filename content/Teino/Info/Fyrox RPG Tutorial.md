@@ -1,9 +1,9 @@
 ---
+date: 2023-03-14
 tags:
  - Info
 ---
 
-daily:: [2023-03-14](/Daily_Note/2023-03-14.md)
 up:: [Fyrox](<../Bar/App/Fyrox.md>)
 
 [Character controller - Fyrox Book](https://fyrox-book.github.io/fyrox/tutorials/rpg/tutorial-1/tutorial-part-1.html)

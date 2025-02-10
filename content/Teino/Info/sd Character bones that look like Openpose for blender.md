@@ -1,11 +1,11 @@
 ---
+date: 2024-05-24
 tags:
   - Info
 aliases:
   - sd blender
 ---
 
-daily:: [2024-05-24](/Daily_Note/2024-05-24.md)
 up:: [Stable Diffusion](<../Bar/Stable Diffusion.md>)
 up:: [sd ControlNet](<./sd controlnet.md>)
 up:: [Blender](<../Bar/App/Blender.md>)

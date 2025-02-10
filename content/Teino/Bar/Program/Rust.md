@@ -1,11 +1,11 @@
 ---
+date: 2023-03-07
 tags:
   - Bar
 aliases:
   - rs
 ---
 
-daily:: [2023-03-07](Daily_Note/2023-03-07.md)
 up:: [Programming](<./Programming.md>)
 
 C++を元に作られた、低級言語の操作を簡略化安全化しつつC++並みのスピードを実現したやべー言語。Webページまで書けるらしい。

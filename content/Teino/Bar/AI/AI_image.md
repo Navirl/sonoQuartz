@@ -1,12 +1,11 @@
 ---
+date: 2024-12-06
 tags:
   - Bar
 aliases:
   - AIi
 ---
 
-
-daily:: [2024-12-06 FX](<../../Daily_Note/2024-12-06 FX.md>)
 up:: [AI\_local](<./AI_local.md>)
 up:: [AI\_online](<./AI_online.md>)
 

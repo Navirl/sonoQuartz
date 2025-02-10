@@ -1,9 +1,9 @@
 ---
+date: 2023-05-08
 tags:
  - Info
 ---
 
-daily:: [2023-05-08](/Daily_Note/2023-05-08.md)
 up:: [WSL](<../Bar/App/wsl.md>)
 up:: [GAI](<../Bar/AI/AI_local.md>)
 up:: [AIl local textchatbot](<./AIl local textchatbot.md>)

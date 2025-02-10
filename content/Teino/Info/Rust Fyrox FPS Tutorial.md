@@ -1,9 +1,9 @@
 ---
+date: 2023-03-08
 tags:
  - Info
 ---
 
-daily:: [2023-03-08](/Daily_Note/2023-03-08.md)
 up:: [Fyrox](<../Bar/App/Fyrox.md>)
 
 [FPS Tutorial - Fyrox Book](https://fyrox-book.github.io/fyrox/tutorials/fps/intro.html)

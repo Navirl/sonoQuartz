@@ -1,9 +1,9 @@
 ---
+date: 2024-03-03
 tags:
   - Info
 ---
 
-daily:: [2024-03-03](/Daily_Note/2024-03-03.md)
 up:: [React Native](<../Bar/Framework/React Native.md>)
 
 [Develop an app with Expo - Expo Documentation](https://docs.expo.dev/workflow/overview/)

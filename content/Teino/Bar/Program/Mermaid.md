@@ -1,9 +1,9 @@
 ---
+date: 2021-07-28
 tags:
  - Bar
 ---
 
-daily:: [2021-07-28](/Daily_Note/2021-07-28.md)
 up:: [Programming](<./Programming.md>)
 same:: [PlantUML](<./PlantUML.md>)
 

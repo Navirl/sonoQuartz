@@ -1,4 +1,5 @@
 ---
+date: 2022-04-28
 tags:
   - Bar
   - App
@@ -7,7 +8,6 @@ aliases:
   - cmd
 ---
 
-daily:: [2022-04-28](Daily_Note/2022-04-28.md)
 up:: [Programming](<../Program/Programming.md>)
 
 

@@ -1,9 +1,9 @@
 ---
+date: 2021-10-04
 tags:
  - Info
 ---
 
-daily:: [2021-10-04](Daily_Note/2021-10-04.md)
 up:: [Csharp](<../Bar/Program/Csharp.md>)
 
 ## privateとstatic

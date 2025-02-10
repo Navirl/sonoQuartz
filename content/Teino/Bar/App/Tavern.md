@@ -1,11 +1,11 @@
 ---
+date: 2023-05-03
 tags:
  - Bar
  - App
 aliases: SillyTavern
 ---
 
-daily:: [2023-05-03](Daily_Note/2023-05-03.md)
 up:: [Pygmalion](<../../Info/Pygmalion.md>)
 
 AIキャラクターに特化したテキスト生成AIのクライアント。

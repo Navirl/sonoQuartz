@@ -1,9 +1,9 @@
 ---
+date: 2021-08-11
 tags:
  - Info
 ---
 
-daily:: [2021-08-11](Daily_Note/2021-08-11.md)
 up:: [Kanami\_Nijo](<../Bar/Novel/Nacaria/Kanami_Nijo.md>)
 up:: [Nanashino](<../Bar/Novel/Nacaria/Nanashino.md>)
 up:: [Artificial\_Intelligence](<../Bar/Novel/Topics/Artificial_Intelligence.md>)

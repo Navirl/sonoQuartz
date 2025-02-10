@@ -1,9 +1,9 @@
 ---
+date: 2024-07-19
 tags:
   - Info
 ---
 
-daily:: [2024-07-19](/Daily_Note/2024-07-19.md)
 up:: [Dify](<../Bar/App/Dify.md>)
 
 - aippt

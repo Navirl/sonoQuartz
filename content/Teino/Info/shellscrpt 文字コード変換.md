@@ -1,9 +1,9 @@
 ---
+date: 2023-03-23
 tags:
  - Info
 ---
 
-daily:: [2023-03-23](/Daily_Note/2023-03-23.md)
 up:: [Shellscript](<../Bar/Program/Shellscript.md>)
 
 iconvで可能。文字コードを自動判別したいならfileかnkf。  

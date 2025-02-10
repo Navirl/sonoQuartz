@@ -1,9 +1,9 @@
 ---
+date: 2022-09-07
 tags:
  - Info
 ---
 
-daily:: [2022-09-07](Daily_Note/2022-09-07.md)
 up:: [Job](<../Bar/Job.md>)
 
 「主体的に当事者として行動する」

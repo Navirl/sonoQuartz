@@ -1,11 +1,11 @@
 ---
+date: 2024-04-06
 tags:
   - Info
 aliases:
   - 辻曳白露
 ---
 
-daily:: [2024-04-06](/Daily_Note/2024-04-06.md)
 up:: [3\_People](<../Bar/Novel/Nacaria/3_People.md>)
 same:: [Eika\_Mitsunagi](<../Bar/Novel/Nacaria/Eika_Mitsunagi.md>)
 

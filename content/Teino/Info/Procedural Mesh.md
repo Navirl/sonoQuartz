@@ -1,9 +1,9 @@
 ---
+date: 2022-07-17
 tags:
  - Info
 ---
 
-daily:: [2022-07-17](Daily_Note/2022-07-17.md)
 up:: [UE5.0.2](<../Bar/App/UE5.0.2.md>)
 source:: [ProceduralMeshComponentを使ってみる - もんしょの巣穴ブログ Ver2.0](https://monsho.hatenablog.com/entry/2015/06/20/010747)
 

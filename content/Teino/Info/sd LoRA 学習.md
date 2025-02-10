@@ -1,9 +1,9 @@
 ---
+date: 2024-05-23
 tags:
   - Info
 ---
 
-daily:: [2024-05-23](/Daily_Note/2024-05-23.md)
 up:: [Stable Diffusion](<../Bar/Stable Diffusion.md>)
 
 ## LoRA

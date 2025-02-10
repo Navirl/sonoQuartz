@@ -1,11 +1,11 @@
 ---
+date: 2022-10-27
 tags:
  - Bar
  - Novel/Location
  - Nacaria
 ---
 
-daily:: [2022-10-27](Daily_Note/2022-10-27.md)
 up:: [Cricia](<./Cricia.md>)
 
 娯楽の街。

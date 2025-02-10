@@ -1,9 +1,9 @@
 ---
+date: 2024-03-12
 tags:
   - Info
 ---
 
-daily:: [2024-03-12](/Daily_Note/2024-03-12.md)
 up:: [Git](<../Bar/App/Git.md>)
 up:: [Rust rustup](<./Rust rustup.md>)
 up:: [py pyenv](<./py pyenv.md>)

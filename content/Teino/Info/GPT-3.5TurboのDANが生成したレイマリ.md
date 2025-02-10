@@ -1,9 +1,9 @@
 ---
+date: 2023-05-03
 tags:
  - Info
 ---
 
-daily:: [2023-05-03](/Daily_Note/2023-05-03.md)
 up:: [GPT-3.5Turbo](<./GPT-3.5Turbo.md>)
 up:: [R18](<../Bar/Novel/Topics/R18.md>)
 

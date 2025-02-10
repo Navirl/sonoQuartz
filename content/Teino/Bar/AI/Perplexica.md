@@ -1,9 +1,9 @@
 ---
+date: 2025-02-05
 tags:
  - Bar
 ---
 
-daily:: [2025-02-05](<../../Daily_Note/2025-02-05.md>)
 up:: [AIt](<./AI_text.md>)
 
 ローカルでLLMに検索させる奴。Perplexityのクローン。

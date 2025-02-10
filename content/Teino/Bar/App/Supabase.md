@@ -1,9 +1,9 @@
 ---
+date: 2024-11-17
 tags:
   - Bar
 ---
 
-daily:: [2024-11-17](Daily_Note/2024-11-17.md)
 up::
 
 Firebaseと同じBaaS。

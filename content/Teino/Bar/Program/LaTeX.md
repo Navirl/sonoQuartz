@@ -1,9 +1,9 @@
 ---
+date: 2023-05-01
 tags:
  - Bar
 ---
 
-daily:: [2023-05-01](<../../Daily_Note/2023-05-01.md>)
 up:: [Programming](<./Programming.md>)
 up:: [Markdown](<./Markdown.md>)
 

@@ -1,9 +1,9 @@
 ---
+date: 2025-01-31
 tags:
   - Info
 ---
 
-daily:: [2025-01-31](<../Daily_Note/2025-01-31.md>)
 up:: [ps](<../Bar/App/PowerShell_and_Command-Line.md>)
 up:: [Scoop](<../Bar/App/Scoop.md>)
 

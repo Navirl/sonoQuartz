@@ -1,9 +1,9 @@
 ---
+date: 2023-03-30
 tags:
  - Info
 ---
 
-daily:: [2023-03-30](/Daily_Note/2023-03-30.md)
 up:: [Programming](<../Bar/Program/Programming.md>)
 
 設計は仕様変更に対して変更箇所を定めるための道具である。

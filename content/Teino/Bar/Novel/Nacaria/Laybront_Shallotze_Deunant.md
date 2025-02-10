@@ -1,4 +1,5 @@
 ---
+date: 2022-10-15
 tags:
  - Bar
  - Novel/Character
@@ -6,7 +7,6 @@ tags:
 aliases: レイブロント・シャロッゼ・デウナント
 ---
 
-daily:: [2022-10-15](Daily_Note/2022-10-15.md)
 up:: [Sarsh](<./Sarsh.md>)
 
 レイブロント・シャロッゼ・デウナント

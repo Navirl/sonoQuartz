@@ -1,9 +1,9 @@
 ---
+date: 2023-02-09
 tags:
  - Info
 ---
 
-daily:: [2023-02-09](/Daily_Note/2023-02-09.md)
 up:: [JavaScript and TypeScript](<../Bar/Program/JavaScript and TypeScript.md>)
 
 js アンパサンドと縦線

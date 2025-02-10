@@ -1,9 +1,9 @@
 ---
+date: 2025-01-16
 tags:
   - Info
 ---
 
-daily:: [2025-01-16](../Daily_Note/2025-01-16.md)
 up:: [minecraft](<../Bar/App/minecraft.md>)
 
 ## [Cisco's Fantasy Medieval RPG [Ultimate]](https://www.modpackindex.com/modpack/74877/ciscos-fantasy-medieval-rpg-ultimate)

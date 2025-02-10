@@ -1,9 +1,9 @@
 ---
+date: 2024-03-02
 tags:
   - Bar
 ---
 
-daily:: [2024-03-02](/Daily_Note/2024-03-02.md)
 up:: [ts](<../Program/JavaScript and TypeScript.md>)
 up:: [Programming](<../Program/Programming.md>)
 

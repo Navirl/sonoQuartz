@@ -1,9 +1,9 @@
 ---
+date: 2024-03-02
 tags:
   - Info
 ---
 
-daily:: [2024-03-02](/Daily_Note/2024-03-02.md)
 up:: [js](<../Bar/Program/JavaScript and TypeScript.md>)
 
 exportは変数や関数やクラス(ひっくるめてモジュール)を他のファイルから扱えるようにする奴。

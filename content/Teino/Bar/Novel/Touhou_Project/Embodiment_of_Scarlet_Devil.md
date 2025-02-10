@@ -1,4 +1,5 @@
 ---
+date: 2023-06-29
 tags:
  - Bar
  - Novel/Work
@@ -8,4 +9,3 @@ aliases:
  - EoSD
 ---
 
-daily:: [2023-06-29](Daily_Note/2023-06-29.md)

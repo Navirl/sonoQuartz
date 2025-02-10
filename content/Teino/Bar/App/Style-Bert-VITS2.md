@@ -1,11 +1,11 @@
 ---
+date: 2024-10-21
 tags:
   - Bar
 aliases:
   - sbv2
 ---
 
-daily:: [2024-10-21](Daily_Note/2024-10-21.md)
 up:: [AI\_local](<../AI/AI_local.md>)
 up:: [AI\_voice](<../AI/AI_voice.md>)
 

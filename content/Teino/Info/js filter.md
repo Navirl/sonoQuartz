@@ -1,9 +1,9 @@
 ---
+date: 2023-02-10
 tags:
  - Info
 ---
 
-daily:: [2023-02-10](/Daily_Note/2023-02-10.md)
 up:: [JavaScript and TypeScript](<../Bar/Program/JavaScript and TypeScript.md>)
 
 `Array[]`の中から特定条件にあてはまるものを取り出し、新たな配列を作る関数。

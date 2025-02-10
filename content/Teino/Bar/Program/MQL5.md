@@ -1,9 +1,9 @@
 ---
+date: 2024-05-06
 tags:
   - Bar
 ---
 
-daily:: [2024-05-06](Daily_Note/2024-05-06.md)
 up:: [Programming](<./Programming.md>)
 
 MT5で使われる自動化用言語。

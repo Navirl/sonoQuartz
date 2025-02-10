@@ -1,9 +1,9 @@
 ---
+date: 2022-08-18
 tags:
  - Info
 ---
 
-daily:: [2022-08-18](Daily_Note/2022-08-18.md)
 up:: [Cpp](<../Bar/Program/Cpp.md>)
 source:: [怖いものなんてない！！: C++のコンストラクタにある「:(コロン)」について](https://kowaimononantenai.blogspot.com/2012/10/c.html)
 source:: [コンストラクタで書かれるコロン「：」って何？ | C++　フリーでぷろぐらみんぐ](https://ameblo.jp/nana-2007-july/entry-10037680575.html)

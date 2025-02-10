@@ -1,10 +1,10 @@
 ---
+date: 2021-10-20
 tags:
  - Bar
 aliases: py
 ---
 
-daily:: [2021-10-20](/Daily_Note/2021-10-20.md)
 up:: [Programming](<./Programming.md>)
 
 [py pyenv](<../../Info/py pyenv.md>)

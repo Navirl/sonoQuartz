@@ -1,4 +1,5 @@
 ---
+date: 2022-07-01
 tags:
  - Bar
  - Nacaria
@@ -6,7 +7,6 @@ tags:
 aliases: サーシュの人々
 ---
 
-daily:: [2022-07-01](../../../Daily_Note/2022-07-01.md)
 up:: [Sarsh](<./Sarsh.md>)
 
 どことなくマジ物のマイナス。

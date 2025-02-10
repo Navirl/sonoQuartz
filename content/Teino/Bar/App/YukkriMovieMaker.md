@@ -1,11 +1,11 @@
 ---
+date: 2024-04-27
 tags:
   - Bar
 aliases:
   - YMM
 ---
 
-daily:: [2024-04-27](Daily_Note/2024-04-27.md)
 up:: 
 
 [ymm short](<../../Info/ymm short.md>)

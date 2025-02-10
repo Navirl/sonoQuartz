@@ -1,4 +1,5 @@
 ---
+date: 2024-06-08
 tags:
   - Info
 aliases:
@@ -6,7 +7,6 @@ aliases:
   - sd highres
 ---
 
-daily:: [2024-06-08](/Daily_Note/2024-06-08.md)
 up:: [sd](<../Bar/Stable Diffusion.md>)
 
 [Reddit - Dive into anything](https://www.reddit.com/r/StableDiffusion/comments/13pa2uh/a_simple_comparison_of_4_latest_image_upscaling/)

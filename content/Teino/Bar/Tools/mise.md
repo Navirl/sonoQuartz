@@ -1,9 +1,9 @@
 ---
+date: 2024-10-14
 tags:
   - Bar
 ---
 
-daily:: [2024-10-14](Daily_Note/2024-10-14.md)
 up:: [py](<../Program/Python.md>)
 up:: [Rust](<../Program/Rust.md>)
 up:: [js](<../Program/JavaScript and TypeScript.md>)

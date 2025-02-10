@@ -1,4 +1,5 @@
 ---
+date: 2023-02-01
 tags:
  - Bar
  - Novel/Character
@@ -6,5 +7,4 @@ tags:
 aliases: ルーミア
 ---
 
-daily:: [2023-02-01](Daily_Note/2023-02-01.md)
 up::

@@ -1,9 +1,9 @@
 ---
+date: 2022-08-05
 tags:
  - Info
 ---
 
-daily:: [2022-08-05](../Daily_Note/2022-08-05.md)
 up:: [Cpp](<../Bar/Program/Cpp.md>)
 source:: [reverse - cpprefjp C++日本語リファレンス](https://cpprefjp.github.io/reference/algorithm/reverse.html)
 

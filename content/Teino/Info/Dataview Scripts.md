@@ -1,9 +1,9 @@
 ---
+date: 2022-09-03
 tags:
  - Info
 ---
 
-daily:: [2022-09-03](Daily_Note/2022-09-03.md)
 up:: [Obsidian](<../Bar/App/Obsidian.md>)
 up:: [Dataview inlink and tags](<./Dataview inlink and tags.md>)
 source:: [Dataview](https://blacksmithgu.github.io/obsidian-dataview/)

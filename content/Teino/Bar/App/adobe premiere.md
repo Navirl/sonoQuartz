@@ -1,9 +1,9 @@
 ---
+date: 2024-07-08
 tags:
   - Bar
 ---
 
-daily:: [2024-07-08](Daily_Note/2024-07-08.md)
 up::
 
 ## 自動文字起こし
@@ -52,7 +52,7 @@ EGのテキスト設定、ポイントテキスト（文字依存）と段落テ
 ![](<../../image/GPim9PybQAAT36Q.jpg>)
 たぶん叫ぶこととか想定してマイクが小さめにされている
 
-![](<../../image/Pasted image 20240814191434.png>)
+![](<../../image/Pasted image 20240814191434.webp>)
 
 [Premiere Proで音量調整する方法3選【一部・自動・一括・ダッキング】](https://soho-biyori.com/premiere-pro-onryoutyousei)
 

@@ -1,4 +1,5 @@
 ---
+date: 2022-07-05
 tags:
  - Bar
  - Nacaria
@@ -6,7 +7,6 @@ tags:
 aliases: 八階堂高目
 ---
 
-daily:: [2022-07-05](Daily_Note/2022-07-05.md)
 up:: [Takame\_Hakkaido\_Edu](<./Takame_Hakkaido_Edu.md>)
 up:: [Kirina\_Motokura](<./Kirina_Motokura.md>)
 up:: [Sakumei](<./Sakumei.md>)

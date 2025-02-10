@@ -1,4 +1,5 @@
 ---
+date: 2024-12-03
 id: Neovim
 aliases:
   - nvim
@@ -6,7 +7,6 @@ tags:
   - Bar
 ---
 
-daily:: [2024-12-03](/Daily_Note/2024-12-03.md)
 up:: [Vim](<./Vim.md>)
 
 [Neovim plugins](<../../Info/Neovim plugins.md>)

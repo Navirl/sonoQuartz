@@ -1,9 +1,9 @@
 ---
+date: 2021-07-10
 tags:
  - Info
 ---
 
-daily:: [2021-07-10](/Daily_Note/2021-07-10.md)
 up:: [JavaScript and TypeScript](<../Bar/Program/JavaScript and TypeScript.md>)
 up:: [Markdown](<../Bar/Program/Markdown.md>)
 

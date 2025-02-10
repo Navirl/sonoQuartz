@@ -1,9 +1,9 @@
 ---
+date: 2023-06-28
 tags:
  - Info
 ---
 
-daily:: [2023-06-28](/Daily_Note/2023-06-28.md)
 up:: [PowerShell\_and\_Command-Line](<../Bar/App/PowerShell_and_Command-Line.md>)
 
 `$()`で囲む。これ自体は文字列内でコマンドを実行するための記法。

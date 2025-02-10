@@ -1,10 +1,10 @@
 ---
+date: 2022-08-02
 tags:
  - Bar
  - Create
 ---
 
-daily:: [2022-08-02](Daily_Note/2022-08-02.md)
 
 
 

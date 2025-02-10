@@ -1,4 +1,5 @@
 ---
+date: 2022-08-04
 tags:
  - Bar
  - Novel/Character
@@ -8,8 +9,6 @@ aliases:
  - ながちみつき
 ---
 
-
-daily:: [2022-08-04](Daily_Note/2022-08-04.md)
 up:: [Ive](<./Ive.md>)
 same:: [5\_People](<./5_People.md>)
 

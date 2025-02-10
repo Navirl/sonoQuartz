@@ -1,4 +1,5 @@
 ---
+date: 2022-08-05
 tags:
  - Bar
  - Nacaria/Cricia
@@ -6,7 +7,6 @@ tags:
  - Novel/Topic
 ---
 
-daily:: [2022-08-05](../../../Daily_Note/2022-08-05.md)
 up:: [Cricia](<./Cricia.md>)
 
 むかしむかし、人々の石から蓋を取り除くのに使ったナイフ。

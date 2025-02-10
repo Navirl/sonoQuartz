@@ -1,9 +1,9 @@
 ---
+date: 2023-03-07
 tags:
  - Info
 ---
 
-daily:: [2023-03-07](/Daily_Note/2023-03-07.md)
 up:: [Rust](<../Bar/Program/Rust.md>)
 
 参照が有効になるスコープ。正確に言うとその間だけメモリを保持する期間。

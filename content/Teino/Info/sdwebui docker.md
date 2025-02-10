@@ -1,9 +1,9 @@
 ---
+date: 2023-04-15
 tags:
  - Info
 ---
 
-daily:: [2023-04-15](/Daily_Note/2023-04-15.md)
 up:: [Docker](<../Bar/App/Docker.md>)
 up:: [AI\_local](<../Bar/AI/AI_local.md>)
 up:: [stable-diffusion-webui](<../Bar/App/stable-diffusion-webui.md>)

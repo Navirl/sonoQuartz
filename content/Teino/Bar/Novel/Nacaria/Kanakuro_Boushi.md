@@ -1,4 +1,5 @@
 ---
+date: 2022-07-06
 tags:
  - Bar
  - Nacaria
@@ -11,7 +12,6 @@ aliases:
  - Enon_Nomika
 ---
 
-daily:: [2022-07-06](Daily_Note/2022-07-06.md)
 up:: [Biscarnya](<./Biscarnya.md>)
 down:: [Knock-off](<../Topics/Knock-off.md>)
 

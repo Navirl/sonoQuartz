@@ -1,4 +1,5 @@
 ---
+date: 2022-08-21
 tags:
  - Bar
  - Novel/Character
@@ -6,7 +7,6 @@ tags:
 aliases: 秋永
 ---
 
-daily:: [2022-08-21](Daily_Note/2022-08-21.md)
 up:: [Cricia](<./Cricia.md>)
 same:: [Harutsuki](<./Harutsuki.md>)
 

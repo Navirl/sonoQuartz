@@ -1,10 +1,10 @@
 ---
+date: 2022-07-01
 tags:
  - Bar
  - App
 ---
 
-daily:: [2022-07-01](../../Daily_Note/2022-07-01.md)
 
 ## ObsidianPlugin一言紹介
 [ObsidianPlugin一言紹介](<../../Info/ObsidianPlugin一言紹介.md>)

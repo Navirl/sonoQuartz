@@ -1,9 +1,9 @@
 ---
+date: 2023-05-04
 tags:
  - Info
 ---
 
-daily:: [2023-05-04](/Daily_Note/2023-05-04.md)
 up:: [Tavern](<../Bar/App/Tavern.md>)
 up:: [Me](<../Bar/Novel/Chaos/Me.md>)
 up:: [Saki\_Yanasaki](<../Bar/Novel/Nacaria/Saki_Yanasaki.md>)

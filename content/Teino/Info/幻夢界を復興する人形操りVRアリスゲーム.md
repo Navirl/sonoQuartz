@@ -1,9 +1,9 @@
 ---
+date: 2023-02-01
 tags:
  - Info
 ---
 
-daily:: [2023-02-01](/Daily_Note/2023-02-01.md)
 up:: [Game](<../Bar/Novel/Topics/Game.md>)
 up:: [Alice\_Margatroid](<../Bar/Novel/Touhou_Project/Alice_Margatroid.md>)
 

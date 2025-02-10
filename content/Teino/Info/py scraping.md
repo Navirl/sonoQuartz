@@ -1,9 +1,9 @@
 ---
+date: 2024-05-25
 tags:
   - Info
 ---
 
-daily:: [2024-05-25](/Daily_Note/2024-05-25.md)
 up:: [Python](<../Bar/Program/Python.md>)
 
 静的コンテンツならばrequestsでアクセス、BeautifulSoupで解析すればいい。

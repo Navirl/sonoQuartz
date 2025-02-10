@@ -1,4 +1,5 @@
 ---
+date: 2022-08-10
 tags:
  - Bar
  - Touhou_Project
@@ -6,7 +7,6 @@ tags:
 aliases: "#Touhou_Project"
 ---
 
-daily:: [2022-08-10](Daily_Note/2022-08-10.md)
 up::
 
 

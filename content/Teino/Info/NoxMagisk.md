@@ -1,9 +1,9 @@
 ---
+date: 2023-12-13
 tags:
   - Info
 ---
 
-daily:: [2023-12-13](/Daily_Note/2023-12-13.md)
 up:: [Eclipse](<../Bar/Eclipse.md>)
 
 magisk delta

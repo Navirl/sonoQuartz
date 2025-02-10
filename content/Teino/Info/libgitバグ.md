@@ -1,9 +1,9 @@
 ---
+date: 2022-10-07
 tags:
  - Info
 ---
 
-daily:: [2022-10-07](Daily_Note/2022-10-07.md)
 up:: [Git](<../Bar/App/Git.md>)
 source:: [github - Unsupported URL protocol in git provider error - Stack Overflow](https://stackoverflow.com/questions/38602178/unsupported-url-protocol-in-git-provider-error)
 source:: [Push to GitHub - Error "Unsupported URL protocol"](https://forum.welkinsuite.com/how-to-start-using-the-welkin-suite/push-to-github-error-unsupported-url-protocol/)

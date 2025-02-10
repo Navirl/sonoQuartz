@@ -1,9 +1,9 @@
 ---
+date: 2023-04-14
 tags:
  - Info
 ---
 
-daily:: [2023-04-14](/Daily_Note/2023-04-14.md)
 up:: [Docker](<../Bar/App/Docker.md>)
 
 pythonのver、debianのver、slim(余計なパッケージが入ってない)、alpineなどでイメージが分けられている。

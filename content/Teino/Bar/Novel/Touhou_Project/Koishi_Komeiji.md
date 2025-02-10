@@ -1,4 +1,5 @@
 ---
+date: 2022-09-20
 tags:
  - Bar
  - Novel/Character
@@ -7,7 +8,6 @@ banner: "![[../../../Banners/old/cinkai/Danbooru/__komeiji_koishi_touhou_drawn_b
 banner_y: 0.21285
 ---
 
-daily:: [2022-09-20](Daily_Note/2022-09-20.md)
 up:: [Crazy\_Quartet](<./Crazy_Quartet.md>)
 up:: [SA](<./Subterranean_Animism.md>)
 

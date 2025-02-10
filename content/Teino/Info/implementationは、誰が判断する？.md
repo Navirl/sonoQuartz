@@ -1,9 +1,9 @@
 ---
+date: 2023-05-16
 tags:
  - Info
 ---
 
-daily:: [2023-05-16](/Daily_Note/2023-05-16.md)
 up:: [God](<../Bar/Novel/Topics/God.md>)
 up:: [Android](<../Bar/Novel/Topics/Android.md>)
 up:: [Machine](<../Bar/Novel/Topics/Machine.md>)

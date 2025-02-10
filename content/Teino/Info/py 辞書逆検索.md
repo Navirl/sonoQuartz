@@ -1,9 +1,9 @@
 ---
+date: 2023-06-09
 tags:
  - Info
 ---
 
-daily:: [2023-06-09](/Daily_Note/2023-06-09.md)
 up:: [Python](<../Bar/Program/Python.md>)
 
 ## py 辞書逆検索

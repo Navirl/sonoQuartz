@@ -1,4 +1,5 @@
 ---
+date: 2023-05-08
 tags:
  - Bar
  - App
@@ -7,7 +8,6 @@ aliases:
  - tgwebui
 ---
 
-daily:: [2023-05-08](/Daily_Note/2023-05-08.md)
 up:: [Docker](<./Docker.md>)
 up:: [GAI](<../AI/AI_local.md>)
 up:: [AIt](<../AI/AI_text.md>)

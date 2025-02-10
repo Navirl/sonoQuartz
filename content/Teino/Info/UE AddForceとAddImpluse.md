@@ -1,9 +1,9 @@
 ---
+date: 2022-11-06
 tags:
  - Info
 ---
 
-daily:: [2022-11-06](Daily_Note/2022-11-06.md)
 up:: [UE](<../Bar/App/Unreal_Engine.md>)
 source:: [第一次 Add Force / Add Impulse 戦争 - UnrealYoshidaのUE4講座](https://ikagamedev.hatenablog.com/entry/2017/02/01/204221)
 

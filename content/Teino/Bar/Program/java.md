@@ -1,9 +1,9 @@
 ---
+date: 2025-01-08
 tags:
   - Bar
 ---
 
-daily:: [2025-01-08](<../../Daily_Note/2025-01-08.md>)
 up:: [Programming](<./Programming.md>)
 
 プログラミング言語。

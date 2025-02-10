@@ -1,9 +1,9 @@
 ---
+date: 2022-07-29
 tags:
  - Info
 ---
 
-daily:: [2022-07-29](Daily_Note/2022-07-29.md)
 up:: [Csharp](<../Bar/Program/Csharp.md>)
 
 ## ジェネリックメソッド

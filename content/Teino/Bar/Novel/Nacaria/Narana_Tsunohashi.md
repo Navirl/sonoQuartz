@@ -1,4 +1,5 @@
 ---
+date: 2022-07-11
 tags:
  - Bar
  - Novel/Character
@@ -6,7 +7,6 @@ tags:
 aliases: 角端楢名
 ---
 
-daily:: [2022-07-11](Daily_Note/2022-07-11.md)
 up:: [Takame\_Hakkaido](<./Takame_Hakkaido.md>)
 up:: [Narana\_Tsunohashi\_Edu](<./Narana_Tsunohashi_Edu.md>)
 

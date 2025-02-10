@@ -1,9 +1,9 @@
 ---
+date: 2025-01-17
 tags:
   - Info
 ---
 
-daily:: [2025-01-17](../Daily_Note/2025-01-17.md)
 up:: [minecraft](<../Bar/App/minecraft.md>)
 
 というか描画設定を充実させる奴。

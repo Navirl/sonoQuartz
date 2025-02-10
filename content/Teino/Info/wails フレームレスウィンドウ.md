@@ -1,9 +1,9 @@
 ---
+date: 2025-02-03
 tags:
  - Info
 ---
 
-daily:: [2025-02-03](<../Daily_Note/2025-02-03.md>)
 up:: [wails](<../Bar/Framework/wails.md>)
 
 ## フレームレスウィンドウ

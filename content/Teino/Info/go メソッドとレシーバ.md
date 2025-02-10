@@ -1,9 +1,9 @@
 ---
+date: 2025-01-22
 tags:
   - Info
 ---
 
-daily:: [2025-01-22](../Daily_Note/2025-01-22.md)
 up:: [Go](<../Bar/Program/Go.md>)
 
 [クラスとオブジェクトの関係性（Go 言語編） #オブジェクト指向 - Qiita](https://qiita.com/spiegel-im-spiegel/items/2da5e5902aa2cb6d9e30)

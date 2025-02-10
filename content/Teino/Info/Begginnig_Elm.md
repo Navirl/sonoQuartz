@@ -1,9 +1,9 @@
 ---
+date: 2025-01-07
 tags:
   - Info
 ---
 
-daily:: [2025-01-07](/Daily_Note/2025-01-07.md)
 up:: [Elm](<../Bar/Program/Elm.md>)
 
 

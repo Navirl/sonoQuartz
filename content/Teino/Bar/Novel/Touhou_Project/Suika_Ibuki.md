@@ -1,4 +1,5 @@
 ---
+date: 2022-07-03
 tags:
  - Bar
  - Touhou_Project
@@ -6,6 +7,5 @@ tags:
 aliases: 伊吹萃香
 ---
 
-daily:: [2022-07-03](Daily_Note/2022-07-03.md)
 
 

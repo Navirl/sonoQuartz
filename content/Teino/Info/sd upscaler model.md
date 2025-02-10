@@ -1,9 +1,9 @@
 ---
+date: 2024-06-17
 tags:
   - Info
 ---
 
-daily:: [2024-06-17](/Daily_Note/2024-06-17.md)
 up:: [sd](<../Bar/Stable Diffusion.md>)
 same:: [sd upscale](<./sd upscale.md>)
 

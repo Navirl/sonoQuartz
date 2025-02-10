@@ -1,10 +1,10 @@
 ---
+date: 2022-08-01
 tags:
  - Info
 aliases: virtual
 ---
 
-daily:: [2022-08-01](Daily_Note/2022-08-01.md)
 up:: [Programming](<../Bar/Program/Programming.md>)
 source:: [連載：C#入門　第4回 継承とインターフェイス（2/3） - ＠IT](https://www.atmarkit.co.jp/fdotnet/csharp_abc/csharp_abc_004/csharp_abc02.html)
 

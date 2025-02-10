@@ -1,9 +1,9 @@
 ---
+date: 2022-09-14
 tags:
  - Info
 ---
 
-daily:: [2022-09-14](Daily_Note/2022-09-14.md)
 up:: [Termux](<../Bar/App/Termux.md>)
 source:: [Termuxでシェルスクリプトを改変なしに実行できるようにしてみる - Qiita](https://qiita.com/kuangyujing/items/25e6e02ab17ff53306d2)
 

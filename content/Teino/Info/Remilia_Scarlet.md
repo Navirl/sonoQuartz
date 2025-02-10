@@ -1,4 +1,5 @@
 ---
+date: 2023-06-29
 tags:
  - Bar
  - Novel/Character
@@ -7,7 +8,6 @@ aliases:
  - レミリア・スカーレット
 ---
 
-daily:: [2023-06-29](Daily_Note/2023-06-29.md)
 up:: [EoSD](<../Bar/Novel/Touhou_Project/Embodiment_of_Scarlet_Devil.md>)
 
 いまいち影の薄い吸血鬼の姉。

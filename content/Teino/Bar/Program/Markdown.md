@@ -1,11 +1,11 @@
 ---
+date: 2021-08-06
 tags:
   - Bar
 aliases:
   - md
 ---
 
-daily:: [2021-08-06](/Daily_Note/2021-08-06.md)
 up:: [Programming](<./Programming.md>)
 
 

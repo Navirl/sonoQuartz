@@ -1,9 +1,9 @@
 ---
+date: 2024-07-13
 tags:
   - Info
 ---
 
-daily:: [2024-07-13](/Daily_Note/2024-07-13.md)
 up:: [ts](<../Bar/Program/JavaScript and TypeScript.md>)
 
 [ジャンプTOON Flutter アプリの全体像 | CyberAgent Developers Blog](https://developers.cyberagent.co.jp/blog/archives/48761/)

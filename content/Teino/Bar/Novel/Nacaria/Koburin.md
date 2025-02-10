@@ -1,4 +1,5 @@
 ---
+date: 2022-07-17
 tags:
  - Bar
  - Novel/Character
@@ -6,7 +7,6 @@ tags:
 aliases: 古府倫
 ---
 
-daily:: [2022-07-17](Daily_Note/2022-07-17.md)
 up:: [Cricia](<./Cricia.md>)
 
 

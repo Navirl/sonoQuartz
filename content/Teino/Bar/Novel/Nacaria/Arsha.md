@@ -1,4 +1,5 @@
 ---
+date: 2022-07-03
 tags:
  - Bar
  - Nacaria
@@ -6,7 +7,6 @@ tags:
 aliases: アーシャ
 ---
 
-daily:: [2022-07-03](Daily_Note/2022-07-03.md)
 up:: [Biscarnya](<./Biscarnya.md>)
 same:: [Pansel](<./Pansel.md>)
 

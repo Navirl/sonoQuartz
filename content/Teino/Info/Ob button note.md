@@ -1,9 +1,9 @@
 ---
+date: 2023-02-16
 tags:
  - Info
 ---
 
-daily:: [2023-02-16](/Daily_Note/2023-02-16.md)
 up:: [Obsidian](<../Bar/App/Obsidian.md>)
 
 目的：

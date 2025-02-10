@@ -1,9 +1,9 @@
 ---
+date: 2022-10-28
 tags:
  - Info
 ---
 
-daily:: [2022-10-28](Daily_Note/2022-10-28.md)
 up:: [Keybase](<../Bar/App/Keybase.md>)
 up:: [Git](<../Bar/App/Git.md>)
 source:: [GIT_DISCOVERY_ACROSS_FILESYSTEMが設定されていません](https://qastack.jp/programming/16853624/git-discovery-across-filesystem-not-set)

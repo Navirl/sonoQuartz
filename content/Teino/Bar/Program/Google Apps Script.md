@@ -1,10 +1,10 @@
 ---
+date: 2022-07-28
 tags:
  - Bar
 aliases: GAS
 ---
 
-daily:: [2022-07-28](Daily_Note/2022-07-28.md)
 up:: [Programming](<./Programming.md>)
 
 ## Web app, API Executable, Add-on, Library

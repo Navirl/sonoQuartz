@@ -1,9 +1,9 @@
 ---
+date: 2023-06-02
 tags:
  - Info
 ---
 
-daily:: [2023-06-02](/Daily_Note/2023-06-02.md)
 up:: [Component](<../Bar/Novel/Chaos/Component.md>)
 
 

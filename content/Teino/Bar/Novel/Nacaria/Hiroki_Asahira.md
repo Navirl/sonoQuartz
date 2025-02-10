@@ -1,4 +1,5 @@
 ---
+date: 2022-09-03
 tags:
  - Bar
  - Novel/Character
@@ -6,7 +7,6 @@ tags:
 aliases: 朝日羅弘樹
 ---
 
-daily:: [2022-09-03](Daily_Note/2022-09-03.md)
 up:: [Ive](<./Ive.md>)
 same:: [5\_People](<./5_People.md>)
 

@@ -1,4 +1,5 @@
 ---
+date: 2023-06-29
 tags:
  - Bar
  - Novel/Character
@@ -6,7 +7,6 @@ tags:
 aliases: モルキュール・オブスキュア
 ---
 
-daily:: [2023-06-29](/Daily_Note/2023-06-29.md)
 up:: [Seika](<../Seika.md>)
 up:: [Hasumukai](<./Hasumukai.md>)
 

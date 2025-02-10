@@ -1,9 +1,9 @@
 ---
+date: 2023-03-02
 tags:
  - Info
 ---
 
-daily:: [2023-03-02](/Daily_Note/2023-03-02.md)
 up:: [Cpp](<../Bar/Program/Cpp.md>)
 
 こんなもん書かなくていいけど整理できない……

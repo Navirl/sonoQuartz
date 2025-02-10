@@ -1,4 +1,5 @@
 ---
+date: 2022-08-05
 tags:
  - Bar
  - Novel/Community
@@ -9,5 +10,4 @@ aliases:
  - DankeiTanpou
 ---
 
-daily:: [2022-08-05](../../../Daily_Note/2022-08-05.md)
 up:: [Sist](<./Sist.md>)

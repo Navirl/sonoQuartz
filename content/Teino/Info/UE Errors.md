@@ -1,9 +1,9 @@
 ---
+date: 2023-04-08
 tags:
  - Info
 ---
 
-daily:: [2023-04-08](/Daily_Note/2023-04-08.md)
 up:: [Unreal\_Engine](<../Bar/App/Unreal_Engine.md>)
 
 ## UE Android SDK

@@ -1,9 +1,9 @@
 ---
+date: 2022-11-07
 tags:
  - Info
 ---
 
-daily:: [2022-11-07](Daily_Note/2022-11-07.md)
 up:: [UE5.0.2](<../Bar/App/UE5.0.2.md>)
 source:: [【UE5】ライティング と ライトベイク について　ライトの基礎を解説 | メタタイムCG](https://metatimecg.com/ue5-lighting-build-basic/)
 source:: [【UE5】Lumen の注意点やTipsをまとめてみた | メタタイムCG](https://metatimecg.com/ue5-lumen-tips/)

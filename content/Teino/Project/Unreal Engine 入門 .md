@@ -1,10 +1,10 @@
 ---
+date: 2022-07-06
 tags:
  - Project
  - App/Unreal_Engine
 ---
 
-daily:: [2022-07-06](Daily_Note/2022-07-06.md)
 up:: [ゲーム開発入門](<./ゲーム開発入門.md>)
 
 エディタの基本

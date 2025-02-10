@@ -1,11 +1,11 @@
 ---
+date: 2022-08-08
 tags:
  - Bar
  - Novel/Sheet
  - Novel/Character
 ---
 
-daily:: [2022-08-08](Daily_Note/2022-08-08.md)
 up::
 
 from:: Nola

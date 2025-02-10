@@ -1,9 +1,9 @@
 ---
+date: 2024-01-03
 tags:
   - Info
 ---
 
-daily:: [2024-01-03](/Daily_Note/2024-01-03.md)
 up:: [ts](<../Bar/Program/JavaScript and TypeScript.md>)
 
 ユニットテスト。

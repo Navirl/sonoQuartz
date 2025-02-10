@@ -1,9 +1,9 @@
 ---
+date: 2025-01-02
 tags:
   - Bar
 ---
 
-daily:: [2025-01-02](Daily_Note/2025-01-02.md)
 up::
 
 CLIであいまい検索。

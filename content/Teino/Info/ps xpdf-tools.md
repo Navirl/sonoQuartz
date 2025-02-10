@@ -1,9 +1,9 @@
 ---
+date: 2022-09-14
 tags:
  - Info
 ---
 
-daily:: [2022-09-14](Daily_Note/2022-09-14.md)
 up:: [PowerShell\_and\_Command-Line](<../Bar/App/PowerShell_and_Command-Line.md>)
 
 ## xpdf-tools

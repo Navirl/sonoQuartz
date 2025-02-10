@@ -1,9 +1,9 @@
 ---
+date: 2022-11-02
 tags:
  - Info
 ---
 
-daily:: [2022-11-02](Daily_Note/2022-11-02.md)
 up:: [JavaScript and TypeScript](<../Bar/Program/JavaScript and TypeScript.md>)
 source:: [letとvarの違い - Qiita](https://qiita.com/y-temp4/items/289686fbdde896d22b5e)
 

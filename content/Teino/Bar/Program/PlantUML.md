@@ -1,9 +1,9 @@
 ---
+date: 2021-10-31
 tags:
  - Bar
 ---
 
-daily:: [2021-10-31](/Daily_Note/2021-10-31.md)
 up:: [Programming](<./Programming.md>)
 same:: [Mermaid](<./Mermaid.md>)
 

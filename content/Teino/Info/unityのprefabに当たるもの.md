@@ -1,9 +1,9 @@
 ---
+date: 2022-09-18
 tags:
  - Info
 ---
 
-daily:: [2022-09-18](Daily_Note/2022-09-18.md)
 up:: [Unreal\_Engine](<../Bar/App/Unreal_Engine.md>)
 
 ## unityのprefabに当たるもの

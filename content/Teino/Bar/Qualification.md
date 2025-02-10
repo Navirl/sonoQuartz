@@ -1,9 +1,9 @@
 ---
+date: 2023-10-21
 tags:
   - Bar
 ---
 
-daily:: [2023-10-21](Daily_Note/2023-10-21.md)
 up::
 
 

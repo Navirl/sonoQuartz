@@ -1,9 +1,9 @@
 ---
+date: 2023-12-15
 tags:
   - Info
 ---
 
-daily:: [2023-12-15](/Daily_Note/2023-12-15.md)
 up:: [Eclipse](<../Bar/Eclipse.md>)
 
 [改造apk（MOD）の作り方 ＆ その対策 #Android - Qiita](https://qiita.com/yukiarrr/items/764adb88f5a485f714d8)

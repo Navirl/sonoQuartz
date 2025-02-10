@@ -1,4 +1,5 @@
 ---
+date: 2022-09-19
 tags:
  - Bar
  - Touhou_Project
@@ -6,6 +7,5 @@ tags:
 aliases: 風見幽香
 ---
 
-daily:: [2022-09-19](../../../Daily_Note/2022-09-19.md)
 
 

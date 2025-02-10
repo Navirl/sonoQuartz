@@ -1,9 +1,9 @@
 ---
+date: 2024-05-06
 tags:
   - Info
 ---
 
-daily:: [2024-05-06](/Daily_Note/2024-05-06.md)
 up:: [MQL5](<../Bar/Program/MQL5.md>)
 
 ```cpp

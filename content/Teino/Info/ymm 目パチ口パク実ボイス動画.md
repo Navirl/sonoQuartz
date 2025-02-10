@@ -1,9 +1,9 @@
 ---
+date: 2024-09-09
 tags:
   - Info
 ---
 
-daily:: [2024-09-09](/Daily_Note/2024-09-09.md)
 up:: [YMM](<../Bar/App/YukkriMovieMaker.md>)
 
 # 目パチ口パク実ボイス動画

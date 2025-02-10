@@ -1,9 +1,9 @@
 ---
+date: 2025-01-03
 tags:
   - Bar
 ---
 
-daily:: [2025-01-03](Daily_Note/2025-01-03.md)
 up:: [Programming](<./Programming.md>)
 
 HTMLを飾る言語。

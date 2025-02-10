@@ -1,9 +1,9 @@
 ---
+date: 2023-09-30
 tags:
   - Info
 ---
 
-daily:: [2023-09-30](/Daily_Note/2023-09-30.md)
 up:: [Blender](<../Bar/App/Blender.md>)
 
 [Add-on Tutorial — Blender Manual](https://docs.blender.org/manual/en/latest/advanced/scripting/addon_tutorial.html)

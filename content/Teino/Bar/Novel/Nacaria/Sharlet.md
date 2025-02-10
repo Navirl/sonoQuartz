@@ -1,4 +1,5 @@
 ---
+date: 2022-11-14
 tags:
  - Bar
  - Novel/Character
@@ -6,7 +7,6 @@ tags:
 aliases: シャーレット
 ---
 
-daily:: [2022-11-14](Daily_Note/2022-11-14.md)
 up:: [Riitsu\_Reuke](<./Riitsu_Reuke.md>)
 
 シャーレット

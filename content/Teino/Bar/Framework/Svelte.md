@@ -1,9 +1,9 @@
 ---
+date: 2024-12-31
 tags:
   - Bar
 ---
 
-daily:: [2024-12-31](<../../Daily_Note/2024-12-31.md>)
 up::
 same:: [React](<../Library/React.md>)
 

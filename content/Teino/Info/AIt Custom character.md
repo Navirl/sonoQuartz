@@ -1,9 +1,9 @@
 ---
+date: 2023-04-22
 tags:
  - Info
 ---
 
-daily:: [2023-04-22](/Daily_Note/2023-04-22.md)
 up:: [AIt](<../Bar/AI/AI_text.md>)
 
 [AI Character Editor](https://zoltanai.github.io/character-editor/)に従い、たぶんこうなんじゃないかをメモ。

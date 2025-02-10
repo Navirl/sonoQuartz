@@ -1,10 +1,10 @@
 ---
+date: 2021-07-17
 tags:
  - Bar
  - App
 ---
 
-daily:: [2021-07-17](Daily_Note/2021-07-17.md)
 up:: 
 
 ## subtree

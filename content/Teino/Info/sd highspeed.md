@@ -1,11 +1,11 @@
 ---
+date: 2024-04-04
 tags:
   - Info
 aliases:
   - sd 高速化
 ---
 
-daily:: [2024-04-04](/Daily_Note/2024-04-04.md)
 up:: [Stable Diffusion](<../Bar/Stable Diffusion.md>)
 
 ステップ数を下げる奴は早いうちに方向性を決定する+プロンプトを指定できない→方向性が決まっており多様性が失われがち。

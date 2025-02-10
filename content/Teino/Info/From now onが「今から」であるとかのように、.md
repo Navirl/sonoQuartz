@@ -1,9 +1,9 @@
 ---
+date: 2023-06-23
 tags:
  - Info
 ---
 
-daily:: [2023-06-23](/Daily_Note/2023-06-23.md)
 up:: [Language](<../Bar/Novel/Topics/Language.md>)
 up:: [Me](<../Bar/Novel/Chaos/Me.md>)
 

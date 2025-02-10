@@ -1,4 +1,5 @@
 ---
+date: 2023-06-20
 tags:
  - Bar
  - Novel/Character
@@ -7,7 +8,6 @@ aliases:
  - 姿月依織
 ---
 
-daily:: [2023-06-20](/Daily_Note/2023-06-20.md)
 up:: [Ive](<./Ive.md>)
 
 「マイクテスト……ok」

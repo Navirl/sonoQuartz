@@ -1,9 +1,9 @@
 ---
+date: 2022-10-10
 tags:
  - Info
 ---
 
-daily:: [2022-10-10](Daily_Note/2022-10-10.md)
 up:: [UE5.0.2](<../Bar/App/UE5.0.2.md>)
 source:: [Scene Capture 2d owner only see not working. - Unreal Engine / Rendering - Unreal Engine Forums](https://forums.unrealengine.com/t/scene-capture-2d-owner-only-see-not-working/414580)
 source::  [Set Visible in Scene Capture Only | Unreal Engine Documentation](https://docs.unrealengine.com/4.27/en-US/BlueprintAPI/Rendering/SetVisibleinSceneCaptureOnly/)

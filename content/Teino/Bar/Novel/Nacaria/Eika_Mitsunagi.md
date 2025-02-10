@@ -1,4 +1,5 @@
 ---
+date: 2022-07-06
 tags:
  - Bar
  - Nacaria
@@ -6,7 +7,6 @@ tags:
 aliases: 三繋瑛華
 ---
 
-daily:: [2022-07-06](Daily_Note/2022-07-06.md)
 up:: [Ayama](<./Ayama.md>)
 
 

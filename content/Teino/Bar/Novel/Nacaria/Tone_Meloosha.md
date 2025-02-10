@@ -1,4 +1,5 @@
 ---
+date: 2022-10-12
 tags:
  - Bar
  - Novel/Character
@@ -8,7 +9,6 @@ aliases:
  - 童濹路夏
 ---
 
-daily:: [2022-10-12](Daily_Note/2022-10-12.md)
 up:: [Monon](<./Monon.md>)
 
 xをshと同じように読むのって中国語の時では？

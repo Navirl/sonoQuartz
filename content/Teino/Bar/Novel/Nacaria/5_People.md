@@ -1,11 +1,11 @@
 ---
+date: 2022-08-05
 tags:
  - Bar
  - Novel/Character
  - Nacaria
 ---
 
-daily:: [2022-08-05](../../../Daily_Note/2022-08-05.md)
 up:: [Ive](<./Ive.md>)
 
 [Stack Overflowに高校時代から10年間書き込みを続けたエンジニアが学んだ15のこと - GIGAZINE](https://gigazine.net/news/20191231-stack-overflow-fifteen-things/)

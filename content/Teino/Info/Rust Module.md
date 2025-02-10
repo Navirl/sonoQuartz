@@ -1,9 +1,9 @@
 ---
+date: 2023-03-12
 tags:
  - Info
 ---
 
-daily:: [2023-03-12](/Daily_Note/2023-03-12.md)
 up:: [Rust](<../Bar/Program/Rust.md>)
 
 別ファイル読み込むやつ。

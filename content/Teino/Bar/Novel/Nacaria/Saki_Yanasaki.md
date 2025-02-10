@@ -1,4 +1,5 @@
 ---
+date: 2022-07-03
 tags:
  - Bar
  - Nacaria
@@ -6,7 +7,6 @@ tags:
 aliases: 梁先茶樹
 ---
 
-daily:: [2022-07-03](Daily_Note/2022-07-03.md)
 up:: [Character\_Sheet](<../Sheet/Character_Sheet.md>)
 
 コンセプト

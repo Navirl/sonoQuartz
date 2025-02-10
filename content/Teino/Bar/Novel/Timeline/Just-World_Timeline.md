@@ -1,10 +1,10 @@
 ---
+date: 2022-10-30
 tags:
  - Bar
  - Timeline
 ---
 
-daily:: [2022-10-30](Daily_Note/2022-10-30.md)
 up:: [Timeline\_Sheet](<../Sheet/Timeline_Sheet.md>)
 up:: [Just-World](<../Just-World/Just-World.md>)
 

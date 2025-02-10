@@ -1,10 +1,9 @@
 ---
+date: 2023-12-31
 tags:
   - Info
 ---
 
-
-daily:: [2023-12-31](/Daily_Note/2023-12-31.md)
 up:: [Wiki](<../Bar/Wiki.md>)
 up:: [JavaScript and TypeScript](<../Bar/Program/JavaScript and TypeScript.md>)
 

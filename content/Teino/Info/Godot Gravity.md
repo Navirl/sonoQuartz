@@ -1,9 +1,9 @@
 ---
+date: 2023-03-15
 tags:
  - Info
 ---
 
-daily:: [2023-03-15](/Daily_Note/2023-03-15.md)
 up:: [Godot](<../Bar/App/Godot.md>)
 
 RigidBodyノードを付ければOK。

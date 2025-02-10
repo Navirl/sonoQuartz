@@ -1,9 +1,9 @@
 ---
+date: 2024-05-02
 tags:
   - Bar
 ---
 
-daily:: [2024-05-02](Daily_Note/2024-05-02.md)
 up:: [Programming](<../Program/Programming.md>)
 
 UIツールキット。[React](<../Library/React.md>)よりももっとカチカチに固まったコンポーネントを提供してくれる。

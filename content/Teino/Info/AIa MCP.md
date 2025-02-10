@@ -1,9 +1,9 @@
 ---
+date: 2025-01-30
 tags:
   - Info
 ---
 
-daily:: [2025-01-30](<../Daily_Note/2025-01-30.md>)
 up:: [AI\_agent](<../Bar/AI/AI_agent.md>)
 
 Model Context Protocol, 略してMCP。

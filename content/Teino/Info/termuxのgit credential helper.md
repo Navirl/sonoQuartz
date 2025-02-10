@@ -1,9 +1,9 @@
 ---
+date: 2022-08-22
 tags:
  - Info
 ---
 
-daily:: [2022-08-22](Daily_Note/2022-08-22.md)
 up:: [Git](<../Bar/App/Git.md>)
 up:: [Termux](<../Bar/App/Termux.md>)
 source:: [What's the best encrypted git credential helper for Linux? - Stack Overflow](https://stackoverflow.com/questions/53305965/whats-the-best-encrypted-git-credential-helper-for-linux#53307245)

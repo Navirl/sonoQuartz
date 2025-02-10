@@ -1,9 +1,9 @@
 ---
+date: 2024-04-11
 tags:
   - Bar
 ---
 
-daily:: [2024-04-11](Daily_Note/2024-04-11.md)
 up:: [YukkriMovieMaker](<./YukkriMovieMaker.md>)
 
 各制限

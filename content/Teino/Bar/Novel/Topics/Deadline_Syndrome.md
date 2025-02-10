@@ -1,10 +1,10 @@
 ---
+date: 2022-11-23
 tags:
  - Bar
  - Novel/Topic
 ---
 
-daily:: [2022-11-23](Daily_Note/2022-11-23.md)
 up:: [Me](<../Chaos/Me.md>)
 up:: [Deal\_with](<./Deal_with.md>)
 

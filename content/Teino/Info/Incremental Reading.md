@@ -1,10 +1,10 @@
 ---
+date: 2023-03-07
 tags:
  - Info
 aliases: 増分読み取り
 ---
 
-daily:: [2023-03-07](/Daily_Note/2023-03-07.md)
 up:: [Component](<../Bar/Novel/Chaos/Component.md>)
 same:: [Spaced Repetition](<./Spaced Repetition.md>)
 

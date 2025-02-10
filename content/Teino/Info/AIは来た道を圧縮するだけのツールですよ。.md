@@ -1,9 +1,9 @@
 ---
+date: 2023-06-29
 tags:
  - Info
 ---
 
-daily:: [2023-06-29](/Daily_Note/2023-06-29.md)
 up:: [Android](<../Bar/Novel/Topics/Android.md>)
 up:: [Me](<../Bar/Novel/Chaos/Me.md>)
 up:: [Education](<../Bar/Novel/Topics/Education.md>)

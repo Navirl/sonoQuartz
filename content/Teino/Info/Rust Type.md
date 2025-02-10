@@ -1,9 +1,9 @@
 ---
+date: 2023-03-20
 tags:
  - Info
 ---
 
-daily:: [2023-03-20](/Daily_Note/2023-03-20.md)
 up:: [Rust](<../Bar/Program/Rust.md>)
 
 `let mut v:usize = 0usize`などとする。

@@ -1,9 +1,9 @@
 ---
+date: 2024-11-16
 tags:
   - Bar
 ---
 
-daily:: [2024-11-16](Daily_Note/2024-11-16.md)
 up:: 
 
 [Obsidian](<./Obsidian.md>)と同じく個人ナレッジ管理ツール。（Personal Knowledge Management、PKM）

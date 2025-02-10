@@ -1,4 +1,5 @@
 ---
+date: 2022-10-15
 tags:
  - Bar
  - Novel/Work
@@ -8,7 +9,6 @@ aliases:
  - SA
 ---
 
-daily:: [2022-10-15](Daily_Note/2022-10-15.md)
 up::
 
 

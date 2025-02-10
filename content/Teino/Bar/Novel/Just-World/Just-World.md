@@ -1,4 +1,5 @@
 ---
+date: 2022-08-10
 tags:
  - Bar
  - Novel/World
@@ -6,7 +7,6 @@ tags:
 aliases: "#Just-World"
 ---
 
-daily:: [2022-08-10](Daily_Note/2022-08-10.md)
 up:: [[../Timeline/Just-World_Timeline]]
 
 ![胎児よ、胎児よなぜ踊る？](<../../../Info/胎児よ、胎児よなぜ踊る？.md>)

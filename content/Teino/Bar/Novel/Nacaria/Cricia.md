@@ -1,4 +1,5 @@
 ---
+date: 2022-07-23
 tags:
  - Bar
  - Novel/Location
@@ -6,7 +7,6 @@ tags:
 aliases: クライシア
 ---
 
-daily:: [2022-07-23](Daily_Note/2022-07-23.md)
 up:: [Nacarea](<./Nacarea.md>)
 
 

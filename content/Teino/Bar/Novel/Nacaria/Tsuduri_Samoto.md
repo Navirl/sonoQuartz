@@ -1,4 +1,5 @@
 ---
+date: 2022-08-19
 tags:
  - Bar
  - Novel/Character
@@ -6,7 +7,6 @@ tags:
 aliases: 乍本綴
 ---
 
-daily:: [2022-08-19](Daily_Note/2022-08-19.md)
 up:: [Saki\_Yanasaki](<./Saki_Yanasaki.md>)
 up:: [Nainy\_Tokerny\_Deunant](<./Nainy_Tokerny_Deunant.md>)
 up:: [Chromisiro](<./Chromisiro.md>)

@@ -1,10 +1,10 @@
 ---
+date: 2022-08-31
 tags:
  - Bar
  - Novel/Sheet
 ---
 
-daily:: [2022-08-31](Daily_Note/2022-08-31.md)
 up::
 
 from:: StoryEditorLite

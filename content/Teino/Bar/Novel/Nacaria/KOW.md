@@ -1,4 +1,5 @@
 ---
+date: 2022-07-27
 tags:
  - Bar
  - Nacaria
@@ -9,7 +10,6 @@ aliases:
  - knife_of_words
 ---
 
-daily:: [2022-07-27](Daily_Note/2022-07-27.md)
 up::
 
 基本的に分化のナイフ。

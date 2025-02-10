@@ -1,11 +1,11 @@
 ---
+date: 2022-10-29
 tags:
  - Bar
  - Novel/Location
  - Nacaria
 ---
 
-daily:: [2022-10-29](Daily_Note/2022-10-29.md)
 up:: [Nacarea](<./Nacarea.md>)
 
 入った瞬間、何らかの「フィリア」を発現するナカリア最大の無法荒廃地帯。街の最も奥にある電柱から出る波動が元。もちろん一本じゃない。

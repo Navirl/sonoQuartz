@@ -1,9 +1,9 @@
 ---
+date: 2022-10-04
 tags:
  - Info
 ---
 
-daily:: [2022-10-04](Daily_Note/2022-10-04.md)
 up:: [UE5.0.2](<../Bar/App/UE5.0.2.md>)
 source:: [Oculusの開発者登録　備忘録 - Qiita](https://qiita.com/nekoharuyuki/items/79c2c4fa6bf88d11b108)
 source:: [Site Unreachable](https://developer.oculus.com/documentation/unreal/unreal-quick-start-guide-quest/)

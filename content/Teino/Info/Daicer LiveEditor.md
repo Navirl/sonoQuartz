@@ -1,9 +1,9 @@
 ---
+date: 2024-08-12
 tags:
   - Info
 ---
 
-daily:: [2024-08-12](/Daily_Note/2024-08-12.md)
 up:: [Daicer](<../Novels/programs/Daicer.md>)
 
 LiveEditor

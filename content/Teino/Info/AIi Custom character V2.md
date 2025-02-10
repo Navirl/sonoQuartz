@@ -1,9 +1,9 @@
 ---
+date: 2023-07-29
 tags:
  - Info
 ---
 
-daily:: [2023-07-29](/Daily_Note/2023-07-29.md)
 up:: [AIt](<../Bar/AI/AI_text.md>)
 
 [spec\_v1.md](https://github.com/malfoyslastname/character-card-spec-v2/blob/main/spec_v1.md)

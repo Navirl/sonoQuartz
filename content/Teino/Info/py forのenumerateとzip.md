@@ -1,9 +1,9 @@
 ---
+date: 2022-08-02
 tags:
  - Info
 ---
 
-daily:: [2022-08-02](Daily_Note/2022-08-02.md)
 up:: [Python](<../Bar/Program/Python.md>)
 source:: [Pythonのfor文によるループ処理（range, enumerate, zipなど） | note.nkmk.me](https://note.nkmk.me/python-for-usage/)
 

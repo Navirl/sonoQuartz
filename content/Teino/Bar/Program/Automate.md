@@ -1,9 +1,9 @@
 ---
+date: 2022-04-24
 tags:
  - Bar
 ---
 
-daily:: [2022-04-24](/Daily_Note/2022-04-24.md)
 up:: [Programming](<./Programming.md>)
 
 ## 変数

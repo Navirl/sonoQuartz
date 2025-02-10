@@ -1,9 +1,9 @@
 ---
+date: 2022-07-16
 tags:
  - Info
 ---
 
-daily:: [2022-07-16](Daily_Note/2022-07-16.md)
 up:: [Git](<../Bar/App/Git.md>)
 source:: [Helix Coreサーバユーザガイド (2020.1)](https://kb.toyo.co.jp/docs/core/r20.1/manuals/p4guide/Content/P4Guide/Home-p4guide.html#%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6_Helix_Core%E3%82%B5%E3%83%BC%E3%83%90%E3%83%A6%E3%83%BC%E3%82%B6%E3%82%AC%E3%82%A4%E3%83%89)
 source:: [Helix Core P4コマンドリファレンス (2020.1)](https://kb.toyo.co.jp/docs/core/r20.1/manuals/cmdref/Content/CmdRef/p4_revert.html)

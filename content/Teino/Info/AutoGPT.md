@@ -1,9 +1,9 @@
 ---
+date: 2023-05-28
 tags:
  - Bar
 ---
 
-daily:: [2023-05-28](Daily_Note/2023-05-28.md)
 up:: [AI\_local](<../Bar/AI/AI_local.md>)
 
 

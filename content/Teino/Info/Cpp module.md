@@ -1,9 +1,9 @@
 ---
+date: 2023-03-01
 tags:
  - Info
 ---
 
-daily:: [2023-03-01](/Daily_Note/2023-03-01.md)
 up:: [Cpp](<../Bar/Program/Cpp.md>)
 
 [【C＋＋】C＋＋20のモジュールとincludeの違いについて詳しく調べてみた – 株式会社ロジカルビート](https://logicalbeat.jp/blog/6223/)

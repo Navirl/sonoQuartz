@@ -1,4 +1,5 @@
 ---
+date: 2024-04-09
 tags:
   - Bar
   - Novel/Character
@@ -6,7 +7,6 @@ aliases:
   - 一巳朱璃
 ---
 
-daily:: [2024-04-09](Daily_Note/2024-04-09.md)
 up::
 
 知識トラップを作った張本人。

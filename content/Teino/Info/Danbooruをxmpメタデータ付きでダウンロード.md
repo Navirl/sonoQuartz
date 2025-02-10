@@ -1,9 +1,9 @@
 ---
+date: 2022-08-11
 tags:
  - Info
 ---
 
-daily:: [2022-08-11](Daily_Note/2022-08-11.md)
 up:: [Organize\_Image](<../Bar/Organize_Image.md>)
 source:: [Embedding image tags as actual Windows "tag" metadata · Issue #2258 · Bionus/imgbrd-grabber · GitHub](https://github.com/Bionus/imgbrd-grabber/issues/2258)
 source:: [Imgbrd-Grabber - Booru browsing made easy](https://bionus.github.io/imgbrd-grabber/docs/metadata.html)

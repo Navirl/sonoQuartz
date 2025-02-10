@@ -1,4 +1,5 @@
 ---
+date: 2022-08-14
 tags:
  - Bar
  - Novel/Character
@@ -6,7 +7,6 @@ tags:
 aliases: 榊遥
 ---
 
-daily:: [2022-08-14](Daily_Note/2022-08-14.md)
 up:: [Fourcia](<./Fourcia.md>)
 
 質識

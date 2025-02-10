@@ -1,9 +1,9 @@
 ---
+date: 2024-04-12
 tags:
   - Info
 ---
 
-daily:: [2024-04-12](/Daily_Note/2024-04-12.md)
 up:: [PowerShell\_and\_Command-Line](<../Bar/App/PowerShell_and_Command-Line.md>)
 
 文字コードがutf-8かつ日本語を含んだファイルを読ませると怒られる。

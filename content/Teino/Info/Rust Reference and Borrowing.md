@@ -1,10 +1,10 @@
 ---
+date: 2023-03-09
 tags:
  - Info
 aliases: Rust 参照と借用
 ---
 
-daily:: [2023-03-09](/Daily_Note/2023-03-09.md)
 up:: [Rust](<../Bar/Program/Rust.md>)
 
 [Rust Ownership](<./Rust Ownership.md>)

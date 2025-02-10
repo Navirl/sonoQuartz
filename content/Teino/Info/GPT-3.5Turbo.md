@@ -1,9 +1,9 @@
 ---
+date: 2022-12-19
 tags:
  - Info
 ---
 
-daily:: [2022-12-19](Daily_Note/2022-12-19.md)
 up:: [Programming](<../Bar/Program/Programming.md>)
 up:: [AIt](<../Bar/AI/AI_text.md>)
 

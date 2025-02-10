@@ -1,9 +1,9 @@
 ---
+date: 2022-11-02
 tags:
  - Info
 ---
 
-daily:: [2022-11-02](Daily_Note/2022-11-02.md)
 up:: [JavaScript and TypeScript](<../Bar/Program/JavaScript and TypeScript.md>)
 source:: [TypeScriptでモジュールを作成する／インポートする (export, import)｜まくろぐ](https://maku.blog/p/fbu8k8j/)
 

@@ -1,9 +1,9 @@
 ---
+date: 2023-05-17
 tags:
  - Info
 ---
 
-daily:: [2023-05-17](/Daily_Note/2023-05-17.md)
 up:: [Seika](<../Bar/Novel/Seika.md>)
 up:: [Faw](<../Bar/Novel/Faw.md>)
 up:: [Pygmalion](<./Pygmalion.md>)

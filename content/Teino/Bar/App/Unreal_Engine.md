@@ -1,11 +1,11 @@
 ---
+date: 2022-07-14
 tags:
  - Bar
  - App
 aliases: UE
 ---
 
-daily:: [2022-07-14](Daily_Note/2022-07-14.md)
 up:: [UE5.0.2](<./UE5.0.2.md>)
 
 

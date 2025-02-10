@@ -1,9 +1,9 @@
 ---
+date: 2024-01-20
 tags:
   - Info
 ---
 
-daily:: [2024-01-20](/Daily_Note/2024-01-20.md)
 up:: [ts](<../Bar/Program/JavaScript and TypeScript.md>)
 
 文字列からtypescript実行するときはwindow.evalを使う

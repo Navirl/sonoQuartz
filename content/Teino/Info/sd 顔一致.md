@@ -1,9 +1,9 @@
 ---
+date: 2024-05-06
 tags:
   - Info
 ---
 
-daily:: [2024-05-06](/Daily_Note/2024-05-06.md)
 up:: [sdwebui](<../Bar/App/stable-diffusion-webui.md>)
 up:: [ComfyUI](<../Bar/App/ComfyUI.md>)
 up:: [Stable Diffusion](<../Bar/Stable Diffusion.md>)

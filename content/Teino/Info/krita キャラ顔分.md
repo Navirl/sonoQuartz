@@ -1,9 +1,9 @@
 ---
+date: 2024-07-15
 tags:
   - Info
 ---
 
-daily:: [2024-07-15](/Daily_Note/2024-07-15.md)
 up:: [krita](<../Bar/App/krita.md>)
 
 眉、目、口とEXとして体が入ったpsdを出力すればいい

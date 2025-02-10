@@ -1,11 +1,11 @@
 ---
+date: 2022-08-05
 tags:
  - Bar
  - Novel/Character
  - Nacaria
 ---
 
-daily:: [2022-08-05](../../../Daily_Note/2022-08-05.md)
 up:: [Ultia](<./Ultia.md>)
 down:: [Enku](<./Enku.md>)
 

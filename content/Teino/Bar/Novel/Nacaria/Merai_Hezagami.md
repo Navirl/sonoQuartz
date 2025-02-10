@@ -1,4 +1,5 @@
 ---
+date: 2022-07-27
 tags:
  - Bar
  - Novel/Character
@@ -6,7 +7,6 @@ tags:
 aliases: 辺座神銘礼
 ---
 
-daily:: [2022-07-27](Daily_Note/2022-07-27.md)
 up:: [Cricia](<./Cricia.md>)
 up:: [Sengi\_Kedaragawa](<./Sengi_Kedaragawa.md>)
 

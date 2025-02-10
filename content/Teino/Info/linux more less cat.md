@@ -1,9 +1,9 @@
 ---
+date: 2024-08-04
 tags:
   - Info
 ---
 
-daily:: [2024-08-04](/Daily_Note/2024-08-04.md)
 up:: [Linux](<../Bar/Linux.md>)
 
 どれもファイルの中身を表示する。

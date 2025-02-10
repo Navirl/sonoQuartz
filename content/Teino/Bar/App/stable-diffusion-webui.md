@@ -1,4 +1,5 @@
 ---
+date: 2023-05-07
 tags:
  - Bar
  - App
@@ -8,7 +9,6 @@ aliases:
  - sdwebui
 ---
 
-daily:: [2023-05-07](/Daily_Note/2023-05-07.md)
 up:: [Docker](<./Docker.md>)
 up:: [AI\_image](<../AI/AI_image.md>)
 same:: [ComfyUI](<./ComfyUI.md>)

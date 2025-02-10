@@ -1,9 +1,9 @@
 ---
+date: 2024-03-14
 tags:
   - Info
 ---
 
-daily:: [2024-03-14](/Daily_Note/2024-03-14.md)
 up:: [Stable Diffusion](<../Bar/Stable Diffusion.md>)
 
 ## 規約

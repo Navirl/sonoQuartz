@@ -1,9 +1,9 @@
 ---
+date: 2025-01-21
 tags:
   - Info
 ---
 
-daily:: [2025-01-21](<../Daily_Note/2025-01-21.md>)
 up:: [mc](<../Bar/App/minecraft.md>)
 
 

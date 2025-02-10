@@ -1,9 +1,9 @@
 ---
+date: 2024-07-20
 tags:
   - Info
 ---
 
-daily:: [2024-07-20](/Daily_Note/2024-07-20.md)
 up:: [Linux](<../Bar/Linux.md>)
 
 地味だが有り難いotf2ttf。

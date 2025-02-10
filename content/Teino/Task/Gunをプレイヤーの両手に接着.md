@@ -1,9 +1,9 @@
 ---
+date: 2022-11-24
 tags:
  - Task
 ---
 
-daily:: [2022-11-24](/Daily_Note/2022-11-24.md)
 up::
 point:: 0
 time:: 11:45-12:10

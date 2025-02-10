@@ -1,11 +1,11 @@
 ---
+date: 2022-07-24
 tags:
  - Bar
  - Novel/Character
  - Nacaria
 ---
 
-daily:: [2022-07-24](Daily_Note/2022-07-24.md)
 up:: [Cricia](<./Cricia.md>)
 
 

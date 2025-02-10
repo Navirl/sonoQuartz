@@ -1,9 +1,9 @@
 ---
+date: 2022-07-24
 tags:
  - Bar
 ---
 
-daily:: [2022-07-24](Daily_Note/2022-07-24.md)
 up:: [Life](<./Life.md>)
 
 問題提起。

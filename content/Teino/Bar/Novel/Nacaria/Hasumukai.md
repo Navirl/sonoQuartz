@@ -1,11 +1,11 @@
 ---
+date: 2023-06-20
 tags:
  - Bar
  - Novel/Community
  - Nacaria
 ---
 
-daily:: [2023-06-20](/Daily_Note/2023-06-20.md)
 up:: [Ive](<./Ive.md>)
 up:: [Aido\_Itsuragi](<./Aido_Itsuragi.md>)
 

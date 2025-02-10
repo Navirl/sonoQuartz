@@ -1,9 +1,9 @@
 ---
+date: 2023-05-03
 tags:
  - Info
 ---
 
-daily:: [2023-05-03](/Daily_Note/2023-05-03.md)
 up:: [Pygmalion](<./Pygmalion.md>)
 
 

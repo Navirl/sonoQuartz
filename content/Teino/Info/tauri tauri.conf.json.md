@@ -1,9 +1,9 @@
 ---
+date: 2025-01-01
 tags:
   - Info
 ---
 
-daily:: [2025-01-01](/Daily_Note/2025-01-01.md)
 up:: [Tauri](<../Bar/Framework/Tauri.md>)
 
 [Configuration | Tauri](https://v2.tauri.app/reference/config/)

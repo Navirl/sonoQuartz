@@ -1,4 +1,5 @@
 ---
+date: 2022-07-05
 tags:
  - Bar
  - Nacaria
@@ -6,7 +7,6 @@ tags:
 aliases: 七篠
 ---
 
-daily:: [2022-07-05](Daily_Note/2022-07-05.md)
 up:: [Cricia](<./Cricia.md>)
 down:: [子供は……世界を好きになったこと、大人になったとき、思い出すための、時間。](<../../../Info/子供は……世界を好きになったこと、大人になったとき、思い出すための、時間。.md>)
 up:: [7\_People](<./7_People.md>)

@@ -1,9 +1,9 @@
 ---
+date: 2024-03-01
 tags:
   - Bar
 ---
 
-daily:: [2024-03-01](Daily_Note/2024-03-01.md)
 up:: [React](<../Library/React.md>)
 
 Web上で動くReactでネイティブアプリを作るプロジェクト。

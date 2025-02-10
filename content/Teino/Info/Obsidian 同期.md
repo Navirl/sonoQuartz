@@ -1,9 +1,9 @@
 ---
+date: 2023-03-06
 tags:
  - Info
 ---
 
-daily:: [2023-03-06](/Daily_Note/2023-03-06.md)
 up:: [Obsidian](<../Bar/App/Obsidian.md>)
 
 ## Obsidian Win、iOS、Androidで同期

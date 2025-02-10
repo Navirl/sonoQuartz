@@ -1,11 +1,11 @@
 ---
+date: 2024-10-21
 tags:
   - Bar
 aliases:
   - RVC
 ---
 
-daily:: [2024-10-21](Daily_Note/2024-10-21.md)
 up:: 
 
 ## Retrieval-based-Voice-Conversion-WebUI

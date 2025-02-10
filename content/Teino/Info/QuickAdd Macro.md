@@ -1,9 +1,9 @@
 ---
+date: 2023-03-19
 tags:
  - Info
 ---
 
-daily:: [2023-03-19](/Daily_Note/2023-03-19.md)
 up:: [Obsidian](<../Bar/App/Obsidian.md>)
 
 dataviewで取ったリストを上から読み取り、.trashに送る

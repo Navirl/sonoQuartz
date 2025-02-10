@@ -1,9 +1,9 @@
 ---
+date: 2022-09-14
 tags:
  - Info
 ---
 
-daily:: [2022-09-14](Daily_Note/2022-09-14.md)
 up:: [Scoop](<../Bar/App/Scoop.md>)
 source:: [App Manifest Autoupdate · ScoopInstaller/Scoop Wiki](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifest-Autoupdate)
 source:: [Scoopを使ったWindows環境構築のススメ - Super!! - Qiita](https://qiita.com/Dooteeen/items/12dc8fb14042888113d0)

@@ -1,4 +1,5 @@
 ---
+date: 2024-03-24
 tags:
   - Bar
   - Canareal
@@ -7,7 +8,6 @@ aliases:
   - Fumi
 ---
 
-daily:: [2024-03-24](Daily_Note/2024-03-24.md)
 up::
 same:: [Manoki\_Ogata](<./Manoki_Ogata.md>)
 

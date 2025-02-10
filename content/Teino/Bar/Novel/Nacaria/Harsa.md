@@ -1,4 +1,5 @@
 ---
+date: 2022-08-18
 tags:
  - Bar
  - Create
@@ -6,7 +7,6 @@ tags:
 aliases: ハルサ
 ---
 
-daily:: [2022-08-18](Daily_Note/2022-08-18.md)
 up:: [NoNames](<../Chaos/NoNames.md>)
 
 

@@ -1,9 +1,9 @@
 ---
+date: 2024-01-05
 tags:
   - Info
 ---
 
-daily:: [2024-01-05](/Daily_Note/2024-01-05.md)
 up:: [Me](<../Bar/Novel/Chaos/Me.md>)
 
 PvP

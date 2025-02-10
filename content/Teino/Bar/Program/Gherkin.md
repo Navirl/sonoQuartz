@@ -1,9 +1,9 @@
 ---
+date: 2024-08-10
 tags:
   - Bar
 ---
 
-daily:: [2024-08-10](Daily_Note/2024-08-10.md)
 up:: [Programming](<./Programming.md>)
 
 [Gherkin記法はじめました #テスト - Qiita](https://qiita.com/jyoppomu/items/8f9f8980c8364dc50909)

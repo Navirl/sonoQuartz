@@ -1,4 +1,5 @@
 ---
+date: 2023-02-03
 tags:
  - Bar
  - Nacaria
@@ -8,7 +9,6 @@ tags:
 aliases: ムカデ
 ---
 
-daily:: [2023-02-03](Daily_Note/2023-02-03.md)
 up:: [Fushibi](<./Fushibi.md>)
 same:: [KOW](<./KOW.md>)
 

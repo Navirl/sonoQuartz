@@ -1,10 +1,10 @@
 ---
+date: 2021-09-25
 tags:
   - Bar
   - App
 ---
 
-daily:: [2021-09-25](Daily_Note/2021-09-25.md)
 up:: 
 
 

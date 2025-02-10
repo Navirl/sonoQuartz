@@ -1,9 +1,9 @@
 ---
+date: 2024-06-21
 tags:
   - Bar
 ---
 
-daily:: [2024-06-21](Daily_Note/2024-06-21.md)
 up:: 
 
 t2tメイン。

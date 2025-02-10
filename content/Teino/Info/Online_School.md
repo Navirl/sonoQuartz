@@ -1,9 +1,9 @@
 ---
+date: 2024-12-27
 tags:
   - Info
 ---
 
-daily:: [2024-12-27](<../Daily_Note/2024-12-27.md>)
 up:: [Univ](<../Bar/Univ.md>)
 
 ## Udemy

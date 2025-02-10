@@ -1,9 +1,9 @@
 ---
+date: 2024-11-09
 tags:
   - Info
 ---
 
-daily:: [2024-11-09](/Daily_Note/2024-11-09.md)
 up:: [ts](<../Bar/Program/JavaScript and TypeScript.md>)
 
 標準のJSONライブラリで可能。

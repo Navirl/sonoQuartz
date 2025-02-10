@@ -1,9 +1,9 @@
 ---
+date: 2024-03-15
 tags:
   - Bar
 ---
 
-daily:: [2024-03-15](Daily_Note/2024-03-15.md)
 up:: [Programming](<./Programming.md>)
 
 コピー時に簡略化できるように=を付けておく。

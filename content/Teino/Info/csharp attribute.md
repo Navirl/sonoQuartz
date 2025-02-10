@@ -1,9 +1,9 @@
 ---
+date: 2023-10-23
 tags:
   - Info
 ---
 
-daily:: [2023-10-23](/Daily_Note/2023-10-23.md)
 up:: [Csharp](<../Bar/Program/Csharp.md>)
 
 コードにメタデータを追加するもの。

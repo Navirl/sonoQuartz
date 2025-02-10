@@ -1,11 +1,11 @@
 ---
+date: 2024-12-06
 tags:
   - Bar
 aliases:
   - AIvc
 ---
 
-daily:: [2024-12-06 FX](<../../Daily_Note/2024-12-06 FX.md>)
 up:: [AI\_local](<./AI_local.md>)
 
 [AI\_local](<./AI_local.md>)の領分だが、いかんせん多すぎ。

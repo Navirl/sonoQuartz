@@ -1,13 +1,9 @@
 ---
+date: 2024-06-14
 tags:
   - Info
 ---
 
-daily:: [2024-06-04](/Daily_Note/2024-06-04.md)
-up:: [sd](<../Bar/Stable Diffusion.md>)
-down:: [sd work2](<./sd work2.md>)
-
-[2024-06-14](../Daily_Note/2024-06-14.md)
 
 sdを使用した仕事のメモ。
 多分日誌に近くなる。

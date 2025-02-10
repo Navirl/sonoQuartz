@@ -1,9 +1,9 @@
 ---
+date: 2024-09-08
 tags:
   - Info
 ---
 
-daily:: [2024-09-08](/Daily_Note/2024-09-08.md)
 up:: [py](<../Bar/Program/Python.md>)
 
 仮想環境でパッケージ管理までやるツール。

@@ -1,4 +1,5 @@
 ---
+date: 2022-11-01
 tags:
  - Bar
  - Novel/Character
@@ -7,7 +8,6 @@ banner: "![[../../../Banners/いくらうに - 501583/20200514 - 背中で語る
 banner_y: 0
 ---
 
-daily:: [2022-11-01](Daily_Note/2022-11-01.md)
 up:: [Crazy\_Quartet](<./Crazy_Quartet.md>)
 up:: [EoSD](<./Embodiment_of_Scarlet_Devil.md>)
 

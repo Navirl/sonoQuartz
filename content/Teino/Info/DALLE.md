@@ -1,9 +1,9 @@
 ---
+date: 2022-07-31
 tags:
  - Info
 ---
 
-daily:: [2022-07-31](Daily_Note/2022-07-31.md)
 up:: [Touhou\_Project](<../Bar/Novel/Touhou_Project/Touhou_Project.md>)
 
 https://labs.openai.com/s/jNxqST2DjzM9VD04WoU19zOh

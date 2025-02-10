@@ -1,9 +1,9 @@
 ---
+date: 2022-07-28
 tags:
  - Info
 ---
 
-daily:: [2022-07-28](Daily_Note/2022-07-28.md)
 up:: [Programming](<../Bar/Program/Programming.md>)
 up:: [JavaScript and TypeScript](<../Bar/Program/JavaScript and TypeScript.md>)
 

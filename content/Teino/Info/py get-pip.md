@@ -1,9 +1,9 @@
 ---
+date: 2024-11-22
 tags:
   - Info
 ---
 
-daily:: [2024-11-22](/Daily_Note/2024-11-22.md)
 up:: [py](<../Bar/Program/Python.md>)
 
 たまにpipが無い環境のpythonを触ることがある。

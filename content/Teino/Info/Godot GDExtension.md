@@ -1,9 +1,9 @@
 ---
+date: 2023-03-30
 tags:
  - Info
 ---
 
-daily:: [2023-03-30](/Daily_Note/2023-03-30.md)
 up:: [Godot](<../Bar/App/Godot.md>)
 up:: [Rust](<../Bar/Program/Rust.md>)
 

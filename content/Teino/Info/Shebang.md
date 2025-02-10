@@ -1,9 +1,9 @@
 ---
+date: 2022-04-28
 tags:
  - Info
 ---
 
-daily:: [2022-04-28](/Daily_Note/2022-04-28.md)
 up:: [Shellscript](<../Bar/Program/Shellscript.md>)
 up:: [Termux](<../Bar/App/Termux.md>)
 

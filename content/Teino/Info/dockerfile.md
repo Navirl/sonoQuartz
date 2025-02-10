@@ -1,9 +1,9 @@
 ---
+date: 2023-04-15
 tags:
  - Info
 ---
 
-daily:: [2023-04-15](/Daily_Note/2023-04-15.md)
 up:: [Docker](<../Bar/App/Docker.md>)
 
 これ見ながら書いてる。

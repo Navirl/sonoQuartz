@@ -1,9 +1,9 @@
 ---
+date: 2023-04-01
 tags:
  - Info
 ---
 
-daily:: [2023-04-01](/Daily_Note/2023-04-01.md)
 up:: [Obsidian](<../Bar/App/Obsidian.md>)
 
 ## mdbook

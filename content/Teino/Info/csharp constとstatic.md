@@ -1,9 +1,9 @@
 ---
+date: 2021-08-07
 tags:
  - Info
 ---
 
-daily:: [2021-08-07](Daily_Note/2021-08-07.md)
 up:: [Csharp](<../Bar/Program/Csharp.md>)
 source:: [【C#の定数】const と readonly、static readonly の使い分け - Qiita](https://qiita.com/tanakaworld/items/eda69da263e24adfa07d)
 source:: [【C#】const、static、readonlyの違いと使い方 \| Engineers Method](https://bigpowermind.com/c-const-static-readonly/)

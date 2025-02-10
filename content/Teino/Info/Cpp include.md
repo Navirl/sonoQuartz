@@ -1,9 +1,9 @@
 ---
+date: 2023-03-01
 tags:
  - Info
 ---
 
-daily:: [2023-03-01](/Daily_Note/2023-03-01.md)
 up:: [Cpp](<../Bar/Program/Cpp.md>)
 
 他のソースファイルを読み込む機能。

@@ -1,4 +1,5 @@
 ---
+date: 2022-07-04
 tags:
  - Bar
  - Novel/Character
@@ -6,7 +7,6 @@ tags:
 aliases: 形鱈川千喜
 ---
 
-daily:: [2022-07-04](Daily_Note/2022-07-04.md)
 up:: [Cricia](<./Cricia.md>)
 
 関係

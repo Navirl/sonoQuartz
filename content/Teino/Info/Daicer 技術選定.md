@@ -1,9 +1,9 @@
 ---
+date: 2024-08-16
 tags:
   - Info
 ---
 
-daily:: [2024-08-16](/Daily_Note/2024-08-16.md)
 up:: [Daicer](<../Novels/programs/Daicer.md>)
 
 

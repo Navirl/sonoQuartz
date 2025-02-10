@@ -1,9 +1,9 @@
 ---
+date: 2024-05-27
 tags:
   - Info
 ---
 
-daily:: [2024-05-27](/Daily_Note/2024-05-27.md)
 up:: [Stable Diffusion](<../Bar/Stable Diffusion.md>)
 
 品質タグは考えて

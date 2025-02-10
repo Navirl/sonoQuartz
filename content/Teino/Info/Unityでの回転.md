@@ -1,9 +1,9 @@
 ---
+date: 2021-08-07
 tags:
  - Info
 ---
 
-daily:: [2021-08-07.](Daily_Note/2021-08-07..md)
 up:: [Unity](<../Bar/App/Unity.md>)
 
 

@@ -1,4 +1,5 @@
 ---
+date: 2022-11-02
 tags:
   - Bar
 aliases:
@@ -6,7 +7,6 @@ aliases:
   - ts
 ---
 
-daily:: [2022-11-02](Daily_Note/2022-11-02.md)
 up:: [Programming](<./Programming.md>)
 
 ## Scrapbox徹底解剖

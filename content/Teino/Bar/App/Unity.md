@@ -1,10 +1,10 @@
 ---
+date: 2021-08-03
 tags:
  - Bar
  - App
 ---
 
-daily:: [2021-08-03](/Daily_Note/2021-08-03.md)
 up:: [Programming](<../Program/Programming.md>)
 
 [猫本](../猫本.md)

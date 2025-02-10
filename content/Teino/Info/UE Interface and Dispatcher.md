@@ -1,9 +1,9 @@
 ---
+date: 2022-07-14
 tags:
  - Info
 ---
 
-daily:: [2022-07-14](Daily_Note/2022-07-14.md)
 up:: [Unreal\_Engine](<../Bar/App/Unreal_Engine.md>)
 up:: [インターフェース](<./インターフェース.md>)
 source:: [【UE4】InterfaceとDispatcherの使い分け方-自分流【★★☆】 \| キンアジのブログ](https://kinnaji.com/2018/12/15/interfaceanddispatcher/)

@@ -1,9 +1,9 @@
 ---
+date: 2024-10-11
 tags:
   - Info
 ---
 
-daily:: [2024-10-11](/Daily_Note/2024-10-11.md)
 up:: [Termux](<../../Bar/App/Termux.md>)
 up:: [Shellscript](<../../Bar/Program/Shellscript.md>)
 

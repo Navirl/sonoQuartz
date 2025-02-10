@@ -1,5 +1,6 @@
 
 ---
+date: 2022-10-14
 tags:
  - Bar
  - Novel/Character
@@ -7,7 +8,6 @@ tags:
 aliases: ヘレストフィアル・シャノーノ・テントラ
 ---
 
-daily:: [2022-10-14](Daily_Note/2022-10-14.md)
 up:: [Fushibi](<./Fushibi.md>)
 
 へレストだ。長いから、すべて覚える必要はない。

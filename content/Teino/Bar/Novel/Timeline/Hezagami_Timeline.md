@@ -1,10 +1,10 @@
 ---
+date: 2022-10-26
 tags:
  - Info
  - Timeline
 ---
 
-daily:: [2022-10-26](Daily_Note/2022-10-26.md)
 up:: [Merai\_Hezagami](<../Nacaria/Merai_Hezagami.md>)
 up:: [Timeline\_Sheet](<../Sheet/Timeline_Sheet.md>)
 

@@ -1,10 +1,10 @@
 ---
+date: 2023-03-15
 tags:
  - Bar
  - App
 ---
 
-daily:: [2023-03-15](Daily_Note/2023-03-15.md)
 up:: [Rust](<../Program/Rust.md>)
 
 rustで作られたゲームエンジン。元は3D専用だが2Dもできる。

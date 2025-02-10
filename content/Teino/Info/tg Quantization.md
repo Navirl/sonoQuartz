@@ -1,9 +1,9 @@
 ---
+date: 2024-04-03
 tags:
   - Info
 ---
 
-daily:: [2024-04-03](/Daily_Note/2024-04-03.md)
 up:: [tgwebui](<../Bar/App/text-generation-webui.md>)
 
 量子化。モデルを小さくしつつ精度を落とさない技術。

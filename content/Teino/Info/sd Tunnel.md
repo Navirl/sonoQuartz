@@ -1,11 +1,11 @@
 ---
+date: 2024-05-22
 tags:
   - Info
 aliases:
   - sd ngrok
 ---
 
-daily:: [2024-05-22](/Daily_Note/2024-05-22.md)
 up:: [ComfyUI](<../Bar/App/ComfyUI.md>)
 
 ngrokを使っていたが、上限がすぐ来るので。

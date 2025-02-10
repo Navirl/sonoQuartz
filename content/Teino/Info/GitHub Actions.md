@@ -1,9 +1,9 @@
 ---
+date: 2025-02-06
 tags:
  - Info
 ---
 
-daily:: [2025-02-06](<../Daily_Note/2025-02-06.md>)
 up:: [Git](<../Bar/App/Git.md>)
 
 タスクランナー。GitHubへのプッシュなどをトリガーにいろいろできる。

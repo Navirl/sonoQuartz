@@ -1,9 +1,9 @@
 ---
+date: 2024-03-29
 tags:
   - Info
 ---
 
-daily:: [2024-03-29](/Daily_Note/2024-03-29.md)
 up:: [PowerShell\_and\_Command-Line](<../Bar/App/PowerShell_and_Command-Line.md>)
 
 `Read-Host`。これ自体は入力を受け付ける奴。

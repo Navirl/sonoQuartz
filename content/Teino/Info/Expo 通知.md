@@ -1,9 +1,9 @@
 ---
+date: 2024-05-20
 tags:
   - Info
 ---
 
-daily:: [2024-05-20](/Daily_Note/2024-05-20.md)
 up:: [Expo](<./Expo.md>)
 
 react-native-push-notificationが先に出るが、標準でexpo-notificationsというのがあるのでそれを使えばいい。

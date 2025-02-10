@@ -1,10 +1,10 @@
 ---
+date: 2022-04-22
 tags:
  - Bar
  - App
 ---
 
-daily:: [2022-04-22](Daily_Note/2022-04-22.md)
 up::
 
 source:: [Termuxを素早く設定 - Qiita](https://qiita.com/kujirahand/items/8e34e05e7296134b55cd#%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E9%9F%B3%E6%A5%BD%E3%82%B5%E3%82%AF%E3%83%A9%E3%82%92%E5%85%A5%E3%82%8C%E3%82%8B-20200819-%E6%89%8B%E9%A0%86%E5%A4%89%E3%82%8F%E3%82%8A%E3%81%BE%E3%81%97%E3%81%9F)

@@ -1,11 +1,11 @@
 ---
+date: 2022-06-15
 tags:
  - Bar
  - Novel/Item
 aliases: 未来体験
 ---
 
-daily:: [2022-06-15](../../../Daily_Note/2022-06-15.md)
 up:: [Component](<./Component.md>)
 
 未来体験

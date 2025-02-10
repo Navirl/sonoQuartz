@@ -1,9 +1,9 @@
 ---
+date: 2022-10-06
 tags:
  - Info
 ---
 
-daily:: [2022-10-06](Daily_Note/2022-10-06.md)
 up:: [Termux](<../Bar/App/Termux.md>)
 up:: [Git](<../Bar/App/Git.md>)
 source:: [Error: Permission denied (publickey) - GitHub Docs](https://docs.github.com/ja/authentication/troubleshooting-ssh/error-permission-denied-publickey)

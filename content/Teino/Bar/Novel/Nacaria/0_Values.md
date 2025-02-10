@@ -1,4 +1,5 @@
 ---
+date: 2022-08-05
 tags:
  - Bar
  - Nacaria
@@ -6,7 +7,6 @@ tags:
 aliases: 0の価値
 ---
 
-daily:: [2022-08-05](../../../Daily_Note/2022-08-05.md)
 up:: [Disconnected\_Fantasy](<../Topics/Disconnected_Fantasy.md>)
 up:: [Nacarea](<./Nacarea.md>)
 

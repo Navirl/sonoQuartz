@@ -1,9 +1,9 @@
 ---
+date: 2025-01-10
 tags:
   - Info
 ---
 
-daily:: [2025-01-10](<../Daily_Note/2025-01-10.md>)
 up:: [NoNames](<../Bar/Novel/Chaos/NoNames.md>)
 
 ADA

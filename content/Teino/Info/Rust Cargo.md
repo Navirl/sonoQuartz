@@ -1,9 +1,9 @@
 ---
+date: 2023-03-07
 tags:
  - Info
 ---
 
-daily:: [2023-03-07](/Daily_Note/2023-03-07.md)
 up:: [Rust](<../Bar/Program/Rust.md>)
 
 パッケージマネージャ―。依存関係をtomlファイルにまとめることで簡単に解決してくれる。

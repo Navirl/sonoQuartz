@@ -1,9 +1,9 @@
 ---
+date: 2022-07-16
 tags:
  - Info
 ---
 
-daily:: [2022-07-16](Daily_Note/2022-07-16.md)
 up:: [Component](<../Bar/Novel/Chaos/Component.md>)
 
 いいから何か一つ書いてみようか。

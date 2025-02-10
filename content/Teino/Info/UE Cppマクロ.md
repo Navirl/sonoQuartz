@@ -1,9 +1,9 @@
 ---
+date: 2022-07-15
 tags:
  - Info
 ---
 
-daily:: [2022-07-15](Daily_Note/2022-07-15.md)
 up:: [Unreal\_Engine](<../Bar/App/Unreal_Engine.md>)
 up:: [Cpp](<../Bar/Program/Cpp.md>)
 source:: [いまさら聞きづらいUPROPERTY・UFUNCTION – 株式会社ロジカルビート](https://logicalbeat.jp/blog/8212/)

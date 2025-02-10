@@ -1,9 +1,9 @@
 ---
+date: 2024-02-16
 tags:
   - Info
 ---
 
-daily:: [2024-02-16](/Daily_Note/2024-02-16.md)
 up:: [Linux](<../Bar/Linux.md>)
 
 ## QEMU

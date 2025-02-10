@@ -1,9 +1,9 @@
 ---
+date: 2024-09-06
 tags:
   - Bar
 ---
 
-daily:: [2024-09-06](Daily_Note/2024-09-06.md)
 up::
 
 ## WSR-1166DHP 中継

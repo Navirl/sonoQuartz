@@ -1,9 +1,9 @@
 ---
+date: 2022-11-08
 tags:
  - Info
 ---
 
-daily:: [2022-11-08](Daily_Note/2022-11-08.md)
 up:: [UE5.0.2](<../Bar/App/UE5.0.2.md>)
 
 ## WindDirectionalSource

@@ -1,9 +1,9 @@
 ---
+date: 2023-06-29
 tags:
  - Info
 ---
 
-daily:: [2023-06-29](/Daily_Note/2023-06-29.md)
 up:: [Narana\_Tsunohashi](<../Bar/Novel/Nacaria/Narana_Tsunohashi.md>)
 up:: [R18](<../Bar/Novel/Topics/R18.md>)
 

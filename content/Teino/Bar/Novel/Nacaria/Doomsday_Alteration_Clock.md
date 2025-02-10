@@ -1,4 +1,5 @@
 ---
+date: 2022-07-17
 tags:
  - Bar
  - Novel/Item
@@ -6,7 +7,6 @@ tags:
 aliases: 終末改変時計
 ---
 
-daily:: [2022-07-17](Daily_Note/2022-07-17.md)
 up:: [Riitsu\_Reuke](<./Riitsu_Reuke.md>)
 
 終末改変時計

@@ -1,9 +1,9 @@
 ---
+date: 2024-04-16
 tags:
   - Bar
 ---
 
-daily:: [2024-04-16](Daily_Note/2024-04-16.md)
 up:: [AI\_image](<../AI/AI_image.md>)
 same:: [sdwebui](<./stable-diffusion-webui.md>)
 

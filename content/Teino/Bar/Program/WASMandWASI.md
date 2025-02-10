@@ -1,9 +1,9 @@
 ---
+date: 2023-04-26
 tags:
  - Bar
 ---
 
-daily:: [2023-04-26](Daily_Note/2023-04-26.md)
 up:: [Programming](<./Programming.md>)
 
 ## wasm

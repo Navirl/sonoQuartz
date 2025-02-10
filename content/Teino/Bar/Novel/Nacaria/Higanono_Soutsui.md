@@ -1,4 +1,5 @@
 ---
+date: 2022-10-30
 tags:
  - Bar
  - Novel/Character
@@ -6,7 +7,6 @@ tags:
 aliases: 比嘉野双終
 ---
 
-daily:: [2022-10-30](Daily_Note/2022-10-30.md)
 up:: [Ive](<./Ive.md>)
 up:: [Fushibi](<./Fushibi.md>)
 down:: [Action](<../Topics/Action.md>)

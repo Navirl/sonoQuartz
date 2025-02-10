@@ -1,9 +1,9 @@
 ---
+date: 2024-02-13
 tags:
   - Info
 ---
 
-daily:: [2024-02-13](/Daily_Note/2024-02-13.md)
 up:: [Linux](<../Bar/Linux.md>)
 
 ## 削除

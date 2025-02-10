@@ -1,9 +1,9 @@
 ---
+date: 2022-09-21
 tags:
  - Info
 ---
 
-daily:: [2022-09-21](Daily_Note/2022-09-21.md)
 up:: [UE5.0.2](<../Bar/App/UE5.0.2.md>)
 source:: [ARで空間を共有するには…… - Qiita](https://qiita.com/SAyanada9/items/806f202ccfc1ba55619a)
 source:: [AndroidのARCore Cloud Anchorsを試してみるっ！(Unity) – PPPNeXus Notes -代表の気まぐれブログ-](https://pppnexus.com/official/2019/03/19/cloud_anchors_howto/)

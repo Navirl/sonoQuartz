@@ -1,9 +1,9 @@
 ---
+date: 2024-05-27
 tags:
   - Info
 ---
 
-daily:: [2024-05-27](/Daily_Note/2024-05-27.md)
 up:: [Stable Diffusion](<../Bar/Stable Diffusion.md>)
 
 [AIイラストからLive2Dモデルとして動かすまでのまとめ – FaiREE｜ファイリー【フリーAI素材】](https://fairee.sozaiya-san.com/aiart-to-live2d/)

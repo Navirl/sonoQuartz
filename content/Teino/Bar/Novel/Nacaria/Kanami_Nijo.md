@@ -1,4 +1,5 @@
 ---
+date: 2022-08-04
 tags:
  - Bar
  - Novel/Character
@@ -6,7 +7,6 @@ tags:
 aliases: 二条奏海
 ---
 
-daily:: [2022-08-04](Daily_Note/2022-08-04.md)
 up:: [Saki\_Yanasaki](<./Saki_Yanasaki.md>)
 up:: [Huo](<./Huo.md>)
 same:: [Kanami\_Nijo\_Edu](<./Kanami_Nijo_Edu.md>)

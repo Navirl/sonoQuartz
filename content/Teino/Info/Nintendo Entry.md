@@ -1,9 +1,9 @@
 ---
+date: 2022-07-26
 tags:
  - Info
 ---
 
-daily:: [2022-07-26](Daily_Note/2022-07-26.md)
 up:: [Job](<../Bar/Job.md>)
 up:: [Job](<../Bar/Job.md>)
 

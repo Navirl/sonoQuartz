@@ -1,11 +1,11 @@
 ---
+date: 2024-03-12
 tags:
   - Bar
 aliases:
   - regex
 ---
 
-daily:: [2024-03-12](Daily_Note/2024-03-12.md)
 up:: [Programming](<./Programming.md>)
 
 正規表現。

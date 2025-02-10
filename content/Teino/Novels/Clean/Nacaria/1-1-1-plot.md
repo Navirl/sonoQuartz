@@ -1,9 +1,9 @@
 ---
+date: 2022-07-30
 tags:
  - Novel/Plot
 ---
 
-daily:: [2022-07-30](Daily_Note/2022-07-30.md)
 up:: [Plot\_Sheet](<../../../Bar/Novel/Sheet/Plot_Sheet.md>)
 from:: Save_the_cat
 

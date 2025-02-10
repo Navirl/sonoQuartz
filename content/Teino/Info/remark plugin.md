@@ -1,9 +1,9 @@
 ---
+date: 2024-12-17
 tags:
   - Info
 ---
 
-daily:: [2024-12-17](/Daily_Note/2024-12-17.md)
 up:: [remark](<./remark.md>)
 
 treeとfileを引数に持つfunctionをexport defaultしとけばいい。

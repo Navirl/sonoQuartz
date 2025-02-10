@@ -1,9 +1,9 @@
 ---
+date: 2024-11-23
 tags:
   - Info
 ---
 
-daily:: [2024-11-23](/Daily_Note/2024-11-23.md)
 up:: [Eclipse](<../Bar/Eclipse.md>)
 
 OS付きでない限り基本android-x86のため、それを検知されるとちょっと辛い。

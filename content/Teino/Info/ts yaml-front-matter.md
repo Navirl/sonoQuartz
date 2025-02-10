@@ -1,9 +1,9 @@
 ---
+date: 2024-02-17
 tags:
   - Info
 ---
 
-daily:: [2024-02-17](/Daily_Note/2024-02-17.md)
 up:: [ts](<../Bar/Program/JavaScript and TypeScript.md>)
 
 markdownからyamlを簡単に読み込めるライブラリ。最終更新2019。

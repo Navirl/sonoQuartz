@@ -1,4 +1,5 @@
 ---
+date: 2022-12-16
 tags:
  - Bar
  - Novel/Character
@@ -6,7 +7,6 @@ tags:
 aliases: 閏閖闑
 ---
 
-daily:: [2022-12-16](/Daily_Note/2022-12-16.md)
 up:: [Ayama](<./Ayama.md>)
 up:: [Narana\_Tsunohashi](<./Narana_Tsunohashi.md>)
 

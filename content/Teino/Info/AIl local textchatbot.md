@@ -1,9 +1,9 @@
 ---
+date: 2023-04-10
 tags:
  - Info
 ---
 
-daily:: [2023-04-10](/Daily_Note/2023-04-10.md)
 up:: [Docker](<../Bar/App/Docker.md>)
 up:: [AIl](<../Bar/AI/AI_local.md>)
 up:: [AIt](<../Bar/AI/AI_text.md>)

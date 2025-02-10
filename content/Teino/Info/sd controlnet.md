@@ -1,11 +1,11 @@
 ---
+date: 2024-03-30
 tags:
   - Info
 aliases:
   - sd CN
 ---
 
-daily:: [2024-03-30](/Daily_Note/2024-03-30.md)
 up:: [Stable Diffusion](<../Bar/Stable Diffusion.md>)
 
 便利機能詰め合わせ。

@@ -1,10 +1,10 @@
 ---
+date: 2024-04-09
 tags:
   - Bar
   - Novel/World
 ---
 
-daily:: [2024-04-09](Daily_Note/2024-04-09.md)
 down:: [Manoki\_Ogata](<./Manoki_Ogata.md>)
 down:: [Miyari\_Furumori](<./Miyari_Furumori.md>)
 down:: [Narana\_Tsunohashi](<../Nacaria/Narana_Tsunohashi.md>)

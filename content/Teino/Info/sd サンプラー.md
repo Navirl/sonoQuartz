@@ -1,9 +1,9 @@
 ---
+date: 2024-05-16
 tags:
   - Info
 ---
 
-daily:: [2024-05-16](/Daily_Note/2024-05-16.md)
 up:: [Stable Diffusion](<../Bar/Stable Diffusion.md>)
 
 サンプラーごと比較

@@ -1,10 +1,10 @@
 ---
+date: 2021-10-16
 tags:
  - Bar
  - App
 ---
 
-daily:: [2021-10-16](/Daily_Note/2021-10-16.md)
 up::
 
 ## docker run

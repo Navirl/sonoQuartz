@@ -1,4 +1,5 @@
 ---
+date: 2022-08-05
 tags:
  - Bar
  - Novel/Character
@@ -7,7 +8,6 @@ banner: "![[../Banners/つね@FANBOX始めました - 11365815/20200415 - パチ
 banner_y: 0.268
 ---
 
-daily:: [2022-08-05](../../../Daily_Note/2022-08-05.md)
 up::
 
 

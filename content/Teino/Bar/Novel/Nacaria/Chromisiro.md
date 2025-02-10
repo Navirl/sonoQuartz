@@ -1,4 +1,5 @@
 ---
+date: 2022-08-04
 tags:
  - Bar
  - Novel/Location
@@ -6,7 +7,6 @@ tags:
 aliases: クロミシロ
 ---
 
-daily:: [2022-08-04](Daily_Note/2022-08-04.md)
 down:: [Game](<../Topics/Game.md>)
 up:: [Nacarea](<./Nacarea.md>)
 

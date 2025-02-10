@@ -1,9 +1,9 @@
 ---
+date: 2022-11-15
 tags:
  - Info
 ---
 
-daily:: [2022-11-15](Daily_Note/2022-11-15.md)
 up:: [UE](<../Bar/App/Unreal_Engine.md>)
 source:: [[UE4] リダイレクター ～消えないゴミファイルの謎～｜株式会社ヒストリア](https://historia.co.jp/archives/1028/)
 

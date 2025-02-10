@@ -1,9 +1,9 @@
 ---
+date: 2022-11-25
 tags:
  - Info
 ---
 
-daily:: [2022-11-25](<../Daily_Note/2022-11-25.md>)
 up:: [PlantUML](<../Bar/Program/PlantUML.md>)
 
 ## 基本

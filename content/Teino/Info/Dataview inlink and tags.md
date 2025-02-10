@@ -1,9 +1,9 @@
 ---
+date: 2022-07-01
 tags:
  - Info
 ---
 
-daily:: [2022-07-01](Daily_Note/2022-07-01.md)
 up:: [Obsidian](<../Bar/App/Obsidian.md>)
 source:: [Queries - Dataview](https://blacksmithgu.github.io/obsidian-dataview/query/queries/#from)
 source:: [Sources - Dataview](https://blacksmithgu.github.io/obsidian-dataview/query/sources/)

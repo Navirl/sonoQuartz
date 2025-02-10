@@ -1,9 +1,9 @@
 ---
+date: 2024-08-28
 tags:
   - Bar
 ---
 
-daily:: [2024-08-28](Daily_Note/2024-08-28.md)
 up::
 
 nodejsのアプリをサクッと公開できるPaaS。

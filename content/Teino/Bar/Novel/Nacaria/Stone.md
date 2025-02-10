@@ -1,11 +1,11 @@
 ---
+date: 2023-02-03
 tags:
  - Bar
  - Novel/Item
  - Nacaria
 ---
 
-daily:: [2023-02-03](Daily_Note/2023-02-03.md)
 up:: [Fushibi](<./Fushibi.md>)
 
 [Centipede\_Space\_Ship](<./Centipede_Space_Ship.md>)

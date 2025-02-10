@@ -1,4 +1,5 @@
 ---
+date: 2022-07-16
 tags:
  - Bar
  - Novel/Character
@@ -6,6 +7,5 @@ tags:
 aliases: ティラウ・アミア・シラリティ
 ---
 
-daily:: [2022-07-16](Daily_Note/2022-07-16.md)
 up:: [Chromisiro](<./Chromisiro.md>)
 

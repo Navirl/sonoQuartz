@@ -1,9 +1,9 @@
 ---
+date: 2022-11-12
 tags:
  - Info
 ---
 
-daily:: [2022-11-12](Daily_Note/2022-11-12.md)
 up:: [PowerShell\_and\_Command-Line](<../Bar/App/PowerShell_and_Command-Line.md>)
 up:: [Scoop](<../Bar/App/Scoop.md>)
 

@@ -1,9 +1,9 @@
 ---
+date: 2024-08-14
 tags:
   - Bar
 ---
 
-daily:: [2024-08-14](Daily_Note/2024-08-14.md)
 up:: [Rust](<../Program/Rust.md>)
 
 Electronと同様、デスクトップアプリをブラウザ技術で作る。

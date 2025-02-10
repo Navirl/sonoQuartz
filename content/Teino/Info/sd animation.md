@@ -1,9 +1,9 @@
 ---
+date: 2024-06-03
 tags:
   - Info
 ---
 
-daily:: [2024-06-03](/Daily_Note/2024-06-03.md)
 up:: [sd](<../Bar/Stable Diffusion.md>)
 
 [周りと同じものを学んでも知識交換はできない - 西尾泰和のScrapbox](https://scrapbox.io/nishio/%E5%91%A8%E3%82%8A%E3%81%A8%E5%90%8C%E3%81%98%E3%82%82%E3%81%AE%E3%82%92%E5%AD%A6%E3%82%93%E3%81%A7%E3%82%82%E7%9F%A5%E8%AD%98%E4%BA%A4%E6%8F%9B%E3%81%AF%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%84)

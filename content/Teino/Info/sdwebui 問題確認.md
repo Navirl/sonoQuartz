@@ -1,9 +1,9 @@
 ---
+date: 2024-06-05
 tags:
   - Info
 ---
 
-daily:: [2024-06-05](/Daily_Note/2024-06-05.md)
 up:: [sdwebui](<../Bar/App/stable-diffusion-webui.md>)
 
 ## sd 問題確認
