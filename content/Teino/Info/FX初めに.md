@@ -8,6 +8,8 @@
 感情じゃなく、手法を信じるための精神論
 
 ## 第〇章 用語解説
+トレンドが進んでる最中の波を推進波、
+トレンドを進めるために一度戻ってくる波を調整波という。
 
 ## 第一章 ダウ理論
 [ダウ理論とは？6つの法則や相場分析に使えるインジケーターなどを分かりやすく解説 | OANDA FX/CFD Lab-education（オアンダ ラボ）](https://www.oanda.jp/lab-education/beginners/aboutfx/dow-theory/)

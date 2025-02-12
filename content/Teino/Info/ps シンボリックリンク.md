@@ -30,7 +30,7 @@ SymbolicLinkとJunctionの違い。
     - 相対パスで指定できる
     - ネットワーク共有フォルダにも張れる
 
-これらを除いて簡素なものがJunction。古いからな。管理者権限がいらない点が良く重宝する。
+これらを除いて簡素なものがJunction。古いからな。管理者権限がいらない点が良く重宝する。特にgitの設定変更も要らない。
 
 [Windowsのシンボリックリンクとジャンクションとハードリンクの違い：Tech TIPS - ＠IT](https://atmarkit.itmedia.co.jp/ait/articles/1306/07/news111.html)
 

@@ -71,5 +71,26 @@ EA
 - 損切利確は新たにレンジが成立するたびに書き換える
 
 ```mermaid
-
+stateDiagram-v2
+    [*] --> 基本
+    基本 --> ZigZag確定
+    state inRangeJudge <<choice>>
+    ZigZag確定 --> inRangeJudge
+    inRangeJudge --> レンジカウンター上昇 : レンジ判断幅内
+    state hasInRangeFlag <<choice>>
+    inRangeJudge --> hasInRangeFlag : レンジ判断幅外
+    hasInRangeFlag --> レンジカウンター初期化、レンジ内フラグ初期化、レンジ抜け確定足値セット : レンジ内フラグあり
+    noRangeFlag : なにもない
+    hasInRangeFlag --> noRangeFlag : レンジ内フラグなし
+    noCounter : なにもない
+    inRangeJudge --> noCounter : レンジ判断幅二つで囲まれた幅外
+    state checkRangeCounter <<choice>>
+    レンジカウンター上昇 --> checkRangeCounter
+    checkRangeCounter --> レンジ内フラグセット、レンジ位置上下値セット : レンジカウンター2以上
+    checkRangeCounter --> ZigZag確定 : それ以外
+    state checkOneCandle <<choice>>
+    レンジカウンター初期化、レンジ内フラグ初期化、レンジ抜け確定足値セット --> checkOneCandle
+    checkOneCandle --> エントリー、損切をレンジ抜け確定足値にセット、利確を最も近いZigZag高安にセット : レンジ位置上下値とキャンドル値が一致
+    noEntry : なにもない
+    checkOneCandle --> noEntry : レンジ位置上下値とキャンドル値が不一致
 ```

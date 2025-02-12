@@ -20,6 +20,6 @@ up:: [Rust](<../Bar/Program/Rust.md>)
 その場合はcargo-binstallが使える。
 [GitHub - cargo-bins/cargo-binstall: Binary installation for rust projects](https://github.com/cargo-bins/cargo-binstall)
 
-installされているバイナリは`cargo install --help`で確認できる。
+installされているバイナリは`cargo install --list`で確認できる。
 
 [rust - How do I list all of the packages I've installed globally with cargo install? - Stack Overflow](https://stackoverflow.com/questions/60857222/how-do-i-list-all-of-the-packages-ive-installed-globally-with-cargo-install)

@@ -260,6 +260,10 @@ html上でmermaidの文字色とか変えたくなったときに使う機能。
 ## 状態図
 システムの動作を記述する。
 プログラムに起こせるフローチャートより粒度が大きい。
+
+英語のState Diagramの直訳。
+状態遷移図の方が日本語の情報は多い。
+
 フローチャートが手順の順序を重視するのに対し、これはそれぞれの状態がどういうものかを重視する。
 なのでプロセス全体より、一つのオブジェクトの状態変化を表すのに使う。あとはイベントとトリガー関係とか。
 
@@ -272,6 +276,153 @@ html上でmermaidの文字色とか変えたくなったときに使う機能。
 | **表現範囲**    | プロセス全体       | 1つのオブジェクトの状態変化       |
 
 [しばらくお待ちください...](https://chat.deepseek.com/a/chat/s/3bda3b83-1572-40ea-8cfc-d3e08da6394e)
+
+### 基礎
+stateDiagram-v2で書き始める。
+`[*]`で最初と最後。`-->`でつなぐ。
+繋ぐ対象をState(状態)、繋ぐ矢印をTransition(遷移)という。
+
+```mermaid
+stateDiagram-v2
+    [*] --> Still
+    Still --> [*]
+```
+
+### 説明
+
+`state "Discription" as ID`で状態の説明（表示）とIDを切り離せる。state句は必須。
+`ID : Discription`も同じことができる。こっちのが楽。
+説明は後からでも付加できる。
+
+```mermaid
+stateDiagram-v2
+    state "This is a state description" as s2
+    s2 : This is a state description
+```
+
+遷移に説明を付ける場合、一文の最後にコロンを付け、その後に続ける。
+`ID --> ID2 : Discription`
+
+```mermaid
+stateDiagram-v2
+    s1 --> s2: A transition
+
+```
+
+### 複合状態
+Composite。`state ID {}`で複合状態を作れる。
+`{}`の中に同じように書けば複合状態に状態を入れられる。
+
+IDは普通の状態と同じように扱える。
+複合状態同士での接続も可能。
+
+```mermaid
+stateDiagram-v2
+    [*] --> First
+    state First {
+        [*] --> second
+        second --> [*]
+    }
+
+    [*] --> NamedComposite
+    NamedComposite: Another Composite
+    state NamedComposite {
+        [*] --> namedSimple
+        namedSimple --> [*]
+        namedSimple: Another simple
+    }
+
+```
+
+### 選択
+choice。選択をモデル化する場合、`state ID <<choice>>`とする。
+IDから同じように引けばいいが、そのままだと何の選択か分からないので遷移に説明必須。
+
+```mermaid
+stateDiagram-v2
+    state if_state <<choice>>
+    [*] --> IsPositive
+    IsPositive --> if_state
+    if_state --> False: if n < 0
+    if_state --> True : if n >= 0
+```
+
+### フォーク
+`state ID <<fork>>`, `state ID <<join>>`でフォークをモデリングできる。
+選択と同じ。
+
+```mermaid
+   stateDiagram-v2
+    state fork_state <<fork>>
+      [*] --> fork_state
+      fork_state --> State2
+      fork_state --> State3
+
+      state join_state <<join>>
+      State2 --> join_state
+      State3 --> join_state
+      join_state --> State4
+      State4 --> [*]
+
+```
+
+### メモ
+説明が長い場合、ポストイットとして説明を付加できる。
+`note Direction of ID`。メモ本体は`    noteMain`のように次の行にタブを足して追記するか、説明と同じく`note Direction of ID : Discription`とする。
+
+```mermaid
+    stateDiagram-v2
+        State1: The state with a note
+        note right of State1
+            Important information! You can write
+            notes.
+        end note
+        State1 --> State2
+        note left of State2 : This is the note to the left.
+
+```
+
+### 並行性
+concurrency。複合状態内で`--`を使うことにより、並行プロセスを記述可能。
+フォークとは違いプロセスを統合したり、1つの状態から開始する必要はない。代わりに複合状態内のみ。
+
+```mermaid
+stateDiagram-v2
+    [*] --> Active
+
+    state Active {
+        [*] --> NumLockOff
+        NumLockOff --> NumLockOn : EvNumLockPressed
+        NumLockOn --> NumLockOff : EvNumLockPressed
+        --
+        [*] --> CapsLockOff
+        CapsLockOff --> CapsLockOn : EvCapsLockPressed
+        CapsLockOn --> CapsLockOff : EvCapsLockPressed
+        --
+        [*] --> ScrollLockOff
+        ScrollLockOff --> ScrollLockOn : EvScrollLockPressed
+        ScrollLockOn --> ScrollLockOff : EvScrollLockPressed
+    }
+
+```
+
+### ダイアグラムの方向
+最初に`direction LR`と書くと左から右になる。
+複合状態内だけ別方向にすることもできる。
+
+### コメント
+行頭`%%`。
+
+### スタイリング
+classDefという物が使える。他のフローチャートとかと同様。
+CSSで状態を飾れる。複合状態と最初と最後は飾れない。
+
+まず`classDef ClassName CSS:CSS:...`でCSSクラスを宣言。
+その後`class ID ClassName`をどっかに書くか、`ID:::ClassName`を書くことで適用できる。
+
+
+
+[State diagrams | Mermaid](https://mermaid.js.org/syntax/stateDiagram.html)
 
 ## 実体関連図
 相互に関心のある事柄を記述する。ER。
