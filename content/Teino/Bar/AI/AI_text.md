@@ -179,3 +179,32 @@ Gemini Proくらいの性能を持つマルチモーダルモデル。
 外部ツールを積極的に使うっぽい？
 動画の解説が欲しい時に。
 [Site Unreachable](https://note.com/doerstokyo_kb/n/n8ecfdcafaea2)
+
+## Perplexica
+OSSのPerplexityクローン。
+SearXNGというローカル検索アプリを使うのだが、これのセットアップが少し面倒。
+なのでdocker使用が推奨。
+[Perplexica](<./Perplexica.md>)
+
+## Jan
+とにかく簡単にggufや他検索が使えるアプリ。
+簡単すぎてAPIやggufの配置場所選択などがない。(2025/02/13)
+
+[GitHub - janhq/jan: Jan is an open source alternative to ChatGPT that runs 100% offline on your computer](https://github.com/janhq/jan)
+
+## LMStudio
+APIを公開してくれるアプリ。
+
+https://lmstudio.ai
+
+## open-webui
+ウェブ検索をローカルアプリで出来る奴。
+埋め込みモデルの選択なども簡単にできる。インストールもpythonのライブラリ一個入れるだけ。
+
+[日本語の高性能な文埋め込みモデルを試す｜ぬこぬこ](https://note.com/schroneko/n/n8e36e2b8cb10)
+[【日本語LLM】Ollamaで利用可能な日本語対応embeddingモデル【Ruri】｜Catapp-Art3D](https://note.com/catap_art3d/n/n1ae2474509b7)
+[GitHub - open-webui/open-webui: User-friendly AI Interface (Supports Ollama, OpenAI API, ...)](https://github.com/open-webui/open-webui?tab=readme-ov-file)
+
+## [GitHub - reorproject/reor: Private & local AI personal knowledge management app for high entropy people.](https://github.com/reorproject/reor)
+Obsidianのようにローカルマークダウンを管理し、そこにAIエージェント機能をくっつけた奴。
+まだv0.2（2025/02/13）でインストール時に100000くらいのファイルが入る。

@@ -50,3 +50,13 @@ OpenAIのAPIでローカルのモデルを動かせるやつ。
 動画を認識できるオープンソースモデル。
 
 [GitHub - THUDM/CogVLM2: GPT4V-level open-source multi-modal model based on Llama3-8B](https://github.com/THUDM/CogVLM2)
+
+## [SakanaAI/TinySwallow-1.5B-Instruct-GGUF at main](https://huggingface.co/SakanaAI/TinySwallow-1.5B-Instruct-GGUF/tree/main)
+1.5Bの賢い奴。とりあえず日本語の破綻はない。
+
+## [mradermacher/DeepSeek-R1-Distill-Qwen-7B-Japanese-GGUF at main](https://huggingface.co/mradermacher/DeepSeek-R1-Distill-Qwen-7B-Japanese-GGUF/tree/main)
+Deepseekの実用サイズの日本語版。
+まだ試せてない。
+
+## [mmnga/RakutenAI-2.0-mini-instruct-gguf · Hugging Face](https://huggingface.co/mmnga/RakutenAI-2.0-mini-instruct-gguf)
+1.5b。まだ。
