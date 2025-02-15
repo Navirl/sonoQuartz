@@ -139,6 +139,8 @@ require("lazy").setup({
 フォーマッタ。
 [nvim-cmp](<#nvim-cmp>)と同じくプラグイン式。ファイルタイプごとに設定が必要。
 
+lazy.nvim用の設定が無く、なんかうまくいかなかったので[\[conform.nvim\](https://github.com/stevearc/conform.nvim)](<#**[conform.nvim](https //github.com/stevearc/conform.nvim)**>)を使用している。
+
 formatterはスタイルをチェックし、ルールに基づいてコードを整形する。整形なので動作に影響はない。
 
 linterはコードをチェックし、バグやルールに沿って書かれているかをチェックする。
@@ -273,3 +275,39 @@ diffコマンドを使いやすくする。
 ## **[nvim-yati](https://github.com/yioneko/nvim-yati)**
 treesitterの小修正。Treesitterの代わりに使う。
 
+## [mason.nvim](https://github.com/williamboman/mason.nvim)
+LSPを管理する。
+LSPはlanguage server protocolの略。プロジェクトソースを解析して情報を提供するIDE用のサービスの仕様。
+Microsoftが2016年から主導している。
+
+[language server protocolについて (前編) #VSCode - Qiita](https://qiita.com/atsushieno/items/ce31df9bd88e98eec5c4)
+
+ちなみにmasonはDAPも管理できる。
+DAPはDebug Adapter Protocol。これもMicrosoft主導、デバッガー用の情報提供。
+
+[Rustのtokioを使ってLSP, DAPサーバーを書く](https://zenn.dev/myuon/articles/57f9888c7d22fa#lspとdapについて)
+
+起動には一度どこかで`require("mason").setup()`を実行する必要がある。
+なのでこう。
+
+```lua
+return {
+	"williamboman/mason.nvim",
+	config = function()
+		require("mason").setup()
+	end,
+}
+```
+
+`:Mason`でインストールできるlspの一覧が見られる。
+
+[Neovim+LSPをなるべく簡単な設定で構築する](https://zenn.dev/botamotch/articles/21073d78bc68bf)
+
+あくまでlspを管理するだけであり、実質miseとかと変わらない。
+実際にフォーマットしたりするなら別に[conform.nvim](<#**[conform.nvim](https //github.com/stevearc/conform.nvim)**>)などを使用する必要がある。
+
+rustfmtが非推奨なのは、rustfmt公式がrustupで入れろと言っているため。
+あとスペース消してくれないのは仕様。
+
+[rustfmt: deprecated: rustfmt should now be installed via rustup · Issue #1429 · williamboman/mason.nvim](https://github.com/williamboman/mason.nvim/issues/1429)
+[いちからvimのrust開発環境を構築していく❗️(rust.vim, coc.nvim)](https://zenn.dev/yuucu/articles/vimrc-rust-yuucu)

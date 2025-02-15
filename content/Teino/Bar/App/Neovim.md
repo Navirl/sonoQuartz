@@ -115,7 +115,7 @@ vim.api.nvim_create_autocmd("TermOpen", {
 [WindowsのNeovimで任意のPowerShellを起動する](https://zenn.dev/seesaw_monster/articles/0f1cf8c282020a)
 
 ## 矩形選択出来ない
-`<C-v>`が貼り付けになってしまう場合、`<C-q>`に代替のキーバインドがある。
+visual blockモード。`<C-v>`が貼り付けになってしまう場合、`<C-q>`に代替のキーバインドがある。
 
 [vim - How do you select a whole column in visual block mode? - Stack Overflow](https://stackoverflow.com/questions/3736678/how-do-you-select-a-whole-column-in-visual-block-mode)
 

@@ -94,6 +94,10 @@ inoremap <silent> jj <ESC>
 ```
 [Vim で ESC キーの代わりに jj でインサートモードから抜けるには | Mitomex Blog](https://www.mitomex.blog/vim-esc-jj/)
 
+`:e`。ファイルを開ける。edit。直感的な`:f`はファイル名を変更するコマンド。
+
+[Editing - Neovim docs](https://neovim.io/doc/user/editing.html)
+
 ### 若干応用
 `<S-v>`。Visual lineモード、行単位での選択を行う。
 `:%s/foo/bar/g`。ファイル全体で置換。%を外せば行だけ、gを外せば行中一回だけ。
