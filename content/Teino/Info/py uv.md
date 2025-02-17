@@ -73,5 +73,16 @@ pypyはCPythonから一部を切り出したRPython(サブセット)を用いて
 なおどちらもptyhon3.13で実装予定。
 [PyPyの基礎知識まとめ その1 #Python - Qiita](https://qiita.com/ta_ta_ta_miya/items/33253e9bcbb7034f088d)
 
-これで入れたpythonは外部環境となるため、pipを入れようとすると怒られる。
+これで入れたpythonは外部環境となるため、pipを入れようとするとエラーが出る。
+
+## pipやpoetryから移行
+`uv tool install migrate-to-uv`
+`uvx migrate-to-uv`
+
+全部pyproject.tomlに書き込まれる。
+
+[パッケージマネージャーuvへの移行ガイド](https://zenn.dev/diia/scraps/03b4d18a92f298)
+
+## pyproject.tomlの内容をインストール
+`uv sync`
 

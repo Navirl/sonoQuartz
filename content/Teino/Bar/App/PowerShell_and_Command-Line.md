@@ -203,3 +203,9 @@ Uninstall-Module PSScriptTools -AllVersions
 ```
 
 [GitHub - jdhitsolutions/PSScriptTools: :wrench: A set of PowerShell functions you might use to enhance your own functions and scripts or to facilitate working in the console. Most should work in both Windows PowerShell and PowerShell 7, even cross-platform. Any operating system limitations should be handled on a per command basis. The Samples folder contains demonstration script files](https://github.com/jdhitsolutions/PSScriptTools)
+
+## 再帰的にフォルダを作成
+`ni -ItemType Directory -Path path`
+ちゃんと`-Path`でパス指定する。
+
+[【PowerShell】空のフォルダを再帰的に作成する方法 \| 秋拓技術学院](https://syutaku.blog/powershell-new-item-directory/)

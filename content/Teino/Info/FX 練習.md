@@ -48,3 +48,9 @@ MT4&5ハック。
 個人で作っており機能豊富。
 
 [【正式版:シリアルキーなし】裁量トレードの"復習"ソフト RT for MT4 & MT5 - インジケーター・電子書籍 - 世界のトレード手法・ツールが集まるマーケットプレイス - GogoJungle](https://www.gogojungle.co.jp/tools/indicators/43459?auxTag=7v8IBbQIZXWFRdRgU6P3KXngf%2BtWwQb0V0DlhtJDC4Qfgs7k1PGaDvQjcwxJ2K5TbENgMLc%3D)
+
+## multi charts
+
+
+
+[Trade Tester - インジケーター・電子書籍 - 世界のトレード手法・ツールが集まるマーケットプレイス - GogoJungle](https://www.gogojungle.co.jp/tools/indicators/20882?auxTag=7foEAtw%3D)
