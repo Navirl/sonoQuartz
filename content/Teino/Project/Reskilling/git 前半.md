@@ -11,7 +11,7 @@
     - 変更がないファイルは「前のデータを参照」
         - そのまま都度保存ではない
         - 前のデータは効率的に圧縮される
-- [Gitの「スナップショット」とは？ 容量の心配は必要ないの？ #Git - Qiita](https://qiita.com/yamazaki_25/items/9d6c3971be9f3bbd9c67)
+- [Gitの「スナップショット」とは？ 容量の心配は必要ないの？ Git - Qiita](https://qiita.com/yamazaki_25/items/9d6c3971be9f3bbd9c67)
 
 時系列とブランチでバージョン管理できる
 別時系列がbranch、合わせるのがmerge

@@ -17,4 +17,4 @@ Component配列に対して一括処理でき早くなる。
 
 [古典的ゲームループからECSアーキテクチャまで](https://zenn.dev/rita0222/articles/c22a8367e31b4d5f4eeb)
 [[Rust] Bevyのはまりどころ](https://zenn.dev/msakuta/articles/40c1ad41b1c62e)
-[Rustで3Dサンドボックスゲームを作る #1 Bevy](https://zenn.dev/publictheta/articles/034a9e28073dfe)
+[Rustで3Dサンドボックスゲームを作る 1 Bevy](https://zenn.dev/publictheta/articles/034a9e28073dfe)

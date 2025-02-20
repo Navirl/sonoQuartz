@@ -95,7 +95,7 @@ img2imgに入った絵の顔を保ったままに、ControlNet上の画像の特
 複数枚を一気に食わせてさらに正確性を高めるportraitモデルも追加されている。
 ただしこちらはInsightFaceを使用した関係で非営利ライセンス。
 
-[Face ID license and redist of the lora version · Issue #188 · tencent-ailab/IP-Adapter · GitHub](https://github.com/tencent-ailab/IP-Adapter/issues/188)
+[Face ID license and redist of the lora version · Issue 188 · tencent-ailab/IP-Adapter · GitHub](https://github.com/tencent-ailab/IP-Adapter/issues/188)
 
 効く量をLoRAで指定するので、LoRAモデルも必要。
 
@@ -173,7 +173,7 @@ ComfyUIで動かす無茶苦茶もできる。
 そのためsd1.5で上手くいかないとsdxlでは使えない。
 なのでforgeは実装しない。
 
-[\[Enhancement\] Adding the X-adapter · Issue #2652 · Mikubill/sd-webui-controlnet · GitHub](https://github.com/Mikubill/sd-webui-controlnet/issues/2652#issuecomment-1972292154)
+[\[Enhancement\] Adding the X-adapter · Issue 2652 · Mikubill/sd-webui-controlnet · GitHub](https://github.com/Mikubill/sd-webui-controlnet/issues/2652#issuecomment-1972292154)
 
 ## StarLine
 Line2colorをさらに線画に忠実にしたもの。
@@ -206,7 +206,7 @@ SDXL版もある。
 ## ComfyUI上
 合計の強度が1を超えると不味いという噂。
 
-[【Stable-Diffusion】🔰人物と背景を合成！ComfyUIでAnimatediff ＜マスクと合成編：後編＞ #animatediff  #sam #ipadapter - YouTube](https://youtu.be/hULnILp-24E?t=1378)
+[【Stable-Diffusion】🔰人物と背景を合成！ComfyUIでAnimatediff ＜マスクと合成編：後編＞ animatediff  sam ipadapter - YouTube](https://youtu.be/hULnILp-24E?t=1378)
 
 ## Depth
 深度情報。

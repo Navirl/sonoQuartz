@@ -42,7 +42,7 @@ wslは標準でGPUを使用しないようにしている。
 なのでそれをONにする。Nvidiaドライバーをインストール。
 
 [Installing the NVIDIA Container Toolkit — NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html#docker)
-[WSL でのパーミッション設定・GPU の有効化 #WSL2 - Qiita](https://qiita.com/MinadukiSekina/items/71455b433e66eb4da397)
+[WSL でのパーミッション設定・GPU の有効化 WSL2 - Qiita](https://qiita.com/MinadukiSekina/items/71455b433e66eb4da397)
 
 
 ## 環境変数をwindowsと共有

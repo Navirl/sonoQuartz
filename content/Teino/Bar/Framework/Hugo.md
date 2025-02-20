@@ -102,7 +102,7 @@ markup:
 ```
 
 [Configure markup | Hugo](https://gohugo.io/getting-started/configuration-markup/)
-[HugoのMarkdownでGitHub的改行をしたい #Hugo - Qiita](https://qiita.com/sijiaoh/items/3dcbbed720a2fc668ca8)
+[HugoのMarkdownでGitHub的改行をしたい Hugo - Qiita](https://qiita.com/sijiaoh/items/3dcbbed720a2fc668ca8)
 
 ## contentディレクトリの変更
 一応できるが、postsフォルダの変更が見つからない。
@@ -135,7 +135,7 @@ git rm -f 追加したサブモジュール
 rm -rf .git/modules/追加したサブモジュール 
 ```
 
-[\[git\] submoduleの削除、再追加について #Git - Qiita](https://qiita.com/k_yamashita/items/040c04f8798d2384806e)
+[\[git\] submoduleの削除、再追加について Git - Qiita](https://qiita.com/k_yamashita/items/040c04f8798d2384806e)
 
 deinitとgit rmを使用する。
 

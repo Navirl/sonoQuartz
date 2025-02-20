@@ -91,4 +91,4 @@ dendron publishのコマンドで発生。
 なんか循環参照してるらしい。
 dendron-cliのバージョンを0.119.0に下げるとうまくいく。
 
-[Latest version of dendron-cli \`0.124.2\` breaks when running \`npx dendron publish init\`  · Issue #3981 · dendronhq/dendron · GitHub](https://github.com/dendronhq/dendron/issues/3981)
+[Latest version of dendron-cli \`0.124.2\` breaks when running \`npx dendron publish init\`  · Issue 3981 · dendronhq/dendron · GitHub](https://github.com/dendronhq/dendron/issues/3981)

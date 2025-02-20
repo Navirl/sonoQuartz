@@ -44,12 +44,12 @@ IF /I "%ERRORLEVEL%" NEQ "0" (
 
 
 より調べると、`%USERPATH%`が原因と判明。ユーザー名に括弧が入ってるのが問題だったらしい。入っていないが、この投稿通りUSERPATHに""を付けると直った。
-[Android "SetupAndroid.bat" keeps giving this error "was unexpected at this time." UE 4-26 - #2 by J0hn-C0nn0r - Mobile - Unreal Engine Forums](https://forums.unrealengine.com/t/android-setupandroid-bat-keeps-giving-this-error-was-unexpected-at-this-time-ue-4-26/269323/2)
+[Android "SetupAndroid.bat" keeps giving this error "was unexpected at this time." UE 4-26 - 2 by J0hn-C0nn0r - Mobile - Unreal Engine Forums](https://forums.unrealengine.com/t/android-setupandroid-bat-keeps-giving-this-error-was-unexpected-at-this-time-ue-4-26/269323/2)
 
 ……と思いきや、Sdkmanager.batのエラーが再発。
 今度はクリア。82行目で参照しているSdkmanager.batが古いモノらしい。Android Studioプラグインとして新しくCommand line toolをインストールし、それを参照するように82行目を修正する。
 
-[SetupAndroid.bat UE4.25 Error - #17 by Hargrimms - Mobile - Unreal Engine Forums](https://forums.unrealengine.com/t/setupandroid-bat-ue4-25-error/464836/17)
+[SetupAndroid.bat UE4.25 Error - 17 by Hargrimms - Mobile - Unreal Engine Forums](https://forums.unrealengine.com/t/setupandroid-bat-ue4-25-error/464836/17)
 
 しかし今度はビルド時にNDKROOTがつながっていないとエラーしまくる。
 仕方ないので公式ガイド通り4.0を入れる。だってこんな記事あったんだもの。
@@ -58,8 +58,8 @@ IF /I "%ERRORLEVEL%" NEQ "0" (
 
 またUE側の設定も行う。SDK,NDK,JDKのパスとAPIバージョン指定。APIは対応するものをAndroid Studioでダウンロードしておく。
 
-[Manually set Android SDK and NDK on UE 5 for M1 MacOS? - #2 by Scionate - Mobile - Unreal Engine Forums](https://forums.unrealengine.com/t/manually-set-android-sdk-and-ndk-on-ue-5-for-m1-macos/523628/2)
-[Is Android Studio 4.0 still mandatory for Mobile (-AR/VR) developement in UE5? - #2 by MondRubberduck - Mobile - Unreal Engine Forums](https://forums.unrealengine.com/t/is-android-studio-4-0-still-mandatory-for-mobile-ar-vr-developement-in-ue5/530629/2)
+[Manually set Android SDK and NDK on UE 5 for M1 MacOS? - 2 by Scionate - Mobile - Unreal Engine Forums](https://forums.unrealengine.com/t/manually-set-android-sdk-and-ndk-on-ue-5-for-m1-macos/523628/2)
+[Is Android Studio 4.0 still mandatory for Mobile (-AR/VR) developement in UE5? - 2 by MondRubberduck - Mobile - Unreal Engine Forums](https://forums.unrealengine.com/t/is-android-studio-4-0-still-mandatory-for-mobile-ar-vr-developement-in-ue5/530629/2)
 
 ここでようやくビルドが通る。
 

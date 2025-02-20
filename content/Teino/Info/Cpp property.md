@@ -19,5 +19,5 @@ MSVCならサポートしてる。
 テンプレートを使うともうちょい柔軟になるが、中身は結局＝オーバーライドだったり。
 
 [C++でプロパティ - Qiita](https://qiita.com/DandyMania/items/78bb31492bee095bc4b0)
-[# C++でプロパティーを実現する方法 - Qiita](https://qiita.com/m5knt/items/1da740db9c1b1935f304)
+[ C++でプロパティーを実現する方法 - Qiita](https://qiita.com/m5knt/items/1da740db9c1b1935f304)
 [C++でProperty（getter/setter） - Qiita](https://qiita.com/HogeTatu/items/1bb3a394f88ba90cd37e)

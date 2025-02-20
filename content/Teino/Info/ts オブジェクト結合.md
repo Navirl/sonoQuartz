@@ -23,7 +23,7 @@ console.log(mergeObjects(obj1, obj2)); // { a: 1, b: 3, c: 4 }
 
 shallow copyなのでネスト以下のものを書き換えると元が変わる。防ぐならネスト以下は個別に展開していくこと。
 
-[JSのスプレッド構文を理解する #JavaScript - Qiita](https://qiita.com/akisx/items/682a4283c13fe336c547)
+[JSのスプレッド構文を理解する JavaScript - Qiita](https://qiita.com/akisx/items/682a4283c13fe336c547)
 
 Object.assign()は以下。
 
@@ -39,8 +39,8 @@ console.log(mergeObjects(obj1, obj2)); // { a: 1, b: 3, c: 4 }
 
 ```
 
-[\[JavaScript\]Object.assignを基礎から理解する #JavaScript - Qiita](https://qiita.com/HuntingRathalos/items/1c22ca800d09ea2f8330)
+[\[JavaScript\]Object.assignを基礎から理解する JavaScript - Qiita](https://qiita.com/HuntingRathalos/items/1c22ca800d09ea2f8330)
 
 二つはほぼ同じだが、スプレッド構文の方が新しく、Object.prototypeが汚染されセッタがセットされているときでもセッタを呼び出さない。
 
-[Object.assign({}, obj) と { ...obj } の違い #JavaScript - Qiita](https://qiita.com/uhyo/items/eaed00f1af9b0b7ee2e6)
+[Object.assign({}, obj) と { ...obj } の違い JavaScript - Qiita](https://qiita.com/uhyo/items/eaed00f1af9b0b7ee2e6)

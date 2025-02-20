@@ -38,7 +38,7 @@ S。カーソル行を削除して挿入モード。
 D。カーソルから右側を削除。Delete
 C。カーソルから右側を削除して挿入モード。Cut
 
-[VSCodeで始めるVim #初心者 - Qiita](https://qiita.com/jintz/items/d357478271179c90ffab#カーソル移動の基本)
+[VSCodeで始めるVim 初心者 - Qiita](https://qiita.com/jintz/items/d357478271179c90ffab#カーソル移動の基本)
 
 d。削除。
 "数字"dd。複数行削除。
@@ -79,13 +79,13 @@ N。前の一致箇所にジャンプ。
 :q!。保存せず終了。
 
 
-[【入門】Vimで高速で移動\~プラグインなしでの移動まとめ\~ #Vim - Qiita](https://qiita.com/takeharu/items/9d1c3577f8868f7b07b5)
+[【入門】Vimで高速で移動\~プラグインなしでの移動まとめ\~ Vim - Qiita](https://qiita.com/takeharu/items/9d1c3577f8868f7b07b5)
 
 g"行移動"。表示上の行で移動できる。
 gg。ファイルの始端へ。
 G。ファイルの終端へ。
 
-[Vimの様々なカーソル移動のやり方 #Vim - Qiita](https://qiita.com/gorilla0513/items/afd32389bc5554f175e0)
+[Vimの様々なカーソル移動のやり方 Vim - Qiita](https://qiita.com/gorilla0513/items/afd32389bc5554f175e0)
 
 jj。インサートモードから戻る。
 設定が必要。
@@ -114,7 +114,7 @@ imap jj <Esc>
 ```
 
 [ObsidianのvimモードでもjkやjjでEscする | Obsidian TIPS(JP)](https://obsidiantips.com/tips-vim-jk-esc/)
-[Obsidianのvimでinoremap jj \<ESC\>が効かない問題の回避策 #Vim - Qiita](https://qiita.com/AngelCase/items/dac6c87c4d116f2d616c)
+[Obsidianのvimでinoremap jj \<ESC\>が効かない問題の回避策 Vim - Qiita](https://qiita.com/AngelCase/items/dac6c87c4d116f2d616c)
 
 
 ## Neovim
@@ -123,7 +123,7 @@ imap jj <Esc>
 ## VSCode Neovim
 裏でNeoVimを動かしてるだけなので、Neovimを設定すれば設定できる。
 
-[WindowsでVSCode Neovimを使うには（winget） #Vim - Qiita](https://qiita.com/az2410/items/70aa6696fa759fb924f4)
+[WindowsでVSCode Neovimを使うには（winget） Vim - Qiita](https://qiita.com/az2410/items/70aa6696fa759fb924f4)
 
 jjでnormalに戻る
 破壊的変更がされたらしく、settings.jsonへの追記が必要になる。
@@ -160,7 +160,7 @@ insertモードからnormalモードに戻る時、IMEがONのままだとコマ
 
 日本語にVimコマンドを割り当ててしまう。
 楽だけど使いたいコマンドに都度割当てるのが手間。
-[Vimでの日本語編集がはかどるキーマッピング #Vim - Qiita](https://qiita.com/ssh0/items/9e7f0d8b8f033183dd0b)
+[Vimでの日本語編集がはかどるキーマッピング Vim - Qiita](https://qiita.com/ssh0/items/9e7f0d8b8f033183dd0b)
 
 ## mapとnoremap
 mapはショートカットを入力する奴。キーをVimの入力に割り当てる。
@@ -185,7 +185,7 @@ insertモードでしか使わないならinoremap等。
 
 ## 慣れたら
 [慣れてきた頃に知りたいVimの便利機能](https://zenn.dev/sun_asterisk/articles/6b2bf762a7e510)
-[VimやNeovimコマンドで覚えなきゃいけないコマンド覚書 #vimrc - Qiita](https://qiita.com/Nedward/items/c9f4c739210b0a8b5137)
+[VimやNeovimコマンドで覚えなきゃいけないコマンド覚書 vimrc - Qiita](https://qiita.com/Nedward/items/c9f4c739210b0a8b5137)
 
 ## コマンド履歴
 q:。q/やq?でも出る。直接編集可。
@@ -210,7 +210,7 @@ q:。q/やq?でも出る。直接編集可。
 使えるとめちゃくちゃ楽。
 このマーク、**ファイルを跨いでセット**するのだけ注意。
 
-[Vimのマーク機能、使い方まとめ #Vim - Qiita](https://qiita.com/syui/items/442fd0905a1f2005c10e)
+[Vimのマーク機能、使い方まとめ Vim - Qiita](https://qiita.com/syui/items/442fd0905a1f2005c10e)
 
 delmarksは打つのだるい。
 neovimならdmxで消せるプラグインがある。

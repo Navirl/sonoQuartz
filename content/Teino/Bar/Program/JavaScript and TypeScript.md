@@ -37,15 +37,15 @@ forofは反復処理用。
 
 ## npxをpnpmで
 pnpm exec
-[pnpm execとpnpm dlx #Node.js - Qiita](https://qiita.com/KokiSakano/items/30ca5f154bff1a3d2b61)
+[pnpm execとpnpm dlx Node.js - Qiita](https://qiita.com/KokiSakano/items/30ca5f154bff1a3d2b61)
 
 ## npmでローカルインストールしたパッケージをCLI実行
 `npx`。package.jsonのscriptsに追加するnpm-scriptという方法も。
 
-[npm でローカルインストールしたパッケージを CLI でコマンド実行する方法（npm-srcipts, npx） #npm-scripts - Qiita](https://qiita.com/sugurutakahashi12345/items/b814a09b65d8852226ad)
+[npm でローカルインストールしたパッケージを CLI でコマンド実行する方法（npm-srcipts, npx） npm-scripts - Qiita](https://qiita.com/sugurutakahashi12345/items/b814a09b65d8852226ad)
 
 ## pnpmストアフォルダ
 ハードリンク張られるが、これはpnpm store pathで取得できる。
 同一ドライブじゃないとだめ。
 [How to get pnpm store directory - Stack Overflow](https://stackoverflow.com/questions/55403775/how-to-get-pnpm-store-directory)
-[how to change pnpm store folder path · pnpm · Discussion #7289 · GitHub](https://github.com/orgs/pnpm/discussions/7289)
+[how to change pnpm store folder path · pnpm · Discussion 7289 · GitHub](https://github.com/orgs/pnpm/discussions/7289)

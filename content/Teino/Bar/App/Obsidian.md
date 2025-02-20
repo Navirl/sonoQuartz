@@ -43,7 +43,7 @@ Templateにファイル名やフォルダ名を含むことが出来る。
 [File Module \| Templater](https://silentvoid13.github.io/Templater/docs/internal-variables-functions/internal-modules/file-module/)
 
 ### タグをフロントマタータグに変換
-[Gather up tags and format for YAML frontmatter · Discussion #140 · SilentVoid13/Templater](https://github.com/SilentVoid13/Templater/discussions/140)
+[Gather up tags and format for YAML frontmatter · Discussion 140 · SilentVoid13/Templater](https://github.com/SilentVoid13/Templater/discussions/140)
 
 Templaterからこのファイル二つを順番通り呼び出せばいい。
 
@@ -65,8 +65,8 @@ Templaterからこのファイル二つを順番通り呼び出せばいい。
 [Obsidianで特定のフォルダのみ検索結果から除外する – ごりゅご.com](https://goryugo.com/20201207/obsidian-path-search/)
 
 ## iOS shortcuts連携
-[iOS Shortcuts - Share your ideas! - #32 by cutting_shapes - Share & showcase - Obsidian Forum](https://forum.obsidian.md/t/ios-shortcuts-share-your-ideas/15149/32)
-[Fetching Title#p34m](https://www.reddit.com/r/ObsidianMD/comments/owfz60/2_ios_shortcuts_for_obsidian_mobile/)
+[iOS Shortcuts - Share your ideas! - 32 by cutting_shapes - Share & showcase - Obsidian Forum](https://forum.obsidian.md/t/ios-shortcuts-share-your-ideas/15149/32)
+[Fetching Titlep34m](https://www.reddit.com/r/ObsidianMD/comments/owfz60/2_ios_shortcuts_for_obsidian_mobile/)
 
 隠しフォルダを覗けるのは便利。
 [Obsidian mobile使いに便利なショートカット｜しおん｜note](https://note.com/shion_medical/n/nfec27558f47a)

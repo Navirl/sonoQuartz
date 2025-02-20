@@ -25,7 +25,7 @@ libGL.so.1が無いって言われるのでlibgl1をインストール。
 libgthread-2.0.so.0が無いのでlibglib2.0-0をインストール。
 普通のlinuxには入ってるらしい。
 
-[Problem running / installing on WSL · Issue #790 · AUTOMATIC1111/stable-diffusion-webui · GitHub](https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/790)
+[Problem running / installing on WSL · Issue 790 · AUTOMATIC1111/stable-diffusion-webui · GitHub](https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/790)
 
 
 これを見ながらdocker初期設定。
@@ -64,7 +64,7 @@ GPU使うので`--gpus`。allにしとけば複数のGPUでも読み込む。
 
 ただし--listenは必ずつけて置かないとブラウザで開けない。このフラグを付けると**ホームネットワークからアクセスできるようになる**ため、標準だと拡張機能を入れることが出来なくなっている。`--enable-insecure-extension-access`を付ければ行けるが使用注意。`docker run -p 127.0.0.0:7890:127.0.0.0:7890`は普通に通してくれない。
 [Command Line Arguments and Settings · AUTOMATIC1111/stable-diffusion-webui Wiki · GitHub](https://github.com/AUTOMATIC1111/stable-diffusion-webui/wiki/Command-Line-Arguments-and-Settings)
-[[Bug]: AssertionError: extension access disabed because of commandline flags · Issue #4215 · AUTOMATIC1111/stable-diffusion-webui · GitHub](https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/4215)
+[[Bug]: AssertionError: extension access disabed because of commandline flags · Issue 4215 · AUTOMATIC1111/stable-diffusion-webui · GitHub](https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/4215)
 
 前提として、コンテナはホストマシンとは別のIPアドレスを持っている。だから簡単にはアクセスできない。wslも同じなのに何であっちは繋げられるんだ。
 [コンテナーのネットワーク | Docker ドキュメント](https://matsuand.github.io/docs.docker.jp.onthefly/config/containers/container-networking/)
@@ -105,7 +105,7 @@ modules.devices.NansException: A tensor with all NaNs was produced in Unet. This
 ```
 
 コミュニティも原因を掴み切れない謎エラー。
-[[Bug]: A tensor with all NaNs was produced in Unet · Issue #6923 · AUTOMATIC1111/stable-diffusion-webui · GitHub](https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/6923)
+[[Bug]: A tensor with all NaNs was produced in Unet · Issue 6923 · AUTOMATIC1111/stable-diffusion-webui · GitHub](https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/6923)
 
 注文通りに引数付けても変化なし。
 設定のStable Diffusionの項、`Upcast cross attention layer to float32`をONにすれば直るという話が大半だが、効果なし。

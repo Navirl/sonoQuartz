@@ -177,7 +177,7 @@ https://files.catbox.moe/ts7gyy.png
 
 ## コメントアウト
 ComfyUIならC言語宜しく`//`や`/**/`で弾ける。でも効いてない感が凄い。
-sdwebuiなら[sd-dynamic-prompts](<./sdwebui plugin.md#sd-dynamic-prompts>)の`#`記法、もしくは`[コメント:999]`が使えるらしい。
+sdwebuiなら[sd-dynamic-prompts](<./sdwebui plugin.md#sd-dynamic-prompts>)の``記法、もしくは`[コメント:999]`が使えるらしい。
 
 [プロンプトの一部をコメントアウトする - work4ai](https://scrapbox.io/work4ai/プロンプトの一部をコメントアウトする)
 

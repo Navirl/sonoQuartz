@@ -21,6 +21,6 @@ tauriと同じくクロスプラットフォームでアプリが作れる。
 ## Cannot install dioxus-cli 0.6.0 on Windows due to aws-lc-sys
 エラーメッセージをよく見る。たいていcmakeかnasmが足りずコンパイルが失敗している。
 
-[Cannot install dioxus-cli 0.6.0 on Windows due to \`aws-lc-sys v0.23.1\` · Issue #3309 · DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus/issues/3309)
+[Cannot install dioxus-cli 0.6.0 on Windows due to \`aws-lc-sys v0.23.1\` · Issue 3309 · DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus/issues/3309)
 
 [dioxus 基礎](<../../Info/dioxus 基礎.md>)

@@ -34,7 +34,7 @@ ratholeという物で回避できるらしい。
 
 sdwebuiはBoreを使った報告がある。
 
-[Use ngrok in the Colab version to avoid problems with disconnecting the webui interface after 30s. · Issue #344 · AUTOMATIC1111/stable-diffusion-webui · GitHub](https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/344)
+[Use ngrok in the Colab version to avoid problems with disconnecting the webui interface after 30s. · Issue 344 · AUTOMATIC1111/stable-diffusion-webui · GitHub](https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/344)
 
 ただSMSLだとだめでした。
 

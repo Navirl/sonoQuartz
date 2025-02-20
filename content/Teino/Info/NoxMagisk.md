@@ -10,7 +10,7 @@ magisk delta
 
 [Kitsune Mask | magisk-files](https://huskydg.github.io/magisk-files/main.html)
 [Kitsune Magisk | magisk-files](https://huskydg.github.io/magisk-files/)
-[Install Magisk v25 On The Latest Nox Emulator Android #magisk #root #emulator - YouTube](https://www.youtube.com/watch?v=Ia7LrK-TD_k)
+[Install Magisk v25 On The Latest Nox Emulator Android magisk root emulator - YouTube](https://www.youtube.com/watch?v=Ia7LrK-TD_k)
 
 and dump cs
 

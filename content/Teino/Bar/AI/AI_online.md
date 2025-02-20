@@ -94,7 +94,7 @@ AIエージェント。
 ### CodeAGI
 あらゆる形式のExcel設計書を読み込んでプログラムに変える。
 
-[【生成AI】知らないと後悔する、GPT-4oだけでシステム開発を300%効率化するハック【CodeAGI】 #Python - Qiita](https://qiita.com/nqdior/items/1bef77d46e199f8ec97c)
+[【生成AI】知らないと後悔する、GPT-4oだけでシステム開発を300%効率化するハック【CodeAGI】 Python - Qiita](https://qiita.com/nqdior/items/1bef77d46e199f8ec97c)
 
 公式サイトが2000年代かと思うほどダサい（2024/07/21）が、相手がレガシー日本企業と考えるとこんなもんなのかもしれない。
 

@@ -29,5 +29,5 @@ paramsはapp構造体、obsidianメソッド、quickAddApiメソッド、variabl
 
 [Vault | Obsidian Plugin Developer Docs](https://marcus.se.net/obsidian-plugin-docs/reference/typescript/classes/Vault#getallloadedfiles)
 [obsidian-dataview/plugin-api.ts at 5b052421b90d6653da29542316f5f26501821f5b · blacksmithgu/obsidian-dataview · GitHub](https://github.com/blacksmithgu/obsidian-dataview/blob/5b052421b90d6653da29542316f5f26501821f5b/src/api/plugin-api.ts)
-[Zotero Import Script · chhoumann/quickadd · Discussion #421 · GitHub](https://github.com/chhoumann/quickadd/discussions/421)
+[Zotero Import Script · chhoumann/quickadd · Discussion 421 · GitHub](https://github.com/chhoumann/quickadd/discussions/421)
 [Macro: Move notes with a tag to a folder | QuickAdd](https://quickadd.obsidian.guide/docs/Examples/Macro_MoveNotesWithATagToAFolder)

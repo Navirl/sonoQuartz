@@ -9,6 +9,8 @@ aliases:
 up:: [Programming](<./Programming.md>)
 
 正規表現。
+ためすやつ
+[regex101: build, test, and debug regex](https://regex101.com/)
 
 [regex collection](<../../Info/regex collection.md>)
 

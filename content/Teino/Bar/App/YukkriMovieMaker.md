@@ -114,7 +114,7 @@ qscaleは今は無い
 [ffmpeg で アニメーションWebP（Animated WebP）を作る | ニコラボ](https://nico-lab.net/create_animated_webp_with_ffmpeg/)
 
 品質は80以上はほぼ見分けがつかない
-[実際の業務でWebPを使うときのおすすめ変換パラメーター JPEG/PNG編 #画像処理 - Qiita](https://qiita.com/miyanaga/items/45a8fb7683f475287f8b)
+[実際の業務でWebPを使うときのおすすめ変換パラメーター JPEG/PNG編 画像処理 - Qiita](https://qiita.com/miyanaga/items/45a8fb7683f475287f8b)
 
 色がくすむという話だが、animated webpもくすむという話はいまいち出てこない
 なので気にしない
@@ -122,7 +122,7 @@ qscaleは今は無い
 静止webpはuse_sharp_yuvで色変化を抑えられる
 しかしこのオプションをffmpegがサポートしてない
 cwebpなら対応してるらしいが、これは静止画のみ
-[WebP の色劣化問題の改善 #YUV420 - Qiita](https://qiita.com/yoya/items/f5ef9b66b556eda9e6bf)
+[WebP の色劣化問題の改善 YUV420 - Qiita](https://qiita.com/yoya/items/f5ef9b66b556eda9e6bf)
 
 
 
@@ -241,7 +241,7 @@ Depthを配置→二値化→削除でグループ化。
 ## ショートカットキーがどれか分からない
 C#のkeys enumに従うのだが、結構ぐちゃぐちゃ。
 
-[Windows日本語環境におけるJIS配列とUS配列のスキャンコードを全て列挙してみた #Keyboard - Qiita](https://qiita.com/crotczet/items/4e65684dbf12942e27f2)
+[Windows日本語環境におけるJIS配列とUS配列のスキャンコードを全て列挙してみた Keyboard - Qiita](https://qiita.com/crotczet/items/4e65684dbf12942e27f2)
 
 ## 機能の詳細が知りたい
 リリースノートは以下にあるので、googleで`site:https://manjubox.net`として調べればいい。

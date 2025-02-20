@@ -7,7 +7,7 @@ tags:
 up:: [Tauri](<../Bar/Framework/Tauri.md>)
 
 
-[アプリ開発者のにとっての Tauri v2 のセキュリティ構造を読み解く #Tauri - Qiita](https://qiita.com/takavfx/items/314a4a79afc38cb4e174)
+[アプリ開発者のにとっての Tauri v2 のセキュリティ構造を読み解く Tauri - Qiita](https://qiita.com/takavfx/items/314a4a79afc38cb4e174)
 
 ## トラスト境界
 **トラスト境界**という物が存在する。
@@ -84,7 +84,7 @@ Permissions, Capabilities, Scopesをランタイム時に扱うシステム。
 クロスサイトスクリプティング（XSS）やデータインジェクションといった攻撃を軽減するセキュリティレイヤー。
 問題になりがちな部分の機能を制限できる。
 
-[意外と奥深いContent Security Policy（CSP） #Apache - Qiita](https://qiita.com/buttakyou/items/d797d8fe932191a316bb#デフォルトポリシー)
+[意外と奥深いContent Security Policy（CSP） Apache - Qiita](https://qiita.com/buttakyou/items/d797d8fe932191a316bb#デフォルトポリシー)
 
 **tauri.conf.jsonで設定しないと有効化されない。**
 

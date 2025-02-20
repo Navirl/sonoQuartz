@@ -134,7 +134,7 @@ sudo firewall-cmd --add-port 25565/tcp
 ```
 
 永続化する場合は`--permanent`付けて実行後`--reload`でリロードする。
-[firewall-cmdの使い方 はじめの一歩 #firewalld-cmd - Qiita](https://qiita.com/daikumatan/items/0fe4a8ee5e59965814ee)
+[firewall-cmdの使い方 はじめの一歩 firewalld-cmd - Qiita](https://qiita.com/daikumatan/items/0fe4a8ee5e59965814ee)
 
 steam
 ```

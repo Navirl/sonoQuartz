@@ -26,7 +26,7 @@ The emitter supports the following aliases:
 - `alias`
 
 > [!note]
-> For information on how to add, remove or configure plugins, see the [[../configuration#Plugins]] page.
+> For information on how to add, remove or configure plugins, see the [[../configurationPlugins]] page.
 
 This plugin has no configuration options.
 

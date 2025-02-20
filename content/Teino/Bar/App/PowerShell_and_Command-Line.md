@@ -21,7 +21,7 @@ up:: [Programming](<../Program/Programming.md>)
 Get-Itemと等価。
 直接`$Env:名前`でも出るっぽい。
 
-[WindowsのPowerShellで環境変数の確認 #PowerShell - Qiita](https://qiita.com/zabu/items/85b01ec14e697cb2ff35)
+[WindowsのPowerShellで環境変数の確認 PowerShell - Qiita](https://qiita.com/zabu/items/85b01ec14e697cb2ff35)
 
 全部見る場合は以下。
 プロセス。
@@ -72,7 +72,7 @@ $new_path += ";$new_dir"
 [Environment]::SetEnvironmentVariable("Path", $new_path, "User")
 ```
 
-[Windows10/11でPowerShellからパスを通す (環境変数PATHの変更) #Windows - Qiita](https://qiita.com/zakuroishikuro/items/754e44e4b59580ca451d)
+[Windows10/11でPowerShellからパスを通す (環境変数PATHの変更) Windows - Qiita](https://qiita.com/zakuroishikuro/items/754e44e4b59580ca451d)
 
 長い場合は`＄PROFILE`に関数を追加する手がある。
 
@@ -114,7 +114,7 @@ function show_path {
 ```
 
 
-[Windowsの環境変数にパスを追加する関数(PowerShell) #Windows - Qiita](https://qiita.com/zakuroishikuro/items/291d10fb87565e0e0e10)
+[Windowsの環境変数にパスを追加する関数(PowerShell) Windows - Qiita](https://qiita.com/zakuroishikuro/items/291d10fb87565e0e0e10)
 
 ## アプリにファイルを開かせる
 `& "アプリのパス" "対象ファイルのパス"`
@@ -145,7 +145,7 @@ function show_path {
 `Get-Command`。`gcm`
 そのままだと見切れるので`| fl`でフォーマットリストにする。
 
-[PowerShellでwhichコマンド #PowerShell - Qiita](https://qiita.com/Hiraku/items/e42bc5756157949a9742)
+[PowerShellでwhichコマンド PowerShell - Qiita](https://qiita.com/Hiraku/items/e42bc5756157949a9742)
 
 一応、`(gcm command).path`としてパスを取ることもできる。
 
@@ -168,7 +168,7 @@ UTF-8のBOM付きでセーブ。
 `Invoke-Expression`は`&`という簡単なエイリアスがある。
 `Start-Process`は`-Wait`で同期実行できる。代わりに`-FilePath`を付けてパスを指定しないといけない。引数も`-ArgumentList`が要る。
 [【PowerShell】他プロセスの実行方法まとめ - Tumbling Dice](https://outofmem.hatenablog.com/entry/2015/07/12/161527)
-[【PowerShell】外部プログラムを実行する方法 #PowerShell - Qiita](https://qiita.com/nkojima/items/2a0d588782530cbf6669)
+[【PowerShell】外部プログラムを実行する方法 PowerShell - Qiita](https://qiita.com/nkojima/items/2a0d588782530cbf6669)
 
 ## powershell実行
 `pwsh`。

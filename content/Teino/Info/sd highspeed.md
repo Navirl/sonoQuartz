@@ -227,5 +227,5 @@ TensorRTの亜種...?
 WSL2とLinuxで安定動作。
 
 stable-fastはv1.0.1がいいらしい。
-[stable-fast version 1.0.0 does not support Windows system？ · Issue #14 · gameltb/ComfyUI\_stable\_fast · GitHub](https://github.com/gameltb/ComfyUI_stable_fast/issues/14)
+[stable-fast version 1.0.0 does not support Windows system？ · Issue 14 · gameltb/ComfyUI\_stable\_fast · GitHub](https://github.com/gameltb/ComfyUI_stable_fast/issues/14)
 

@@ -7,7 +7,7 @@ tags:
 This plugin provides support for [[../features/Obsidian compatibility]].
 
 > [!note]
-> For information on how to add, remove or configure plugins, see the [[../configuration#Plugins]] page.
+> For information on how to add, remove or configure plugins, see the [[../configurationPlugins]] page.
 
 This plugin accepts the following configuration options:
 

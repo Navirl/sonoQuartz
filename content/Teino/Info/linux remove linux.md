@@ -25,7 +25,7 @@ ID指定で`bcdedit /delete {ID}`を使って消去。
 cmdのコマンドなのでpowershellだと`{}`がうまく使えないかも。
 その場合は`--%`を使ってエスケープするといいらしい。試してない。
 
-[WindowsとUbuntuをデュアルブートさせている時のUbuntuの削除方法 #Windows - Qiita](https://qiita.com/arkoudha/items/98136ddf1432e904d215)
+[WindowsとUbuntuをデュアルブートさせている時のUbuntuの削除方法 Windows - Qiita](https://qiita.com/arkoudha/items/98136ddf1432e904d215)
 [絶対に正しいコマンドラインが失敗して大いに悩む：その知識、ホントに正しい？ Windowsにまつわる都市伝説（46）（2/2 ページ） - ＠IT](https://atmarkit.itmedia.co.jp/ait/articles/1511/30/news018_2.html)
 
 ただこの方法はファイルが残るので、結局diskpartで直接消すほうが早いかもしれない。

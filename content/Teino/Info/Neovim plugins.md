@@ -1,7 +1,5 @@
 ---
 date: 2024-12-05
-id: Neovim plugins
-aliases: []
 tags:
   - Info
 ---
@@ -141,13 +139,13 @@ require("lazy").setup({
 
 lazy.nvim用の設定が無く、なんかうまくいかなかったので[\[conform.nvim\](https://github.com/stevearc/conform.nvim)](<#**[conform.nvim](https //github.com/stevearc/conform.nvim)**>)を使用している。
 
-formatterはスタイルをチェックし、ルールに基づいてコードを整形する。整形なので動作に影響はない。
+formatterはスタイルをチェックし、ルールに基づいてコー[\[conform.nvim\](https://github.com/stevearc/conform.nvim)](<**[conform.nvim]
 
 linterはコードをチェックし、バグやルールに沿って書かれているかをチェックする。
 
 [【社内勉強会③】Linter, Formatterについて #Python - Qiita](https://qiita.com/Shytaani/items/acfb5ae5cc0a152e91c0)
 
-## [lexima.vim](https://github.com/cohama/lexima.vim)
+[【社内勉強会③】Linter, Formatterについて Python - Qiita]a.vim)
 かっこ補完。
 
 ## **[obsidian.nvim](https://github.com/epwalsh/obsidian.nvim)**
@@ -159,7 +157,7 @@ followlinkでリンクを開いたり、デイリーノート開いたり。
 `vim.opt_local.conceallevel = 1`
 [Additional markdown syntax not rendering · Issue #286 · epwalsh/obsidian.nvim · GitHub](https://github.com/epwalsh/obsidian.nvim/issues/286)
 
-init.luaにて`require("config.obsidian")`などを書き込めばいい。この時ファイル名にコンマがあると正常に読まない。素直に名前変えろ。
+[Additional markdown syntax not rendering · Issue 286 · epwalsh/obsidian.nvim · GitHub]
 
 ## [plenary.nvim](https://github.com/nvim-lua/plenary.nvim)
 非同期処理などを行う。
@@ -200,7 +198,7 @@ spzenhanのlua版。
 
 [Could not connect servers on launch time with denops 7.x · Issue #401 · vim-denops/denops.vim · GitHub](https://github.com/vim-denops/denops.vim/issues/401)
 
-
+[Could not connect servers on launch time with denops 7.x · Issue 401 · vim-denops/denops.vim · GitHub]
 ## **[vim-kensaku-search](https://github.com/lambdalisue/vim-kensaku-search)**
 ローマ字でスラッシュ検索で検索できる。
 リマップが要るので以下を使う。
@@ -282,7 +280,7 @@ Microsoftが2016年から主導している。
 
 [language server protocolについて (前編) #VSCode - Qiita](https://qiita.com/atsushieno/items/ce31df9bd88e98eec5c4)
 
-ちなみにmasonはDAPも管理できる。
+[language server protocolについて (前編) VSCode - Qiita]
 DAPはDebug Adapter Protocol。これもMicrosoft主導、デバッガー用の情報提供。
 
 [Rustのtokioを使ってLSP, DAPサーバーを書く](https://zenn.dev/myuon/articles/57f9888c7d22fa#lspとdapについて)
@@ -306,8 +304,9 @@ return {
 あくまでlspを管理するだけであり、実質miseとかと変わらない。
 実際にフォーマットしたりするなら別に[conform.nvim](<#**[conform.nvim](https //github.com/stevearc/conform.nvim)**>)などを使用する必要がある。
 
-rustfmtが非推奨なのは、rustfmt公式がrustupで入れろと言っているため。
+rustfmtが非推奨なのは、rus[conform.nvim](<**[conform.nvim]
 あとスペース消してくれないのは仕様。
 
 [rustfmt: deprecated: rustfmt should now be installed via rustup · Issue #1429 · williamboman/mason.nvim](https://github.com/williamboman/mason.nvim/issues/1429)
 [いちからvimのrust開発環境を構築していく❗️(rust.vim, coc.nvim)](https://zenn.dev/yuucu/articles/vimrc-rust-yuucu)
+[rustfmt: deprecated: rustfmt should now be installed via rustup · Issue 1429 · williamboman/mason.nvim]

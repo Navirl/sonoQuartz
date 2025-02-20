@@ -365,7 +365,7 @@ remark-lintとその拡張ルールで警告を出してるのは分かったが
 markdownlintは使うのが簡単だが新しいルールを追加するのは難しそう。
 調べていくとmarkdownlintでも独自ルールを追加できそう。
 標準だとfrontmatterは無視するオプションで無視が一番らしい。
-[frontmatter handling · Issue #442 · markdownlint/markdownlint · GitHub](https://github.com/markdownlint/markdownlint/issues/442)
+[frontmatter handling · Issue 442 · markdownlint/markdownlint · GitHub](https://github.com/markdownlint/markdownlint/issues/442)
 
 ## mdx
 markdown中でjsxを使うような記法。

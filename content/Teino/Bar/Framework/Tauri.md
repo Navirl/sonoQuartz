@@ -29,7 +29,7 @@ Tauriは公式にSSRをサポートしていない。
 [SvelteKit \| Tauri](https://v2.tauri.app/start/frontend/sveltekit/)
 
 Rustフロントエンドという手もある。
-[\[Rust + GUI\] icedからDioxusに改宗した話 #Rust - Qiita](https://qiita.com/Yosh31207/items/6cebdaa7ead8f6846d82)
+[\[Rust + GUI\] icedからDioxusに改宗した話 Rust - Qiita](https://qiita.com/Yosh31207/items/6cebdaa7ead8f6846d82)
 
 Dioxusはjsx風の`rsx!`マクロで表記する。
 なおDioxus自体はマルチプラットフォームアプリをRustだけで作るほぼTauriなプロジェクト。書き方だけTauriに持ってきてるっぽい。こちらは仮想DOM。
@@ -38,8 +38,8 @@ eguiはゲームと同じく毎フレーム画面更新するimmediate mode。
 簡単だが重い。
 
 Elmにインスパイアされたicedという別プロジェクトはある。
-[\[Rust\] icedに入門したのでメモを残す #GUI - Qiita](https://qiita.com/Yosh31207/items/81632c6e2b54eb2f6f7c)
-[\[Rust + GUI\] icedからDioxusに改宗した話 #Rust - Qiita](https://qiita.com/Yosh31207/items/6cebdaa7ead8f6846d82)
+[\[Rust\] icedに入門したのでメモを残す GUI - Qiita](https://qiita.com/Yosh31207/items/81632c6e2b54eb2f6f7c)
+[\[Rust + GUI\] icedからDioxusに改宗した話 Rust - Qiita](https://qiita.com/Yosh31207/items/6cebdaa7ead8f6846d82)
 
 svelteを使用する場合はsveltekitが使用され、Viteビルド環境が整備される。
 5.16のsvelteはroutes/+page.svelteがindex.html的なファイル。他の.svelteはファイルシステムベースでそれぞれのURLにルーティングされる？
@@ -111,7 +111,7 @@ Eventを使う。
 bunに変えたりexe名を変える。9222はwindows用。
 一度`bun tauri dev`などでexeを作っておかないとダメ。
 
-[Is there a recommended way to debug a tauri application (react used as frontend) in vscode on Windows? · tauri-apps/tauri · Discussion #4210 · GitHub](https://github.com/tauri-apps/tauri/discussions/4210)
+[Is there a recommended way to debug a tauri application (react used as frontend) in vscode on Windows? · tauri-apps/tauri · Discussion 4210 · GitHub](https://github.com/tauri-apps/tauri/discussions/4210)
 
 [tauri security](<../../Info/tauri security.md>)
 
@@ -120,9 +120,9 @@ bunに変えたりexe名を変える。9222はwindows用。
 [tauri tauri.conf.json](<../../Info/tauri tauri.conf.json.md>)
 
 ## ウィンドウ状態など
-[Tauri でフレームレスウィンドウのアプリケーションを作成する #TypeScript - Qiita](https://qiita.com/takavfx/items/9bf518a5bc3cc7c19509)
-[Tauri でウィンドウ状態を保存・再現する #Rust - Qiita](https://qiita.com/takavfx/items/531bc89ac402f9cdf6a7)
-[Tauri v2 x Svelte 5 で、アプリケーション開発をはじめる！ #Rust - Qiita](https://qiita.com/takavfx/items/248250daacde5d400bd9)
+[Tauri でフレームレスウィンドウのアプリケーションを作成する TypeScript - Qiita](https://qiita.com/takavfx/items/9bf518a5bc3cc7c19509)
+[Tauri でウィンドウ状態を保存・再現する Rust - Qiita](https://qiita.com/takavfx/items/531bc89ac402f9cdf6a7)
+[Tauri v2 x Svelte 5 で、アプリケーション開発をはじめる！ Rust - Qiita](https://qiita.com/takavfx/items/248250daacde5d400bd9)
 
 ## Godot連携
 reactからgodotのwebassemblyを呼べるライブラリがある。
@@ -134,4 +134,4 @@ tauriからwebassembly読めば無敵？
 
 ## 他アプリ呼出し
 exeを登録できるsidecar機能というのがあるらしい。
-[【全CLIアプリGUI化計画】TauriでTypeScriptやRustからCLIアプリを呼び出す #TypeScript - Qiita](https://qiita.com/namn1125/items/36482917d9c7a8adb658)
+[【全CLIアプリGUI化計画】TauriでTypeScriptやRustからCLIアプリを呼び出す TypeScript - Qiita](https://qiita.com/namn1125/items/36482917d9c7a8adb658)

@@ -11,7 +11,7 @@ up:: [Tauri](<../Bar/Framework/Tauri.md>)
 ビルド対象によって別の構成ファイルが作れる。
 また、tomlで設定することもできる。デフォルトはjson。
 
-[Tauri コンフィグの JSON5 対応 #JSON - Qiita](https://qiita.com/takavfx/items/124860034c20359fced7)
+[Tauri コンフィグの JSON5 対応 JSON - Qiita](https://qiita.com/takavfx/items/124860034c20359fced7)
 
 - app
     - Tauriの構成

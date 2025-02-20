@@ -21,7 +21,7 @@ gradioサーバーを起動する。フロントエンド。
 DeepSpeed構成らしい。
 
 [LoRA.md](https://github.com/haotian-liu/LLaVA/blob/main/docs/LoRA.md)
-[How to fine-tune the LLaVA-7b model ? · Issue #138 · haotian-liu/LLaVA · GitHub](https://github.com/haotian-liu/LLaVA/issues/138)
+[How to fine-tune the LLaVA-7b model ? · Issue 138 · haotian-liu/LLaVA · GitHub](https://github.com/haotian-liu/LLaVA/issues/138)
 
 QLoRAは4bit NormalFloatという新たなデータ型を用いたLoRA。
 
@@ -44,5 +44,5 @@ llava-v1.5-7bを調整する。`scripts/v1_5/finetune_task_lora.sh`を元にqlor
 [LoRA.md](https://github.com/haotian-liu/LLaVA/blob/main/docs/LoRA.md)
 [MODEL\_ZOO.md](https://github.com/haotian-liu/LLaVA/blob/main/docs/MODEL_ZOO.md)
 [Finetune\_Custom\_Data.md](https://github.com/haotian-liu/LLaVA/blob/main/docs/Finetune_Custom_Data.md)
-[Tutorial: How to convert HuggingFace model to GGUF format · ggerganov/llama.cpp · Discussion #2948 · GitHub](https://github.com/ggerganov/llama.cpp/discussions/2948)
+[Tutorial: How to convert HuggingFace model to GGUF format · ggerganov/llama.cpp · Discussion 2948 · GitHub](https://github.com/ggerganov/llama.cpp/discussions/2948)
 

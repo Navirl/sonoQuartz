@@ -40,7 +40,7 @@ audioにloudnormフィルタ。
 ## map
 `-map 0:a:1`
 
-[ffmpegのmapを解説する #ffmpeg - Qiita](https://qiita.com/cabbage_lettuce/items/21348358ba46f4110d75)
+[ffmpegのmapを解説する ffmpeg - Qiita](https://qiita.com/cabbage_lettuce/items/21348358ba46f4110d75)
 
 ## codecs
 `ffmpeg -codecs`

@@ -13,7 +13,7 @@ up:: [React Native](<../Bar/Framework/React Native.md>)
 [The New Expo CLI. In Expo SDK 46 we introduced a new… | by Evan Bacon | Exposition](https://blog.expo.dev/the-new-expo-cli-f4250d8e3421)
 
 
-[ReactNative Expoでアプリ開発入門してみる Part1 #reactnative - Qiita](https://qiita.com/RuruCun/items/4e7ffdfb071c8cee26eb)
+[ReactNative Expoでアプリ開発入門してみる Part1 reactnative - Qiita](https://qiita.com/RuruCun/items/4e7ffdfb071c8cee26eb)
 
 ## Quick Start
 init
@@ -116,5 +116,5 @@ prebuildで出来るNativeディレクトリが無い場合は一緒に生成す
 Releaseビルドは
 
 ## テスト
-[JestでReact（TypeScript）のテストしてみた #React - Qiita](https://qiita.com/piguchi/items/08bdb18a931d1fc78457)
+[JestでReact（TypeScript）のテストしてみた React - Qiita](https://qiita.com/piguchi/items/08bdb18a931d1fc78457)
 [Detox](https://wix.github.io/Detox/)

@@ -15,7 +15,7 @@ Nolangで台本を用意する
 
 TrendDify
 Googleの検索結果をCustom Search APIで入手する。
-[Dify のワークフローで Google の Custom Search API を使って検索する #rag - Qiita](https://qiita.com/k-kariya/items/d91a2c24da42d0109c25)
+[Dify のワークフローで Google の Custom Search API を使って検索する rag - Qiita](https://qiita.com/k-kariya/items/d91a2c24da42d0109c25)
 
 いろいろ付けられる。
 [Method: cse.list  |  Custom Search JSON API  |  Google for Developers](https://developers.google.com/custom-search/v1/reference/rest/v1/cse/list?hl=ja)
@@ -310,7 +310,7 @@ VIVに/accent_phrases
     parted_voices[]とそれらをくっつけたone_voice
 
 参考
-[VOICEVOX API (エンジン)にHTTPリクエストをするための手引書 #Python - Qiita](https://qiita.com/kaguraluna/items/5c1fbe124bbdd0f33bac)
+[VOICEVOX API (エンジン)にHTTPリクエストをするための手引書 Python - Qiita](https://qiita.com/kaguraluna/items/5c1fbe124bbdd0f33bac)
 [MediaWiki API help - MediaWiki](https://www.mediawiki.org/w/api.php?action=help&modules=query%2Bimageinfo)
 [Help:Namespaces - Wikimedia Commons](https://commons.wikimedia.org/wiki/Help:Namespaces)
 [Google Colab](https://colab.research.google.com/drive/187UQT0vxuOZKhGN4g2jeuI3veabaRypg#scrollTo=UdYixW7DtyQK)

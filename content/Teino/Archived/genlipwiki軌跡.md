@@ -143,7 +143,7 @@ Tagsなど付けたいならNameが必要
 [How to add new or existing multi-select tags when creating a page in Notion API? - Stack Overflow](https://stackoverflow.com/questions/75355011/how-to-add-new-or-existing-multi-select-tags-when-creating-a-page-in-notion-api)
 
 metadataCacheはプライベートAPI、公式じゃないので変更される可能性がある
-[Obsidian.d.ts misses \`metadataCache.getBacklinksForFile()\` definition · Issue #58 · obsidianmd/obsidian-api · GitHub](https://github.com/obsidianmd/obsidian-api/issues/58)
+[Obsidian.d.ts misses \`metadataCache.getBacklinksForFile()\` definition · Issue 58 · obsidianmd/obsidian-api · GitHub](https://github.com/obsidianmd/obsidian-api/issues/58)
 [How to get backlinks for a file? - Developers & API - Obsidian Forum](https://forum.obsidian.md/t/how-to-get-backlinks-for-a-file/45314)
 
 自分用にカスタマイズして使う
@@ -157,10 +157,10 @@ return Object.entries(app.metadataCache.getBacklinksForFile(file).data)
 		.map(([key, _]) => key.match(/.*\/(.*)\.md/)[1]);
 ```
 
-[[TypeScript]オブジェクト型を配列にする #TypeScript - Qiita](https://qiita.com/nori0__/items/0ef84350559cc5e93f4b)
-[JavaScript で forEach を使うのは最終手段 #JavaScript - Qiita](https://qiita.com/diescake/items/70d9b0cbd4e3d5cc6fce)
+[[TypeScript]オブジェクト型を配列にする TypeScript - Qiita](https://qiita.com/nori0__/items/0ef84350559cc5e93f4b)
+[JavaScript で forEach を使うのは最終手段 JavaScript - Qiita](https://qiita.com/diescake/items/70d9b0cbd4e3d5cc6fce)
 [【Regex】後方からの最短一致 - Jaded Electric Sphere](https://mell0w-5phere.net/jaded5phere/2018/07/01/regex-minimum-from-back/)
-[javascriptでの正規表現を用いて文字列を抽出する方法 #JavaScript - Qiita](https://qiita.com/kjgij/items/948448d83b57798b4374)
+[javascriptでの正規表現を用いて文字列を抽出する方法 JavaScript - Qiita](https://qiita.com/kjgij/items/948448d83b57798b4374)
 
 NotionAPIの簡単なJSONを読んで、2ファイルしかないObsidian to Notionを改修するだけで一日が終わった
 最初からデータ構造を把握してればもっと早くなった、リファレンスはブロックごとに分けながらしっかり理解する

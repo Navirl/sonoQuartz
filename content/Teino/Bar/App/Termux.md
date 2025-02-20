@@ -158,4 +158,4 @@ code-ossは見つからない。apt側？
 
 code-ossをcode-serverに替えるとvscodeになりそう。
 
-[vscode或code-server支持! · termux/termux-packages · Discussion #9080 · GitHub](https://github.com/termux/termux-packages/discussions/9080)
+[vscode或code-server支持! · termux/termux-packages · Discussion 9080 · GitHub](https://github.com/termux/termux-packages/discussions/9080)

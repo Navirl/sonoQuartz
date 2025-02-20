@@ -21,8 +21,8 @@ Colabと違って時間が来ても自動では消さない。
 
 全部のconda環境を消せばより初期化できるらしい。
 
-[SageMaker Studio Labの環境をリセットする #AWS - Qiita](https://qiita.com/kanuazut/items/68d1deeff5fd05a8ce85)
-[Allow to reset the entire environment of Studio Lab · Issue #75 · aws/studio-lab-examples · GitHub](https://github.com/aws/studio-lab-examples/issues/75#issuecomment-1326660232)
+[SageMaker Studio Labの環境をリセットする AWS - Qiita](https://qiita.com/kanuazut/items/68d1deeff5fd05a8ce85)
+[Allow to reset the entire environment of Studio Lab · Issue 75 · aws/studio-lab-examples · GitHub](https://github.com/aws/studio-lab-examples/issues/75#issuecomment-1326660232)
 [SageMaker Studio Lab](https://studiolab.sagemaker.aws/faq)
 
 ## 環境追加
@@ -39,7 +39,7 @@ ipynbを開くと自動でkernelがアタッチされてしまうので注意。
 一時ファイル置き場としているが、物によっては**スワップ領域**に使われているらしい。
 体感重いファイルをたくさん置くとwebuiが落ちやすい。
 
-[/tmpと/var/tmpの仁義無き戦い #Ruby - Qiita](https://qiita.com/kuni-nakaji/items/f29be14be578b5a19d4b)
+[/tmpと/var/tmpの仁義無き戦い Ruby - Qiita](https://qiita.com/kuni-nakaji/items/f29be14be578b5a19d4b)
 
 ## 限界
 /tmpに置いていれば永続領域は使われないが、そもそも/の限界が50GBしかないっぽい。

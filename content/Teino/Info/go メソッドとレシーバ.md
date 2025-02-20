@@ -6,8 +6,8 @@ tags:
 
 up:: [Go](<../Bar/Program/Go.md>)
 
-[クラスとオブジェクトの関係性（Go 言語編） #オブジェクト指向 - Qiita](https://qiita.com/spiegel-im-spiegel/items/2da5e5902aa2cb6d9e30)
-[Go - メソッドとレシーバ #プログラミング - Qiita](https://qiita.com/Yuuki557/items/e9f5bdfbbfe92973a05e)
+[クラスとオブジェクトの関係性（Go 言語編） オブジェクト指向 - Qiita](https://qiita.com/spiegel-im-spiegel/items/2da5e5902aa2cb6d9e30)
+[Go - メソッドとレシーバ プログラミング - Qiita](https://qiita.com/Yuuki557/items/e9f5bdfbbfe92973a05e)
 
 goには他言語でいうクラス(データと振る舞いを一纏めにしてカプセル化するやつ)がない。
 代わりに構造体(データ)とそれに付与されたメソッド(振る舞い)がある。

@@ -428,7 +428,7 @@ CSSで状態を飾れる。複合状態と最初と最後は飾れない。
 相互に関心のある事柄を記述する。ER。
 クラス図には振る舞いがあり、ER図には外部キーがある。
 
-[オブジェクト指向設計とクラス図 #ER図 - Qiita](https://qiita.com/_kurihara/items/23bce54519b9dd1d88fa)
+[オブジェクト指向設計とクラス図 ER図 - Qiita](https://qiita.com/_kurihara/items/23bce54519b9dd1d88fa)
 
 外部キーは参照用。
 

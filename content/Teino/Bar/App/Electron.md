@@ -12,7 +12,7 @@ up::
 
 ## 最小限
 [クイック スタート | Electron](https://www.electronjs.org/ja/docs/latest/tutorial/quick-start)
-[Electron Fiddle + p5js で半透明アプリをつくる #Electron - Qiita](https://qiita.com/mathrax-s/items/b280c893dd7b202ba8ea)
+[Electron Fiddle + p5js で半透明アプリをつくる Electron - Qiita](https://qiita.com/mathrax-s/items/b280c893dd7b202ba8ea)
 
 `npm init`でpackage.jsonを生成。
 `npm i electron`で始められる。

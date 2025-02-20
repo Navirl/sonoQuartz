@@ -24,5 +24,5 @@ settings.jsonでterminal.integrated.profiles.windowsに追加。
 `[\s\S\n]*`。空白、空白以外、改行にマッチ。
 `\s`は`[\t\r\n\f]`と等価らしい。\fは改ページ。
 
-[VS Codeで複数行に渡って正規表現を利用する #VSCode - Qiita](https://qiita.com/birdwatcher/items/dee34a11619b11e1fe81)
+[VS Codeで複数行に渡って正規表現を利用する VSCode - Qiita](https://qiita.com/birdwatcher/items/dee34a11619b11e1fe81)
 

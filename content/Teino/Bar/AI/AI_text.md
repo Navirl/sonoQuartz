@@ -152,10 +152,10 @@ https://www.minimaxi.com/en
 マークダウンを書いてシンプルに公開する。
 特徴はGPT-4oなどのモデルにアクセスできるテキストボックスを設置できること。
 [MarkdownAI β](https://mdown.ai/file)
-[生成AIを使いこなす！初心者向け導入手順とプロンプト作成のポイント(完全無料のMarkdown AI) #MarkdownAI - Qiita](https://qiita.com/waka_m/items/c43a04739a6f5fdf139c)
+[生成AIを使いこなす！初心者向け導入手順とプロンプト作成のポイント(完全無料のMarkdown AI) MarkdownAI - Qiita](https://qiita.com/waka_m/items/c43a04739a6f5fdf139c)
 
 AIへの指示は、7Rというのがいいらしい。（2024/11/16）
-[【ChatGPT】野口竜司氏提示、7Rプロンプト #ChatGPT - Qiita](https://qiita.com/kabumira/items/77bcfeac699673d99c09)
+[【ChatGPT】野口竜司氏提示、7Rプロンプト ChatGPT - Qiita](https://qiita.com/kabumira/items/77bcfeac699673d99c09)
 
 | 英単語             | 和単語                             |
 | --------------- | ------------------------------- |

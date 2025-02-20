@@ -14,7 +14,7 @@ python3.4から使えるパス操作。
 画像も`write_bytes()`でいける。
 
 
-[pathlibが便利すぎてもうos.pathは使えない件 #Python - Qiita](https://qiita.com/nano-sudo/items/59e3bbcd90d103f4c753)
+[pathlibが便利すぎてもうos.pathは使えない件 Python - Qiita](https://qiita.com/nano-sudo/items/59e3bbcd90d103f4c753)
 
 ## os書き換え
 ```

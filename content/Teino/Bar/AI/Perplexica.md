@@ -13,7 +13,7 @@ up:: [AIt](<./AI_text.md>)
 
 普通に使うのはsearXNGの設定が必要になり結構重い。
 なのでdocker composeを使う。以下を参考に進めていけばいい。
-[Perplexica と Ollama で LLM を利用した検索エンジンを試す #LLM - Qiita](https://qiita.com/orca13/items/ca0d54c0b5aefa5c56d4)
+[Perplexica と Ollama で LLM を利用した検索エンジンを試す LLM - Qiita](https://qiita.com/orca13/items/ca0d54c0b5aefa5c56d4)
 
 ollamaもdockerで起動すること前提の設定（http://host.docker.internal:11434）。モデルのダウンロードもこのollamaで行う。
 なので一回ollamaのコンテナに接続する。

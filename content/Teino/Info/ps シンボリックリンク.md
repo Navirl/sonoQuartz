@@ -37,4 +37,4 @@ SymbolicLinkとJunctionの違い。
 古いアプリでSymbolicLinkを使うと、正常にパスを表示してくれないことがある。
 限定的だが、そういう時はJunction。
 
-[シンボリックリンクの使い方と落とし穴 #Windows - Qiita](https://qiita.com/go_astrayer/items/ab993cdc420d4f7f50d4)
+[シンボリックリンクの使い方と落とし穴 Windows - Qiita](https://qiita.com/go_astrayer/items/ab993cdc420d4f7f50d4)

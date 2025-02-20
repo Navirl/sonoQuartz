@@ -62,7 +62,7 @@ LithiumのForge用Fork。
 
 ### [Radium Reforged - Minecraft Mods - CurseForge](https://www.curseforge.com/minecraft/mc-mods/radium-reforged)
 CanaryのFork。1.19.2-0.8.2は職業でバグるらしい。
-[【メモ】のんびり琴葉開拓記 導入Mod一覧 MC1.19.2 - #23頃～｜RakuGaki(楽餓鬼)](https://note.com/rakugaki_rami/n/ne1f40df53272)
+[【メモ】のんびり琴葉開拓記 導入Mod一覧 MC1.19.2 - 23頃～｜RakuGaki(楽餓鬼)](https://note.com/rakugaki_rami/n/ne1f40df53272)
 
 ## Rubidium
 昔の。開発が2023年で止まった。
@@ -95,7 +95,7 @@ Fabric。OpenGLをVulkanに代える。
 ライトエンジンを完全に書き換える侵襲的mod。
 Fabric版は別。
 [Starlight (Fabric) - Minecraft Mods - CurseForge](https://www.curseforge.com/minecraft/mc-mods/starlight)
-[Fetching Title#snzm](https://www.reddit.com/r/admincraft/comments/nwc0qk/phosphor_or_starlight/)
+[Fetching Titlesnzm](https://www.reddit.com/r/admincraft/comments/nwc0qk/phosphor_or_starlight/)
 
 ## [Phosphor (Fabric) - Minecraft Mods - CurseForge](https://www.curseforge.com/minecraft/mc-mods/phosphor)
 ライトエンジンを最適化する。

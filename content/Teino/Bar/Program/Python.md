@@ -67,8 +67,8 @@ psutilを使う。
   仮想環境はプロジェクトごとに自動的に作成される。
   さらにpipenvのようにpipenvしか使えなくなったりはしない。
   
-[pyenv、pyenv-virtualenv、venv、Anaconda、Pipenv。私はPipenvを使う。 #Python - Qiita](https://qiita.com/KRiver1/items/c1788e616b77a9bad4dd)
-[Python環境構築(pyenv+poetry+pipx) #Python - Qiita](https://qiita.com/yano404/items/85f21897e417f03236c9)
+[pyenv、pyenv-virtualenv、venv、Anaconda、Pipenv。私はPipenvを使う。 Python - Qiita](https://qiita.com/KRiver1/items/c1788e616b77a9bad4dd)
+[Python環境構築(pyenv+poetry+pipx) Python - Qiita](https://qiita.com/yano404/items/85f21897e417f03236c9)
 [pyenvとPoetryでPythonの開発環境を整える](https://zenn.dev/ytksato/articles/0e4d035a30273a#3.-poetry)
 
 ## JIT

@@ -10,10 +10,10 @@ up:: [Programming](<../Program/Programming.md>)
 [React](<../Library/React.md>),Angular,Vueの他、SvelteやSolidJS,Ionic Portals、Pure Typescript,Pure Javascriptも使える。
 
 SolidJS
-[ReactもSvelteも大好きな私が思うSolidJSの良いところ #JavaScript - Qiita](https://qiita.com/tonio0720/items/c28b4d37e6ab860ea04d)
+[ReactもSvelteも大好きな私が思うSolidJSの良いところ JavaScript - Qiita](https://qiita.com/tonio0720/items/c28b4d37e6ab860ea04d)
 最速らしい。Svelte同様直接DOM。
 
-[ReactとVueの比較 | 完全に同じアプリのコードの書き方の違い #JavaScript - Qiita](https://qiita.com/cypher256/items/8d6c25e3466e4815b3c7)
+[ReactとVueの比較 | 完全に同じアプリのコードの書き方の違い JavaScript - Qiita](https://qiita.com/cypher256/items/8d6c25e3466e4815b3c7)
 
 
 Reactを使用するなら、このフレームワークは[React Native](<./React Native.md>)でも代用できる。

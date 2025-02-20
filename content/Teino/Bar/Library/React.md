@@ -240,7 +240,7 @@ function MyButton({ count, onClick }) {
 下手にほっとくと副作用が積み重なりメモリリークする。
 なのでreturnにはクリーンアップ用の関数を仕込む必要がある。
 
-[useEffectをちゃんと理解する #React - Qiita](https://qiita.com/diskszk/items/333511fb97d24f52a439)
+[useEffectをちゃんと理解する React - Qiita](https://qiita.com/diskszk/items/333511fb97d24f52a439)
 
 第一引数に指定した関数を実行できるのだが、ここに指定できるのは**返り値がvoidの関数**のみ。他の関数をセットするとエラーになる。もちろんクリーンアップ関数も。
 
@@ -254,7 +254,7 @@ function MyButton({ count, onClick }) {
 また、作ったステートは当然コンポーネントで使うのだが、この時ステートはツリーごとに作成される。
 ただしツリーにkeyが設定されている場合は同じツリーでも独立する。
 
-[【React】useStateの基本と利用時の注意点まとめ #React - Qiita](https://qiita.com/TaikiTkwkbysh/items/780144eea9ea0469b73c)
+[【React】useStateの基本と利用時の注意点まとめ React - Qiita](https://qiita.com/TaikiTkwkbysh/items/780144eea9ea0469b73c)
 
 ## React.FC
 これを付けるとオリジナルの関数コンポーネントを定義できる。
@@ -262,7 +262,7 @@ function MyButton({ count, onClick }) {
 
 反対にコンポーネントにJSXを渡したいときは、引数(props)で指定できるchildrenを返すようにすればいい。
 
-[React×TypeScript　基本の型定義 #React - Qiita](https://qiita.com/hinako_n/items/97ccaf85eb40d7e45657)
+[React×TypeScript　基本の型定義 React - Qiita](https://qiita.com/hinako_n/items/97ccaf85eb40d7e45657)
 
 ### 詳しい話
 FCは単純な型定義。FunctionComponentの略。

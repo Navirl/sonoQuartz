@@ -9,8 +9,8 @@ same:: [Haskell](<./Haskell.md>)
 
 純粋[関数型言語](<./関数型言語.md>)。関数型言語による静的Webページ制作のために作られた。
 
-[Elm入門の入門 最初に読むページ #Elm - Qiita](https://qiita.com/arowM/items/5ec5853298fc880353b7)
-[ヤギと振り返る恥ずかしいコード -- 次のレベルに上がるために #Elm - Qiita](https://qiita.com/arowM/items/9bc3ac679b87d14036e8)
+[Elm入門の入門 最初に読むページ Elm - Qiita](https://qiita.com/arowM/items/5ec5853298fc880353b7)
+[ヤギと振り返る恥ずかしいコード -- 次のレベルに上がるために Elm - Qiita](https://qiita.com/arowM/items/9bc3ac679b87d14036e8)
 
 できることは少ない。
 ただいい書き方を強制し誰が書いてもだいたい同じコードにする。

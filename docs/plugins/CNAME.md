@@ -11,7 +11,7 @@ If you want to use a custom domain name like `quartz.example.com` for the site, 
 See [[../hosting]] for more information.
 
 > [!note]
-> For information on how to add, remove or configure plugins, see the [[../configuration#Plugins]] page.
+> For information on how to add, remove or configure plugins, see the [[../configurationPlugins]] page.
 
 This plugin has no configuration options.
 

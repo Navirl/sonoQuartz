@@ -78,9 +78,9 @@ https://www-creators.com/archives/78
 中身が知りたいならgit showを使う。
 
 [Gitで、特定のファイルを削除したコミットを見つけて復元する方法 · GitHub](https://gist.github.com/hyuki/dad2ddc040b2b5670bdfdbfda0329ac2)
-[\[git\] 戻したい時よく使っているコマンドまとめ #Git - Qiita](https://qiita.com/rch1223/items/9377446c3d010d91399b)
+[\[git\] 戻したい時よく使っているコマンドまとめ Git - Qiita](https://qiita.com/rch1223/items/9377446c3d010d91399b)
 [Gitで過去に削除したファイルを検索、復元させる方法](https://rcmdnk.com/blog/2017/10/01/computer-git/)
-[commitしたファイルや変更箇所は"git show"で確認できる #Git - Qiita](https://qiita.com/shuhei_m/items/a80385d8d42df795a06b)
+[commitしたファイルや変更箇所は"git show"で確認できる Git - Qiita](https://qiita.com/shuhei_m/items/a80385d8d42df795a06b)
 
 
 ## You asked to pull from the remote 'github', but did not specify
@@ -92,12 +92,12 @@ branchに設定されてるリモートブランチ(上流ブランチ、upstrea
 -u, もしくは--set-upstream origin/mainつけてpushすると上流ブランチがそっちに移る。
 branchで直接いじる場合は-uか--set-upstream-to=origin/main。後者は=が必要。
 
-[上流ブランチがなくてエラーになった時の対応方法 #Git - Qiita](https://qiita.com/ponsuke0531/items/410735b544795506fdc5)
+[上流ブランチがなくてエラーになった時の対応方法 Git - Qiita](https://qiita.com/ponsuke0531/items/410735b544795506fdc5)
 
 ## ローカルブランチを上流ブランチにしたい
 git push -u . プッシュしたいローカルブランチ名
 
-[Git で「追跡ブランチ」って言うのやめましょう #Git - Qiita](https://qiita.com/uasi/items/69368c17c79e99aaddbf)
+[Git で「追跡ブランチ」って言うのやめましょう Git - Qiita](https://qiita.com/uasi/items/69368c17c79e99aaddbf)
 
 ## 蒸留ブランチに何が設定されているか知りたい
 git branch -vv
@@ -124,7 +124,7 @@ git config --global fetch.prune true
 ```
 
 
-[Gitのリモートブランチを削除するまとめ #GitHub - Qiita](https://qiita.com/yuu_ta/items/519ea47ac2c1ded032d9)
+[Gitのリモートブランチを削除するまとめ GitHub - Qiita](https://qiita.com/yuu_ta/items/519ea47ac2c1ded032d9)
 
 
 ## submodule消去
@@ -133,7 +133,7 @@ $ git submodule deinit -f 追加したサブモジュール
 $ git rm -f 追加したサブモジュール
 $ rm -rf .git/modules/追加したサブモジュール 
 ```
-[\[git\] submoduleの削除、再追加について #Git - Qiita](https://qiita.com/k_yamashita/items/040c04f8798d2384806e)
+[\[git\] submoduleの削除、再追加について Git - Qiita](https://qiita.com/k_yamashita/items/040c04f8798d2384806e)
 
 git rmを忘れず。
 
@@ -193,4 +193,4 @@ git push origin --force --all
 ## textとbinaryを分ける手法
 先頭8000バイト以内に`NUL`があるかどうか。
 
-[Gitはどうやってテキストファイルとバイナリファイルを自動識別しているのか？ #diff - Qiita](https://qiita.com/okuoku/items/a21bfa68570ca67817ac)
+[Gitはどうやってテキストファイルとバイナリファイルを自動識別しているのか？ diff - Qiita](https://qiita.com/okuoku/items/a21bfa68570ca67817ac)

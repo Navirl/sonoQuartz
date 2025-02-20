@@ -377,7 +377,7 @@ Comfy UIなどとも共有可能。
 
 音声ファイルで動かす予定はない。が、フォークで作られている。
 
-[WIll be there support for audio driven lips animation? · Issue #9 · pkhungurn/talking-head-anime-3-demo · GitHub](https://github.com/pkhungurn/talking-head-anime-3-demo/issues/9)
+[WIll be there support for audio driven lips animation? · Issue 9 · pkhungurn/talking-head-anime-3-demo · GitHub](https://github.com/pkhungurn/talking-head-anime-3-demo/issues/9)
 
 ## sd-webui-infinite-image-browsing
 画像の管理。

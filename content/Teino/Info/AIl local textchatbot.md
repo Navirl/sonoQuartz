@@ -30,11 +30,11 @@ cudaは11.7を決め打ちで要求してくるので、redditのTroubleshooting
 llama-7b-4bitを使う場合は、`--wbit 4`を指定する。
 ロードするファイルが4bitと8bitで別なのでそれを指定するオプション。
 
-[NameError: name 'quant\_cuda' is not defined · Issue #228 · oobabooga/text-generation-webui · GitHub](https://github.com/oobabooga/text-generation-webui/issues/228)
+[NameError: name 'quant\_cuda' is not defined · Issue 228 · oobabooga/text-generation-webui · GitHub](https://github.com/oobabooga/text-generation-webui/issues/228)
 
 NameError: name 'quant_cuda' is not definedはGPTQリポジトリのsetup_cuda.pyを起動すればいい。`python setup_cuda.py install`
 
-[WSL - NameError: name 'quant\_cuda' is not defined · Issue #371 · oobabooga/text-generation-webui · GitHub](https://github.com/oobabooga/text-generation-webui/issues/371)
+[WSL - NameError: name 'quant\_cuda' is not defined · Issue 371 · oobabooga/text-generation-webui · GitHub](https://github.com/oobabooga/text-generation-webui/issues/371)
 
 llama-7b-4bitは全角スペースが読めないらしい。
 

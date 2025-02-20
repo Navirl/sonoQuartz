@@ -71,7 +71,7 @@ V3ならSparsectrlにより、複数の画像を入力にできる。
 
 Fizz-nodesのbatch prompt scheduleを使用すると、各フレームごとにプロンプトを指定できる。
 
-[【Stable-Diffusion】🔰無線化でスッキリ！ComfyUI版 AnimateDiffの基本(txt2mov編) #stablediffusion #comfyui #animatediff - YouTube](https://www.youtube.com/watch?v=EuvDlaqt9kY)
+[【Stable-Diffusion】🔰無線化でスッキリ！ComfyUI版 AnimateDiffの基本(txt2mov編) #stablediffusion #comfyui animatediff - YouTube](https://www.youtube.com/watch?v=EuvDlaqt9kY)
 
 motion_scaleは動きの量。
 背景が動きすぎる場合は減らす。
@@ -80,7 +80,7 @@ motion_scaleは動きの量。
 inpaint後にまた切り抜かなければならないのでカラーバックを使用する。カラーバックの値に再生成の色が影響を受けるので注意。
 じゃあバック無きゃいいじゃんというとこだけど、いかんせんComfyUIも生成AIもαを扱えないみたいなので。
 
-[【Stable-Diffusion】🔰人物と背景を合成！ComfyUIでAnimatediff ＜マスクと合成編：後編＞ #animatediff  #sam #ipadapter - YouTube](https://www.youtube.com/watch?v=hULnILp-24E)
+[【Stable-Diffusion】🔰人物と背景を合成！ComfyUIでAnimatediff ＜マスクと合成編：後編＞ animatediff  am ipadapter - YouTube](https://www.youtube.com/watch?v=hULnILp-24E)
 
 
 ## Reactor
@@ -107,7 +107,7 @@ GPU メモリ : 18.3GB (576x1024)、12.8GB (320x512)、11.9GB (256x256)。
 
 拡張機能にはキーフレーム生成機能がついてくるっぽい。
 
-[Add prompt batch separation with the "|" character by phr00t · Pull Request #7 · kijai/ComfyUI-DynamiCrafterWrapper · GitHub](https://github.com/kijai/ComfyUI-DynamiCrafterWrapper/pull/7)
+[Add prompt batch separation with the "|" character by phr00t · Pull Request 7 · kijai/ComfyUI-DynamiCrafterWrapper · GitHub](https://github.com/kijai/ComfyUI-DynamiCrafterWrapper/pull/7)
 
 SVDと比べ、プロンプトで生成結果を操作できるのが良い。
 VideoCrafterの派生らしい。

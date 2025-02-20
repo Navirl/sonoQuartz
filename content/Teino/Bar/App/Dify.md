@@ -18,7 +18,7 @@ Docker動作もできる。
 [Dify 各サービス解説](<../../Info/Dify 各サービス解説.md>)
 
 現在（2024/07/19）GraphRAGには対応していない。
-[Can Microsoft's Graph RAG be added to the new version? · Issue #6019 · langgenius/dify · GitHub](https://github.com/langgenius/dify/issues/6019)
+[Can Microsoft's Graph RAG be added to the new version? · Issue 6019 · langgenius/dify · GitHub](https://github.com/langgenius/dify/issues/6019)
 
 その他、役立つ情報
 [DifyをAPI使って利用する](https://zenn.dev/417/scraps/5a3143618f614f)
@@ -27,7 +27,7 @@ Docker動作もできる。
 
 ## コードブロックへのライブラリ追加
 サブモジュールが絡むと途端にダメになる。
-[After importing a third-party library into the Python sandbox container, the execution results are inconsistent between the container and the web interface · Issue #4463 · langgenius/dify · GitHub](https://github.com/langgenius/dify/issues/4463)
+[After importing a third-party library into the Python sandbox container, the execution results are inconsistent between the container and the web interface · Issue 4463 · langgenius/dify · GitHub](https://github.com/langgenius/dify/issues/4463)
 
 トップレベルだけでいいなら、`\docker\volumes\sandbox\dependencies\python-requirements.txt`に追記して高度な依存関係に追加すれば使えるようになる。
 
@@ -44,7 +44,7 @@ Dify内の`Array[String]`は、pythonコードブロックではdictとして処
 正規表現が絞り込みなのに対し、こちらは0→1の生成。
 マクロ機能もあるのでほぼプログラミング言語。
 
-[Jinjaテンプレートの書き方をがっつり調べてまとめてみた。 #Python - Qiita](https://qiita.com/simonritchie/items/cc2021ac6860e92de25d)
+[Jinjaテンプレートの書き方をがっつり調べてまとめてみた。 Python - Qiita](https://qiita.com/simonritchie/items/cc2021ac6860e92de25d)
 
 オンラインテスト。
 

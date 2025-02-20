@@ -4,7 +4,7 @@
 
 ```
 
-[Customize Horizontal Display · Issue #39 · Darakah/obsidian-timelines · GitHub](https://github.com/Darakah/obsidian-timelines/issues/39)
+[Customize Horizontal Display · Issue 39 · Darakah/obsidian-timelines · GitHub](https://github.com/Darakah/obsidian-timelines/issues/39)
 
 
 <span

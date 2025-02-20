@@ -47,7 +47,7 @@ fn DogApp(props: DogAppProps) -> Element {
 
 
 ## rsx
-https://dioxuslabs.com/learn/0.6/guide/rsx/
+[Dioxus \| Fullstack crossplatform app framework for Rust](https://dioxuslabs.com/learn/0.6/guide/rsx/)
 rsx内の要素は全てホットリロード対応。
 
 rsx内の文字列は`format!()`を通したものとして扱われる。

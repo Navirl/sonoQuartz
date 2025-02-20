@@ -9,9 +9,9 @@ up:: [ComfyUI](<../Bar/App/ComfyUI.md>)
 [ログイン | クラウドソーシング「ランサーズ」](https://www.lancers.jp/project_board/86514?ref=finish)
 ランサーズでやったやつ。
 
-[Error: expected string or bytes-like object, got 'NoneType'. While installing. · Issue #86 · Gourieff/comfyui-reactor-node · GitHub](https://github.com/Gourieff/comfyui-reactor-node/issues/86)
-[cuda not found?  · Issue #331 · Gourieff/comfyui-reactor-node · GitHub](https://github.com/Gourieff/comfyui-reactor-node/issues/331)
-[Having an error with insightface · Issue #344 · Gourieff/comfyui-reactor-node · GitHub](https://github.com/Gourieff/comfyui-reactor-node/issues/344)
+[Error: expected string or bytes-like object, got 'NoneType'. While installing. · Issue 86 · Gourieff/comfyui-reactor-node · GitHub](https://github.com/Gourieff/comfyui-reactor-node/issues/86)
+[cuda not found?  · Issue 331 · Gourieff/comfyui-reactor-node · GitHub](https://github.com/Gourieff/comfyui-reactor-node/issues/331)
+[Having an error with insightface · Issue 344 · Gourieff/comfyui-reactor-node · GitHub](https://github.com/Gourieff/comfyui-reactor-node/issues/344)
 
 ---
 

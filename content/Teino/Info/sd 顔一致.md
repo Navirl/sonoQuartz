@@ -15,7 +15,7 @@ up:: [Stable Diffusion](<../Bar/Stable Diffusion.md>)
 なのでやはりプロンプトを凝るのが重要。
 
 insightFaceを使う場合はinsightFaceをインストール。ちょっとややこしい。
-[Fix: Control-Net; ImportError; Undefined; pydantic; insightface · Issue #15564 · AUTOMATIC1111/stable-diffusion-webui · GitHub](https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/15564)
+[Fix: Control-Net; ImportError; Undefined; pydantic; insightface · Issue 15564 · AUTOMATIC1111/stable-diffusion-webui · GitHub](https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/15564)
 
 InsightFaceはたぶん顔を切り取るため。なので、あらかじめ顔だけ切り出したファイルをアップロードすればfaceでもいいかもしれない。
 

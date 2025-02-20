@@ -15,7 +15,7 @@ venvも作成可能。
 
 仮想環境上での環境変数管理が出来ないが、[mise](<../Bar/Tools/mise.md>)に任せればいい。
 
-[mise-en-placeとuvでPython環境をセットアップする #備忘録 - Qiita](https://qiita.com/jkawamoto/items/874bc0bb1bd5cf7aba5b)
+[mise-en-placeとuvでPython環境をセットアップする 備忘録 - Qiita](https://qiita.com/jkawamoto/items/874bc0bb1bd5cf7aba5b)
 
 ## 仮想環境
 `uv venv`
@@ -71,7 +71,7 @@ pypyはCPythonから一部を切り出したRPython(サブセット)を用いて
 つまり余計なものを切って作り直した。実行時にコンパイル(JIT)を行うため早いらしい。元は行単位だがpypyは関数単位、モジュール単位でコンパイルする。
 型推論もある。
 なおどちらもptyhon3.13で実装予定。
-[PyPyの基礎知識まとめ その1 #Python - Qiita](https://qiita.com/ta_ta_ta_miya/items/33253e9bcbb7034f088d)
+[PyPyの基礎知識まとめ その1 Python - Qiita](https://qiita.com/ta_ta_ta_miya/items/33253e9bcbb7034f088d)
 
 これで入れたpythonは外部環境となるため、pipを入れようとするとエラーが出る。
 

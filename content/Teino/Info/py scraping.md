@@ -11,7 +11,7 @@ up:: [Python](<../Bar/Program/Python.md>)
 seleniumのほうが多重にタスクを管理したりできるが、playwrightなどのほうがシンプル。
 
 waitは秒数指定だけではない。
-[Playwrightで秒数指定wait処理を避けてスマートにする #テスト自動化 - Qiita](https://qiita.com/yurinzflet/items/f9b67106f2aa462b214c)
+[Playwrightで秒数指定wait処理を避けてスマートにする テスト自動化 - Qiita](https://qiita.com/yurinzflet/items/f9b67106f2aa462b214c)
 
 colabで動かすのも可能。
 [Google Colab上からplaywright-pythonを実行](https://zenn.dev/terukizm/articles/f89cd8639abb9a)
@@ -109,7 +109,7 @@ page.locator("css=hoge")、("xpath=fuga")などで使える。
 - 親要素をフィルターで取得できる。
 - ReactやVueで検索できる。
 - **divのclassはlocator(.class)で取得できる**
-    - [これだけはおさえておきたいPlaywrightコマンド集 #CSS - Qiita](https://qiita.com/oh_rusty_nail/items/d955e3273994214a0afa)
+    - [これだけはおさえておきたいPlaywrightコマンド集 CSS - Qiita](https://qiita.com/oh_rusty_nail/items/d955e3273994214a0afa)
     - locatorを直接使うことはDOM要素の指定と同じらしい
         - [Page | Playwright Python](https://playwright.dev/python/docs/api/class-page#page-locator)
     - このドット記法はdiv.classの省略形、CSSセレクタ―

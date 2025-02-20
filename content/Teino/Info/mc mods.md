@@ -196,8 +196,8 @@ Farmers-delightのナイフなどにEpic Fightの切手を追加。
 
 ### [Epic Fight & Other Mods Weapons Compabilities - Minecraft Mod](https://modrinth.com/mod/efmcompat)
 様々な武器modとEpic Fightの互換性を確保する。Farmers Delightも含んでるので上のいらない。
-必須に[Epic Fight - Guandao Moveset - Minecraft Mods - CurseForge](<#[Epic Fight - Guandao Moveset - Minecraft Mods - CurseForge](https //www.curseforge.com/minecraft/mc-mods/epic-fight-guandao-moveset)>)を含んでいるくせに**一緒にDLしてくれない。** Prismが悪いのか？
-もう一つのBattle Styleというのは[Epic Fight - Battle Arts](<#[Epic Fight - Battle Arts - Minecraft Mod](https //modrinth.com/mod/battle_arts)>)のこと。1.19.2だとこれが原因でワールドに入れずに落ちてる？ -> 
+必須に[Epic Fight - Guandao Moveset - Minecraft Mods - CurseForge](<[Epic Fight - Guandao Moveset - Minecraft Mods - CurseForge](https //www.curseforge.com/minecraft/mc-mods/epic-fight-guandao-moveset)>)を含んでいるくせに**一緒にDLしてくれない。** Prismが悪いのか？
+もう一つのBattle Styleというのは[Epic Fight - Battle Arts](<[Epic Fight - Battle Arts - Minecraft Mod](https //modrinth.com/mod/battle_arts)>)のこと。1.19.2だとこれが原因でワールドに入れずに落ちてる？ -> 
 
 ```
 java.lang.IllegalArgumentException: Can't find weapon type: epic_fight_battle_styles:chakram

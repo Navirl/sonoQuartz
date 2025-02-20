@@ -20,7 +20,7 @@ PyWebview
 pythonでhtml動かす
 あとまわし
 
-[Pywebview + Vite + React でデスクトップアプリを作成する #Python - Qiita](https://qiita.com/ShijiMi-Soup/items/1f5e2b542884ca4a279f)
+[Pywebview + Vite + React でデスクトップアプリを作成する Python - Qiita](https://qiita.com/ShijiMi-Soup/items/1f5e2b542884ca4a279f)
 
 gridstack.js
 画面のアイテムを大きさ変更しつつ配置できる
@@ -63,7 +63,7 @@ Remixは面白そうだが新しすぎる、Tauriの推奨にない
 
 ElectronはデカすぎなのでTauri
 色々制約はあるが楽
-[【JavaScript】ここがしんどかったよTauri開発【Rust】 #Windows - Qiita](https://qiita.com/kurokky/items/79017c7a867a6e8122f8)
+[【JavaScript】ここがしんどかったよTauri開発【Rust】 Windows - Qiita](https://qiita.com/kurokky/items/79017c7a867a6e8122f8)
 
 Tauri
 React

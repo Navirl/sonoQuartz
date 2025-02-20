@@ -9,7 +9,7 @@ up:: [Linux](<../Bar/Linux.md>)
 ## QEMU
 エミュレータ。
 
-[QEMU をつかって仮想マシンを作成する #Linux - Qiita](https://qiita.com/momoto/items/b7e2a2b28f91c4cb5cec)
+[QEMU をつかって仮想マシンを作成する Linux - Qiita](https://qiita.com/momoto/items/b7e2a2b28f91c4cb5cec)
 [To all you virt-manager and SPICE Display users out there. Finally get your clipboard sharing, dynamic resolution and other things working. : r/linux](https://www.reddit.com/r/linux/comments/asw4wk/to_all_you_virtmanager_and_spice_display_users/)
 
 KVMはLinuxカーネルの仮想化ソリューション。

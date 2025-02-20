@@ -65,7 +65,7 @@ SDかけずに専用モデルだけでUpscaleする。
 比較
 [\[UPDATED\] Comparing 4 popular upscalers in the SD Upscale | Civitai](https://civitai.com/articles/50/updated-comparing-4-popular-upscalers-in-the-sd-upscale)
 サービス
-[GitHub - upscayl/upscayl: 🆙 Upscayl - #1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.](https://github.com/upscayl/upscayl)
+[GitHub - upscayl/upscayl: 🆙 Upscayl - 1 Free and Open Source AI Image Upscaler for Linux, MacOS and Windows.](https://github.com/upscayl/upscayl)
 
 モデル
 [OpenModelDB](https://openmodeldb.info)

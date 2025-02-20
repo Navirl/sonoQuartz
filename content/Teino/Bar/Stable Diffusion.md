@@ -39,8 +39,8 @@ SDXLかSD1.5かで使うモデルが違う。留意。
 
 
 ## step数の仕組み
-[Increasing sampling steps to a high number decreases quality per step drastically. · Issue #1113 · AUTOMATIC1111/stable-diffusion-webui · GitHub](https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/1113#issuecomment-1258446573)
-[Allow saving intermediate Steps to separate image files during generation · Issue #1026 · AUTOMATIC1111/stable-diffusion-webui · GitHub](https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/1026)
+[Increasing sampling steps to a high number decreases quality per step drastically. · Issue 1113 · AUTOMATIC1111/stable-diffusion-webui · GitHub](https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/1113#issuecomment-1258446573)
+[Allow saving intermediate Steps to separate image files during generation · Issue 1026 · AUTOMATIC1111/stable-diffusion-webui · GitHub](https://github.com/AUTOMATIC1111/stable-diffusion-webui/issues/1026)
 [Hyper-SD and Hyper-SDXL fast models - Stable Diffusion Art](https://stable-diffusion-art.com/hyper-sdxl/#Hyper-SDXL_1-step_LoRA)
 
 完成体までのノイズ除去をいくつ分割して適用するかというもの。

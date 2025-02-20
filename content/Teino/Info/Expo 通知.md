@@ -38,4 +38,4 @@ const scheduleNotificationAsync = async () => {
 }
 ```
 
-[Expo Push API でReact-nativeアプリに通知処理を実装する #expo - Qiita](https://qiita.com/yukihigasi/items/9ffb569823eee2c88586)
+[Expo Push API でReact-nativeアプリに通知処理を実装する expo - Qiita](https://qiita.com/yukihigasi/items/9ffb569823eee2c88586)

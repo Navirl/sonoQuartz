@@ -29,7 +29,7 @@ cliしかないのでそんな重くはない。
 ハードリンクだからかここ以下のexeはeverythingに引っかからない。
 
 uvやdenoはある。rustはなぜかPRが二年放置されている。
-[feat: add rust-lang/rust by suzuki-shunsuke · Pull Request #13012 · aquaproj/aqua-registry · GitHub](https://github.com/aquaproj/aqua-registry/pull/13012)
+[feat: add rust-lang/rust by suzuki-shunsuke · Pull Request 13012 · aquaproj/aqua-registry · GitHub](https://github.com/aquaproj/aqua-registry/pull/13012)
 
 aqua.yamlを書き換えることでツールバージョンを変更できる。
 

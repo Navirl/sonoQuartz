@@ -20,7 +20,7 @@ Googleが管理しているのでRustより安心感がある。
 ## 出力
 `fmt.Println()`。python2っぽい`fmt.Printf()`もある。
 Printfは`%`と文字でいろいろ事前フォーマット可能。`%v`で直接か`%s`で文字列が使いやすそう。`%T`で型が出せる。
-[fmt.Printfなんかこわくない #Go - Qiita](https://qiita.com/rock619/items/14eb2b32f189514b5c3c#v-2)
+[fmt.Printfなんかこわくない Go - Qiita](https://qiita.com/rock619/items/14eb2b32f189514b5c3c#v-2)
 
 ## 標準入力
 `bufio.NewScanner`でos.Stdinを拾い、.Scan()する。
@@ -47,7 +47,7 @@ func main() {
 str->intなら`strconv.Atoi(str)`で変換。戻り値は(int,error)なので`v, _ := strconv.Atoi(str)`などで対処。
 反対は`strconv.Itoa(int)`。
 他のstr->値は`strconv.ParseFloat(str,size)`など。逆は`strconv.FormatFloat(float, byte, precision, size)`など。
-[【Golang】文字列と数値の変換(strconv) #Go - Qiita](https://qiita.com/mei4n/items/308e75092e2a058d75f2)
+[【Golang】文字列と数値の変換(strconv) Go - Qiita](https://qiita.com/mei4n/items/308e75092e2a058d75f2)
 [strconv package - strconv - Go Packages](https://pkg.go.dev/strconv@go1.19)
 
 ## if
@@ -74,4 +74,4 @@ import "flag"
 
 ## type
 typeは[Elm](<./Elm.md>)でいうカスタム型。
-[Goを学びたての人が誤解しがちなtypeと構造体について #golang #Go - Qiita](https://qiita.com/tenntenn/items/45c568d43e950292bc31)
+[Goを学びたての人が誤解しがちなtypeと構造体について golang Go - Qiita](https://qiita.com/tenntenn/items/45c568d43e950292bc31)

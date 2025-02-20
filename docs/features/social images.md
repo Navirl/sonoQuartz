@@ -2,7 +2,7 @@
 title: "Social Media Preview Cards"
 ---
 
-A lot of social media platforms can display a rich preview for your website when sharing a link (most notably, a cover image, a title and a description). Quartz automatically handles most of this for you with reasonable defaults, but for more control, you can customize these by setting [[#Frontmatter Properties|Frontmatter Properties]].
+A lot of social media platforms can display a rich preview for your website when sharing a link (most notably, a cover image, a title and a description). Quartz automatically handles most of this for you with reasonable defaults, but for more control, you can customize these by setting [[Frontmatter Properties|Frontmatter Properties]].
 Quartz can also dynamically generate and use new cover images for every page to be used in link previews on social media for you. To get started with this, set `generateSocialImages: true` in `quartz.config.ts`.
 
 ## Showcase
@@ -13,7 +13,7 @@ After enabling `generateSocialImages` in `quartz.config.ts`, the social media li
 | ----------------------------------- | ---------------------------------- |
 | ![[../images/social-image-preview-light.png]] | ![[../images/social-image-preview-dark.png]] |
 
-For testing, it is recommended to use [opengraph.xyz](https://www.opengraph.xyz/) to see what the link to your page will look like on various platforms (more info under [[#local testing|local testing]]).
+For testing, it is recommended to use [opengraph.xyz](https://www.opengraph.xyz/) to see what the link to your page will look like on various platforms (more info under [[local testing|local testing]]).
 
 ## Customization
 
@@ -188,7 +188,7 @@ The following example will generate images that look as follows:
 | ------------------------------------------ | ----------------------------------------- |
 | ![[../images/custom-social-image-preview-light.png]] | ![[../images/custom-social-image-preview-dark.png]] |
 
-This example (and the default template) use colors and fonts from your theme specified in the quartz config. Fonts get passed in as a prop, where `fonts[0]` will contain the header font and `fonts[1]` will contain the body font (more info in the [[#fonts|fonts]] section).
+This example (and the default template) use colors and fonts from your theme specified in the quartz config. Fonts get passed in as a prop, where `fonts[0]` will contain the header font and `fonts[1]` will contain the body font (more info in the [[fonts|fonts]] section).
 
 ```tsx
 import { SatoriOptions } from "satori/wasm"

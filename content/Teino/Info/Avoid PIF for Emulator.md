@@ -47,7 +47,7 @@ boot.imgのサイズがエミュレータだと同じでなければならない
 
 noxで動かす何かしら。
 効かなかった。noxはインストール自体は上手くいくのだが、rootを切った後にスーパーユーザーの欄がグレーアウトしたままになる。
-[Mumu Android 12: Magisk magic mount bind mount built-in /system/bin/su su to magisk's mounted simlink su when /system/bin/su exists · Issue #8 · HuskyDG/magisk-files · GitHub](https://github.com/HuskyDG/magisk-files/issues/8)
+[Mumu Android 12: Magisk magic mount bind mount built-in /system/bin/su su to magisk's mounted simlink su when /system/bin/su exists · Issue 8 · HuskyDG/magisk-files · GitHub](https://github.com/HuskyDG/magisk-files/issues/8)
 
 memu。ダメ。
 インストールの時点で失敗する。
@@ -76,7 +76,7 @@ bluestacksをkitsune maskで使用する。
 Zygiskの代替。MagiskからZygiskだけ切り出したもの。
 更新が活発でこちらを使うのがいいのだが、kitsuneだと入れて組み込みZygiskを切った時点で全て止まってしまった。
 
-[\[Bug\] None of the modules using Zygisk work 使用zygisk的模块表现为不工作，尽管模块似乎工作 · Issue #157 · Dr-TSNG/ZygiskNext · GitHub](https://github.com/Dr-TSNG/ZygiskNext/issues/157)
+[\[Bug\] None of the modules using Zygisk work 使用zygisk的模块表现为不工作，尽管模块似乎工作 · Issue 157 · Dr-TSNG/ZygiskNext · GitHub](https://github.com/Dr-TSNG/ZygiskNext/issues/157)
 ## PixelFlasher
 Pixelをいろいろできるやつ。
 その一部にpif editorがついており、好きなだけガチャできる。
