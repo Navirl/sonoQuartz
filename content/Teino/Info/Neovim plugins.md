@@ -137,13 +137,13 @@ require("lazy").setup({
 フォーマッタ。
 [nvim-cmp](<#nvim-cmp>)と同じくプラグイン式。ファイルタイプごとに設定が必要。
 
-lazy.nvim用の設定が無く、なんかうまくいかなかったので[\[conform.nvim\](https://github.com/stevearc/conform.nvim)](<#**[conform.nvim](https //github.com/stevearc/conform.nvim)**>)を使用している。
+lazy.nvim用の設定が無く、なんかうまくいかなかったので[\[conform.nvim\](https://github.com/stevearc/conform.nvim)](<**[conform.nvim](https //github.com/stevearc/conform.nvim)**>)を使用している。
 
 formatterはスタイルをチェックし、ルールに基づいてコー[\[conform.nvim\](https://github.com/stevearc/conform.nvim)](<**[conform.nvim]
 
 linterはコードをチェックし、バグやルールに沿って書かれているかをチェックする。
 
-[【社内勉強会③】Linter, Formatterについて #Python - Qiita](https://qiita.com/Shytaani/items/acfb5ae5cc0a152e91c0)
+[【社内勉強会③】Linter, Formatterについて Python - Qiita](https://qiita.com/Shytaani/items/acfb5ae5cc0a152e91c0)
 
 [【社内勉強会③】Linter, Formatterについて Python - Qiita]a.vim)
 かっこ補完。
@@ -155,7 +155,7 @@ followlinkでリンクを開いたり、デイリーノート開いたり。
 起動前にワークスペースの設定、文章の隠し度合の設定(live editorの程度)が必要。
 ワークスペースはいつも通りだが、隠し度合は以下の設定をconfigなどに書く必要がある。
 `vim.opt_local.conceallevel = 1`
-[Additional markdown syntax not rendering · Issue #286 · epwalsh/obsidian.nvim · GitHub](https://github.com/epwalsh/obsidian.nvim/issues/286)
+[Additional markdown syntax not rendering · Issue 286 · epwalsh/obsidian.nvim · GitHub](https://github.com/epwalsh/obsidian.nvim/issues/286)
 
 [Additional markdown syntax not rendering · Issue 286 · epwalsh/obsidian.nvim · GitHub]
 
@@ -196,7 +196,7 @@ spzenhanのlua版。
 
 `:call denops#cache#update(#{reload: v:true})`
 
-[Could not connect servers on launch time with denops 7.x · Issue #401 · vim-denops/denops.vim · GitHub](https://github.com/vim-denops/denops.vim/issues/401)
+[Could not connect servers on launch time with denops 7.x · Issue 401 · vim-denops/denops.vim · GitHub](https://github.com/vim-denops/denops.vim/issues/401)
 
 [Could not connect servers on launch time with denops 7.x · Issue 401 · vim-denops/denops.vim · GitHub]
 ## **[vim-kensaku-search](https://github.com/lambdalisue/vim-kensaku-search)**
@@ -278,7 +278,7 @@ LSPを管理する。
 LSPはlanguage server protocolの略。プロジェクトソースを解析して情報を提供するIDE用のサービスの仕様。
 Microsoftが2016年から主導している。
 
-[language server protocolについて (前編) #VSCode - Qiita](https://qiita.com/atsushieno/items/ce31df9bd88e98eec5c4)
+[language server protocolについて (前編) VSCode - Qiita](https://qiita.com/atsushieno/items/ce31df9bd88e98eec5c4)
 
 [language server protocolについて (前編) VSCode - Qiita]
 DAPはDebug Adapter Protocol。これもMicrosoft主導、デバッガー用の情報提供。
@@ -302,11 +302,11 @@ return {
 [Neovim+LSPをなるべく簡単な設定で構築する](https://zenn.dev/botamotch/articles/21073d78bc68bf)
 
 あくまでlspを管理するだけであり、実質miseとかと変わらない。
-実際にフォーマットしたりするなら別に[conform.nvim](<#**[conform.nvim](https //github.com/stevearc/conform.nvim)**>)などを使用する必要がある。
+実際にフォーマットしたりするなら別に[conform.nvim](<**[conform.nvim](https //github.com/stevearc/conform.nvim)**>)などを使用する必要がある。
 
 rustfmtが非推奨なのは、rus[conform.nvim](<**[conform.nvim]
 あとスペース消してくれないのは仕様。
 
-[rustfmt: deprecated: rustfmt should now be installed via rustup · Issue #1429 · williamboman/mason.nvim](https://github.com/williamboman/mason.nvim/issues/1429)
+[rustfmt: deprecated: rustfmt should now be installed via rustup · Issue 1429 · williamboman/mason.nvim](https://github.com/williamboman/mason.nvim/issues/1429)
 [いちからvimのrust開発環境を構築していく❗️(rust.vim, coc.nvim)](https://zenn.dev/yuucu/articles/vimrc-rust-yuucu)
 [rustfmt: deprecated: rustfmt should now be installed via rustup · Issue 1429 · williamboman/mason.nvim]

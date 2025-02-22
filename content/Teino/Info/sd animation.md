@@ -71,7 +71,7 @@ V3ならSparsectrlにより、複数の画像を入力にできる。
 
 Fizz-nodesのbatch prompt scheduleを使用すると、各フレームごとにプロンプトを指定できる。
 
-[【Stable-Diffusion】🔰無線化でスッキリ！ComfyUI版 AnimateDiffの基本(txt2mov編) #stablediffusion #comfyui animatediff - YouTube](https://www.youtube.com/watch?v=EuvDlaqt9kY)
+[【Stable-Diffusion】🔰無線化でスッキリ！ComfyUI版 AnimateDiffの基本(txt2mov編) stablediffusion comfyui animatediff - YouTube](https://www.youtube.com/watch?v=EuvDlaqt9kY)
 
 motion_scaleは動きの量。
 背景が動きすぎる場合は減らす。
