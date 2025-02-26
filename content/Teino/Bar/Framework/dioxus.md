@@ -16,7 +16,8 @@ tauriと同じくクロスプラットフォームでアプリが作れる。
 
 [GitHub - chinedufn/percy: Build frontend browser apps with Rust + WebAssembly. Supports server side rendering.](https://github.com/chinedufn/percy)
 
-
+フロントエンドはwebで確認するのが早いが、そこでファイルシステムとか使うのに結局js必要になったりしがち。
+その意味だとTauriの方が効率は良さそう。
 
 ## Cannot install dioxus-cli 0.6.0 on Windows due to aws-lc-sys
 エラーメッセージをよく見る。たいていcmakeかnasmが足りずコンパイルが失敗している。

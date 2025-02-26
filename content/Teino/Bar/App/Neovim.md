@@ -153,10 +153,29 @@ local, merged, remoteの3ペインならneovimdiff2だけで開ける。
 [Diff - Neovim docs](https://neovim.io/doc/user/diff.html)
 
 これを知らないと[diffview.nvim](<../../Info/Neovim plugins.md**[diffview.nvim](https //github.com/sindrets/diffview.nvim)**>)が使えない。
-動く。
-:doで全部get、:dpで全部put？
 
-[Diff - Neovim docs](https://neovim.io/doc/user/diff.html)
+## 全角スペース表示
+元々制御文字を表示するlistモードというのがvimにある。
 
-これを知らないと[diffview.nvim](<../../Info/Neovim plugins.md#**[diffview.nvim](https //github.com/sindrets/diffview.nvim)**>)が使えない。
-[diffview.nvim](<../../Info/Neovim plugins.md**[diffview.nvim]
+[Vim/NeoVim で制御文字（改行、タブ文字、行末のスペースなど）を表示する (list, listchars)](https://maku77.github.io/p/s596qii/)
+
+加えて全角スペースを表示するには、init.luaの編集が必要。
+
+```lua
+-- Show double byte spaces
+vim.cmd[[
+  hi DoubleByteSpace term=underline ctermbg=blue guibg=darkgray
+  match DoubleByteSpace /　/
+]]
+```
+
+[Vim/NeoVim で全角スペースを見えるように表示する](https://maku77.github.io/p/preoa93/)
+
+## vim.keymap.set vs. vim.api.nvim_set_keymap
+[r/neovim - Reddit](https://www.reddit.com/r/neovim/comments/uuh8xw/noob_vimkeymapset_vs_vimapinvim_set_keymap_key/?felosearch_translate=1)
+[neovimでノーマルモードのまま一行挿入を行うには](https://felo.ai/search/ZTwdsj9fX3LhQfvTDh3qbM?invite=rRKXGDWOelDkk)
+
+keymap.setがnvim_set_keymapを適切なオプション付きで呼んでいる。
+あとnoremap = trueがデフォなので再帰的にマッピングされない。
+
+luaしか使わないならkeymap.setだけでいい。

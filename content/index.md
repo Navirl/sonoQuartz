@@ -1,6 +1,6 @@
 ---
-title: Welcome to Quartz
+title: You Koso
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+This is cho teki to page.
+Draft pages are ippai aruyo.

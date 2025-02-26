@@ -98,6 +98,12 @@ inoremap <silent> jj <ESC>
 
 [Editing - Neovim docs](https://neovim.io/doc/user/editing.html)
 
+`~`。大文字小文字のトグル。
+ビジュアルモードではUで大文字化、uで小文字化。
+[大文字と小文字を変換する \| まくまくVimノート](https://maku77.github.io/vim/edit/uppercase-lowercase.html)
+
+J。下の行と連結。
+そのままだとスペースが入るので、gJとしてスペースなし連結が一般的。
 ### 若干応用
 `<S-v>`。Visual lineモード、行単位での選択を行う。
 `:%s/foo/bar/g`。ファイル全体で置換。%を外せば行だけ、gを外せば行中一回だけ。
@@ -216,3 +222,45 @@ delmarksは打つのだるい。
 neovimならdmxで消せるプラグインがある。
 
 [GitHub - chentoast/marks.nvim: A better user experience for viewing and interacting with Vim marks.](https://github.com/chentoast/marks.nvim?tab=readme-ov-file)
+
+## 中級者
+[中級 Vim 操作](https://zenn.dev/vim_jp/articles/2024-06-05-vim-middle-class-features)
+
+`c])`は使いやすそう。
+
+## 矩形選択からの全行入力
+矩形選択から`I`で挿入モードに入り、ノーマルモードに戻る。
+ノーマルモードに戻る際に入力が全行に反映される。
+
+## ノーマルモードのまま改行（ドットリピート対応）
+[neovimでノーマルモードのまま一行挿入を行うには](https://felo.ai/ja/search/ZTwdsj9fX3LhQfvTDh3qbM)
+[Claude](https://claude.ai/share/7f849dbf-ef3c-491d-8f9a-f4f8a36744b8)
+
+```lua
+-- ノーマルモードのまま改行追加
+-- 上に空行を挿入
+function _G.insert_blank_above()
+	vim.cmd('call append(line(".") - 1, "")')
+end
+
+vim.keymap.set("n", "<Space>O", function()
+	vim.go.operatorfunc = "v:lua.insert_blank_above"
+	return "g@_"
+end, { noremap = true, expr = true })
+
+-- 下に空行を挿入
+function _G.insert_blank_below()
+	vim.cmd('call append(line("."), "")')
+end
+
+vim.keymap.set("n", "<Space>o", function()
+	vim.go.operatorfunc = "v:lua.insert_blank_below"
+	return "g@_"
+end, { noremap = true, expr = true })
+```
+`g@`でoperatorfuncに設定されたオペレータ関数を実行するという処理らしい。
+`_`を追加することで現在の行にそのオペレータを適用する。
+
+オペレータ関数はドットリピートに対応している。
+
+
