@@ -4,6 +4,7 @@ tags:
   - Info
 aliases:
   - Test_Driven_Develop
+  - テスト駆動開発
 ---
 
 up:: [Programming](<../Bar/Program/Programming.md>)
