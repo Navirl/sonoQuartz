@@ -9,6 +9,7 @@ aliases:
 up:: [AI\_local](<./AI_local.md>)
 up:: [AI\_online](<./AI_online.md>)
 
+llmって呼ぶとマルチモーダルモデルとかの説明が削られるので。
 ## local
 
 ### Instructモデル

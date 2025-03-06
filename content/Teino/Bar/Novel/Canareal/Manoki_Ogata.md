@@ -7,6 +7,7 @@ tags:
 aliases:
   - Mano
   - マノ
+  - マノキ
 ---
 
 up::
