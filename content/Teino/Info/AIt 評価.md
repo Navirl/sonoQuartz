@@ -7,6 +7,10 @@ tags:
 
 up:: [AIt](<../Bar/AI/AI_text.md>)
 
+llmリーダーボードの比較値が分からなかったので。
+[Open Japanese LLM Leaderboard - a Hugging Face Space by llm-jp](https://huggingface.co/spaces/llm-jp/open-japanese-llm-leaderboard)
+[Open LLM Leaderboard - a Hugging Face Space by open-llm-leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/?search=chatwaifu)
+
 ## NLI
 Natural Language Inference。自然言語推論。
 二つの文、前提と仮説の論理関係を判定する。含意とか矛盾とか。
@@ -49,38 +53,44 @@ Entity Linking。実体対応。
 [Papers with Code - Entity Linking](https://paperswithcode.com/task/entity-linking)
 
 ## FA
-Factual Accuracy。事実正確性。
-生成内容の事実正確性を評価する。
-幻覚への対応。
-あまり高いと創造性が低そう。
+Fundamental Analysis。基礎分析。
+元ネタが見つからないが、wikiを読んで依存関係抽出や固有表現抽出 - Named Entity Recognitionを行うということでいいんだろうか。
 
 ## MR
-Multi-hop Reasoning。マルチホップ推論。
-複数の文や知識を組み合わせて推論する。
-[EL](<#EL>)に近い様な。
+Math Reasoning？ 数学的推論。
+MAWPS, MAth Word ProblemSで測る。これは数学の文章問題。
+
+[Papers with Code - MAWPS Dataset](https://paperswithcode.com/dataset/mawps)
 
 ## MT
 Machine Translation。機械翻訳。
 ある言語のテキストを別の言語に翻訳する。
-多言語対応モデル用。あまり高くても別に……
+多言語対応モデル用。
+日本リーダーボードとしては最も重要そうな値。
+
+[Papers with Code - Machine Translation](https://paperswithcode.com/task/machine-translation)
 
 ## STS
 Semantic Textual Similarity。意味的テキスト類似性。
 二つの文の意味的な類似度を評価する。
 文の埋め込み表現の品質測定。
-開発者用っぽい。
+言い換えや重複排除に使う。
+
+[Papers with Code - Semantic Textual Similarity](https://paperswithcode.com/task/semantic-textual-similarity)
 
 ## HE
-Humor Evaluation。ユーモア評価。
-ユーモアの検出や生成。
-創造性や文脈理解の高度な評価。
-[FA](<#FA>)とぶつかりそう。
+試験問題。
+MMLU, Massive Multitask Language Understandingで測る。これは57科目をカバーした広範囲ベンチマーク。
+
+[Papers with Code - MMLU Dataset](https://paperswithcode.com/dataset/mmlu)
+
+日本版JMMLUというのもある。
 
 ## CG
-Commonsense Generation。常識生成。
-常識的な知識に基づくテキスト生成。
-日常的な推論能力の評価。
-なんのどこの常識だ。
+Code Generation。コード生成。
+MBPP, Mostly Basic Python Programmingで測る。これは初心者のプログラマーでも溶ける容認設計されたpythonプログラミング問題。
+
+[Papers with Code - MBPP Dataset](https://paperswithcode.com/dataset/mbpp)
 
 ## SUM
 Summarization。要約。
@@ -88,32 +98,42 @@ Summarization。要約。
 要約の正確性、簡潔性の評価。
 notebooklm的だが、検索結果を分かりやすく伝えるのにも使えそう。
 
+[Papers with Code - Text Summarization](https://paperswithcode.com/task/text-summarization)
+
 ## IFEval
 Instruction Following Evaluation。指示正確性？
 モデルが指示に正確に従う能力の評価。
 プロンプト順守能力の測定。
 プロンプトを凝るなら重要そう。キャラクター設定とか。
 
+[Papers with Code - Instruction-Following Evaluation for Large Language Models](https://paperswithcode.com/paper/instruction-following-evaluation-for-large)
+
 ## BBH
-BIG-Gench Hard。llm苦手タスク。
+BIG-Bench Hard。llm苦手タスク。
 言語モデルが苦手とする複雑なタスク、数学的推論や比喩理解といったものを集めたベンチマーク。
 限界の特定。
 これが高いと人間らしくなりそう。
 
-## GPQA
-Graduate-Lebel Google-Proof Q&A。専門家レベルQA。
-専門家レベルの難問を含むQAベンチマーク。
-高度な知識・推論能力の評価。
-どの専門家？
+[Papers with Code - BBH Dataset](https://paperswithcode.com/dataset/bbh)
 
-## MUSR
-Multi-Task User Satisfaction Ration。
-複数タスクにおけるユーザー満足度。
-何の満足度でどうやって評価する。
+## GPQA
+Graduate-Level Google-Proof Q&A。専門家レベルQA。
+化学における大学院レベルの難問を含むQAベンチマーク。
+高度な知識・推論能力の評価。
+
+[GitHub - idavidrein/gpqa: GPQA: A Graduate-Level Google-Proof Q&A Benchmark](https://github.com/idavidrein/gpqa)
+
+## MuSR
+Multistep Soft Reasoning。
+長いテキストの推論と理解。
+
+
+[GitHub - Zayne-sprague/MuSR](https://github.com/zayne-sprague/musr)
+[Papers with Code - MuSR: Testing the Limits of Chain-of-thought with Multistep Soft Reasoning](https://paperswithcode.com/paper/musr-testing-the-limits-of-chain-of-thought)
 
 ## MMLU
 Massive Multitask Language Understanding。
-数学、法律、歴史を含む57分野の多肢選択問題。
+数学、法律、医療と歴史を含む57分野の多肢選択問題。
 汎用的な知識・推論力の総合評価。
 [MC](<#MC>)の専門版か。
 
