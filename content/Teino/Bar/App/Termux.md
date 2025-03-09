@@ -130,6 +130,15 @@ git push
 git branch -d sub
 git switch -c sub
 ```
+入れたばかりだとユーザー名、メールアドレス、マージ戦略等で止められる。
+都度git configコマンドで追加。
+
+manager-coreが使えないので実質sshだけだが、都度`exec ssh-agent bash`と`ssh-add privatekeypath`が必要になる。
+
+なんでないの……
+[git-credential-manager · Issue #10420 · termux/termux-packages](https://github.com/termux/termux-packages/issues/10420)
+
+
 
 ## clipboard
 `pkg instal termux-api`の後、
