@@ -194,3 +194,13 @@ git push origin --force --all
 先頭8000バイト以内に`NUL`があるかどうか。
 
 [Gitはどうやってテキストファイルとバイナリファイルを自動識別しているのか？ diff - Qiita](https://qiita.com/okuoku/items/a21bfa68570ca67817ac)
+
+## githubとssh接続
+ssh−agentにkey登録のひと手間がクライアント側に必要。
+`exec ssh-agent bash`でエージェントを実行し、`ssh-add privatekeypath`で登録。
+
+https://docs.github.com/ja/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+場合によってパーミッションエラーが出るので、`chmod 600 privatekeypath`で自分しか変更できないようにする。
+
+https://qiita.com/yyy752/items/32f66d877de41655b7bb
