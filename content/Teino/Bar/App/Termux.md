@@ -112,6 +112,11 @@ python /storage/emulated/0/Download/Flud/nicojson2xml/nicojson2xml.py "${filenam
 python /storage/emulated/0/Download/Flud/nicodanmaku2ass/danmaku2ass.py -o "${filename}.ass" -a 0.8 "${filename}.comments.xml"
 ```
 
+（2025/03/09）うまく動かない。grepで出力を拾ってしまうのが悪そう。
+
+
+
+
 オプションでページ内ニコニコ動画リンク一括コピーブックマークレット。
 ```javascript
 javascript:(function(){var d=document.links.length,b=document.querySelectorAll("iframe"),c="";niconicoIdReg=/(?:sm|nm|so|ca|ax|yo|nl|ig|na|cw|z[a-e]|om|sk|yk)\d{1,14}\b/;for(var e=0;e<d;e++)if(url=document.links[e].href,/(nicovideo\.jp|nico\.ms)/.test(url)){var f=url.match(niconicoIdReg);null!==f&&(smLinkTxt="https://www.nicovideo.jp/watch/"+f[0],c+=smLinkTxt+"\r\n")}b.forEach(function(a){a=a.getAttribute("src");/(nicovideo\.jp|nico\.ms)/.test(a)&&(a=a.match(niconicoIdReg),null!==a&&(smLinkTxt="https://www.nicovideo.jp/watch/"+
