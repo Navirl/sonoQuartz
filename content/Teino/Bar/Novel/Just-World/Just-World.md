@@ -30,3 +30,5 @@ up:: [[../Timeline/Just-World_Timeline]]
 関係欲しいなら生まれろ。
 
 [技術に興味がなくて何が悪い？ - Qiita](https://qiita.com/indigonightism/items/c1bf747bed15e2840936)
+
+仕事を覚えていない奴には、死ぬ権利もない。
