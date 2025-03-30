@@ -167,3 +167,11 @@ public static final int VALUE_EXTRA_SESSION_ACTION_SWITCH_TO_NEW_SESSION_AND_DON
 */
 public static final int VALUE_EXTRA_SESSION_ACTION_KEEP_CURRENT_SESSION_AND_DONT_OPEN_ACTIVITY = 3;
 ```
+## 配列の一番後ろの値を抜きたい
+`[-1]`で可能。この添字記法をsubscriptという。
+そこにも乗ってない情報だが使える。
+
+[Expressions & operators ⋅ Automate for Android ⋅ LlamaLab](https://llamalab.com/automate/doc/expression.html#subscript_operator)
+
+## if
+expression true.
