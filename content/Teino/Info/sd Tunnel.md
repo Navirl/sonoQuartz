@@ -66,3 +66,7 @@ zrok share public http://127.0.0.1:7860
 R18用途でないならここを使用できる。
 
 [Stable-Diffusion/Tutorials/How-To-Use-Automatic1111-Web-UI-On-A-Free-Kaggle-Notebook-Like-Google-Colab.md at main · FurkanGozukara/Stable-Diffusion · GitHub](https://github.com/FurkanGozukara/Stable-Diffusion/blob/main/Tutorials/How-To-Use-Automatic1111-Web-UI-On-A-Free-Kaggle-Notebook-Like-Google-Colab.md)
+
+## pinggy
+zrokに似てる。帯域幅が限られ超えるには有料。
+zrokはゼロトラスト、pinggyは簡単らしい。
