@@ -1,12 +1,9 @@
 ---
-date: 2023-05-07
-banner: "![[../../image/00000-3759171700 (2).png]]"
----
----
 tags:
   - Bar
   - Novel/Character
   - Star
+date: 2023-05-07
 banner: "![[../../image/00000-3759171700 (2).png]]"
 banner_y: 0.12048
 aliases:
