@@ -18,6 +18,8 @@ up:: [Blender](<../Bar/App/Blender.md>)
 [3D Openpose Editor](https://zhuyu1997.github.io/open-pose-editor/)と違うのは、手の調整に色々仕込まれていることとNormalなども出力できること、体格を調整できること。
 逆に言うとそのへん必要ないなら前者でいい。
 
+**まず同梱されているrig_tools_3.68.12.zipをアドオンとしてインストールする。**
+
 まずはOutlinerから色々非表示にしたり、Pose Modeに移行したりする。
 
 チェックがビューレイヤー除外。

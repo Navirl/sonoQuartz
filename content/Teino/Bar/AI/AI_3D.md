@@ -29,3 +29,14 @@ comfyui版。
 オンライン版。
 [Hunyuan3D-2.0 - a Hugging Face Space by tencent](https://huggingface.co/spaces/tencent/Hunyuan3D-2)
 [腾讯混元3D](https://3d.hunyuan.tencent.com/assets)
+
+
+オンライン版だと200000ポリゴンとかいくし、ポーズが良くないので修正が要る
+ポーズが良ければポリゴン減らしてUV焼いて骨入れて終了だから、やっぱりTポーズを焼くのがいいんじゃというか明らかその用途
+
+身体を四角ポリゴン化
+髪を整える
+Rigifyを入れて合わせ、適当にウェイト入れつつ半分Tポーズ
+ちぎれた部分を半分整える
+半分消して左右対称ミラー
+UV展開
