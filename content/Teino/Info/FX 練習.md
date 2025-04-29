@@ -54,3 +54,11 @@ MT4&5ハック。
 
 
 [Trade Tester - インジケーター・電子書籍 - 世界のトレード手法・ツールが集まるマーケットプレイス - GogoJungle](https://www.gogojungle.co.jp/tools/indicators/20882?auxTag=7foEAtw%3D)
+
+
+## Tester PAD
+ちゃんと動く無料テスター。
+ストラテジーテスター上で動き1画面のみだが他の時間足も出せるには出せる。
+[MetaTraderマーケットの中でMetaTrader 5のための'Exp5 Tester PAD for Strategy Tester' トレーディングユーティリティ をダウンロードする](https://www.mql5.com/ja/market/product/25963?source=External)
+
+dukascopyのjforexから精度高いデータが取れるが、今月と先月をデータに含むと壊れる。先々月までにする。
