@@ -294,4 +294,11 @@ Depth Proなど外部マップは白手前、黒奥になっている。
 ## AI感
 アウトラインを付けるとAI感は薄れる。
 
-## API
+## 画質UP
+DiTのみ。
+[CFG-Zero* - work4ai](https://scrapbox.io/work4ai/CFG-Zero*)
+[SkipLayerGuidance - work4ai](https://scrapbox.io/work4ai/SkipLayerGuidance)
+
+## 速度UP
+DiTのみ。
+[TeaCache - work4ai](https://scrapbox.io/work4ai/TeaCache)

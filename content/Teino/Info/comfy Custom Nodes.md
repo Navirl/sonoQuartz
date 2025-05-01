@@ -1145,6 +1145,7 @@ Ditベースi2v
 
 ## ComfyUI-BiRefNet
 オブジェクトセグメント。
+画像の切抜き、背景削除などに。
 
 [GitHub - viperyl/ComfyUI-BiRefNet](https://github.com/viperyl/ComfyUI-BiRefNet)
 
@@ -1333,3 +1334,51 @@ HunyuanVideoを使うためのノード。
 今はデフォで対応しているので基本必要ない。
 
 [GitHub - kijai/ComfyUI-HunyuanVideoWrapper](https://github.com/kijai/ComfyUI-HunyuanVideoWrapper)
+
+## ComfyUI-MVAdapter
+一枚の画像から多面的に見た画像を生成する。
+3D制作のお供的な奴。T-Poseにする処理はない。
+[GitHub - huanngzh/ComfyUI-MVAdapter: Custom nodes for using MV-Adapter in ComfyUI.](https://github.com/huanngzh/ComfyUI-MVAdapter)
+
+## ComfyUI-Distill-Any-Depth
+深度推定。Lotusよりデータ少な目で動いたという。
+実使用上ではLotusの方が精度上な場面もある。marigoldやDepthAnythingv2よりは上らしいのでいいかも。
+3D専門のGeowizardも超えられるらしい。
+[GitHub - ZHO-ZHO-ZHO/ComfyUI-Distill-Any-Depth](https://github.com/ZHO-ZHO-ZHO/ComfyUI-Distill-Any-Depth)
+
+試せる。
+[Distill Any Depth - a Hugging Face Space by xingyang1](https://huggingface.co/spaces/xingyang1/Distill-Any-Depth)
+
+## ComfyUI-ShadowR
+被写体から陰影を取る。いわゆるdelight。
+
+[GitHub - Easymode-ai/ComfyUI-ShadowR: ComfyUI ShadowR Wrapper](https://github.com/Easymode-ai/ComfyUI-ShadowR?tab=readme-ov-file)
+
+3D系じゃないと効果がない。2Dならこの辺をどうにか。
+光と影を含めたレイヤー分
+[mattyamonaca/layerdivider: A tool to divide a single illustration into a layered structure.](https://github.com/mattyamonaca/layerdivider)
+線画の下塗り
+[mattyamonaca/auto_undercoat: Automatic generation of picture undercoat from line drawings](https://github.com/mattyamonaca/auto_undercoat)
+線画維持下塗り
+[GitHub - mattyamonaca/starline: Strict coloring machine for line drawings.](https://github.com/mattyamonaca/starline)
+
+今回は線画を維持する必要はない。線画作るのにlineartを噛ませるため。
+
+入力線画画像、出力下塗り。
+＋入力元画像。最頻値取得。もし画像が入力されていれば、最頻値を取得して塗る。
+入力線画が線画じゃなく色ついてたら、その時点でsegmentかけてループ。
+
+layerdivider側があった。auto-undercoatだと線画作る時に光と影の線が入りそうなのでこれがいいか。
+[GitHub - jtydhr88/ComfyUI-LayerDivider: ComfyUI LayerDivider is custom nodes that generating layered psd files inside ComfyUI](https://github.com/jtydhr88/ComfyUI-LayerDivider)
+
+しかしcudaの要求が厳しい。onnxを使っているのは一か所なので、そこの修正を試みる。
+
+anime-segを使用しているもよう。
+該当はbg_remover.pyのget_mask。さらにこれがget_foregroundで使われ、Id_processor.pyのget_baseで使われる。
+現代だと前面抜きなんて珍しくもないので、これを入力に頼ればいい。しかしget_baseが求めているのはdf_list。`[fg_df, bg_df]`が内部。
+
+その内部を探る前に、dfについて。これはId_converter.pyのrgb2dfでimgから作成された値集合。
+……imgから作られてるなら、ここに渡せば終わりでは？
+
+下から、rgb2df->get_base->color_base_divide。
+color_base_divideがおそらくノードなので、ここにforgroundイメージを入れて下まで流せばOK。

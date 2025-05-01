@@ -13,9 +13,6 @@ modifierはオブジェクト選んでスパナマークから。
 
 [【Blender】モディファイアの適用方法（確定方法）方法とミラーでの編集 | らくがきクリエイトmononoco](https://mononoco.com/creative/blender/modifiers-apply)
 
-頂点を纏める場合は選択してmesh->merge。mからでも。
-
-[【Blender4.2】重なった頂点を結合する（マージする）方法 | AY3の6畳細長部屋](https://www.ay3s-room.com/entry/blender-merge-duplicate-points)
 
 メッシュの切り離しは選択からp。
 
@@ -38,6 +35,9 @@ planerは平面を残す。いかにもローポリになる。
 
 [【Blender3.1】面/頂点を削減：デシメートモディファイアー | CGbox](https://cgbox.jp/2022/04/16/blender-decimate/)
 
+
+頂点を纏める場合は選択してmesh->merge。mからでも。
+[【Blender4.2】重なった頂点を結合する（マージする）方法](https://www.ay3s-room.com/entry/blender-merge-duplicate-points)
 ## 面張り
 選択してEでExtrude。
 頂点吸着はマグネットアイコンとN->Tool->Auto Merge。
@@ -73,3 +73,14 @@ Cyclesでベイクできる。
 QRemeshifyというアドオンを使用。
 [ksami/QRemeshify: 高品質な四角形トポロジーを出力する、使いやすいリメッシャーのBlender拡張機能](https://github.com/ksami/QRemeshify)
 
+## UVを正方形に詰める
+UV-Packer アドオン。
+[UV-Packer for Blender \| UV-Packer](https://www.uv-packer.com/blender/)
+
+## 自動UV展開
+Unwrap Me アドオン。
+[【アドオン紹介】Unwrap Me – 自動でUV展開で作業効率UP！ \| CGbox](https://cgbox.jp/2023/03/14/ur23031402-news/)
+[GitHub - 3e33/UnwrapMe](https://github.com/3e33/UnwrapMe?tab=readme-ov-file)
+
+AutoUVアドオン。
+[Free Addon AutoUV - Superhive (formerly Blender Market)](https://superhivemarket.com/products/free-addon-autouv/?ref=974)
