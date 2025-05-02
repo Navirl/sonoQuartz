@@ -302,3 +302,11 @@ DiTのみ。
 ## 速度UP
 DiTのみ。
 [TeaCache - work4ai](https://scrapbox.io/work4ai/TeaCache)
+
+## Compatibility with CMake < 3.5 has been removed from CMake.
+cmakeのバージョンが3.5以下じゃないとsentencepieceで止められる。
+先に`pip install cmake==3.27.0`。
+
+[Client Challenge](https://pypi.org/project/cmake/#history)
+
+ちなみにuvだと普通に通る。なんで？

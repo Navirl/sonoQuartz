@@ -1368,9 +1368,14 @@ HunyuanVideoを使うためのノード。
 ＋入力元画像。最頻値取得。もし画像が入力されていれば、最頻値を取得して塗る。
 入力線画が線画じゃなく色ついてたら、その時点でsegmentかけてループ。
 
-layerdivider側があった。auto-undercoatだと線画作る時に光と影の線が入りそうなのでこれがいいか。
+## ComfyUI-LayerDivider
+画像をレイヤー分する奴のcomfyui版。
+
 [GitHub - jtydhr88/ComfyUI-LayerDivider: ComfyUI LayerDivider is custom nodes that generating layered psd files inside ComfyUI](https://github.com/jtydhr88/ComfyUI-LayerDivider)
 
+[mattyamonaca/layerdivider: A tool to divide a single illustration into a layered structure.](https://github.com/mattyamonaca/layerdivider)
+
+auto-undercoatだと線画作る時に光と影の線が入りそうなのでこれがいいか。
 しかしcudaの要求が厳しい。onnxを使っているのは一か所なので、そこの修正を試みる。
 
 anime-segを使用しているもよう。
@@ -1380,5 +1385,48 @@ anime-segを使用しているもよう。
 その内部を探る前に、dfについて。これはId_converter.pyのrgb2dfでimgから作成された値集合。
 ……imgから作られてるなら、ここに渡せば終わりでは？
 
-下から、rgb2df->get_base->color_base_divide。
+下から、rgb2df->get_foreground->get_base->color_base_divide。
 color_base_divideがおそらくノードなので、ここにforgroundイメージを入れて下まで流せばOK。
+
+そこはたぶん行けたんだけど、pytoshopが引っかかって上手く動かない。
+
+pytoshop.enumのBlendModeがlayer_divider_node.py->generate_layers, class LayerDividerDivideLayer->execute, 
+main.py->segment_divide, color_base_divide
+
+Id_utils.pyではlayersがadd_psd,save_psd,
+pytoshopがsave_psdで使われている。多すぎる。
+
+よく見るとBlendModeはsave_psdの引数に使っている。
+save_psdではlayersをadd_psdに渡している。
+
+generate_layersは宣言されているだけで使ってない。
+LayerDividerDivideLayerはノードの一つの値として、このノードはcomfyuiに追加される唯一のノード。
+
+segment_divideはmain.pyのdivide_layerに使われている。color_base_divideも同様。
+divide_layerはmain.pyのon_ui_tabsにある。
+on_ui_tabsはたぶん使われてない。
+
+add_psdはsave_psdでしか使ってない。
+save_psdはmain.pyのsegment_divide, color_base_divide, layer_divider_node.py->generate_layers, class LayerDividerDIvideLayer->executeで使っている。
+
+しかし前述のとおりsegment_divideとcolor_base_divideは大本のon_ui_tabsを使ってない、
+generate_layersは宣言されてるだけ、
+LayerDividerDivideLayerはノードの一設定なので、これを除けば何も問題は無くなる。
+
+
+
+## ComfyUI-RMBG
+comfyuiの背景削除系セット。
+birefnetやsamなど多彩。
+[GitHub - 1038lab/ComfyUI-RMBG: A ComfyUI custom node designed for advanced image background removal and object, face, clothes, and fashion segmentation, utilizing multiple models including RMBG-2.0, INSPYRENET, BEN, BEN2, BiRefNet models,...](https://github.com/1038lab/ComfyUI-RMBG/tree/main)
+
+## ComfyUI-StableXWrapper
+normal取る奴とshadow消す奴をセットにしたもの。
+
+[GitHub - kijai/ComfyUI-StableXWrapper: ComfyUI wrapper for StableX normal/delight models](https://github.com/kijai/ComfyUI-StableXWrapper?tab=readme-ov-file)
+
+## ComfyUI_StableDelight_ll
+光沢を消す。
+
+[GitHub - lldacing/ComfyUI\_StableDelight\_ll](https://github.com/lldacing/ComfyUI_StableDelight_ll)
+

@@ -42,4 +42,4 @@ up:: [Component](<../Bar/Novel/Chaos/Component.md>)
 [ストレッチゴールの意味とは？～ウェルチの事例～](https://yoske379.com/psychology/achievement/stretch-goal/)
 
 
-![How to write SMART Goals v2](<../../Images/How to write SMART Goals v2.pdf>)
+![How to write SMART Goals v2](<../../Images/pdf/How to write SMART Goals v2.pdf>)
