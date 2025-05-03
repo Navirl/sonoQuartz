@@ -1443,3 +1443,23 @@ normal取る奴とshadow消す奴をセットにしたもの。
 
 [GitHub - lldacing/ComfyUI\_StableDelight\_ll](https://github.com/lldacing/ComfyUI_StableDelight_ll)
 
+## ComfyUI_auto_undercoat
+[StableDiffusion＆ControlNet＆SegmentAnythingを使って線画の自動下塗り＆レイヤー分けツールを作った話](https://zenn.dev/aics/articles/d5a504d2f2a763)
+[GitHub - mattyamonaca/auto\_undercoat: Automatic generation of picture undercoat from line drawings](https://github.com/mattyamonaca/auto_undercoat)
+app.pyでやってる。
+入力は線画であることに注意。
+
+class webuiのundercoatが本体のはず。
+まずresize_image,cv2のデータにした後特定のピクセルだけ黒に。
+generate,processで本処理を行い、後は全部saveとPILのalpha_compositeなどの処理。
+
+generateではdiffusersを通してanimagine、controlnetにlineartxlとline出力用のline2line,flat塗りを行うloraを使うパイプラインが組まれている。
+このパイプラインを一回変数に入れ、その変数に引数を渡すとパイプラインが動くっぽい。色付け。
+
+どうやら最新バージョンだとsamを使用していない模様。
+領域分けをして塗るまでもなく、flat loraを使用すれば下塗りっぽく塗れるためか。その上に線画を合わせればそれだけでいいという判断として話を進める。
+
+process。
+get_major_colorsで
+
+
