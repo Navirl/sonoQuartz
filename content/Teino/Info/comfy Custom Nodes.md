@@ -1359,7 +1359,7 @@ HunyuanVideoを使うためのノード。
 [mattyamonaca/layerdivider: A tool to divide a single illustration into a layered structure.](https://github.com/mattyamonaca/layerdivider)
 線画の下塗り
 [mattyamonaca/auto_undercoat: Automatic generation of picture undercoat from line drawings](https://github.com/mattyamonaca/auto_undercoat)
-線画維持下塗り
+線画維持完全塗り
 [GitHub - mattyamonaca/starline: Strict coloring machine for line drawings.](https://github.com/mattyamonaca/starline)
 
 今回は線画を維持する必要はない。線画作るのにlineartを噛ませるため。
@@ -1388,6 +1388,8 @@ anime-segを使用しているもよう。
 下から、rgb2df->get_foreground->get_base->color_base_divide。
 color_base_divideがおそらくノードなので、ここにforgroundイメージを入れて下まで流せばOK。
 
+layer_divider_node.pyのLayerDividerDivideLayerを修正。
+
 そこはたぶん行けたんだけど、pytoshopが引っかかって上手く動かない。
 
 pytoshop.enumのBlendModeがlayer_divider_node.py->generate_layers, class LayerDividerDivideLayer->execute, 
@@ -1413,7 +1415,18 @@ save_psdはmain.pyのsegment_divide, color_base_divide, layer_divider_node.py->g
 generate_layersは宣言されてるだけ、
 LayerDividerDivideLayerはノードの一設定なので、これを除けば何も問題は無くなる。
 
+認識が違った。NODE_CLASS_MAPPINGSというenumみたいなのがlayer_divider_node.pyで宣言されており、`__init__.py`でimportして使われている。
+このNODE_CLASS_MAPPINGSが追加するノードを指定している。つまり一設定ではなくノードそのもの。
 
+LayerDividerDivideLayerを除くわけにはいかなくなった。
+するとsave_psdが必須になり、add_psdも復活する。
+
+save_psdを使っているのは、filenameという変数のため。
+これがpsdへのファイルパス。なのでこれを除けばいいはず。
+
+
+綺麗に影だけ消えるわけではない……
+いやまあ当然だが。やっぱり下塗りしなきゃだめだこれ。
 
 ## ComfyUI-RMBG
 comfyuiの背景削除系セット。
