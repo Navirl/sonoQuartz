@@ -193,7 +193,7 @@ BRIA AIとMarigoldの二値化が使える。
 [ComfyUIで背景を削除できるノード【BRIA AIとMarigold】](https://sorenuts.jp/11480/)
 
 他、CartoonSegやAnimesegも使える。
-
+今ならbirefnetが最強化。
 ## Tips
 ヒストリ消さないと重くなるらしい。
 Latentを途中保存することで軽くなる。
@@ -318,3 +318,7 @@ NODE_CLASS_MAPPINGSというclassと名前をまとめたdictを、`__init__.py`
 classではINPUT_TYPE関数の戻り値jsonでノードの入力、RETURN_TYPESタプルで出力ピン、RETURN_NAMESタプルで出力ピンの名前、CATEGORY stringsでカテゴリの設定などが出来る。
 
 一番大事なノードの中身は、FUNCTION stringで関数名を指定。class内の同名の関数を実行する。
+
+## remove alpha
+essentialノードの中にある。
+
