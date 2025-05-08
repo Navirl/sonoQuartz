@@ -50,7 +50,18 @@ flat_color
 色ならLayerDividerで何とかなるかと思ったが、分けた後にその色がどこの物だったのか説明できない。
 
 i2iでけっこう上手くいった。
+craigは色分け雑なので、切抜きとかと合わせて背景を消しつつ……i2i程度で行けるならILで(flat color:1.5)もありか。
 あとはこれに顔落ち影対策、framepackで落下を作る。
+
+なのでまずは落下中の一枚絵を生成する。
+最初の絵を背景切抜きIP-Adapter、プロンプトでfalling, sky, squatting?, sitting?, from_side?を追加。落下姿勢を取らせる。
+
+librasよさげ。
+ntr,sudachiは動かすのに向いて無さそう。
+nnailousはいまいち制御できない。
+obsessionは絵柄はいいがしゃがみ具合が。V-predictionでも微妙。
+novaflatあり。animeクソ。
+
 
 
 キャラクタ前景
@@ -59,6 +70,16 @@ framepackで可能不可能を見る
 
 fpは30GBくらい使うらしい
 sdxlの使用容量を考えるとギリギリなので、これは単体で動かしたほうが良さげ
+
+Framepackのモデルはbf16でエンコされてる。bf16が使えるRTX30XX系じゃないと使えない。Oh......
+
+compute capabilityというのが8以降じゃないとbf16が使えないらしい。
+t4は7.5でp100は6。
+[NVIDIA CUDA GPU Compute Capability](https://developer.nvidia.com/cuda-gpus)
+
+kijaiのwrapperなら動くかもという報告。
+f1用のもあるしいけるか？
+
 
 
 model
