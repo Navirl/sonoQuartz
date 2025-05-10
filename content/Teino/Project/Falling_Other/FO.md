@@ -80,6 +80,41 @@ t4は7.5でp100は6。
 kijaiのwrapperなら動くかもという報告。
 f1用のもあるしいけるか？
 
+t4 shader model 6.8
+[NVIDIA Tesla T4 Specs](https://www.techpowerup.com/gpu-specs/tesla-t4.c3316)
+p100 sm6.0
+[NVIDIA Tesla P100 PCIe 16 GB Specs](https://www.techpowerup.com/gpu-specs/tesla-p100-pcie-16-gb.c2888)
+
+sage-attentionを使用するにはSM8が要る。
+[triton + sageattention error: RuntimeError: PassManager::run failed · Issue #6228 · comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI/issues/6228)
+
+flash-attnはコンパイルが終わらない。
+xformersはカツカツな容量からはみ出る。
+
+```
+!pip cache purge
+!conda clean -a -y
+```
+
+これでキャッシュを消してもxformersは足りない。
+しゃあないのでsdpa。
+
+fp8じゃないとkaggleの50GBに入らない。
+bf16を元にfp8_e4m3fnにしたよという設定にしないと黒の画像が出力される。
+load_deviceはoffloadでCPUに出す。それでもCPU27.6GPU13。
+VAEもbfじゃなくfpを使用。
+
+縦640だと30step5秒で5700秒。1.58時間。
+teacacheを使うと2回目以降が無理。
+
+HYは適切な解像度がある。大きすぎると遅くOOM、小さすぎても。
+[Update framepack\_hv\_example.json by Crimsonfart · Pull Request #1 · kijai/ComfyUI-FramePackWrapper](https://github.com/kijai/ComfyUI-FramePackWrapper/pull/1)
+
+![](<../../image/framepack.json>)
+
+![AnimateDiff\_00002](<../../image/AnimateDiff_00002.mp4>)
+
+動くには動く。
 
 
 model
