@@ -88,7 +88,7 @@ p100 sm6.0
 sage-attentionを使用するにはSM8が要る。
 [triton + sageattention error: RuntimeError: PassManager::run failed · Issue #6228 · comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI/issues/6228)
 
-flash-attnはコンパイルが終わらない。
+flash-attnはコンパイルが終わらない。CPUだとインストールは６GBでできるっぽい。だがGPUだとダメになる。torchバージョン？
 xformersはカツカツな容量からはみ出る。
 
 ```
@@ -96,7 +96,7 @@ xformersはカツカツな容量からはみ出る。
 !conda clean -a -y
 ```
 
-これでキャッシュを消してもxformersは足りない。
+これでキャッシュを消してもxformersは足りない。cudnnまでいれるためか10GBが軽く飛ぶ。
 しゃあないのでsdpa。
 
 fp8じゃないとkaggleの50GBに入らない。
@@ -116,10 +116,30 @@ HYは適切な解像度がある。大きすぎると遅くOOM、小さすぎて
 
 動くには動く。
 
+既に画面にある要素を説明する必要はない。副詞を付けるといいらしい。カメラは基本固定。ズームやパンを繰り返せと言われたら一応繰り返すとか。
+[r/StableDiffusion - Reddit](https://www.reddit.com/r/StableDiffusion/comments/1k1tz0j/hmm_framepack_not_really_obeying_my_prompt/)
+[r/StableDiffusion - Reddit](https://www.reddit.com/r/StableDiffusion/comments/1k533g5/inverted_sampling_framepack/)
+skyreels v2というvram10gbで動く動画生成がある。
 
-model
-- sudachixl
-    - [すだち XL (イラストリアス) - v1 | イラストリアスチェックポイント | Civitai](https://civitai.com/models/1288125?modelVersionId=1453425)
-- obsession
-    - [Obsession (Illustrious-XL) - v-pred_v1.1 | Illustrious Checkpoint | Civitai](https://civitai.com/models/820208/obsession-illustrious-xl)
+[GitHub - kijai/ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper)
 
+Framepack-tudioでは秒ごとに異なるプロンプトを指定できる。
+[r/StableDiffusion - Reddit](https://www.reddit.com/r/StableDiffusion/comments/1kfzs0m/which_new_kinds_of_action_are_possible_with/)
+
+wan
+[r/StableDiffusion - Reddit](https://www.reddit.com/r/StableDiffusion/comments/1j4euwb/fantasy_action_with_wan_i2v_720p_kinda_works_but/)
+
+wind flowing up,
+
+the girl is falling, A strong wind is blowing up the girl's hair and clothes.
+
+The girl falls. A strong wind blows up her hair and clothes away.
+
+本来HYは9:16なら縦960スタート。
+[GitHub - Tencent/HunyuanVideo: HunyuanVideo: A Systematic Framework For Large Video Generation Model](https://github.com/Tencent/HunyuanVideo?tab=readme-ov-file#-single-gpu-inference)
+
+落ちる一枚絵から、キャラだけ切り出し背景をinpaint。
+キャラが落ちているかのような二枚を作ってframepack。
+
+これでも下に落ちていく動画しか取れないので、やっぱfizznodesか。
+髪と服に関する部分を0.01くらい弄って動かす。
