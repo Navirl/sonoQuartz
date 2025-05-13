@@ -143,3 +143,6 @@ The girl falls. A strong wind blows up her hair and clothes away.
 
 これでも下に落ちていく動画しか取れないので、やっぱfizznodesか。
 髪と服に関する部分を0.01くらい弄って動かす。
+
+これ一貫性持って変更できないことに今更気づく。
+やはりfpでなんとかするしかないのか。studioなら秒ごとに違うプロンプトを指定できるらしいので、これで同じように0.01ずつ変えれば?
