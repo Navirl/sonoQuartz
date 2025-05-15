@@ -146,3 +146,71 @@ The girl falls. A strong wind blows up her hair and clothes away.
 
 これ一貫性持って変更できないことに今更気づく。
 やはりfpでなんとかするしかないのか。studioなら秒ごとに違うプロンプトを指定できるらしいので、これで同じように0.01ずつ変えれば?
+
+0.01とかそういう数値じゃない。元のHYがLLMでプロンプトを処理しているので自然言語しか使えない。
+
+そうでなくとも大きく動いてしまうFPで、プロンプトを変えた程度で髪だけ動かせるとは思えない。
+
+髪だけマスキングを考えたが、拡大でマスクが顔にかかると変化してしまう。
+髪と背景一部だけマスキングして顔をマスキングしないようにすればいいがそんなものはない。
+というかマスキングできたとして、画像生成をかければ色が変わってしまう。それでは意味がない。
+
+wanのloraではいくつか一部だけ動かしている絵がある。
+pixelのやつは元に頼っている。
+
+動画生成のテキストエンコーダ―t5の改良版umt5。
+danbooruタグがある程度効くのが確認されている。
+[Image posted by motimalu](https://civitai.com/images/60760612)
+
+live2d animation、floating hair
+
+flat color loraの適用で髪の動きが増えてるので、元の癖か。
+
+sigclip(clip vision), umt5(clip), gguf vae, gguf model。
+wanはclip_vision_hらしいので買えるのは不味そう。
+
+wanはshift値が必要。標準のModelSamplingSD3ノード。
+高解像度でノイズを管理するらしい値。
+[Stable Diffusion 3 で最高の結果を得る方法｜AICU Japan](https://note.com/aicu/n/nf3565203846d)
+
+i2vに1.3bモデルは存在しない。
+というかt2vにしかない。
+
+[WAN 2.1 480 GGUF Q5 model on low VRAM 8GB and 16 GB ram fastest workflow 10 minutes max now 8 mins \| Civitai](https://civitai.com/articles/12202/wan-21-480-gguf-q5-model-on-low-vram-8gb-and-16-gb-ram-fastest-workflow-10-minutes-max-now-8-mins)
+[🦊Wan2.1 - work4ai](https://scrapbox.io/work4ai/🦊Wan2.1)
+
+![](<../../image/AnimateDiff_000034.mp4>)
+流石wan、かなりいい
+
+flf2vは使うとむしろ不自然。
+
+キャラ一貫性
+[r/comfyui - Reddit](https://www.reddit.com/r/comfyui/comments/1kkd9k3/powerful_tech_infiniteyou_uno_dreamo_personalize/)
+
+
+instantcharacter
+24gb
+
+uno
+[GitHub - bytedance/UNO: 🔥🔥 UNO: A Universal Customization Method for Both Single and Multi-Subject Conditioning](https://github.com/bytedance/UNO)
+flux
+
+dreamo
+[GitHub - bytedance/DreamO: DreamO: A Unified Framework for Image Customization](https://github.com/bytedance/DreamO)
+2025.04.24
+flux
+
+infiniteyou
+
+acepp
+[ali-vilab/ACE\_Plus · Hugging Face](https://huggingface.co/ali-vilab/ACE_Plus)
+editor
+personalize anything
+[Personalize Anything for Free with Diffusion Transformer](https://fenghora.github.io/Personalize-Anything-Page/)
+inpaint,flux
+顔pulid
+[GitHub - cubiq/PuLID\_ComfyUI: PuLID native implementation for ComfyUI](https://github.com/cubiq/PuLID_ComfyUI)
+
+skyreelsだと一貫性を保ち切れずよくわからない塊になってしまう。
+
+結局wanのi2vで何とかするしかない。
