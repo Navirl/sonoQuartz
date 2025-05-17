@@ -206,6 +206,9 @@ infiniteyou
 acepp
 [ali-vilab/ACE\_Plus · Hugging Face](https://huggingface.co/ali-vilab/ACE_Plus)
 editor
+flux.1-fill-dev
+開発中止してVACEに移行している
+
 personalize anything
 [Personalize Anything for Free with Diffusion Transformer](https://fenghora.github.io/Personalize-Anything-Page/)
 inpaint,flux
