@@ -183,6 +183,7 @@ i2vに1.3bモデルは存在しない。
 流石wan、かなりいい
 
 flf2vは使うとむしろ不自然。
+これは最後の瞳ズームにしか使わないか。
 
 キャラ一貫性
 [r/comfyui - Reddit](https://www.reddit.com/r/comfyui/comments/1kkd9k3/powerful_tech_infiniteyou_uno_dreamo_personalize/)
@@ -214,3 +215,7 @@ inpaint,flux
 skyreelsだと一貫性を保ち切れずよくわからない塊になってしまう。
 
 結局wanのi2vで何とかするしかない。
+live2d animationでfpもいけるかと思ったが、動きすぐで服の模様が消えるのと解像度限界が近い。
+
+vaceのreferenceを使う方法は、どうやらキャラだけ抜き出して作り直す機能らしい。
+ただそのキャラ抜出の精度はあんま高くない。wani2vつかって。

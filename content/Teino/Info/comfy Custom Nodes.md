@@ -1489,3 +1489,31 @@ vaceやskyreels-Aの編集、dfモデルが使いたいなら。
 たまに画像の縦数値を16で割れるようにしないと動かないノードがある。
 [SkyReels V2 DF 540p Diffusion Forcing Sampler · Issue #511 · kijai/ComfyUI-WanVideoWrapper](https://github.com/kijai/ComfyUI-WanVideoWrapper/issues/511)
 
+## ComfyUI-MultiGPU
+[GitHub - neuratech-ai/ComfyUI-MultiGPU: Rudimentary support for using multiple GPUs in a ComfyUI workflow](https://github.com/neuratech-ai/ComfyUI-MultiGPU)
+
+モデルを何処にロードするか選べるようにする。
+T4x2は本来30GB使えるはずなので、重要
+
+## Comfyui-FlowChain
+[GitHub - numz/Comfyui-FlowChain: Convert your workflows into nodes and chain them together](https://github.com/numz/Comfyui-FlowChain)
+
+ワークフローをノードに変換。
+グループノードに変換する機能はデフォであるが、入出力順序などを調整したいなら。
+
+## ComfyUI-LBMWrapper
+[GitHub - kijai/ComfyUI-LBMWrapper](https://github.com/kijai/ComfyUI-LBMWrapper?tab=readme-ov-file)
+
+latent bridge matchingを使う。
+背景に合わせて前景をライト調整する。
+
+BY-NCなので注意。
+
+LBMは他にも単眼深度推定モデルなどを作ってるらしい。
+[ComfyUI-LBMWrapper - work4ai](https://scrapbox.io/work4ai/ComfyUI-LBMWrapper)
+
+## ComfyUI-BiRefNet-Hugo
+[GitHub - MoonHugo/ComfyUI-BiRefNet-Hugo: 本仓库将BiRefNet最新模型封装为ComfyUI节点来使用，相较于旧模型来说，最新模型的抠图精度更高更好。This repository wraps the latest BiRefNet model as ComfyUI nodes. Compared to the previous model, the latest model offers higher and better matting accuracy.](https://github.com/MoonHugo/ComfyUI-BiRefNet-Hugo)
+
+birefnetしか使えないノード。
+RMBGはインストール重いしこれで済むならいいんじゃないか。
