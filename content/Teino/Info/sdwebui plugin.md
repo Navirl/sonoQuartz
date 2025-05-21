@@ -78,6 +78,7 @@ yamlを直接弄らないとプロンプトは保存できない。
 [GitHub - cololy/sd-webui-regional-prompter: set prompt to divided region](https://github.com/cololy/sd-webui-regional-prompter)
 フォーク版。
 diffrepromというプロンプト指定で領域決めて変更する機能がある。
+fizznodesみたいなもんか。
 
 ### sd-webui-cutoff
 [GitHub - hnmr293/sd-webui-cutoff: Cutoff - Cutting Off Prompt Effect](https://github.com/hnmr293/sd-webui-cutoff)

@@ -6,6 +6,7 @@ tags:
 aliases:
   - ps
   - cmd
+  - pwsh
 ---
 
 up:: [Programming](<../Program/Programming.md>)
@@ -209,3 +210,13 @@ Uninstall-Module PSScriptTools -AllVersions
 ちゃんと`-Path`でパス指定する。
 
 [【PowerShell】空のフォルダを再帰的に作成する方法 \| 秋拓技術学院](https://syutaku.blog/powershell-new-item-directory/)
+
+## オブジェクトの型が知りたい
+`| get-member`
+
+## パスの親がほしい
+`| split-path -parent`
+
+## コマンドの親フォルダを開く
+` $(gcm pwsh).Source | split-path -parent | ii`
+
