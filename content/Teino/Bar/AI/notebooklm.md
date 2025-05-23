@@ -14,3 +14,7 @@ up:: [AIa](<./AI_agent.md>)
 
 最近plusが出た。無料版だと50しかファイル入らないっぽい。
 [Upgrading to NotebookLM Plus - NotebookLM Help](https://support.google.com/notebooklm/answer/15678219?hl=en&ref_topic=15677005&sjid=2568953300135097610-AP)
+
+githubを取り込みたい場合は、一度テキストファイルにしたりGDocにしたりしないといけない。
+唯一上手くいったのはHTMLにしてからPDFに変換しDriveにアップしてGDocにする。
+[GitHub のリポジトリを 1 ファイルにまとめるとノートブックにしやすい](https://zenn.dev/hankei6km/articles/github-repo-as-notebooklm-source)

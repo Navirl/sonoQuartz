@@ -460,7 +460,7 @@ lamaが使える。
 [GitHub - Layer-norm/comfyui-lama-remover: a simple lama remover](https://github.com/Layer-norm/comfyui-lama-remover)
 
 ## ComfyUI_fabric
-画像に対してYesNoで答えることで、望の画像を作る。
+画像に対してYesNoで答えることで、望の画像を作る。一種のrlhf。
 sdwebui版もある。
 残念ながらComfyUIではループさせるような設定は出来ない。プリセットもない。
 なので本格的にやるならsdwebui版を使う。

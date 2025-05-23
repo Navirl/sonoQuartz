@@ -6,25 +6,24 @@ aliases:
   - AIt
 ---
 
+
 up:: [AI\_local](<./AI_local.md>)
 up:: [AI\_online](<./AI_online.md>)
 
 llmって呼ぶとマルチモーダルモデルとかの説明が削られるので。
-## local
 
-### Instructモデル
+## Instructモデル
 以下のURL先のようにチャットに適したモデル。
 
 [Chat Templates](https://huggingface.co/docs/transformers/main/en/chat_templating)
 
-## online
-### perplexity
+## perplexity
 検索サービスの先駆け。
 ファイルを添付して調べられるのが強み。あとアプリがある。
 文字がたくさん入る。
 https://www.perplexity.ai
 
-### Genspark
+## Genspark
 ウェブページにまとめてくれる。内容指定してウェブページ作成も可能。
 ファクトチェックもできる。つよい。
 ただしファクトチェックは事実一つずつかつクローズな問い（y/n）じゃないとちゃんと動かない。
@@ -35,11 +34,11 @@ https://www.perplexity.ai
 無料版だと一日3回。
 
 
-### Consensus
+## Consensus
 研究特化。流石に新しすぎる論文(2024, 2024/09/29)とかには言及してくれない。
 [Consensus: AI-powered Academic Search Engine](https://consensus.app)
 
-### Felo
+## Felo
 マインドマップを作ってくれる。
 スライドも作れる。
 
@@ -52,14 +51,14 @@ https://www.perplexity.ai
 
 拡張機能を入れると、URL末尾に`?felosearch_translate=1`を入れることで文字の下に翻訳した文を入れてサイト表示できる。有能。
 
-### Napkin AI
+## Napkin AI
 指定した画像を生成する。
 PNGやSVGを出力できるのが強み。
 
 パワポに合わせて出力するのが主目的？
 [App - Napkin AI](https://app.napkin.ai/)
 
-### v0
+## v0
 next.jsのvercelが贈る、UIプロトタイピングAI。
 コードに詳しいわけではないので、細かい修正を頼んでも直さない。UIの機能は思いつくけどどんな見た目にするんだ、みたいなときに使う。
 
@@ -67,17 +66,17 @@ next.jsのvercelが贈る、UIプロトタイピングAI。
 
 [v0 by Vercel](https://v0.dev/)
 
-### bolt.new
+## bolt.new
 フルスタックプログラムAI。
 v0はフロントエンド限定だが、これはバックエンドも含めて作る。
 
 [bolt.new](https://bolt.new)
 
-### Replit Agent
+## Replit Agent
 boltと同じタイプ
 [Replit Docs](https://docs.replit.com/replitai/agent)
 
-### LibrAI
+## LibrAI
 ファクトチェック。
 米国をメインにしてるっぽい。日本の話にはちょっと弱い。
 
@@ -85,30 +84,30 @@ boltと同じタイプ
 
 ローカルバージョンがある。
 [GitHub - Libr-AI/OpenFactVerification: Loki: Open-source solution designed to automate the process of verifying factuality](https://github.com/Libr-AI/OpenFactVerification)
-### tl;dv
+## tl;dv
 
 会議の文字起こしとか共有とか行う。
 
 [tl;dv - app](https://tldv.io/app/meetings)
 
-### Gladia
+## Gladia
 文字起こし特化。
 [Gladia](https://app.gladia.io)
 
-### 天秤AI
+## 天秤AI
 ChatGPT、Gemini、Claudeの3つの出力を比較できる。その出力をまとめてより考えさせる壁打ち機能も搭載。
 なぜかOpusや1.5 Proなども無料で使える。
 
 [比較検索なら 天秤AI byGMO │ ChatGPT Claude Gemini等最新AIチャットボットが無料で試せる！](https://tenbin.ai/workspace)
 
-### Gamma
+## Gamma
 スライドを制作する。
 クレジットの回復方法は紹介とプランしかない。Freeで使い続けることは出来ない。
 実力は割とある。コード投げ込むだけで大枠を捉えられる。
 
 [AIを使ったプレゼンテーションとスライドデッキ｜Gamma (ガンマ)](https://gamma.app/ja)
 
-### irusiru
+## irusiru
 日本人向けスライド制作。
 真面目に文章を送ろうとすると1600文字しかない。
 
@@ -117,39 +116,39 @@ Freeだと3個までしかドキュメントは作れない。
 
 [Irusiru](https://app.irusiru.jp)
 
-### Simplified
+## Simplified
 書く、動画作る、デザインするなど全て一つでこなす。
 
 [Simplified: An Easy to Use All-In-One App For Modern Marketing Teams](https://simplified.com)
 
-### ChatGPT
+## ChatGPT
 回答速度がいい。
 コードも割とできる。
 ちゃんとウェブ検索もしてくれる。必要だったら。
 
-### Claude
+## Claude
 人間っぽさが強み。
 コードにも強いが、最近はChatGPTが追い上げてるかも。
 
-### Gemini
+## Gemini
 分析に強いらしい。
 APIがほぼタダ。
 
-#### Gemini Deep Research
+### Gemini Deep Research
 深めにサーチしてくれる奴。Gensparkのファクトチェックみたいな精度でリサーチするイメージ。
 いまのとこ（2024/12/23）有料じゃないと使えなさそう。
 [Gemini Deep Researchを使う方法とレビュー｜矢野 哲平@耳で学ぶAI](https://note.com/robothink/n/na14a59165fc2)
 
-### PLaMO
+## PLaMO
 日本のAI。
 https://plamo.preferredai.jp/
 
-### minimax
+## minimax
 cohereのようなマルチAIプラットフォーム。
 中国系。
 https://www.minimaxi.com/en
 
-### Markdown AI
+## Markdown AI
 マークダウンを書いてシンプルに公開する。
 特徴はGPT-4oなどのモデルにアクセスできるテキストボックスを設置できること。
 [MarkdownAI β](https://mdown.ai/file)
@@ -169,7 +168,7 @@ AIへの指示は、7Rというのがいいらしい。（2024/11/16）
 | Run Scenario    | 実行シナリオ（実際のやり方、仕事の手順。定期的に質問しろなど） |
 
 
-### groq
+## groq
 現在（2024/08/02）無料で使えるLLMAPI。
 GPT-4相当とされているllama-3 405bを使えるはずだがレートリミットが激しい。
 
@@ -253,4 +252,47 @@ difyよりも技術者向けらしいワークフロー。
 
 [GitHub - infiniflow/ragflow: RAGFlow is an open-source RAG (Retrieval-Augmented Generation) engine based on deep document understanding.](https://github.com/infiniflow/ragflow)
 
-## 
+## rlhf
+[Preference Tuning LLMs: PPO, DPO, GRPO—A Simple Guide](https://anukriti-ranjan.medium.com/preference-tuning-llms-ppo-dpo-grpo-a-simple-guide-135765c87090)
+
+### RL
+Reinforcement Learning。
+実践とフィードバックを学習させる。
+人間がやるのは遅すぎるので、最初の学習では代わりに報酬モデルが用いられる。
+人間がやるとHuman FeedbackがついてRLHF。以下は人間の選好データを用いているのでみんなRLHF。
+
+### PPO
+Proximal Policy Optimization。近似ポリシー最適化。OpenAI2017。
+LLMにPolicyを持たせ、報酬モデルに加え、価値関数(critic)を追加する。価値関数はそのテキストの将来性を評価する。
+
+LLMがテキストを生成、報酬モデルがスコアを付ける。ついで価値関数が価値を付け、さらにスコアと価値からそれぞれの単語選択がどれだけ優れているかを計算する。（GAEという式）
+
+これらを元にポリシーを更新。これはPPO目的関数を最大化に寄せる。目的関数は高いスコア、ポリシー変更の程度制限、多様性（エントロピー）へのボーナスを満たすように作られる。
+
+価値関数を更新。
+
+GAE。Generalized Advantage Estimation、一般化優位性推定。他には全体評価で分散が高く学習が遅いMonte Carlo(MC)、単語ごとに評価するバイアス高のTemporal Difference(TD)などがある。
+
+GAEはマルチステップTDのようなもの。複数の単語に渡る報酬を用意する。
+
+### DPO
+Direct Preference Optimization。直接選考最適化。スタンフォード大学2023。
+望ましい応答Aと望ましくない応答Bを用意し、応答AへLLMを偏らせる。
+
+PPOは関数更新などの強化学習ループがあるが、これは直接偏らせるだけ。
+要するにポリシー更新のみ。もっというと損失関数の調整らしい。
+
+現在のモデルにAとBを入力。両方のロジット、確率計算前の出力スコアを取得。
+さらに参照モデル（たいてい旧モデル）からも同様にロジットを取得。
+あとはAのロジットと確率を増やし、Bは減らす。さらに安定のため参照モデルに近づくように少し調整。
+
+
+### GRPO
+Group Relative Policy Optimization。グループ相対ポリシー最適化。DeepseekAI2022年。
+PPOをスリムで高速にしたもの。criticを消した。代わりにGRAE、Group-Based Advatage Estimationが使われる。
+
+これは同じプロンプトに対するLLMの応答をグループにまとめ、他のグループに対してどれくらいいいかを評価する方法。
+
+まず応答グループを生成、報酬モデルでグループにスコアを付け、グループの平均スコアとそれぞれの回答スコアを比較し優位性を計算。
+最後に目的関数に従ってポリシー更新。
+

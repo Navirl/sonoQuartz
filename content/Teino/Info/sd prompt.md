@@ -35,8 +35,8 @@ sd3用リサンプル
 [Sd3 With LLM - a Hugging Face Space by alfredplpl](https://huggingface.co/spaces/alfredplpl/sd3-with-LLM)
 
 ## リーダー
-ComfyUIからa1111のタグを読むなら、[comfyui-prompt-reader-node](<./comfy Custom Nodes.md#comfyui-prompt-reader-node>)が使える。
-セーブは[ultools-comfyui](<./comfy Custom Nodes.md#ultools-comfyui>)など。上記のはセーブするのに大量にノード繋ぐことになる。その分信頼性は高いが。
+ComfyUIからa1111のタグを読むなら、[comfyui-prompt-reader-node](<./comfyui Custom Nodes.md#comfyui-prompt-reader-node>)が使える。
+セーブは[ultools-comfyui](<./comfyui Custom Nodes.md#ultools-comfyui>)など。上記のはセーブするのに大量にノード繋ぐことになる。その分信頼性は高いが。
 
 ## AIbooru
 AI絵だけがあるDanbooru。タグの修練に。
