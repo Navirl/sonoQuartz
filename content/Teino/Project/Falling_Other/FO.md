@@ -232,3 +232,6 @@ llama.cppのconvert_hf_to_gguf.pyと、ビルドで出るllama-quantizeで量子
 [Tutorial: How to convert HuggingFace model to GGUF format · ggml-org/llama.cpp · Discussion #2948](https://github.com/ggml-org/llama.cpp/discussions/2948)
 [llama.cppでLLMを量子化し、ollamaで動かせた！これで勝つる！（cyberagent/calm2-7b-chat量子化記事の再現編） - nikkie-ftnextの日記](https://nikkie-ftnext.hatenablog.com/entry/llm-quantize-first-step-cyberagent-calm2-7b-chat)
 [GGUF 変換メモ - Qiita](https://qiita.com/7shi/items/14d24a25aa26dcf97d2d)
+
+色調補正をデプスマップを元に掛けたい。
+AEなら調整レイヤーの仕事。YMMなら
