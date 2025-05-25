@@ -234,4 +234,8 @@ llama.cppのconvert_hf_to_gguf.pyと、ビルドで出るllama-quantizeで量子
 [GGUF 変換メモ - Qiita](https://qiita.com/7shi/items/14d24a25aa26dcf97d2d)
 
 色調補正をデプスマップを元に掛けたい。
-AEなら調整レイヤーの仕事。YMMなら
+AEなら調整レイヤーの仕事。YMMなら色調弄った後のやつをデプスで切り抜いて弄ってないのを表に出せばいい。
+
+空気遠近をデプス程度でやるとミニチュアになる。
+
+結局キャラクターをanisoraで用意した
