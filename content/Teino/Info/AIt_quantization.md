@@ -4,6 +4,34 @@ tags:
   - Info
 ---
 
+up:: [AI\_local](<../Bar/AI/AI_local.md>)
+up:: [AIt](<../Bar/AI/AI_text.md>)
+
+(2023)
+
+GGML
+旧手法。Cで書かれており、サードパーティに依存せず、量子化をサポートする。
+あとWebAssemblyサポートとか。
+
+GGUF
+Llama以外もllama.cppで使えるようになる新フォーマット。
+プロンプトフォーマットを内部に設定しておける。
+
+GPTQ
+推論速度の高速化。
+
+ExllamaとかがLlama専用でこの圧縮を行っていたが、AutoGPTQによりTransformerモデル全てで圧縮できるようになった。
+量子化した後量子化そのものを学習し、元モデルとの誤差を縮めている。
+
+AWQ
+最近出てきたGPTQの上位版量子化。
+
+---
+
+(2024)
+
+[GGML/GGUF/GPTQの違い](https://zenn.dev/kun432/scraps/6fc012752afa62)
+
 up:: [tgwebui](<../Bar/App/text-generation-webui.md>)
 
 量子化。モデルを小さくしつつ精度を落とさない技術。

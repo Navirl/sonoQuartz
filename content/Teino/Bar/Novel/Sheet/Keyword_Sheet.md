@@ -5,7 +5,7 @@ tags:
  - Novel/Sheet
 ---
 
-up:: [[../../App/Tavern]]
+up:: [[../../App/Sillytavern]]
 
 from:: Tavern
 [Character Hub](https://www.characterhub.org/lorebooks/shifff/toriel-house)

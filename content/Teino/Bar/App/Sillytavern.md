@@ -1,9 +1,9 @@
 ---
 date: 2023-05-03
 tags:
- - Bar
- - App
-aliases: SillyTavern
+  - Bar
+  - App
+aliases: []
 ---
 
 up:: [Pygmalion](<../../Info/Pygmalion.md>)
@@ -30,3 +30,10 @@ Googleからの検索避けかもしれない。
 
 Colab proじゃないと、GPUインスタンスにしても実際はGPUが動いておらずエラー吐いて止まるということがある。
 [Problem with TavernAI, Colab, and KoboldAI : r/PygmalionAI](https://www.reddit.com/r/PygmalionAI/comments/11tktyn/problem_with_tavernai_colab_and_koboldai/)
+
+## 表情追加Comfyui
+[r/SillyTavernAI - Reddit](https://www.reddit.com/r/SillyTavernAI/comments/1k9bpsp/comfyui_sillytavern_expressions_workflow/)
+
+## ollama
+[Silly Tavern X Ollama](https://avivarma1.medium.com/silly-tavern-x-ollama-94801bfbbdd5)
+[Use Ollama with any GGUF Model on Hugging Face Hub](https://huggingface.co/docs/hub/ollama)

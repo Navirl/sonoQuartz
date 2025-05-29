@@ -11,7 +11,7 @@ aliases:
 up:: [Docker](<./Docker.md>)
 up:: [GAI](<../AI/AI_local.md>)
 up:: [AIt](<../AI/AI_text.md>)
-same:: [Tavern](<./Tavern.md>)
+same:: [Sillytavern](<./Sillytavern.md>)
 same:: [stable-diffusion-webui](<./stable-diffusion-webui.md>)
 down:: [AIl local textchatbot](<../../Info/AIl local textchatbot.md>)
 

@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Tavern](<../Bar/App/Tavern.md>)
+up:: [Sillytavern](<../Bar/App/Sillytavern.md>)
 up:: [Me](<../Bar/Novel/Chaos/Me.md>)
 up:: [Saki\_Yanasaki](<../Bar/Novel/Nacaria/Saki_Yanasaki.md>)
 
