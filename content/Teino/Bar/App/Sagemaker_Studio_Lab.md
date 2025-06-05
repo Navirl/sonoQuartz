@@ -30,6 +30,8 @@ Colabと違って時間が来ても自動では消さない。
 `conda create  --name <my-env>`でconda環境を作り`conda install ipykernel`で出る。
 `conda create  --name <my-env> python=<version>`とするとpythonバージョンを変更できる。デフォ環境が3.9なのでほぼ必須。
 
+[Managing environments — conda 25.5.1.dev10 documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+
 ## 複数起動
 kernelは出来るだけ単体で起動したほうが良いっぽい。
 固まる。

@@ -155,3 +155,66 @@ engineの制約で、日本語以外話せない。
 
 ## onnx
 モデルの計算グラフを含んだ、モデルのアーキテクチャや推論コードを無視して変換できるオープンフォーマット。
+
+## alltalk_tts
+xttsなどのttsをまとめてapiで出力する。
+
+atsetup.shはウィザード形式なのでkaggleで実行できない。
+順当に進めば`install_custom_standalone()`につくはず。
+torchやcondaのインストールを除くと以下。
+
+```sh
+conda install -y -c conda-forge "ffmpeg=*=*gpl*"
+    conda install -y -c conda-forge "ffmpeg=*=h*_*" --no-deps
+    echo
+    echo
+    echo
+    echo "    Fix Nvidia's broken symlinks in the /env/lib folder"
+    echo
+    # Define the environment path
+    env_path="${INSTALL_ENV_DIR}/lib"
+
+    echo "    Installing additional requirements."
+    echo
+    pip install -r system/requirements/requirements_standalone.txt
+    curl -LO https://github.com/erew123/alltalk_tts/releases/download/DeepSpeed-14.0/deepspeed-0.14.2+cu121torch2.2-cp311-cp311-manylinux_2_24_x86_64.whl
+    pip install --upgrade gradio==4.44.1
+    echo Installing DeepSpeed...
+    pip install deepspeed-0.14.2+cu121torch2.2-cp311-cp311-manylinux_2_24_x86_64.whl
+    rm deepspeed-0.14.2+cu121torch2.2-cp311-cp311-manylinux_2_24_x86_64.whl
+    pip install -r system/requirements/requirements_parler.txt
+    conda clean --all --force-pkgs-dirs -y
+```
+gradio使わないし、deepspeedもcomfyuiとの兼ね合いで使うバージョンが変わるはず。
+parlerの中身はparler_ttsを使うための物っぽい？
+
+また、alltalk_ttsの実行時に使うstart_alltalk.shもこの時生成される。
+
+```sh
+#!/bin/bash
+source "${CONDA_ROOT_PREFIX}/etc/profile.d/conda.sh"
+conda activate "${INSTALL_ENV_DIR}"
+python script.py
+```
+
+見ての通りなので、python script.pyさえ実行できれば何とか。
+
+sedでcolabのとこ切り取ってようやく動くが、モデルの入れ方が分からない……
+
+## vits
+モデルアーキテクチャ。
+
+## piper
+onnxに変化させたvitsモデルを上手く使うためのエンジン。
+
+## parler
+完全オープンソースモデル。
+
+## xtts
+多言語多話者対応TTS。
+重い。
+
+[Perplexity](https://www.perplexity.ai/search/parler-piper-xtts-vitswojing-d-xLMxwJ3HTUGXc_VMntzWdw)
+
+
+
