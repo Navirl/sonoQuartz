@@ -27,8 +27,8 @@ Colabと違って時間が来ても自動では消さない。
 
 ## 環境追加
 ファイルに対してカーネルという名前でconda環境をアタッチできる。
-conda環境を作り`conda install ipykernel`で出る。
-pythonバージョンを変更する場合などは必須。
+`conda create  --name <my-env>`でconda環境を作り`conda install ipykernel`で出る。
+`conda create  --name <my-env> python=<version>`とするとpythonバージョンを変更できる。デフォ環境が3.9なのでほぼ必須。
 
 ## 複数起動
 kernelは出来るだけ単体で起動したほうが良いっぽい。
