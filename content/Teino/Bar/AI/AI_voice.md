@@ -212,6 +212,7 @@ onnxに変化させたvitsモデルを上手く使うためのエンジン。
 
 ## xtts
 多言語多話者対応TTS。
+これとスペクトログラムモデルなどを合わせたものがcoqui-tts。
 重い。
 
 [Perplexity](https://www.perplexity.ai/search/parler-piper-xtts-vitswojing-d-xLMxwJ3HTUGXc_VMntzWdw)
