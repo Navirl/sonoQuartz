@@ -84,4 +84,5 @@ LLMに画像生成させたりWeb検索させたいときに使う。
 古い名前はcoqui-tts。
 今はfork版に開発が移っている。
 
-ttsを使うには
+## Fish speech
+openaudioというモデルを使用している。

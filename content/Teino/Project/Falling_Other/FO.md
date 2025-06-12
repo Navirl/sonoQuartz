@@ -239,3 +239,6 @@ AEなら調整レイヤーの仕事。YMMなら色調弄った後のやつをデ
 空気遠近をデプス程度でやるとミニチュアになる。
 
 結局キャラクターをanisoraで用意した
+
+あきた。
+[Cosense](https://scrapbox.io/Stableportfolio/AI絵をふんだんに使用した動画)
