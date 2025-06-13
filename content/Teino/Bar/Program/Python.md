@@ -76,3 +76,8 @@ pythonをコンパイルして早くするやつ。
 
 ## 変数のattributeやmethodを調べる
 `dir()`。デバッガー使えるならそれで調べたほうが早い。
+
+## cannot import name 'notf' from 'tensorboard.compat'
+
+tensorboard, tensorflow, numpy, jaxなどのエラー。
+`pip install numpy==1.19.0`はpython3.9までのサポートなので使えない。
