@@ -81,3 +81,8 @@ pythonをコンパイルして早くするやつ。
 
 tensorboard, tensorflow, numpy, jaxなどのエラー。
 `pip install numpy==1.19.0`はpython3.9までのサポートなので使えない。
+tensorboardのアプデも試したが結局わかんなかった。
+
+## module 'torch.library' has no attribute 'register_fake'
+register_fakeはpytorch2.4から。アプデ。
+[Pytorch 2.4.0 - module 'torch.library' has no attribute 'register\_fake' · Issue #8958 · huggingface/diffusers](https://github.com/huggingface/diffusers/issues/8958)

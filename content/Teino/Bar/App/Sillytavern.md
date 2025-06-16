@@ -83,6 +83,12 @@ LLMに画像生成させたりWeb検索させたいときに使う。
 ## xtts
 古い名前はcoqui-tts。
 今はfork版に開発が移っている。
+alltalk_tts経由。
 
 ## Fish speech
 openaudioというモデルを使用している。
+sillytavernでは使えない。
+
+## CosyVoice
+非公式対応。
+WinとMacのぶんしかクライアントがない。
