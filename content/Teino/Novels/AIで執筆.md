@@ -24,6 +24,8 @@ Relationみたいな欄で選択できるように
 
 obsidianのプラグインを想定
 
+![[../image/AIで執筆 2025-06-16 23.52.24.excalidraw]]
+
 タイプもそうなんだが、身長や体重などを作成した際にそれを一緒にプロンプトに入れて考慮する機能が欲しい
 ピースを作成してください、以下のことを考慮してください（箇条書き）で突っ込むか。
 
@@ -31,13 +33,28 @@ obsidianのプラグインを想定
 
 「{{str}}」この文を概念単位で3文に分割してください。
 
-
-小説の設定で使用する設定を生成しようとしています。生成するのは{{type}}です。この{{type}}にあてはまる設定をで{{num}}個作成してください。
+```
+小説の設定で使用する設定を生成しようとしています。生成するのは{{type}}です。この{{type}}にあてはまる設定を{{num}}個作成してください。
 
 ## 制限
 
 ## 書式
 {{char_json}}
+```
+まずはMCP経由でgroqを呼び出せるようにする。
+structure outputs対応ってどうやって確認するんだ。
+groq的にはllama4,qwen,dp,gemmaは対応してるらしい。
+
+[Introduction to Tool Use - GroqDocs](https://console.groq.com/docs/tool-use)
+
+一応ollamaもツール的には可能。モデルは知らない。
+
+groq->concept->md。
+yamlタグでピースかつ何のtypeなのか
+内容内にgraph editor的な概念エディタがほしい
+infinite craft風
+
+キャラ用
 
 
 ```
@@ -50,11 +67,15 @@ obsidianのプラグインを想定
     "background": [""],
     "special_abilities": [""],
     "role": [""],
-    "unique_trait": [""]
+    "unique_trait": [""],
+    "objective": [""]
   }
 ]
 ```
 
+objective追加。
+
+世界用
 ```
  [
   {
@@ -68,6 +89,11 @@ obsidianのプラグインを想定
   }
 ]
 ```
+
+関係性用
+組織用
+アイテム用
+イベント用
 
 
 これで作成した設定群を、nameとage以外全部抜いてランダム出力。
