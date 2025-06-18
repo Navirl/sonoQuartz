@@ -54,6 +54,42 @@ yamlタグでピースかつ何のtypeなのか
 内容内にgraph editor的な概念エディタがほしい
 infinite craft風
 
+一番近いのはsudowrite
+[Sudowrite \| Documentation](https://docs.sudowrite.com)
+
+AIを使用し、ブレインダンプ、概要、キャラクター、世界などをサポート。
+
+![[../image/AIで執筆 2025-06-17 11.40.49.excalidraw]]
+
+peaceが得たconceptを、peaceがどう調理するのかの説明を書きたいので、conceptをyamlに入れたくはない。
+が、yamlにないとグラフエディター風の表示でconceptを表示するのがとんでもなく手間になりそうな予感があるので、やっぱyaml行き。
+
+というか、infinite craftのクローンでinfinite character作ればいいだけでは……?
+
+![[../image/AIで執筆 2025-06-17 12.51.41.excalidraw]]
+
+単純にconcept同士を突き合わせただけでは、目的のものを作りにくいかもしれない（外見作りたいのに、内面が出来てしまう）
+のでmode機能をゆくゆくは実装。
+
+ビッグファイブ理論に基づき、外向性・調和性・誠実性・神経症的傾向・経験への開放性を配置。ゆくゆくは比率を弄りたい。
+この辺は全部personality_traits。
+
+[ビッグファイブ理論とは？心理学での性格は５因子で説明できる](https://mitsucari.com/blog/big5/)
+
+これらを元にcraftする。5個ぐらい弾け出るので注意。
+出来た奴は必ず以下のどれかのはずなので、所属(belong)付きでconceptとして作成。
+最終的にFileに集める。
+
+appearance
+personality_traits
+background
+special_abilities
+role
+unique_trait
+objective
+
+ファイルに集めるのはいいんだけど、そのあとその情報を抜き出すのが簡単じゃないんだよなぁ。深くネストされたデータをファイルに持たせる方法が分からない。今のところはスラッシュタグを使用しておく。
+
 キャラ用
 
 
