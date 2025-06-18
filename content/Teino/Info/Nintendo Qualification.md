@@ -7,7 +7,7 @@ tags:
 up:: [Nintendo Entry](<./Nintendo Entry.md>)
 up:: [Job](<../Bar/Job.md>)
 
-![](<../image/Pasted image 20220717181436.png>)
+![](<../images/Pasted image 20220717181436.png>)
 ITパスポート
 基本情報技術者
 応用情報技術者

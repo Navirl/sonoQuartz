@@ -25,7 +25,7 @@ hunyuanで動画
 始点、中間、終了Fをdepanyv2でdepth取って、2値化で切り合成
 再度動画化
 
-![](<../../image/FO-1746540655395.webp>)
+![](<../../images/FO-1746540655395.webp>)
 
 反射立体にdepth使って影づくり。
 白の背景に反射ハイトマップdepthぼかし、二値化でアニメ影化、色調補正で薄め、色反転してからUnmultで黒を透過して再度色反転で影を戻す。
@@ -110,9 +110,9 @@ teacacheを使うと2回目以降が無理。
 HYは適切な解像度がある。大きすぎると遅くOOM、小さすぎても。
 [Update framepack\_hv\_example.json by Crimsonfart · Pull Request #1 · kijai/ComfyUI-FramePackWrapper](https://github.com/kijai/ComfyUI-FramePackWrapper/pull/1)
 
-![](<../../image/framepack.json>)
+![](<../../images/framepack.json>)
 
-![AnimateDiff\_00002](<../../image/AnimateDiff_00002.mp4>)
+![AnimateDiff\_00002](<../../images/AnimateDiff_00002.mp4>)
 
 動くには動く。
 
@@ -179,7 +179,7 @@ i2vに1.3bモデルは存在しない。
 [WAN 2.1 480 GGUF Q5 model on low VRAM 8GB and 16 GB ram fastest workflow 10 minutes max now 8 mins \| Civitai](https://civitai.com/articles/12202/wan-21-480-gguf-q5-model-on-low-vram-8gb-and-16-gb-ram-fastest-workflow-10-minutes-max-now-8-mins)
 [🦊Wan2.1 - work4ai](https://scrapbox.io/work4ai/🦊Wan2.1)
 
-![](<../../image/AnimateDiff_000034.mp4>)
+![](<../../images/AnimateDiff_000034.mp4>)
 流石wan、かなりいい
 
 flf2vは使うとむしろ不自然。

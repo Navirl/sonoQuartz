@@ -113,7 +113,7 @@ CFGは通常で0.6~1.2、preserveで5~8。
 1は流石に使えないが、4ぐらいだと使える。
 TCD合わせるといい。下のは間違って1stepと4stepLoRAを両方かけた奴。
 
-![](<../image/ComfyUI_temp_vljxu_00002_.png>)
+![](<../images/ComfyUI_temp_vljxu_00002_.png>)
 
 ## SDXS
 ワンステップ。

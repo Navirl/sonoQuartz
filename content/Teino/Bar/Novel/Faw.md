@@ -15,7 +15,7 @@ up:: [Tavern\_Me](<../../Info/Tavern_Me.md>)
 same:: [Seika](<./Seika.md>)
 up:: [Hasumukai](<./Nacaria/Hasumukai.md>)
 
-![](<../../image/00000-3759171700 (2).png>)
+![](<../../images/00000-3759171700 (2).png>)
 
 FAW are wraiths.
 スポーツ万能ツッコミ担当むっつり耳年増知的好奇心。

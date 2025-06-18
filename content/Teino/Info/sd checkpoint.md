@@ -156,7 +156,7 @@ SDXLとSD1.5両方ある。
 Fair。
 
 1.5
-![](<../image/00019-3474040686.png>)
+![](<../images/00019-3474040686.png>)
 
 1.5はNAIリークをマージしたものらしい。
 問題の完全回避を望むならこれは避ける。
@@ -174,7 +174,7 @@ RAIL-M。
 
 
 XL
-![](<../image/00003-801336775.png>)
+![](<../images/00003-801336775.png>)
 
 ## counterfeit
 [gsdf/Counterfeit-V3.0 · Hugging Face](https://huggingface.co/gsdf/Counterfeit-V3.0)
@@ -237,7 +237,7 @@ Negatives if you can't use Hires.fix:
 '(worst quality:1.6, low quality:1.6), (zombie, sketch, interlocked fingers, comic)'
 ```
 
-![](<../image/00003-3759171700.png>)
+![](<../images/00003-3759171700.png>)
 
 ## Negi-Mix
 [Vsukiyaki/Negi-Mix · Hugging Face](https://huggingface.co/Vsukiyaki/Negi-Mix)
@@ -279,7 +279,7 @@ Hires upscale: The only limit is your GPU (I upscale 1,5 times the base image, 5
 VAE: XL_VAE_C
 ```
 
-![](<../image/00003-2214281595.png>)
+![](<../images/00003-2214281595.png>)
 
 
 ちなみに関係ないが、ピクセルアートを出力できるLoRAは結構ある。
@@ -351,15 +351,15 @@ Clip skip: 2
 
 flat
 
-![](<../image/00024-3000179821.png>)
+![](<../images/00024-3000179821.png>)
 
 normal
 
-![](<../image/00025-3000179821.png>)
+![](<../images/00025-3000179821.png>)
 
 透過
 
-![](<../image/00066-2507989279.png>)
+![](<../images/00066-2507989279.png>)
 
 ## BreakDomainXL_V06d
 [BreakDomainXL - \_V06d | Stable Diffusion Checkpoint | Civitai](https://civitai.com/models/126259?modelVersionId=229987)
@@ -423,7 +423,7 @@ score_6_up, score_5_up, score_4_up, censored, mosaic censoring, bar censor, bord
 ## ebara
 Pony派生。日本好みにファインチューニング。
 
-![](<../image/Pasted image 20240524160537.png>)
+![](<../images/Pasted image 20240524160537.png>)
 
 
 ## Kohaku

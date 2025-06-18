@@ -142,7 +142,7 @@ TileとHyperTileは併用不可。
 ## ふんわり
 Lineart(Realistic)を書けた後softedgeを入れると、FFの攻略本みたいになる。
 
-![](<../../image/00042-1633748900.png>)
+![](<../../images/00042-1633748900.png>)
 
 ## Prompt
 Danbooru, e621などで集める。
@@ -159,7 +159,7 @@ Danbooru, e621などで集める。
 ## ガビタイル
 nearest-latentアップスケールで4倍とか指定するとガビガビのバグったタイルみたいになる。
 
-![](<../../image/ComfyUI_00003_.webp>)
+![](<../../images/ComfyUI_00003_.webp>)
 
 ## AttributeError: 'NoneType' object has no attribute 'lowvram'
 最初に読んだモデルが壊れてるとなる。

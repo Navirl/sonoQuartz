@@ -86,7 +86,7 @@ masterpiece,best quality,detailed,1girl,solo,loli
 
 (worst quality, low quality:1.4), (lip, nose, tooth, rouge, lipstick, eyeshadow:1.4), (jpeg artifacts:1.4), (depth of field, bokeh, blurry, film grain, chromatic aberration, lens flare:1.0), (abs, muscular, rib:1.0), greyscale, monochrome, dusty sunbeams, trembling, motion lines, motion blur, emphasis lines, text, title, logo, signature, completely nude,
 
-![00000-3174189050](<../image/00000-3174189050.png>)
+![00000-3174189050](<../images/00000-3174189050.png>)
 
 元のプロンプトではnsfwが入ってた。
 そういう用途、しかもcompletely nudeを弾く徹底ぶり。
