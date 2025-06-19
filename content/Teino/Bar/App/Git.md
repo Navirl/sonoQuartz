@@ -204,3 +204,12 @@ https://docs.github.com/ja/authentication/connecting-to-github-with-ssh/generati
 場合によってパーミッションエラーが出るので、`chmod 600 privatekeypath`で自分しか変更できないようにする。
 
 https://qiita.com/yyy752/items/32f66d877de41655b7bb
+
+## 取り消し
+add前なら`git checkout -- .`
+個別にやるなら`git checkout ファイル名orディレクトリ名`
+add後なら`git reset`
+個別なら`git reset ファイル名`
+コミット後なら`git reset --soft HEAD^`
+
+[Gitの変更を取り消すには( git statusした時の modifiedの取り消し方やコミットの取り消し方など)](https://zenn.dev/norihashimo/articles/8afc81ff48451c)
