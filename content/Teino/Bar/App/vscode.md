@@ -26,3 +26,33 @@ settings.jsonでterminal.integrated.profiles.windowsに追加。
 
 [VS Codeで複数行に渡って正規表現を利用する VSCode - Qiita](https://qiita.com/birdwatcher/items/dee34a11619b11e1fe81)
 
+## debug
+launch.jsonでどんなふうにデバッグするかを決める。
+
+### FastAPI
+uvicornをdebugpy経由で付けて、開いたサーバーにattach。
+
+`python -m debugpy --listen 0.0.0.0:8000 --wait-for-client -m uvicorn infini_craft.server_groq:app --reload       `
+
+```
+            "name": "FastAPI Remote Debugger",
+            "type": "debugpy",
+            "request": "attach",
+            "connect": {
+                "port": 5678,
+                "host": "localhost"
+            }
+
+```
+[【Docker × FastAPI 】コンテナのFastAPIアプリをローカルからリモートデバッグする方法 \| SCRAWLED TECH BLOG](https://scrawledtechblog.com/docker-fastapi-remote-debug/)
+### frontend
+通常通りサーバーを開いて、msedgeにサーバーを開かせる。
+
+```
+            "name": "frontend debug",
+            "type": "msedge",
+            "request": "launch",
+            "url": "http://localhost:5173",
+            "webRoot": "${workspaceFolder}/ui"
+
+```

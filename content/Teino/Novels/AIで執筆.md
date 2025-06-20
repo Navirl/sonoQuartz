@@ -144,3 +144,7 @@ splitter
 "",
 ""
 }
+
+
+![[../Excalidraw/AIで執筆 2025-06-17 12.51.41.excalidraw]]
+　
