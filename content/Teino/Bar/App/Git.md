@@ -213,3 +213,6 @@ add後なら`git reset`
 コミット後なら`git reset --soft HEAD^`
 
 [Gitの変更を取り消すには( git statusした時の modifiedの取り消し方やコミットの取り消し方など)](https://zenn.dev/norihashimo/articles/8afc81ff48451c)
+
+## Githubに動画をアップ
+GithubのMarkdownエディタにD&Dでいける。
