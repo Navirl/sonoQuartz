@@ -826,5 +826,9 @@
 			"toSide": "left",
 			"color": "1"
 		}
-	]
+	],
+	"metadata": {
+		"version": "1.0-1.0",
+		"frontmatter": {}
+	}
 }
