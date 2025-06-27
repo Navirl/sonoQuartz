@@ -216,3 +216,9 @@ add後なら`git reset`
 
 ## Githubに動画をアップ
 GithubのMarkdownエディタにD&Dでいける。
+
+## 過去ファイルを検索して引っ張ってくる
+`git grep "Post" $(git log --pretty=format:%H -- ./src/CanvasNodesView.ts)`
+
+`git checkout (hash)`
+
