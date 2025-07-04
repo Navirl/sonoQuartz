@@ -59,3 +59,4 @@ down:: [Kanakuro\_Boushi](<./Kanakuro_Boushi.md>)
 アーシャはアセクシャル、多面KOW、内面に一罪なので変えるのはむしろこっちか。じゃあこの話題[Arsha](<./Arsha.md>)に飛ぶか。
 
 
+……人化は[Faw](<../Faw.md>)じゃなかったか。[Kanakuro\_Boushi](<./Kanakuro_Boushi.md>)の体、そういや[Arsha](<./Arsha.md>)の魔法だったか。[Saki\_Yanasaki](<./Saki_Yanasaki.md>)自身も人化っぽいんだけど、これは元があってそれと接続してるタイプ。
