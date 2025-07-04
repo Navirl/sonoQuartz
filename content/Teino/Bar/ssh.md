@@ -84,3 +84,15 @@ wheelが推奨されてるはず。
 
 [Sudo - ArchWiki](https://wiki.archlinux.jp/index.php/Sudo)
 [Permission to execute sudo commands without password rules being overwritten by another file - General system / Newbie - EndeavourOS](https://forum.endeavouros.com/t/permission-to-execute-sudo-commands-without-password-rules-being-overwritten-by-another-file/26556)
+
+## TermuxにVSCode繋ぐ
+vscodeはglibcベースのLinuxディストリビューションに繋ぐことしか想定してない。要するにUbuntuなど。
+なのでUbuntuを入れてそこでsshサーバーを建てて繋ぐ。
+
+[Remote Code Development on Termux using VS Code and Neovim](https://readmedium.com/remote-code-development-on-termux-using-vs-code-and-neovim-ca9fd13b7824)
+[GitHub - MFDGaming/ubuntu-in-termux: This is a script by which you can install Ubuntu in your termux application without a rooted device](https://github.com/MFDGaming/ubuntu-in-termux)
+
+なんか知らんが駄目だった。
+パスワードが効かなかった。cursorじゃなくvscodeも使ったが駄目だった。
+
+[Termux on AndroidのSSHサーバに接続する方法 \| LFI](https://linuxfan.info/termux-sshd)

@@ -222,3 +222,17 @@ GithubのMarkdownエディタにD&Dでいける。
 
 `git checkout (hash)`
 
+## does not have a commit checked out
+他でも起きるがsubmoduleで起きた。
+
+```
+git rm submoduleFolder
+git submodule add submoduleURL
+```
+
+これでsubmoduleを追加しなおしただけ。
+他に色々突っかかってたが、vscodeで一個ずつ削った。
+
+[git submodule がコンフリクトしたときの対処法 単に自分が古い場合編 - @kyanny's blog](https://blog.kyanny.me/entry/2016/07/05/232126#gsc.tab=0)
+[Submodule 同士でコンフリクリしたときの解決方法 - git \| nju33](https://nju33.com/notes/git/articles/Submodule%20同士でコンフリクリしたときの解決方法#問題の%20Submodule%20を削除する)
+
