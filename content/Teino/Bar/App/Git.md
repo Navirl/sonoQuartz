@@ -236,3 +236,4 @@ git submodule add submoduleURL
 [git submodule がコンフリクトしたときの対処法 単に自分が古い場合編 - @kyanny's blog](https://blog.kyanny.me/entry/2016/07/05/232126#gsc.tab=0)
 [Submodule 同士でコンフリクリしたときの解決方法 - git \| nju33](https://nju33.com/notes/git/articles/Submodule%20同士でコンフリクリしたときの解決方法#問題の%20Submodule%20を削除する)
 
+## submodule
