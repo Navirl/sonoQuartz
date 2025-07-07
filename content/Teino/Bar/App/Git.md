@@ -236,4 +236,15 @@ git submodule add submoduleURL
 [git submodule がコンフリクトしたときの対処法 単に自分が古い場合編 - @kyanny's blog](https://blog.kyanny.me/entry/2016/07/05/232126#gsc.tab=0)
 [Submodule 同士でコンフリクリしたときの解決方法 - git \| nju33](https://nju33.com/notes/git/articles/Submodule%20同士でコンフリクリしたときの解決方法#問題の%20Submodule%20を削除する)
 
-## submodule
+## termuxで使う
+
+termuxは/storage/emulated/0だと色々リンクとかで引っかかり倒す。
+なので本体をhome直下に置きgit worktreeで読み取れる位置にセットするやり方。
+
+gitコマンドはworktreeでセットしたところで使える。
+ただ`/storage/emulated/0`ではなく`~/storage/shared/`から使う。
+
+
+[\[Feature\]: Make git usage on /storage/emulated/0 possible. · Issue #3777 · termux/termux-app](https://github.com/termux/termux-app/issues/3777)
+[Git Worktreeをわかりやすく解説](https://zenn.dev/hiraoku/articles/56f4f9ffc6d186)
+[徹底解説：git worktree の使い方 #Git - Qiita](https://qiita.com/syukan3/items/dab71e88ce91bca44432)
