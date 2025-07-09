@@ -1,3 +1,12 @@
+---
+date: 2025-07-09
+time: 11:57
+tags:
+  - Project
+---
+
+up:: [wails](../Bar/Framework/wails.md)
+
 ## 2025/07/03
 **main.go**
 wailsのエントリーポイント。
