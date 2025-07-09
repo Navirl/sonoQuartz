@@ -248,3 +248,16 @@ gitコマンドはworktreeでセットしたところで使える。
 [\[Feature\]: Make git usage on /storage/emulated/0 possible. · Issue #3777 · termux/termux-app](https://github.com/termux/termux-app/issues/3777)
 [Git Worktreeをわかりやすく解説](https://zenn.dev/hiraoku/articles/56f4f9ffc6d186)
 [徹底解説：git worktree の使い方 #Git - Qiita](https://qiita.com/syukan3/items/dab71e88ce91bca44432)
+
+## git submodule update --init --remote
+updateは親で記録しているコミットに子を更新。
+--initは親clone時に空になっているsubmoduleの本体ファイルを親記録コミットを元にclone。
+--remoteは親記録コミットを更新。
+
+[git submodule update \[--init\|--remote\] を勉強し直す #Git - Qiita](https://qiita.com/o-s-w/items/a214b9bf7b8504058118)
+
+## repository path is not owned by current user
+safedirectoryに追加。
+
+`git config --global --add safe.directory /storage/emulated/0/Documents/Niztra/sonolart/.obsidian
+/plugins/obsidian-wom`

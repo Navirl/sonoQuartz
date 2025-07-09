@@ -220,3 +220,8 @@ Uninstall-Module PSScriptTools -AllVersions
 ## コマンドの親フォルダを開く
 ` $(gcm pwsh).Source | split-path -parent | ii`
 
+## startup
+[Windows10/11のスタートアップフォルダの場所と開き方【追加/削除も】](https://itojisan.xyz/settings/33952/)
+
+`C:\Users\[ユーザー名]\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
+`C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp`
