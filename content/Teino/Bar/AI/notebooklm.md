@@ -18,3 +18,9 @@ up:: [AIa](<./AI_agent.md>)
 githubを取り込みたい場合は、一度テキストファイルにしたりGDocにしたりしないといけない。
 唯一上手くいったのはHTMLにしてからPDFに変換しDriveにアップしてGDocにする。
 [GitHub のリポジトリを 1 ファイルにまとめるとノートブックにしやすい](https://zenn.dev/hankei6km/articles/github-repo-as-notebooklm-source)
+
+## uithub
+githubを1ページにまとめてくれるサービス。
+urlのgithubをuithubに書き換えるだけ。これをbookに追加すれば全部読める。
+
+[【効率10倍UPテク】utihubとNotebookLMを組み合わせると、Githubのソースコードの学習が超捗る話](https://zenn.dev/aimasaou/articles/77fa305c0e4c93)
