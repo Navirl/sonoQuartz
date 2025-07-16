@@ -1,13 +1,13 @@
 ---
 date: 2024-03-15
 tags:
-  - Info
+  - Bar
 aliases:
   - Test_Driven_Develop
   - テスト駆動開発
 ---
 
-up:: [Programming](<../Bar/Program/Programming.md>)
+up:: [Programming](<../Programming.md>)
 
 Test Driven Develop。テストを中心にして開発していく方法。
 
@@ -118,4 +118,4 @@ TDDは以下にシステムを導くための物。
 [【翻訳】テスト駆動開発の定義 - t-wadaのブログ](https://t-wada.hatenablog.jp/entry/canon-tdd-by-kent-beck#設計せずにいきなりテストコードを書き始めることではない)
 [保守しやすく変化に強いソフトウェアを支える柱　自動テストとテスト駆動開発、その全体像 ～Software Design 2022年3月号「そろそろはじめるテスト駆動開発」より | gihyo.jp](https://gihyo.jp/article/2024/01/automated-test-and-tdd)
 
-[テスト・設計研修【MIXI 24新卒技術研修】](<../Project/Reskilling/テスト・設計研修【MIXI 24新卒技術研修】.md>)
+[テスト・設計研修【MIXI 24新卒技術研修】](<../../../Project/Reskilling/テスト・設計研修【MIXI 24新卒技術研修】.md>)

@@ -8,7 +8,7 @@ up:: [Programming](<./Programming.md>)
 
 HTMLを飾る言語。
 最近（2025/01/03）はTailwindというシンタックスシュガーが人気。
-グリッドデザインやグラデーションがパッと出せるらしい。
+グリッドデザインやグラデーションがパッと出せるらしい。内部的には事前にコンパイルすることでパフォーマンス向上とビルド時間短縮も行っている。
 
 [Tailwind CSSを半年使い込んで分かった便利な点 + 最新動向 JavaScript - Qiita](https://qiita.com/Yuki_Oshima/items/708986d62ea3a773d6a5)
 
