@@ -119,3 +119,7 @@ TDDは以下にシステムを導くための物。
 [保守しやすく変化に強いソフトウェアを支える柱　自動テストとテスト駆動開発、その全体像 ～Software Design 2022年3月号「そろそろはじめるテスト駆動開発」より | gihyo.jp](https://gihyo.jp/article/2024/01/automated-test-and-tdd)
 
 [テスト・設計研修【MIXI 24新卒技術研修】](<../../../Project/Reskilling/テスト・設計研修【MIXI 24新卒技術研修】.md>)
+
+これを降霊して（t_wada の TDD で進めてください）PRレビューしてもらう方法がある。（t_wada さんになってこの PR を確認し、テストケースが充分かをレビューしてください [PR URL]）
+
+[降霊術で t\_wada を AI に降ろして PR レビューして貰うテクニックが伸びたのでその裏側記事を書きました！｜Ryo@VibeCoder](https://note.com/biwakonbu/n/n0f1c75418030)
