@@ -174,3 +174,8 @@ LECOとは違い視点も終点も自由に決められるらしい。
 Fixing Handsに使う。
 [Concept Sliders - work4ai](https://scrapbox.io/work4ai/Concept_Sliders)
 
+## DiT
+次世代の画像生成モデルアーキテクチャ。
+密結合だったu-netから単純なtransformerに移行。
+
+https://qiita.com/sasgawy/items/8546c784bc94d94ef0b2
