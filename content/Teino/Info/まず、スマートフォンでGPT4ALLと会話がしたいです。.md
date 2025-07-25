@@ -1,3 +1,12 @@
+---
+date: 2025-07-25
+time: 18:08
+tags:
+ - Info
+---
+
+up:: [Programming](<../Bar/Program/Programming.md>)
+
 まず、スマートフォンでGPT4ALLと会話がしたいです。
 次に、FuguMTを介して日本語でGPT4Allと会話したいです。
 

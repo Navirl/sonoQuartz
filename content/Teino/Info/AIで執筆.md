@@ -1,3 +1,12 @@
+---
+date: 2025-07-25
+time: 18:05
+tags:
+ - Info
+---
+
+up:: [Programming](<../Bar/Program/Programming.md>)
+
 [Character\_Sheet](<../Bar/Novel/Sheet/Character_Sheet.md>)
 
 概念の追加システム。
