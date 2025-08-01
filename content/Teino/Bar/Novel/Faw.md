@@ -1,4 +1,7 @@
 ---
+banner: "![[../../image/00000-3759171700 (2).png]]"
+---
+---
 tags:
   - Bar
   - Novel/Character
