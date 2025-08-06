@@ -154,3 +154,17 @@ gpasswdというグループ操作特化コマンドもある。
 
 
 [WSLのミラーモードを使おう！](https://zenn.dev/roymccrain/articles/5d22f968088312)
+
+## 代替
+docker desktop(GUI)は商用利用に制限がある。
+その他シンプルにしたいとか、OSSにしたいとか、速くしたいとかで代替がある。
+
+### Podman
+一番候補。そのままkubernetesに使える。
+デーモンレスで軽いらしい。
+
+### nerdctl
+直接内部のcontainerdを触るCUI。
+早い。
+[Dockerではなくcontainerd＋nerdctlを使ってみる](https://zenn.dev/lotation/articles/5e938db6fdcbee)
+[コマンドから見るnerdctlとdockerの違い](https://zenn.dev/yatoum/articles/12be13dacd049a)
