@@ -50,4 +50,9 @@ audioにloudnormフィルタ。
 多ければ前後を平均したフレームを挿入。
 [ffmpeg でのフレームレート設定の違い | ニコラボ](https://nico-lab.net/setting_fps_with_ffmpeg/)
 
+pts。presentation time stamp。表示タイムスタンプ。
+dts。decoding time stamp。デコードタイムスタンプ。
+IPBフレームで表示とデコードのタイミングがずれるので二つ必要。
+
+[ffmpeg を使うなら知っておきたい話 PTSとかDTSの話：音ずれ問題や時間が変になるときのために ヽ(ﾟｰﾟ\*ヽ)(ﾉ\*ﾟｰﾟ)ﾉわぁい - Qiita](https://qiita.com/scleen_x_x/items/7f857f2d08de22dee274)
 ## png切り出し
