@@ -18,3 +18,6 @@ DLLを差し替えて配信されてるOGGを抜く奴。
 変えたいときはspotify上部、進む戻る近くのダウンロードボタンにカーソルを合わすとコンフィグが出る。
 実ファイルは`~\AppData\Local\Soggfy\config.json`。
 
+## [exportify](https://github.com/watsonbox/exportify)
+アカウントから見えるプレイリストをダウンロード。
+BAN対策。
