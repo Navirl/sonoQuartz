@@ -27,3 +27,10 @@ Specで作ったタスクは個別に直接Vibeモードによる実装の実行
 - コードコメントは日本語を使用
 ```
 [Kiro Steering ガイド](https://zenn.dev/qingwu/articles/9217434626c066)
+
+## hooks
+条件に合わせてプロンプトを入力する機能。
+手動も可能なのでよく使う奴をテンプレート的に置いておくこともできる。
+
+[Kiro Hooks 完全ドキュメントガイド](https://zenn.dev/qingwu/articles/5ff367c46a7e87)
+

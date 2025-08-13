@@ -99,7 +99,7 @@ git push -u . プッシュしたいローカルブランチ名
 
 [Git で「追跡ブランチ」って言うのやめましょう Git - Qiita](https://qiita.com/uasi/items/69368c17c79e99aaddbf)
 
-## 蒸留ブランチに何が設定されているか知りたい
+## 上流ブランチに何が設定されているか知りたい
 git branch -vv
 
 ## リモートブランチを削除する
@@ -248,6 +248,8 @@ gitコマンドはworktreeでセットしたところで使える。
 [\[Feature\]: Make git usage on /storage/emulated/0 possible. · Issue #3777 · termux/termux-app](https://github.com/termux/termux-app/issues/3777)
 [Git Worktreeをわかりやすく解説](https://zenn.dev/hiraoku/articles/56f4f9ffc6d186)
 [徹底解説：git worktree の使い方 #Git - Qiita](https://qiita.com/syukan3/items/dab71e88ce91bca44432)
+
+でもgitui経由でlibgit使ったほうが安定するし……
 
 ## git submodule update --init --remote
 updateは親で記録しているコミットに子を更新。
