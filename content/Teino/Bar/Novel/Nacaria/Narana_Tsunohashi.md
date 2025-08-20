@@ -1,10 +1,11 @@
 ---
 date: 2022-07-11
 tags:
- - Bar
- - Novel/Character
- - Nacaria/Ultia
-aliases: 角端楢名
+  - Bar
+  - Novel/Character
+  - Nacaria/Ultia
+aliases:
+  - 角端楢名
 ---
 
 up:: [Takame\_Hakkaido](<./Takame_Hakkaido.md>)

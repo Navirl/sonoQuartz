@@ -1,10 +1,11 @@
 ---
 date: 2022-07-27
 tags:
- - Bar
- - Novel/Character
- - Nacaria
-aliases: 辺座神銘礼
+  - Bar
+  - Novel/Character
+  - Nacaria
+aliases:
+  - 辺座神銘礼
 ---
 
 up:: [Cricia](<./Cricia.md>)

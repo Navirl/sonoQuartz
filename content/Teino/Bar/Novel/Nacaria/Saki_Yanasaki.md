@@ -1,10 +1,11 @@
 ---
 date: 2022-07-03
 tags:
- - Bar
- - Nacaria
- - Novel/Character
-aliases: 梁先茶樹
+  - Bar
+  - Nacaria
+  - Novel/Character
+aliases:
+  - 梁先茶樹
 ---
 
 up:: [Character\_Sheet](<../Sheet/Character_Sheet.md>)

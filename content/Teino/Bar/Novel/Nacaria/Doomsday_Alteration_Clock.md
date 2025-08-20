@@ -1,10 +1,11 @@
 ---
 date: 2022-07-17
 tags:
- - Bar
- - Novel/Item
- - Nacaria
-aliases: 終末改変時計
+  - Bar
+  - Novel/Item
+  - Nacaria
+aliases:
+  - 終末改変時計
 ---
 
 up:: [Riitsu\_Reuke](<./Riitsu_Reuke.md>)

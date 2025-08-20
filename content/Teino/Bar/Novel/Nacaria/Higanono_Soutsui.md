@@ -1,10 +1,11 @@
 ---
 date: 2022-10-30
 tags:
- - Bar
- - Novel/Character
- - Nacaria
-aliases: 比嘉野双終
+  - Bar
+  - Novel/Character
+  - Nacaria
+aliases:
+  - 比嘉野双終
 ---
 
 up:: [Ive](<./Ive.md>)

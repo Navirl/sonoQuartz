@@ -1,8 +1,9 @@
 ---
 date: 2023-03-07
 tags:
- - Info
-aliases: 間隔反復
+  - Info
+aliases:
+  - 間隔反復
 ---
 
 up:: [Component](<../Bar/Novel/Chaos/Component.md>)

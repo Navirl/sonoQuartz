@@ -1,10 +1,11 @@
 ---
 date: 2022-07-01
 tags:
- - Bar
- - Nacaria
- - Novel/Character
-aliases: サーシュの人々
+  - Bar
+  - Nacaria
+  - Novel/Character
+aliases:
+  - サーシュの人々
 ---
 
 up:: [Sarsh](<./Sarsh.md>)

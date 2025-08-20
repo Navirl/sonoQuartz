@@ -1,10 +1,11 @@
 ---
-address: 
+address:
 species:
- - 魔女
+  - 魔女
 height: 175
 age: 2500程度
-aliases: ヴァイル・マギィ・ノーネム
+aliases:
+  - ヴァイル・マギィ・ノーネム
 ---
 
 [Viridis](<./Viridis.md>)

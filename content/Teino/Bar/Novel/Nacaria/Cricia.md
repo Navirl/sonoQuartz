@@ -1,10 +1,11 @@
 ---
 date: 2022-07-23
 tags:
- - Bar
- - Novel/Location
- - Nacaria
-aliases: クライシア
+  - Bar
+  - Novel/Location
+  - Nacaria
+aliases:
+  - クライシア
 ---
 
 up:: [Nacarea](<./Nacarea.md>)

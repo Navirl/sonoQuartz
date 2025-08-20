@@ -1,8 +1,9 @@
 ---
 date: 2022-09-14
 tags:
- - Info
-aliases: Symbolic_Link
+  - Info
+aliases:
+  - Symbolic_Link
 ---
 
 up:: [PowerShell\_and\_Command-Line](<../Bar/App/PowerShell_and_Command-Line.md>)

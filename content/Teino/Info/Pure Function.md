@@ -1,8 +1,9 @@
 ---
 date: 2022-06-17
 tags:
- - Info
-aliases: 純粋関数
+  - Info
+aliases:
+  - 純粋関数
 ---
 
 up:: [UE5.0.2](<../Bar/App/UE5.0.2.md>)

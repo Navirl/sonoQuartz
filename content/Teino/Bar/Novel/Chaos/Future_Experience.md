@@ -1,9 +1,10 @@
 ---
 date: 2022-06-15
 tags:
- - Bar
- - Novel/Item
-aliases: 未来体験
+  - Bar
+  - Novel/Item
+aliases:
+  - 未来体験
 ---
 
 up:: [Component](<./Component.md>)

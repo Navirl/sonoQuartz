@@ -1,10 +1,11 @@
 ---
-address: "East Witch Forest"
+address: East Witch Forest
 species:
- - 魔女
+  - 魔女
 height: 168
 age: 2600程度
-aliases: エルドリック・ボアン・ミア
+aliases:
+  - エルドリック・ボアン・ミア
 ---
 
 [Oliber・Riel・Dott](<./Oliber・Riel・Dott.md>)

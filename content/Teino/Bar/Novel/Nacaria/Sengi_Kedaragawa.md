@@ -1,10 +1,11 @@
 ---
 date: 2022-07-04
 tags:
- - Bar
- - Novel/Character
- - Nacaria/Cricia
-aliases: 形鱈川千喜
+  - Bar
+  - Novel/Character
+  - Nacaria/Cricia
+aliases:
+  - 形鱈川千喜
 ---
 
 up:: [Cricia](<./Cricia.md>)

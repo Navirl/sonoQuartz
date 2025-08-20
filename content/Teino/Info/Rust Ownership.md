@@ -1,8 +1,9 @@
 ---
 date: 2023-03-09
 tags:
- - Info
-aliases: Rust 所有権
+  - Info
+aliases:
+  - Rust 所有権
 ---
 
 up:: [Rust](<../Bar/Program/Rust.md>)

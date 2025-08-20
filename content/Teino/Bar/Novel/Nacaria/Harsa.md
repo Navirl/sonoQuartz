@@ -1,10 +1,11 @@
 ---
 date: 2022-08-18
 tags:
- - Bar
- - Create
- - Novel/Character
-aliases: ハルサ
+  - Bar
+  - Create
+  - Novel/Character
+aliases:
+  - ハルサ
 ---
 
 up:: [NoNames](<../Chaos/NoNames.md>)

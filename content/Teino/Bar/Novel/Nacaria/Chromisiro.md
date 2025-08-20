@@ -1,10 +1,11 @@
 ---
 date: 2022-08-04
 tags:
- - Bar
- - Novel/Location
- - Nacaria
-aliases: クロミシロ
+  - Bar
+  - Novel/Location
+  - Nacaria
+aliases:
+  - クロミシロ
 ---
 
 down:: [Game](<../Topics/Game.md>)

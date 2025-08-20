@@ -1,10 +1,11 @@
 ---
 date: 2022-12-26
 tags:
- - Bar
- - Novel/Community
- - Nacaria
-aliases: 閠
+  - Bar
+  - Novel/Community
+  - Nacaria
+aliases:
+  - 閠
 ---
 
 up:: [Nacarea](<./Nacarea.md>)

@@ -1,10 +1,11 @@
 ---
 date: 2022-09-03
 tags:
- - Bar
- - Novel/Character
- - Nacaria
-aliases: 朝日羅弘樹
+  - Bar
+  - Novel/Character
+  - Nacaria
+aliases:
+  - 朝日羅弘樹
 ---
 
 up:: [Ive](<./Ive.md>)

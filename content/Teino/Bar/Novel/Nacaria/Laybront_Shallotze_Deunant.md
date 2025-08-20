@@ -1,10 +1,11 @@
 ---
 date: 2022-10-15
 tags:
- - Bar
- - Novel/Character
- - Nacaria
-aliases: レイブロント・シャロッゼ・デウナント
+  - Bar
+  - Novel/Character
+  - Nacaria
+aliases:
+  - レイブロント・シャロッゼ・デウナント
 ---
 
 up:: [Sarsh](<./Sarsh.md>)

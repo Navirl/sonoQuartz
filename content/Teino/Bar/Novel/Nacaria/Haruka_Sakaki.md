@@ -1,10 +1,11 @@
 ---
 date: 2022-08-14
 tags:
- - Bar
- - Novel/Character
- - Nacaria
-aliases: 榊遥
+  - Bar
+  - Novel/Character
+  - Nacaria
+aliases:
+  - 榊遥
 ---
 
 up:: [Fourcia](<./Fourcia.md>)

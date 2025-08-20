@@ -1,10 +1,11 @@
 ---
 date: 2022-07-27
 tags:
- - Bar
- - Novel/Character
- - Nacaria
-aliases: Satori_People
+  - Bar
+  - Novel/Character
+  - Nacaria
+aliases:
+  - Satori_People
 ---
 
 up:: [Satori](<./Satori.md>)

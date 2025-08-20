@@ -1,10 +1,11 @@
 ---
 date: 2023-04-25
 tags:
- - Bar
- - Touhou_Project
- - Novel/Character
-aliases: 饕餮尤魔
+  - Bar
+  - Touhou_Project
+  - Novel/Character
+aliases:
+  - 饕餮尤魔
 ---
 
 up::

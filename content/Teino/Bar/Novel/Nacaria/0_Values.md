@@ -1,10 +1,11 @@
 ---
 date: 2022-08-05
 tags:
- - Bar
- - Nacaria
- - Novel/Topic
-aliases: 0の価値
+  - Bar
+  - Nacaria
+  - Novel/Topic
+aliases:
+  - 0の価値
 ---
 
 up:: [Disconnected\_Fantasy](<../Topics/Disconnected_Fantasy.md>)

@@ -1,10 +1,11 @@
 ---
 date: 2022-11-12
 tags:
- - Bar
- - Novel/Character
- - Nacaria
-aliases: ソア
+  - Bar
+  - Novel/Character
+  - Nacaria
+aliases:
+  - ソア
 ---
 
 up:: [Sarsh](<./Sarsh.md>)

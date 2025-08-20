@@ -1,10 +1,11 @@
 ---
 date: 2022-07-05
 tags:
- - Bar
- - Nacaria
- - Novel/Character
-aliases: 八階堂高目
+  - Bar
+  - Nacaria
+  - Novel/Character
+aliases:
+  - 八階堂高目
 ---
 
 up:: [Takame\_Hakkaido\_Edu](<./Takame_Hakkaido_Edu.md>)

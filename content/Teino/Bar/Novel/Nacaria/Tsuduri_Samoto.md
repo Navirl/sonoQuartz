@@ -1,10 +1,11 @@
 ---
 date: 2022-08-19
 tags:
- - Bar
- - Novel/Character
- - Nacaria
-aliases: 乍本綴
+  - Bar
+  - Novel/Character
+  - Nacaria
+aliases:
+  - 乍本綴
 ---
 
 up:: [Saki\_Yanasaki](<./Saki_Yanasaki.md>)

@@ -1,8 +1,9 @@
 ---
 date: 2022-08-04
 tags:
- - Info
-aliases: lvalueとrvalue
+  - Info
+aliases:
+  - lvalueとrvalue
 ---
 
 up:: [Cpp](<../Bar/Program/Cpp.md>)

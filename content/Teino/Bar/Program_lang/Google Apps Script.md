@@ -1,8 +1,9 @@
 ---
 date: 2022-07-28
 tags:
- - Bar
-aliases: GAS
+  - Bar
+aliases:
+  - GAS
 ---
 
 up:: [Programming](<./Programming.md>)

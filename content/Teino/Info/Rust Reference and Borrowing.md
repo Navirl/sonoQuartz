@@ -1,8 +1,9 @@
 ---
 date: 2023-03-09
 tags:
- - Info
-aliases: Rust 参照と借用
+  - Info
+aliases:
+  - Rust 参照と借用
 ---
 
 up:: [Rust](<../Bar/Program/Rust.md>)

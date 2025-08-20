@@ -1,12 +1,13 @@
 ---
 date: 2023-02-03
 tags:
- - Bar
- - Nacaria
- - Novel/Location
- - Novel/Item
- - Novel/Character
-aliases: ムカデ
+  - Bar
+  - Nacaria
+  - Novel/Location
+  - Novel/Item
+  - Novel/Character
+aliases:
+  - ムカデ
 ---
 
 up:: [Fushibi](<./Fushibi.md>)

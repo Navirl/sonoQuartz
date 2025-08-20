@@ -1,10 +1,11 @@
 ---
-address: "South Witch Forest"
+address: South Witch Forest
 species:
- - 魔女
+  - 魔女
 height: 145
 age: 1900程度
-aliases: ネベルタ・ラ・スフィアレス
+aliases:
+  - ネベルタ・ラ・スフィアレス
 ---
 
 一人称　ぼく

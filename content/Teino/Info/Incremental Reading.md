@@ -1,8 +1,9 @@
 ---
 date: 2023-03-07
 tags:
- - Info
-aliases: 増分読み取り
+  - Info
+aliases:
+  - 増分読み取り
 ---
 
 up:: [Component](<../Bar/Novel/Chaos/Component.md>)

@@ -1,10 +1,11 @@
 ---
 date: 2022-12-16
 tags:
- - Bar
- - Novel/Character
- - Nacaria
-aliases: 閏閖闑
+  - Bar
+  - Novel/Character
+  - Nacaria
+aliases:
+  - 閏閖闑
 ---
 
 up:: [Ayama](<./Ayama.md>)

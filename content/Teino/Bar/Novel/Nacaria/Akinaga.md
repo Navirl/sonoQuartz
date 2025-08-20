@@ -1,10 +1,11 @@
 ---
 date: 2022-08-21
 tags:
- - Bar
- - Novel/Character
- - Nacaria
-aliases: 秋永
+  - Bar
+  - Novel/Character
+  - Nacaria
+aliases:
+  - 秋永
 ---
 
 up:: [Cricia](<./Cricia.md>)

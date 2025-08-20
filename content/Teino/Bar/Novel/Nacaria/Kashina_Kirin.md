@@ -1,10 +1,11 @@
 ---
 date: 2022-07-27
 tags:
- - Bar
- - Novel/Character
- - Nacaria
-aliases: 麒麟樫名
+  - Bar
+  - Novel/Character
+  - Nacaria
+aliases:
+  - 麒麟樫名
 ---
 
 up:: [Ultia](<./Ultia.md>)

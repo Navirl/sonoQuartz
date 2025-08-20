@@ -1,8 +1,9 @@
 ---
 date: 2022-08-01
 tags:
- - Info
-aliases: virtual
+  - Info
+aliases:
+  - virtual
 ---
 
 up:: [Programming](<../Bar/Program/Programming.md>)

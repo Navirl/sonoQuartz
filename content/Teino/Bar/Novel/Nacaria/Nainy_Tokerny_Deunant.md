@@ -1,10 +1,11 @@
 ---
 date: 2022-08-04
 tags:
- - Bar
- - Novel/Character
- - Nacaria
-aliases: ネイニ・トーカニ・デウナント
+  - Bar
+  - Novel/Character
+  - Nacaria
+aliases:
+  - ネイニ・トーカニ・デウナント
 ---
 
 up:: [Chromisiro](<./Chromisiro.md>)

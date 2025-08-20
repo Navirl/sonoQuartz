@@ -1,10 +1,11 @@
 ---
 date: 2022-07-05
 tags:
- - Bar
- - Nacaria
- - Novel/Character
-aliases: 七篠
+  - Bar
+  - Nacaria
+  - Novel/Character
+aliases:
+  - 七篠
 ---
 
 up:: [Cricia](<./Cricia.md>)

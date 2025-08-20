@@ -1,10 +1,11 @@
 ---
 date: 2022-08-11
 tags:
- - Bar
- - Novel/Character
- - Touhou_Project
-aliases: 封獣ぬえ
+  - Bar
+  - Novel/Character
+  - Touhou_Project
+aliases:
+  - 封獣ぬえ
 banner: "![[../../../Banners/old/Sheya - 11764388/Danbooru/__houjuu_nue_touhou_drawn_by_sheya__e5adf7172035b7177b64aa4cf6702d3c - sheya touhou.jpg]]"
 banner_y: 0
 ---

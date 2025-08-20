@@ -1,10 +1,11 @@
 ---
 date: 2022-08-05
 tags:
- - Bar
- - Novel/Community
- - Nacaria/Cricia
-aliases: 艇教
+  - Bar
+  - Novel/Community
+  - Nacaria/Cricia
+aliases:
+  - 艇教
 ---
 
 up:: [Sist](<./Sist.md>)

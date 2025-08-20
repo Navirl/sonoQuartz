@@ -1,10 +1,11 @@
 ---
 date: 2022-07-03
 tags:
- - Bar
- - Nacaria
- - Novel/Character
-aliases: アーシャ
+  - Bar
+  - Nacaria
+  - Novel/Character
+aliases:
+  - アーシャ
 ---
 
 up:: [Biscarnya](<./Biscarnya.md>)

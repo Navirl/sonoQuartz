@@ -1,10 +1,11 @@
 ---
 date: 2022-07-06
 tags:
- - Bar
- - Nacaria
- - Novel/Character
-aliases: 三繋瑛華
+  - Bar
+  - Nacaria
+  - Novel/Character
+aliases:
+  - 三繋瑛華
 ---
 
 up:: [Ayama](<./Ayama.md>)

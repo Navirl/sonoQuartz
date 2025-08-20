@@ -1,8 +1,9 @@
 ---
 date: 2021-10-20
 tags:
- - Bar
-aliases: py
+  - Bar
+aliases:
+  - py
 ---
 
 up:: [Programming](<./Programming.md>)

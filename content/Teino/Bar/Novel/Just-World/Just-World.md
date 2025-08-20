@@ -1,10 +1,11 @@
 ---
 date: 2022-08-10
 tags:
- - Bar
- - Novel/World
- - Just-World
-aliases: "#Just-World"
+  - Bar
+  - Novel/World
+  - Just-World
+aliases:
+  - "#Just-World"
 ---
 
 up:: [[../Timeline/Just-World_Timeline]]

@@ -1,10 +1,11 @@
 ---
 date: 2022-10-22
 tags:
- - Bar
- - Novel/Location
- - Nacaria
-aliases: フシビ
+  - Bar
+  - Novel/Location
+  - Nacaria
+aliases:
+  - フシビ
 ---
 
 up:: [Nacarea](<./Nacarea.md>)

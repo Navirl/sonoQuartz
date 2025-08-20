@@ -1,10 +1,11 @@
 ---
 date: 2023-06-29
 tags:
- - Bar
- - Novel/Character
- - Nacaria
-aliases: モルキュール・オブスキュア
+  - Bar
+  - Novel/Character
+  - Nacaria
+aliases:
+  - モルキュール・オブスキュア
 ---
 
 up:: [Seika](<../Seika.md>)

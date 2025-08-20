@@ -1,10 +1,11 @@
 ---
 date: 2022-11-14
 tags:
- - Bar
- - Novel/Character
- - Nacaria
-aliases: シャーレット
+  - Bar
+  - Novel/Character
+  - Nacaria
+aliases:
+  - シャーレット
 ---
 
 up:: [Riitsu\_Reuke](<./Riitsu_Reuke.md>)

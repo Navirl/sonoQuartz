@@ -1,10 +1,11 @@
 ---
 date: 2022-08-04
 tags:
- - Bar
- - Novel/Character
- - Nacaria/Protagonist
-aliases: 二条奏海
+  - Bar
+  - Novel/Character
+  - Nacaria/Protagonist
+aliases:
+  - 二条奏海
 ---
 
 up:: [Saki\_Yanasaki](<./Saki_Yanasaki.md>)

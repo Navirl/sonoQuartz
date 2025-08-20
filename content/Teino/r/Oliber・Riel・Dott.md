@@ -1,9 +1,10 @@
 ---
-address: 
+address:
 species:
- - 人間
-height: 
-age: 
-aliases: オリバー・リエル・ドット
+  - 人間
+height:
+age:
+aliases:
+  - オリバー・リエル・ドット
 ---
 

@@ -1,10 +1,11 @@
 ---
 date: 2022-08-04
 tags:
- - Bar
- - Novel/Character
- - Nacaria
-aliases: 五良木愛土
+  - Bar
+  - Novel/Character
+  - Nacaria
+aliases:
+  - 五良木愛土
 ---
 
 up:: [Ive](<./Ive.md>)

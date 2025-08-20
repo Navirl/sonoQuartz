@@ -1,10 +1,11 @@
 ---
 date: 2022-12-09
 tags:
- - Bar
- - Novel/Community
- - Nacaria
-aliases: ラヴィッカ
+  - Bar
+  - Novel/Community
+  - Nacaria
+aliases:
+  - ラヴィッカ
 ---
 
 up:: [Monon](<./Monon.md>)

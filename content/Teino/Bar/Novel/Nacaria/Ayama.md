@@ -1,10 +1,11 @@
 ---
 date: 2022-09-20
 tags:
- - Bar
- - Novel/Location
- - Nacaria
-aliases: アヤマ
+  - Bar
+  - Novel/Location
+  - Nacaria
+aliases:
+  - アヤマ
 ---
 
 up:: [Nacarea](<./Nacarea.md>)
