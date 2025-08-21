@@ -1,0 +1,7 @@
+views:
+  - type: cards
+    name: Table
+    sort:
+      - property: file.name
+        direction: ASC
+    cardSize: 220

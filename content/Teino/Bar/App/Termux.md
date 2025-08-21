@@ -143,7 +143,8 @@ manager-coreが使えないので実質sshだけだが、都度`exec ssh-agent b
 なんでないの……
 [git-credential-manager · Issue #10420 · termux/termux-packages](https://github.com/termux/termux-packages/issues/10420)
 
-
+gitui使用中。
+[termuxで使う](<./Git.md#termuxで使う>)
 
 ## clipboard
 `pkg instal termux-api`の後、

@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"d5ddefbbd216f873","x":-200,"y":-440,"width":400,"height":400,"type":"file","file":"Project/学習の基本.md"},
+		{"id":"fc80d7eee25fb9c2","x":320,"y":-470,"width":250,"height":60,"type":"text","text":"能動的に関わる"},
+		{"id":"f20bd4885c691f22","x":320,"y":-380,"width":250,"height":60,"type":"text","text":"外部リソースを活用"},
+		{"id":"b28565d6a8d3332d","x":319,"y":-281,"width":250,"height":60,"type":"text","text":"定期的に休憩"},
+		{"id":"b85703442ab2936f","x":366,"y":-185,"width":250,"height":60,"type":"text","text":"継続習慣"},
+		{"id":"881cff650c7106b5","x":160,"y":-680,"width":250,"height":60,"type":"text","text":"メモリーツリー"},
+		{"id":"687e79ff11995f2e","x":285,"y":-605,"width":250,"height":60,"type":"text","text":"間違いノート"},
+		{"id":"9e6e1ade1f526f76","x":580,"y":-545,"width":250,"height":60,"type":"text","text":"コーネル式ノート"},
+		{"id":"46b2c4133ecd9ea2","x":1220,"y":-545,"width":278,"height":324,"type":"text","text":"## 概要\n- 多くの情報を体系的にまとめ、長期記憶に定着させるのに適している\n- コーネル大学の教育学者、ウォルター・パーク氏が考案\n- 発表は1962年、『How to Study in College』にて\n\n## Note\n- 内容\n- 情報は最小限に、略語も使用OK\n- 情報を自分で加工し、エピソード記憶にするため\n\n## Cue\n- キーワードや質問\n- 学習内容を思い出すきっかけにする\n- 「想起」のためのキー、想起こそ記憶\n- 能動的なアウトプット\n\n## Summary\n- 学習内容全体の要約\n- 本質を見極め、最も重要なポイントを特定するプロセス\n- プロセスそのものが深い理解につながる、学習効果が高い\n- 『東大読書』の東大生、西岡壱誠氏も勧める"},
+		{"id":"3937a9ad8562e5d0","x":860,"y":-543,"width":360,"height":322,"type":"text","text":"- 三要素\n    - Note\n    - Cue\n    - Summary\n\n- 名称\n    - 概要\n    - 注意点\n    - 目的\n\n- Note\n    - 学習内容\n    - 最小限に\n    - 加工してエピソードに\n- Cue\n    - キーワードや質問\n    - 能動的に使用\n    - 想起のキーにするために\n- Summary\n    - 要約\n    - 全体を通す\n    - 重要な点を見つけるため"},
+		{"id":"2eaf405a5621992a","x":863,"y":-221,"width":635,"height":121,"type":"text","text":"コーネル式ノートとは、学習内容をできるだけ小さく、かつ重要な点のみに絞り、そのキーを用意するノート。\n体系的な物事の記憶に向く。"}
+	],
+	"edges":[
+		{"id":"7c1cbd8bb07b0c2c","fromNode":"d5ddefbbd216f873","fromSide":"right","toNode":"fc80d7eee25fb9c2","toSide":"left"},
+		{"id":"1561eacef1d3abd9","fromNode":"d5ddefbbd216f873","fromSide":"right","toNode":"f20bd4885c691f22","toSide":"left"},
+		{"id":"83e858cfe897e9d8","fromNode":"d5ddefbbd216f873","fromSide":"right","toNode":"b28565d6a8d3332d","toSide":"left"},
+		{"id":"fff0e9eb85ef31a6","fromNode":"d5ddefbbd216f873","fromSide":"right","toNode":"b85703442ab2936f","toSide":"left"},
+		{"id":"afa55326f00a3483","fromNode":"d5ddefbbd216f873","fromSide":"right","toNode":"881cff650c7106b5","toSide":"left"},
+		{"id":"4328dc4b972eed68","fromNode":"881cff650c7106b5","fromSide":"bottom","toNode":"fc80d7eee25fb9c2","toSide":"top"},
+		{"id":"4042d6e2be20190a","fromNode":"d5ddefbbd216f873","fromSide":"right","toNode":"687e79ff11995f2e","toSide":"left"},
+		{"id":"b6a07e8ad23579d5","fromNode":"d5ddefbbd216f873","fromSide":"right","toNode":"9e6e1ade1f526f76","toSide":"left"},
+		{"id":"7c77777ee4044861","fromNode":"9e6e1ade1f526f76","fromSide":"bottom","toNode":"fc80d7eee25fb9c2","toSide":"top"},
+		{"id":"eb8c3d01da9babfb","fromNode":"687e79ff11995f2e","fromSide":"bottom","toNode":"fc80d7eee25fb9c2","toSide":"top"},
+		{"id":"fd52eecbb7fdb37c","fromNode":"9e6e1ade1f526f76","fromSide":"right","toNode":"46b2c4133ecd9ea2","toSide":"left"},
+		{"id":"b5defd61ea2e8457","fromNode":"9e6e1ade1f526f76","fromSide":"right","toNode":"3937a9ad8562e5d0","toSide":"left"},
+		{"id":"b86c5b5443b9363f","fromNode":"9e6e1ade1f526f76","fromSide":"right","toNode":"2eaf405a5621992a","toSide":"left"}
+	]
+}
