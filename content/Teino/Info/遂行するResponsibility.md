@@ -1,10 +1,19 @@
+---
+date: 2025-08-22
+time: 17:10
+tags:
+ - Info
+---
+
+up:: [Liability](<../Bar/Novel/Topics/Liability.md>)
+
 やり直し、最後まで遂行するResponsibility
 処分を受け入れAccountability
 法的な賠償、製造責任などを行うLiability
 
 責任の果たし方による分類
 
-https://brevis.exblog.jp/14909445/
+[「責任」には三つの意味がある \| タイム・コンサルタントの日誌から](https://brevis.exblog.jp/14909445/)
 
 昇進？　受け入れますよ。
 そしたら問題起こしたときに支払えますからね。
@@ -34,37 +43,37 @@ Responsibilityを強制できるのがゲーム、
 
 
 
-https://osh-management.com/legal/information/result-or-act/#gsc.tab=0
-https://mitsunosekai.com/keihou-kekka-koui-mukachi/
+[法律理論の基礎を分かりやすく解説する](https://osh-management.com/legal/information/result-or-act/#gsc.tab=0)
+[【初心者向け】刑法結果無価値論・行為無価値論の違いとは？【学説解説】 \| MITSUNOSEKAI](https://mitsunosekai.com/keihou-kekka-koui-mukachi/)
 
 結果無価値と行為無価値。
 結果的に死亡事故になった偶然は、結果無価値だと重罪。行為無価値だと無罪。
 行為無価値は人の行動のみ。結果無価値は環境すべて含む。
 
 
-https://info.yoneyamatalk.biz/%E5%88%91%E6%B3%95/%E9%81%95%E6%B3%95%E6%80%A7%E3%81%AE%E8%A1%8C%E7%82%BA%E7%84%A1%E4%BE%A1%E5%80%A4%E8%AB%96%E3%81%A8%E7%B5%90%E6%9E%9C%E7%84%A1%E4%BE%A1%E5%80%A4%E8%AB%96%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%82%8F/
+[違法性の行為無価値論と結果無価値論についてわかりやすく解説 \| リラックス法学部](https://info.yoneyamatalk.biz/%E5%88%91%E6%B3%95/%E9%81%95%E6%B3%95%E6%80%A7%E3%81%AE%E8%A1%8C%E7%82%BA%E7%84%A1%E4%BE%A1%E5%80%A4%E8%AB%96%E3%81%A8%E7%B5%90%E6%9E%9C%E7%84%A1%E4%BE%A1%E5%80%A4%E8%AB%96%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6%E3%82%8F)
 
 無価値というのはマイナスの行為という意味。
 
 
-https://lintroducer.com/2023/01/30/kouimukati-kekkamukati/
+[行為無価値論と結果無価値論とは？わかりやすく解説！](https://lintroducer.com/2023/01/30/kouimukati-kekkamukati/)
 
 行為無価値だけにはならない。刑事法自体が人の死など結果を争点に含んでる。
 結果無価値だけにはならない。殺人の場合法益を侵害する対象がいなくなったことになるので無罪になりかねない。
 
-https://blog.saiho-ji.org/wp/2021/04/29/%E5%88%91%E6%B3%95%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E3%80%8C%E8%A1%8C%E7%82%BA%E7%84%A1%E4%BE%A1%E5%80%A4%E3%80%8D%E3%80%8C%E7%B5%90%E6%9E%9C%E7%84%A1%E4%BE%A1%E5%80%A4%E3%80%8D%E3%81%A8%E3%81%84/
+[刑法における「行為無価値」「結果無価値」という考え方](https://blog.saiho-ji.org/wp/2021/04/29/%E5%88%91%E6%B3%95%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8B%E3%80%8C%E8%A1%8C%E7%82%BA%E7%84%A1%E4%BE%A1%E5%80%A4%E3%80%8D%E3%80%8C%E7%B5%90%E6%9E%9C%E7%84%A1%E4%BE%A1%E5%80%A4%E3%80%8D%E3%81%A8%E3%81%84/)
 
 結果無価値が優勢。
 
 
-https://www.re-art.info/entry/2014/11/04/020945
+[結果無価値論 VS 行為無価値論入門（前編） - 緋色の７年間](https://www.re-art.info/entry/2014/11/04/020945)
 
 結果無価値も行為無価値も互いに歩み寄ってる。
 モラリズムの排斥。
 もう誰にも悪がわからない中、守るべき価値を国会で決めたものが法律。個人を道徳的に教育するものではない。
 
 
-https://www.ritsumei.ac.jp/acd/cg/law/lex/05-6/matsumiya.pdf
+[matsumiya.pdf](https://www.ritsumei.ac.jp/acd/cg/law/lex/05-6/matsumiya.pdf)
 
 器物損壊罪は未遂罪がないが、行為無価値なら設定しなければならない。
 
