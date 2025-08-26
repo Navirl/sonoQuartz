@@ -10,6 +10,22 @@ up:: [ruby](<../Bar/Program_lang/ruby.md>)
 ruggedを使用したlibgit使用。
 AIに書かせて中身を読む初心者。
 
+[rb git スクリプト](<./rb git スクリプト.md>)
+
+```ruby
+#!/usr/bin/env ruby
+# -*- coding: utf-8 -*-
+```
+
+shebangとrubyのマジックコメント。
+shebangはenv(環境変数)からrubyを見つけて使う。これにより直接.rbを実行できる。windowsでは読めない。
+rubyではファイルのエンコーディングを強制できる。ruby2.0以降はデフォルトがutf-8なのでたいてい不要。ただしマルチバイトなどでバグるので付けたほうが無難。`# encoding: utf-8`だけでも動くが、これじゃないと動かないエディタがあるらしい。それはエディタの問題だと思うので今は直ってそう。
+マジックコメントはpythonからの導入。他にも動的文字列の凍結などいろいろ。
+
+[Ruby Code Comments 日本語](https://runebook.dev/ja/docs/ruby/syntax/comments_rdoc)
+
+
+
 ```ruby
 require 'rugged'
 require 'logger'
@@ -43,3 +59,49 @@ rescueは例外処理。begin-rescue-ensureとなる。rescueに=> eをくっつ
 エラーはそれぞれ専用の変数とかに入るので、rescueと=> eの間にその変数を置いておけば内容をeに入力できる。
 
 いろんなエラーで条件分岐するときは、rescueを複数書くこともできる。もちろんいつものようにcase-whenでも分けられる。長いとrescue複数の方が分かりやすそう。
+
+```ruby
+  # デフォルト設定を定義
+  def default_config
+    {
+      commit_message: "自動コミット - #{Time.now.strftime('%Y-%m-%d %H:%M:%S')}",
+      remote_name: 'origin',
+      branch_name: 'main',
+      auto_add_all: true,
+      force_push: false
+    }
+  end
+```
+
+ハッシュを返す関数。rubyの仕様として、最後に評価された式の値が自動で戻り値になる。Rustにもあるやつ。
+なので以下の関数と同一。
+
+```ruby
+  # デフォルト設定を定義
+  def default_config
+    return{
+      commit_message: "自動コミット - #{Time.now.strftime('%Y-%m-%d %H:%M:%S')}",
+      remote_name: 'origin',
+      branch_name: 'main',
+      auto_add_all: true,
+      force_push: false
+    }
+  end
+```
+
+ハッシュをそのまま置かないのは、コミットメッセージのため。呼び出したときに式が評価されるため、いつでも現在時刻をセットできる。
+
+これで帰ったハッシュに対して`@config = default_config.merge(config)`を呼ぶことで、一部だけ変更したコンフィグを使用し残りはデフォルトのまま使用できる。
+
+```ruby
+  # ログ設定を初期化
+  def setup_logger
+    logger = Logger.new(STDOUT)
+    logger.level = Logger::INFO
+    logger.formatter = proc do |severity, datetime, progname, msg|
+      "[#{datetime.strftime('%Y-%m-%d %H:%M:%S')}] #{severity}: #{msg}\n"
+    end
+    logger
+  end
+```
+
