@@ -218,7 +218,7 @@ up:: [Character\_Sheet](<../Sheet/Character_Sheet.md>)
 真実。
 [Nainy\_Tokerny\_Deunant](<./Nainy_Tokerny_Deunant.md>)に体を返すため。取り戻すためではなく、今度こそ全てを明け渡して死ぬため。
 
-後で生きていけたのは[Saki\_Yanasaki](<./Saki_Yanasaki.md>)のインターフェース魔法、機械、[Nainy\_Tokerny\_Deunant](<./Nainy_Tokerny_Deunant.md>)の吸い込む魔法の残滓、そしてこいつの不明の魔法のため。
+後で生きていけたのは乍本のインターフェース魔法、機械、[Nainy\_Tokerny\_Deunant](<./Nainy_Tokerny_Deunant.md>)の吸い込む魔法の残滓、そしてこいつの不明の魔法のため。
 機械と操作方法と拡張機能があって、足りないものと言えば……拡張機能により吸い込んだものを機械に変換する部分。
 
 最初に全部渡せなかったのは、手持ちのこの変換魔法のせい。渡し切る前に残滓を元に再度吸い込み→再生産されていた。だからと言って中身はネイニが丸々持ってってるので生産できず、作れども意味なくすぐ持ってかれる、端的に言うと永遠に死に続けるみたいな状態だった。

@@ -57,7 +57,7 @@ Rugged::はモジュールからの呼出し。
 
 `class Child < Parent`で継承できるのだが、この継承先ではprivateでも読める。
 
-rescueは例外処理。begin-rescue-ensureとなる。rescueに=> eをくっつけることでbeginで起きたエラーをeに入力できる。
+rescueは例外処理。begin-rescue-ensureとなる。rescueに=> eをくっつけることでbeginで起きたエラーをeに入力できる。beginがないなら全てのエラー。
 エラーはそれぞれ専用の変数とかに入るので、rescueと=> eの間にその変数を置いておけば内容をeに入力できる。
 
 いろんなエラーで条件分岐するときは、rescueを複数書くこともできる。もちろんいつものようにcase-whenでも分けられる。長いとrescue複数の方が分かりやすそう。
