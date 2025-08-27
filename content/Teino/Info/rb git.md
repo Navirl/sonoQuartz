@@ -12,6 +12,8 @@ AIに書かせて中身を読む初心者。
 
 [rb git スクリプト](<./rb git スクリプト.md>)
 
+## 最初
+
 ```ruby
 #!/usr/bin/env ruby
 # -*- coding: utf-8 -*-
@@ -24,7 +26,7 @@ rubyではファイルのエンコーディングを強制できる。ruby2.0以
 
 [Ruby Code Comments 日本語](https://runebook.dev/ja/docs/ruby/syntax/comments_rdoc)
 
-
+## initialize
 
 ```ruby
 require 'rugged'
@@ -60,6 +62,8 @@ rescueは例外処理。begin-rescue-ensureとなる。rescueに=> eをくっつ
 
 いろんなエラーで条件分岐するときは、rescueを複数書くこともできる。もちろんいつものようにcase-whenでも分けられる。長いとrescue複数の方が分かりやすそう。
 
+## default_config
+
 ```ruby
   # デフォルト設定を定義
   def default_config
@@ -93,6 +97,8 @@ rescueは例外処理。begin-rescue-ensureとなる。rescueに=> eをくっつ
 
 これで帰ったハッシュに対して`@config = default_config.merge(config)`を呼ぶことで、一部だけ変更したコンフィグを使用し残りはデフォルトのまま使用できる。
 
+## setup_logger
+
 ```ruby
   # ログ設定を初期化
   def setup_logger
@@ -104,4 +110,12 @@ rescueは例外処理。begin-rescue-ensureとなる。rescueに=> eをくっつ
     logger
   end
 ```
+
+proc doはプロシージャルオブジェクト。pythonのラムダ式みたいな奴。コードの塊を式でなく値として扱う物らしい。今回はこれを利用しformatterに関数をセットしている。
+||で区切られてるのは引数。
+
+severityはログの重要度レベル。
+datetimeはログの出力された日時を表すTimeオブジェクト。
+prognameはプログラム名やコンポーネント名。今回は使ってない。
+msgは本文。
 
