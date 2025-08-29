@@ -103,3 +103,18 @@ puts obj2.get_var("global") # グローバル変数ですね
 puts obj1.get_var("constant") # 定数
 puts obj2.get_var("constant") # 定数
 ```
+
+## 環境
+プロジェクトごとに分けるbundlerと、rubyバージョンごと管理するrbenvの二つがあるっぽい。
+bundlerの場合`bundler install --path`した後`bundler exec`で使う。いちいちexec書くのはめんどそう。
+
+[gem, bundler と pip, venv の比較 - Qiita](https://qiita.com/methane/items/570728ad3e79c74f4e9e)
+
+パスはvender/bundleがデファクト。
+`bundle config --global path`で設定しとけばいつも同じく作れる。
+
+[【Ruby】bundlerの使い方 (Gem管理) - TASK NOTES](https://www.task-notes.com/entry/20141230/1419937660)
+
+rbenvは付属のgemsetを使って仮想環境を作る。`rbenb gemset create version name`からさらにinitiがいる。その後はパスに行けばそのまま使えるっぽい。
+
+[Ruby で Python の virtualenv 的なことをする - どうした](https://carumisu.hatenablog.jp/entry/2017/03/03/234615)

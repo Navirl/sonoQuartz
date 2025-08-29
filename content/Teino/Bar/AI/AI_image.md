@@ -9,6 +9,7 @@ aliases:
 up:: [AI\_local](<./AI_local.md>)
 up:: [AI\_online](<./AI_online.md>)
 
+改善点を指摘して相手の発想に任せるのではなく、完全に
 ### ImageFX
 Googleの画像AI。ちょっとした奴ならこれで済む。
 商用利用について明記されていない。
