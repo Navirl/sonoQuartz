@@ -106,14 +106,29 @@ puts obj2.get_var("constant") # 定数
 
 ## 環境
 プロジェクトごとに分けるbundlerと、rubyバージョンごと管理するrbenvの二つがあるっぽい。
-bundlerの場合`bundler install --path`した後`bundler exec`で使う。いちいちexec書くのはめんどそう。
+bundlerの場合`bundle install --path`した後`bundler exec`で使う。いちいちexec書くのはめんどそう。
 
 [gem, bundler と pip, venv の比較 - Qiita](https://qiita.com/methane/items/570728ad3e79c74f4e9e)
 
 パスはvender/bundleがデファクト。
 `bundle config --global path`で設定しとけばいつも同じく作れる。
+というか将来`--path`消えるらしいので
+```
+bundle config set path `vender/bundle`
+```
+を一回やっておくのが今らしい。
+
+基本ディレクトリ作って`bundle init`。
+できたgemfileに`gem "name", "version"`と記入。バージョンは省略可能。
+最後に`bundle install`でgemfileの記述分を全部インストールできる。
+使用は`bundle exec ruby file`。
 
 [【Ruby】bundlerの使い方 (Gem管理) - TASK NOTES](https://www.task-notes.com/entry/20141230/1419937660)
+[Bundlerの使い方 - Qiita](https://qiita.com/oshou/items/6283c2315dc7dd244aef)
+
+sourceは一つは必要。他にもgitから直接出来たりrubyバージョンの指定が出来たりする。
+
+[Gemfileについて調べてみた - xxxcaqui.log](https://xxxcaqui.hatenablog.com/entry/2013/02/11/013421)
 
 rbenvは付属のgemsetを使って仮想環境を作る。`rbenb gemset create version name`からさらにinitiがいる。その後はパスに行けばそのまま使えるっぽい。
 

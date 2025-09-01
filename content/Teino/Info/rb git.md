@@ -62,6 +62,9 @@ rescueは例外処理。begin-rescue-ensureとなる。rescueに=> eをくっつ
 
 いろんなエラーで条件分岐するときは、rescueを複数書くこともできる。もちろんいつものようにcase-whenでも分けられる。長いとrescue複数の方が分かりやすそう。
 
+loggerはruby3.5.0以降から標準ライブラリから削除される予定があるので、gemfileに書いておく。
+
+.openはruby3.x以降privateなので.newを使用する。
 ## default_config
 
 ```ruby
@@ -119,3 +122,21 @@ datetimeはログの出力された日時を表すTimeオブジェクト。
 prognameはプログラム名やコンポーネント名。今回は使ってない。
 msgは本文。
 
+## check_repository_status
+```ruby
+  # リポジトリの状態をチェック
+  def check_repository_status
+    @logger.info("リポジトリの状態をチェックしています...")
+    
+    # ワーキングディレクトリの状態を取得
+    status = @repo.status { |file, flags| 
+      @logger.debug("#{file}: #{status_flags_to_string(flags)}")
+    }
+    
+    @logger.info("#{status.count}個のファイルに変更があります")
+  end
+```
+{||}はブロック。`@repo.status`に引数として渡す。
+status内部でこのブロックが呼び出される際、引数に
+
+repo.statusの戻り値がnilだと

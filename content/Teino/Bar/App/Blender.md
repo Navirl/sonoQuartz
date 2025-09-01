@@ -84,3 +84,7 @@ Unwrap Me アドオン。
 
 AutoUVアドオン。
 [Free Addon AutoUV - Superhive (formerly Blender Market)](https://superhivemarket.com/products/free-addon-autouv/?ref=974)
+
+## subdiv中の折り目
+shift+hでクリース。
+
