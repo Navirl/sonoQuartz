@@ -4,7 +4,8 @@ tags:
   - Info
   - Novel/Character
 aliases:
-  - Hisago_Isagoshi
+  - 伊佐越瓠
+  - 沙士瓢
 ---
 
 up:: [NoNames](<../Chaos/NoNames.md>)

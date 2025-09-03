@@ -110,11 +110,11 @@ bundlerの場合`bundle install --path`した後`bundler exec`で使う。いち
 
 [gem, bundler と pip, venv の比較 - Qiita](https://qiita.com/methane/items/570728ad3e79c74f4e9e)
 
-パスはvender/bundleがデファクト。
+パスはvendor/bundleがデファクト。
 `bundle config --global path`で設定しとけばいつも同じく作れる。
 というか将来`--path`消えるらしいので
 ```
-bundle config set path `vender/bundle`
+bundle config set path `vendor/bundle`
 ```
 を一回やっておくのが今らしい。
 
