@@ -9,6 +9,10 @@ up:: [Blender](<../Bar/App/Blender.md>)
 
 [【Blender】キャラクターモデリング＆アニメーションタイムラプス　～猫耳パーカー～](https://www.youtube.com/watch?v=d6-4_rjzkkM)
 
+
+[bl キャラクターモデリングタスク](<./bl キャラクターモデリングタスク.md>)
+
+
 ## 基本
 正面カメラはテンキー1、右はテンキー3。
 下絵はS-aでimage->reference。あとのMirrorの為に中心に。

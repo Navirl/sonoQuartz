@@ -1,12 +1,10 @@
 ---
-date: 2022-10-29
+date: 2025-09-04
+time: 12:10
 tags:
   - Bar
   - Novel/Topic
-aliases:
-  - 歯車
 ---
 
 up::
-
 
