@@ -6,8 +6,6 @@ tags:
   - Novel/Character
 aliases:
   - 鬼人正邪
-banner: "![[../../../Banners/☢核燃黑猫☢ - 1408324/20181223 - 鬼人正邪.jpg]]"
-banner_y: 0.10019
 ---
 
 up:: [Shinmyoumaru\_Sukuna](<./Shinmyoumaru_Sukuna.md>)

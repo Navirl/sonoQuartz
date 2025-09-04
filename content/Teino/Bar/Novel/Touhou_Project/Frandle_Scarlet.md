@@ -1,14 +1,9 @@
 ---
-banner: "![[../../../Banners/いくらうに - 501583/20200514 - 背中で語るフランドール.jpg]]"
----
----
 date: 2022-11-01
 tags:
  - Bar
  - Novel/Character
  - Touhou_Project
-banner: "![[../../../Banners/いくらうに - 501583/20200514 - 背中で語るフランドール.jpg]]"
-banner_y: 0
 ---
 
 up:: [Crazy\_Quartet](<./Crazy_Quartet.md>)
