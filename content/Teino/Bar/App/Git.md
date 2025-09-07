@@ -262,4 +262,8 @@ updateは親で記録しているコミットに子を更新。
 safedirectoryに追加。
 
 `git config --global --add safe.directory /storage/emulated/0/Documents/Niztra/sonolart/.obsidian
-/plugins/obsidian-wom`
+/plugins/obsidian-wom
+
+## githubでいうarchive
+読み取り専用リポジトリを指すほか、ソースコードをまるごとダウンロードするのにも使うURLの一部。
+Download zipと同じ。`https://github.com/libgit2/libgit2/archive/v1.9.1.tar.gz`で行けるが、本来`https://github.com/<owner>/<repo>/archive/refs/tags/<tag>.tar.gz`という形式のはず。何で通ってるんだ。
