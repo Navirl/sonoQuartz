@@ -140,3 +140,58 @@ rbenvは付属のgemsetを使って仮想環境を作る。`rbenb gemset create 
 普段はpでいい。
 
 [Rubyの\`puts\`と\`inspect\`の違いを理解しよう](https://zenn.dev/oz006/articles/6f3a3a63427b46)
+
+## vscode debug
+`gem install debug`のあと、以下の拡張機能を入れる。
+
+[VSCode rdbg Ruby Debugger - Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg)
+
+最後にlaunch.jsonに以下を書けば終わり。
+
+```json
+{
+        // Use IntelliSense to learn about possible attributes.
+        // Hover to view descriptions of existing attributes.
+        // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+        "version": "0.2.0",
+        "configurations": [
+                {
+                        "type": "rdbg",
+                        "name": "Debug current file with rdbg",
+                        "request": "launch",
+                        "script": "${file}",
+                        "args": [],
+                        "askParameters": true
+                },
+                {
+                        "type": "rdbg",
+                        "name": "Attach with rdbg",
+                        "request": "attach"
+                }
+        ]
+}
+```
+
+## symbol
+Rubyではメソッド名、変数名、定数名、クラス名など名前を整数で管理している。
+内部的には有利だが外部から扱いにくい。というわけで用意された、ソース上で文字列のように見えるが内部では整数になるオブジェクト。
+
+```ruby
+:symbol
+:'symbol'
+%s!symbol! # %記法
+```
+
+immutableかつ、同値なら必ず同一。.equalといったメソッドで確認できる。
+
+```ruby
+p "abc" == "abc" #=> true
+p "abc".equal?("abc") #=> false
+p :abc == :abc #=> true
+p :abc.equal?(:abc) #=> true ←同値ならば同一
+```
+
+スピードやメモリ的に文字列より強い。
+文字列の内容でなく、そう名付けられたものが欲しい時などに。（ハッシュキーとか関数名とか引数とか）
+
+[class Symbol (Ruby 3.4 リファレンスマニュアル)](https://docs.ruby-lang.org/ja/latest/class/Symbol.html)

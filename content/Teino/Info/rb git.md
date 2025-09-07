@@ -12,6 +12,8 @@ AIに書かせて中身を読む初心者。
 
 [rb git スクリプト](<./rb git スクリプト.md>)
 
+複数の理由で動かなかった。なので途中から別スクリプト。
+
 ## 最初
 
 ```ruby
@@ -238,5 +240,91 @@ str << 33
 
 [Rubyでの配列への要素追加方法：\<\<, push, unshiftを徹底解説 \| IT trip](https://ittrip.xyz/ruby/ruby-array-element-addition)
 
+## parse_options
+```ruby
+def parse_options
+  options = {
+    repo_path: Dir.pwd,
+    auto_pull: true,
+    auto_push: true,
+    commit_message: nil
+  }
+  
+  OptionParser.new do |opts|
+    opts.banner = "使用法: #{$0} [オプション]"
+    
+    opts.on("-r", "--repo PATH", "リポジトリのパス（デフォルト: カレントディレクトリ）") do |path|
+      options[:repo_path] = path
+    end
+    
+    opts.on("-m", "--message MESSAGE", "コミットメッセージ") do |message|
+      options[:commit_message] = message
+    end
+    
+    opts.on("--no-pull", "プル処理をスキップ") do
+      options[:auto_pull] = false
+    end
+    
+    opts.on("--no-push", "プッシュ処理をスキップ") do
+      options[:auto_push] = false
+    end
+    
+    opts.on("--force-push", "強制プッシュを有効にする") do
+      options[:force_push] = true
+    end
+    
+    opts.on("-h", "--help", "このヘルプを表示") do
+      puts opts
+      exit
+    end
+  end.parse!
+  
+  options
+end
+```
 
-repo.statusの戻り値がnilだと
+OptionParserを使用する。
+オプションが指定されたときに呼ばれるブロックを、OptionParser#onメソッドで登録する。
+
+まずOptionParserのオブジェクト、optを生成。
+オプションを取り扱うブロックをoptに登録。
+opt.parse!(ARGV)で解析。
+
+生成は`opts = OptionParser.new`で。
+
+登録は`opts.on(short, long, desc = "){|v| ...} -> self`。
+shortとlongはどっちか省略可能。shortかlongを指定した時ブロックの内容が読まれる。めんどいので以下オプション指定。
+
+オプション指定はそのまま`-i`などとすると、ブロック引数にはbooleanが入る。
+文字列が欲しいなら`-i STRING`とすると引数にSTRINGの内容が文字列で渡される。`-iSTRING` `-i=STRING` `-i [STRING]`など色々出来る。ただしlongでは`-InputSTRING`などの表記は一塊になるので出来ず、`-i [STRING]`は必須でないオプション引数を指す。
+文字列以外として受け取りたいなら、desc前に対象のクラスを入れる。
+ある値集合から選ばせたいなら、desc前にハッシュや配列を入れる。
+
+
+
+
+
+## add.rb
+[rb git add.rb](<./rb git add.rb.md>)
+
+中核はrepo.index。
+remove,addなどあるのでこれを適切に使用する。.writeで最後に書き込むこと。
+
+[RubyDoc.info: Class: Rugged::Repository – Documentation for rugged (1.9.0) – RubyDoc.info](https://www.rubydoc.info/gems/rugged/Rugged/Repository#status-instance_method)
+repo.statusはブロックを渡すと全ての追加・変更・削除されたファイルをフラグ付きで回すことができる。返り値はない。
+パスを渡すと対象の**ファイル**のフラグを返す。フォルダ単位では返してくれない。
+
+フラグの中身はRuby Symbol。ハッシュのキーでよく見る奴。これによって処理を分ければOK。
+
+## commit.rb
+[rb git commit.rb](<./rb git commit.rb.md>)
+
+中核はRugged::Commit.create(repo,data={})。引数のdataで必須は:messageと:parentsと:treeのみ。
+
+>[! 復習]
+>commitオブジェクトは自身のハッシュ、親のハッシュ、現時点のファイル構造（ツリー）、コミットメッセージ他を持つ。[git 後半](<../Project/Reskilling/git 後半.md>)
+
+
+
+unlessはifの逆。
+シンプルな時だけ使用する。
