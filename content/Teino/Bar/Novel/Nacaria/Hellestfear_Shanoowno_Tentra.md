@@ -1,11 +1,12 @@
-
 ---
 date: 2022-10-14
 tags:
- - Bar
- - Novel/Character
- - Nacaria
-aliases: ヘレストフィアル・シャノーノ・テントラ
+  - Bar
+  - Novel/Character
+  - Nacaria
+aliases:
+  - ヘレストフィアル・シャノーノ・テントラ
+  - ヘレスト
 ---
 
 up:: [Fushibi](<./Fushibi.md>)

@@ -160,4 +160,4 @@ same:: [Kanami\_Nijo\_Edu](<./Kanami_Nijo_Edu.md>)
 人として、形を持っているのなら、獣でなくさせた何かがあるはずだ。
 それを愛と呼ぶ。
 
-[[../../../Info/bingKANAMI]]
+[bingKANAMI](<../../../Info/bingKANAMI.md>)
