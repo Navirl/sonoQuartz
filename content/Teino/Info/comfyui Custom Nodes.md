@@ -314,6 +314,8 @@ LoRAを重ねてロードできる機能がある。
 
 [GitHub - rgthree/rgthree-comfy: Making ComfyUI more comfortable!](https://github.com/rgthree/rgthree-comfy?tab=readme-ov-file)
 
+Power puterという可変数個の文字列や数字などを積み重ね、式を入力して柔軟に処理する奴がある。
+
 ## ComfyUI-d2-size-selector
 編集可能なプリセットのサイズでlatentを作成できる。
 presetがcustom以外だとwidthとheightは無視。
@@ -1517,3 +1519,9 @@ LBMは他にも単眼深度推定モデルなどを作ってるらしい。
 
 birefnetしか使えないノード。
 RMBGはインストール重いしこれで済むならいいんじゃないか。
+
+## ComfyUI-List-Utils
+[GitHub - godmt/ComfyUI-List-Utils](https://github.com/godmt/ComfyUI-List-Utils)
+
+バッチになってるやつをindex指定とかで取り出す。
+[ComfyUI-string-util](<#ComfyUI-string-util>)のsplitの後とかに。というかsplit stringはこっちにもあるからstring-utilたぶんいらない。
