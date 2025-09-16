@@ -266,4 +266,16 @@ safedirectoryに追加。
 
 ## githubでいうarchive
 読み取り専用リポジトリを指すほか、ソースコードをまるごとダウンロードするのにも使うURLの一部。
-Download zipと同じ。`https://github.com/libgit2/libgit2/archive/v1.9.1.tar.gz`で行けるが、本来`https://github.com/<owner>/<repo>/archive/refs/tags/<tag>.tar.gz`という形式のはず。何で通ってるんだ。
+Download zipと同じ。
+`https://github.com/libgit2/libgit2/archive/v1.9.1.tar.gz`で行けるが、本来`https://github.com/<owner>/<repo>/archive/refs/tags/<tag>.tar.gz`という形式のはず。何で通ってるんだ。
+
+## Conventional Commits
+[Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+コミットメッセージに規範を導入する試み。
+
+基本的に`fix:`か`feat:`を前に付け、その後にコミットメッセージを続ける。fixがパッチバージョンでfeatがマイナーバージョン。
+破壊的変更が入る場合は`fix!:`などとする。
+
+## stash
+`git stash`だけで動く。取り出すときは`git stash pop`。
+[【Git】stashコマンドのまとめと使い方 〜変更差分の一時退避〜 #初心者 - Qiita](https://qiita.com/nakaji0210/items/330f6dcb361da074c2c0)

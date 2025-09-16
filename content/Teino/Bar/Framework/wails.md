@@ -122,3 +122,7 @@ wails.Runに渡してるのは`option.App`構造体。
 
 ```
 
+## マルチウィンドウ
+wails2.xでは対応していない。3からは対応。
+
+[Support Multiple Windows · Issue #1480 · wailsapp/wails](https://github.com/wailsapp/wails/issues/1480)

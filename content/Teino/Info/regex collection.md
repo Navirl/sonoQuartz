@@ -63,3 +63,10 @@ time: 10:56
 
 後方
 `(?<=: )(.*)`
+
+## mermaidの角・波括弧内でUnicode文字列を有効にする
+`([\{\[])(.*?)([\}\]])`
+`$1"$2"$3`
+[Flowcharts Syntax \| Mermaid](https://mermaid.js.org/syntax/flowchart.html#unicode-text)
+
+要するに`[".*"]`などとできればいい。
