@@ -30,6 +30,51 @@ WebViewを使用するところも同じ。
 
 [wails 基礎](<../../Info/wails 基礎.md>)
 
+## デバッグ
+バックエンドは適当にlaunch属性で仕掛ければ動く。ただしビルドにタグを付けないと怒られるのでbuildFlagsを忘れずに。
+```json
+        {
+            "name": "Go Backend Only",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}",
+            "env": {},
+            "console": "integratedTerminal",
+            "buildFlags": "-tags=dev"
+        },
+```
+
+フロントエンドはバックエンドを起動->デバッグモードでchrome起動->chromeに対してattachという流れ。なので三つプロセスを動かす。
+edgeではなんかポートが見つからなくて動かなかった。
+
+```json
+        {
+            "name": "Launch Browser",
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:34115",
+            "runtimeArgs": [
+                "--remote-debugging-port=5173",
+            ],
+            "runtimeExecutable": "D:\\Scoop\\shims\\chrome.exe"
+        },
+        {
+            "name": "attach to chrome",
+            "type": "chrome",
+            "request": "attach",
+            "port": 5173,
+            "webRoot": "${workspaceFolder}/frontend",
+            "sourceMaps": true,
+        }
+```
+scoopで入れたchromeだとruntimeを見つけてくれないのでruntimeExecutableもいる。
+portの5173はwailsがなんかこれにしてたから。urlのポートは何でもいい。
+
+[Wails を始めてみた - Qiita](https://qiita.com/tinymouse/items/d95029ad20665bdf1128)
+[ChatGPT - Wails エラー対策](https://chatgpt.com/share/68cbe510-8ba8-8009-aa23-d2e0d005ba74)
+[How to debug frontend through vite on vscode · wailsapp/wails · Discussion #2877](https://github.com/wailsapp/wails/discussions/2877)
+
 ## Option.App
 wails.Runに渡してるのは`option.App`構造体。
 ゲームで言ういわゆる設定項目。
