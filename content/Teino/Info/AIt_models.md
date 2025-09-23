@@ -10,6 +10,10 @@ up:: [AIt](<../Bar/AI/AI_text.md>)
 Erinでテスト。
 **kaggleはNSFWを禁止している**ことには留意。出力しなくても文字に残すだけでBANされた。画像はあんなに緩いのに……。
 [Chub AI](https://chub.ai/characters/DongberryDinkle/erin-way-too-comfortable-childhood-friend-1e527f4e3556)
+
+LM Studioだとよくミスって元から読み分とST分で二つモデルを読み込んでしまう。
+STはNoneにしとくのが無難。
+
 ## Lewdiculous/L3-8B-Stheno-v3.2-GGUF-IQ-Imatrix
 [Lewdiculous/L3-8B-Stheno-v3.2-GGUF-IQ-Imatrix · Hugging Face](https://huggingface.co/Lewdiculous/L3-8B-Stheno-v3.2-GGUF-IQ-Imatrix)
 
@@ -73,4 +77,76 @@ Q2でこれだけ動くのは勲章。しかもかなりぐっとくる。
 "I just got so hot, I didn't think. I'm only sorry if you're sorry."
 
 *She looks down, trying to hide her embarrassment.*
+```
+
+## v000000/Llama-3.1-8B-Stheno-v3.4-abliterated
+[mradermacher/Llama-3.1-8B-Stheno-v3.4-abliterated-i1-GGUF · Hugging Face](https://huggingface.co/mradermacher/Llama-3.1-8B-Stheno-v3.4-abliterated-i1-GGUF)
+
+sthenoのv3.4にガードレール削除LoRAを追加した物。毎回使ってたテンプレがどっか行ったので新しく。
+
+記述がQwQくらいになった。いい感じ。
+
+```
+“...The bath is on the first floor. If I get undressed here... I'd be in trouble.” {{user}} flushed bright red and looked down.
+```
+
+```
+*Erin sits up, her chest heaving with a deep sigh as she looks over at Iori. Her skin glistens with sweat, making it almost look like the way her breasts are jiggling slightly with each breath is somehow more pronounced. She stretches an arm out, letting out another loud exhale.*
+
+"Aww come on... Don't be such a prude! It's just us here. Besides..." *She shifts positions to face Iori directly.* "You know you don't mind if I cool off a bit first, right?"
+
+*Despite the teasing words, Erin doesn't push any further. Instead she lays back down, hoping that Iori would just join her on the bed for some game playing. Her eyes track the fans spinning lazily on their base as they wait for a response.*
+```
+## SicariusSicariiStuff/Impish_Mind_8B
+[bartowski/Impish\_Mind\_8B-GGUF · Hugging Face](https://huggingface.co/bartowski/Impish_Mind_8B-GGUF)
+
+言葉に引っ張られやすい気がする。それを元にガンガン事態を進める感じ。
+
+```
+*Erin looks at you with a mischievous glint in her eye as she speaks, her voice a playful whisper.*
+
+"Then by all means, go for it! You know you want to, so why are you even hesitating? It's not like I haven't seen you naked before. Come on, don't be such a prude!" *She then grabs your hand and starts tugging you towards the stairs.*
+
+"It's just water, and even if someone walks in on us, what are they gonna do? Give us a ticket? I'm already 21, so it's not like we could get arrested. Come on, let's go have some fun!" *Erin is trying to push you into taking a bath together.*
+```
+
+## DreadPoor/Irix-12B-Model_Stock
+[mradermacher/Irix-12B-Model\_Stock-i1-GGUF · Hugging Face](https://huggingface.co/mradermacher/Irix-12B-Model_Stock-i1-GGUF)
+
+記述多めタイプ。自由。何やってんだこいつ感があるのでQ2はやっぱつらいか。でも一番生きてるって気がするんだ。
+
+```
+"Oh relax, we've been naked around each other dozens of times!" Erin giggles playfully as she stands up completely bare save for her socks. She saunters over to you casually, seeming oblivious to how exposed she is in front of you.
+
+"No seriously though..." She stretches lazily above her head causing her ample breasts to bounce gently before settling into place again. "I'm way too lazy to walk downstairs naked right now."
+
+Erin turns around suddenly presenting you with a perfect view of her tight rear as she retrieves her shorts from earlier. She slides them up her legs slowly, wiggling her hips a bit to get them situated properly.
+
+"Anyway..." She says glancing back over at you with a mischievous smirk on her lips. "Are we gonna play games together today or what?"
+
+She grabs her controller and sits down beside you again leaving herself exposed except for those shorts barely covering anything important anymore!
+
+"I'm ready!" Erin announces enthusiastically pressing start without any further ado whatsoever! She leans against your shoulder laughing freely as the game begins together~
+```
+
+## LatitudeGames/Wayfarer-2-12B
+[LatitudeGames/Wayfarer-2-12B-GGUF · Hugging Face](https://huggingface.co/LatitudeGames/Wayfarer-2-12B-GGUF)
+
+元がAIダンジョンだからか静かな語り口。
+
+```
+Erin rolls over onto her stomach suddenly, legs kicking slightly beneath sheets stained with oil stains from previous projects. Her bare ass now fully exposed as she stretches lazily across the bedsheets.
+
+"Not worried about your parents catching us doing anything inappropriate," Erin laughs with a playful shrug before rolling back onto her side facing you again. The sunlight catches the sweat glistening on her skin beautifully despite how flushed she looks due to overheating.
+
+"You know I've seen worse than what's happening right now." Her gaze drifts down briefly before meeting yours again, clearly amused by your discomfort rather than embarrassed herself.
+```
+## SicariusSicariiStuff/Impish_Nemo_12B
+[mradermacher/Impish\_Nemo\_12B-GGUF · Hugging Face](https://huggingface.co/mradermacher/Impish_Nemo_12B-GGUF)
+
+記述少な目で物事を率直に捉える。Mindより率直さが増してる気がする。
+Q2でも12Bの層は減るわけじゃないので、層を読みすぎると普通にOOMになる。
+
+```
+“Hey girl, you gonna melt into that puddle of sweat or what?” Erin smirked as she leaned towards the other girl’s face and licked her lips sensuously before leaning forward again to press against the opposite cheek in a playful manner of teasing affection rather than desire for intimacy given their age difference between childhood friends who shared secrets while growing up alongside each other throughout high school years until present day college lives together now too close enough proximity where such interactions become normalized despite different intentions behind them both knew weren't romantic but sometimes blurred lines occurred naturally during those times especially since erin didn't mind teasing like this around her friend either knowing nothing would ever happen between them beyond playful gestures meant solely for fun
 ```

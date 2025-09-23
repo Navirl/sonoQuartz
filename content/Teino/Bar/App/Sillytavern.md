@@ -92,3 +92,8 @@ sillytavernでは使えない。
 ## CosyVoice
 非公式対応。
 WinとMacのぶんしかクライアントがない。
+
+## LM Studio
+[SillyTavern + LM Studio + 他 でMCPを使ったメモ｜ぬるぽらぼ](https://note.com/nullpolab/n/n4883fdf4b308#c8fb6818-5997-408a-a6bf-d1555d615a71)
+チャット完了、http://127.0.0.1:1234/v1、None。
+
