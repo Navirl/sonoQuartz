@@ -1,3 +1,5 @@
+[AIt](<../Bar/AI/AI_text.md>)
+
 身を乗り出す
 lean forward
 
