@@ -7,7 +7,7 @@ tags:
 up:: [AIt](<../Bar/AI/AI_text.md>)
 
 [AI Character Editor](https://zoltanai.github.io/character-editor/)に従い、たぶんこうなんじゃないかをメモ。
-[Pygmalion\_Character](<./Pygmalion_Character.md>)にも基づく。
+[Pygmalion\_Character](<./ST Pygmalion_Character.md>)にも基づく。
 
 ## Name
 キャラ名。`"Moondrop, the sadistic animatronic"`みたいに性格を入れるテクもある。

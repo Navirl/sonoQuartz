@@ -5,7 +5,7 @@ tags:
 ---
 
 up:: [Pygmalion](<./Pygmalion.md>)
-
+down:: [ST Character card](<./ST Character card.md>)
 
 [AIt Custom character](<./AIt Custom character.md>)
 

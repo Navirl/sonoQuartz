@@ -3,10 +3,11 @@ date: 2023-05-03
 tags:
   - Bar
   - App
-aliases: []
+aliases:
+  - ST
 ---
 
-up:: [Pygmalion](<../../Info/Pygmalion.md>)
+down:: [Pygmalion](<../../Info/Pygmalion.md>)
 
 AIキャラクターに特化したテキスト生成AIのクライアント。
 OodaBoogaかkoboldAIからAPIを貰って動かすのが一番安定。

@@ -42,7 +42,7 @@ Tavernとかで読みこめる。
 
 
 ## キャラクター講座
-[Pygmalion\_Character](<./Pygmalion_Character.md>)
+[Pygmalion\_Character](<./ST Pygmalion_Character.md>)
 
 ちょっとひねれば世界を説明するのにも使える。
 

@@ -101,3 +101,7 @@ Ctrl+Shift+i
 
 割と根深い問題。拡張機能が出るレベル。
 [GitHub - mnaoumov/obsidian-new-note-fixer: Obsidian Plugin that unifies the way non-existing notes are created when clicking on their links](https://github.com/mnaoumov/obsidian-new-note-fixer)
+
+## リンクが勝手に確定する
+Better markdown linkを入れていて、一つ下の階層で別にObsidianを開いてそこでリンクを作ろうとすると発生。
+普通にプラグインを切ればいい。

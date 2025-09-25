@@ -244,7 +244,7 @@ from:: Me
 
 from:: AI Character Editor
 [AI Character Editor](https://zoltanai.github.io/character-editor/)
-[Pygmalion\_Character](<../../../Info/Pygmalion_Character.md>)
+[Pygmalion\_Character](<../../../Info/ST Pygmalion_Character.md>)
 
 - 名前
 - 概要
