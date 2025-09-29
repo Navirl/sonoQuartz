@@ -3,12 +3,10 @@ date: 2022-08-10
 tags:
   - Bar
   - Novel/World
-  - Just-World
 aliases:
-  - "#Just-World"
 ---
 
-up:: [[../Timeline/Just-World_Timeline]]
+up:: [Just-World_Timeline](<../Timeline/Just-World_Timeline.md>)
 
 ![胎児よ、胎児よなぜ踊る？](<../../../Info/胎児よ、胎児よなぜ踊る？.md>)
 

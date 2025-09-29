@@ -264,3 +264,19 @@ end, { noremap = true, expr = true })
 オペレータ関数はドットリピートに対応している。
 
 
+## exコマンド
+:から始まるコマンドはexコマンド。
+自前で作ることもできるらしい。
+[vimindex - Vim日本語ドキュメント](https://vim-jp.org/vimdoc-ja/vimindex.html#ex-cmd-index)
+
+:g。global。
+`:[range]g[lobal]/{pattern}/[cmd]`の形式で、range範囲内でpatternにマッチする行にcmdを実行する。
+g!にすると一致しない物に対して。:vは=:g!。
+
+[repeat - Vim日本語ドキュメント](https://vim-jp.org/vimdoc-ja/repeat.html#:g)
+
+```vim
+:g/^/ if (line('.') % 3 == 0) | put _ | endif
+```
+
+行頭、現在カーソルがある行数字がmod3で0のときブラックホールレジスタで空行追加
