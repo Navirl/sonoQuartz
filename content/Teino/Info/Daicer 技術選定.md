@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [Daicer](<../Novels/programs/Daicer.md>)
+up:: [Daicer](<../Project/programs/Daicer.md>)
 
 
 
