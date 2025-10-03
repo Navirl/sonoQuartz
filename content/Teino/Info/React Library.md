@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [React](<../Bar/Library/React.md>)
+up:: [React](<../Bar/Framework/React.md>)
 up:: [React Native](<../Bar/Framework/React Native.md>)
 
 js.

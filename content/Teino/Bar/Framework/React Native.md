@@ -4,7 +4,7 @@ tags:
   - Bar
 ---
 
-up:: [React](<../Library/React.md>)
+up:: [React](<./React.md>)
 
 Web上で動くReactでネイティブアプリを作るプロジェクト。
 ブラウザを含めてアプリ作るElectronより小さくなる。

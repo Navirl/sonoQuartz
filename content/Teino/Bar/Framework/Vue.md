@@ -5,7 +5,7 @@ tags:
   - Bar
 ---
 
-same:: [React](<../Library/React.md>)
+same:: [React](<./React.md>)
 
 フロントエンドフレームワーク。
 

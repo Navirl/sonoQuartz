@@ -6,8 +6,8 @@ tags:
 
 up:: [Programming](<../Program/Programming.md>)
 
-UIツールキット。[React](<../Library/React.md>)よりももっとカチカチに固まったコンポーネントを提供してくれる。
-作ったコンポーネントは[React](<../Library/React.md>),Angular,Vueなどに持っていける。
+UIツールキット。[React](<./React.md>)よりももっとカチカチに固まったコンポーネントを提供してくれる。
+作ったコンポーネントは[React](<./React.md>),Angular,Vueなどに持っていける。
 ちなみにバックエンドはAngular。
 
 Ionic Portals

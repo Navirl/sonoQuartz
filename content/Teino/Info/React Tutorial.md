@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [React](<../Bar/Library/React.md>)
+up:: [React](<../Bar/Framework/React.md>)
 
 [チュートリアル：三目並べ – React](https://ja.react.dev/learn/tutorial-tic-tac-toe)
 

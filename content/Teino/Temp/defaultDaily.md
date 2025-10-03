@@ -5,6 +5,7 @@ tags:
  - Daily
 ---
 
+- [ ] obsidian://open?vault=Sonolart&file=Project%2Fmy
 - [ ] 指標
 - [ ] 前日確認
 - [ ] 4h,1h目線確認

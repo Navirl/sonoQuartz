@@ -5,7 +5,7 @@ tags:
 ---
 
 up::
-same:: [React](<../Library/React.md>)
+same:: [React](<./React.md>)
 
 Javascriptのフロントエンドフレームワーク。
 

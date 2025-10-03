@@ -73,3 +73,9 @@ Frameworks & Driversはフレームワーク動かしたりデータベース操
 [実装クリーンアーキテクチャ - Qiita](https://qiita.com/nrslib/items/a5f902c4defc83bd46b8#%E7%9F%A2%E5%8D%B0%E3%81%AE%E6%96%B9%E5%90%91)
 
 ついでにドメイン駆動設計の話になるが、引数は必ず見て分かるもの、構造体など名前の付いたものを受け取ること。
+
+
+[モデル層、リポジトリ層、サービス層の役割 - Qiita](https://qiita.com/y-t0910/items/81c326e4b5a4eb0fd6f7)
+[MVC、3 層アーキテクチャから設計を学び始めるための基礎知識 - Qiita](https://qiita.com/os1ma/items/7a229585ebdd8b7d86c2)
+
+たまに見るサービス層はビジネスロジックの実装部分。モデルはサービスが扱う値や構造や状態を定義する。

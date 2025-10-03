@@ -7,7 +7,7 @@ tags:
 up:: [Programming](<../Program/Programming.md>)
 
 いろんなライブラリをモバイルアプリに変換するフレームワーク。
-[React](<../Library/React.md>),Angular,Vueの他、SvelteやSolidJS,Ionic Portals、Pure Typescript,Pure Javascriptも使える。
+[React](<./React.md>),Angular,Vueの他、SvelteやSolidJS,Ionic Portals、Pure Typescript,Pure Javascriptも使える。
 
 SolidJS
 [ReactもSvelteも大好きな私が思うSolidJSの良いところ JavaScript - Qiita](https://qiita.com/tonio0720/items/c28b4d37e6ab860ea04d)
