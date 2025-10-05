@@ -4,8 +4,8 @@ tags:
  - Info
 ---
 
-up:: [Molcule\_Obscure](<../Bar/Novel/Nacaria/Molcule_Obscure.md>)
-up:: [KOW](<../Bar/Novel/Nacaria/KOW.md>)
+up:: [Molcule\_Obscure](<../Bar/Novel/Nacarea/Molcule_Obscure.md>)
+up:: [KOW](<../Bar/Novel/Nacarea/KOW.md>)
 up:: [World](<../Bar/Novel/Topics/World.md>)
 
 KOWは世界を理解する方法

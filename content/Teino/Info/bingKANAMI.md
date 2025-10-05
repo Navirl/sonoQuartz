@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Kanami\_Nijo](<../Bar/Novel/Nacaria/Kanami_Nijo.md>)
+up:: [Kanami\_Nijo](<../Bar/Novel/Nacarea/Kanami_Nijo.md>)
 
 [Marisa\_Kirisame](<../Bar/Novel/Touhou_Project/Marisa_Kirisame.md>)
 

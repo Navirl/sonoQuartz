@@ -4,8 +4,8 @@ tags:
  - Info
 ---
 
-up:: [Kanami\_Nijo](<../Bar/Novel/Nacaria/Kanami_Nijo.md>)
-up:: [Nanashino](<../Bar/Novel/Nacaria/Nanashino.md>)
+up:: [Kanami\_Nijo](<../Bar/Novel/Nacarea/Kanami_Nijo.md>)
+up:: [Nanashino](<../Bar/Novel/Nacarea/Nanashino.md>)
 up:: [Artificial\_Intelligence](<../Bar/Novel/Topics/Artificial_Intelligence.md>)
 
 答えはAIが示してくれる。

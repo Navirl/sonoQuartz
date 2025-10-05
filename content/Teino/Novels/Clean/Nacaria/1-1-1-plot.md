@@ -18,14 +18,14 @@ from:: Save_the_cat
 		- 霧払い、行ってきます
 - セットアップ
 	- 興味を掴みつつ、人物紹介か仄めかし
-		- [秋永](<../../../Bar/Novel/Nacaria/Akinaga.md>)
+		- [秋永](<../../../Bar/Novel/Nacarea/Akinaga.md>)
 			- これほんとにちょい役ですね……
-		- [レイク](<../../../Bar/Novel/Nacaria/Lake.md>)
+		- [レイク](<../../../Bar/Novel/Nacarea/Lake.md>)
 			- 人の形は無しで、多すぎる
-		- [梁先茶樹](<../../../Bar/Novel/Nacaria/Saki_Yanasaki.md>)
-		- [レウリィ](<../../../Bar/Novel/Nacaria/Riitsu_Reuke.md>)
+		- [梁先茶樹](<../../../Bar/Novel/Nacarea/Saki_Yanasaki.md>)
+		- [レウリィ](<../../../Bar/Novel/Nacarea/Riitsu_Reuke.md>)
 			- 今行くのはまずいかもな、全部飲み込む金属蛇が出たって話だ
-		- [二条奏海](<../../../Bar/Novel/Nacaria/Kanami_Nijo.md>)
+		- [二条奏海](<../../../Bar/Novel/Nacarea/Kanami_Nijo.md>)
 - きっかけ
 	- 最初の禍
 		- レウリィの金属蛇が襲う

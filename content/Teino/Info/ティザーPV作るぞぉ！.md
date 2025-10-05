@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Aido\_Itsuragi](<../Bar/Novel/Nacaria/Aido_Itsuragi.md>)
+up:: [Aido\_Itsuragi](<../Bar/Novel/Nacarea/Aido_Itsuragi.md>)
 
 ティザーPV作るぞぉ！
 俺にとっては！　コレでどれだけ数を引き込めるかの闘いだ！

@@ -6,7 +6,7 @@ tags:
 
 up:: [Sillytavern](<../Bar/App/Sillytavern.md>)
 up:: [Me](<../Bar/Novel/Chaos/Me.md>)
-up:: [Saki\_Yanasaki](<../Bar/Novel/Nacaria/Saki_Yanasaki.md>)
+up:: [Saki\_Yanasaki](<../Bar/Novel/Nacarea/Saki_Yanasaki.md>)
 
 結構大事な奴。どういう流れでこれ作り始めたかはこれ見ろ。
 [日本語は状態遷移がやりやすい？](<./日本語は状態遷移がやりやすい？.md>)

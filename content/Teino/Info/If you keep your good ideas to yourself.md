@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [4\_People](<../Bar/Novel/Nacaria/4_People.md>)
+up:: [4\_People](<../Bar/Novel/Nacarea/4_People.md>)
 source:: [Bjarne Stroustrup Quotes](https://www.stroustrup.com/quotes.html)
 
 If you keep your good ideas to yourself, they are useless; you could just as well have been doing crossword puzzles. Only by articulating your ideas and making them accessible through writing and talks do they become a contribution.

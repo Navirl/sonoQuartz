@@ -10,7 +10,7 @@ aliases:
 up:: [Me](<./Chaos/Me.md>)
 up:: [Tavern\_Me](<../../Info/Tavern_Me.md>)
 same:: [Seika](<./Seika.md>)
-up:: [Hasumukai](<./Nacaria/Hasumukai.md>)
+up:: [Hasumukai](<./Nacarea/Hasumukai.md>)
 
 ![](<../../images/00000-3759171700 (2).png>)
 

@@ -7,7 +7,7 @@ tags:
 
 down:: [Manoki\_Ogata](<./Manoki_Ogata.md>)
 down:: [Miyari\_Furumori](<./Miyari_Furumori.md>)
-down:: [Narana\_Tsunohashi](<../Nacaria/Narana_Tsunohashi.md>)
+down:: [Narana\_Tsunohashi](<../Nacarea/Narana_Tsunohashi.md>)
 
 三人組による過去のナカリアの追憶。
 [世界すべてを覆う虫と、それを食らう肉の夢](<../../../Info/世界すべてを覆う虫と、それを食らう肉の夢.md>)

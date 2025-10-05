@@ -5,7 +5,7 @@ tags:
  - Timeline
 ---
 
-up:: [Cricia](<../Nacaria/Cricia.md>)
+up:: [Cricia](<../Nacarea/Cricia.md>)
 
 ```timeline
 [line-3, body-2]

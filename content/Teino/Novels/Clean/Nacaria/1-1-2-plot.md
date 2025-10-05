@@ -18,12 +18,12 @@ from:: Save_the_cat
 		- 科学者の街、ナカリア
 - セットアップ
 	- 興味を掴みつつ、人物紹介か仄めかし
-		- [秋永](<../../../Bar/Novel/Nacaria/Akinaga.md>)
+		- [秋永](<../../../Bar/Novel/Nacarea/Akinaga.md>)
 			- 冒頭のちょい役
 			- レイクは無し
-		- [梁先茶樹](<../../../Bar/Novel/Nacaria/Saki_Yanasaki.md>)
-		- [レウリィ](<../../../Bar/Novel/Nacaria/Riitsu_Reuke.md>)
-		- [二条奏海](<../../../Bar/Novel/Nacaria/Kanami_Nijo.md>)
+		- [梁先茶樹](<../../../Bar/Novel/Nacarea/Saki_Yanasaki.md>)
+		- [レウリィ](<../../../Bar/Novel/Nacarea/Riitsu_Reuke.md>)
+		- [二条奏海](<../../../Bar/Novel/Nacarea/Kanami_Nijo.md>)
 - きっかけ
 	- 最初の禍
 		- レウリィの金属蛇が襲う

@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Sarsh\_People](<../Bar/Novel/Nacaria/Sarsh_People.md>)
+up:: [Sarsh\_People](<../Bar/Novel/Nacarea/Sarsh_People.md>)
 up:: [Plot](<../Bar/Novel/Chaos/Plot.md>)
 
 旅の方……Type-cをお貸しいただき、ありがとうございます……
