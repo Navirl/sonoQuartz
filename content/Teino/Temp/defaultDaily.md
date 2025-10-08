@@ -5,7 +5,7 @@ tags:
  - Daily
 ---
 
-- [ ] [my](obsidian://open?vault=Sonolart&file=Project/my.md)
+- [ ] [my](obsidian://open?vault=Sonolart&file=Project/FX/my)
 - [ ] 指標
 - [ ] 前日確認
 - [ ] 4h,1h目線確認
@@ -15,3 +15,4 @@ tags:
 - [レンジは要注意](<../Daily_Note/2025-10-03.md>)
 - [戻りを意識](<../Daily_Note/2025-10-02.md>)
 - [終わった後の環境再度認識](<../Daily_Note/2025-09-30.md>)
+
