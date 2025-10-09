@@ -113,6 +113,9 @@ OBS側でNDIを出力するにはDistroAVプラグインが必要
 
 [FSプレイ詰め](<../../Info/FSプレイ詰め.md>)
 
+名称
+focussnap,snapflow
+
 Blenderでモデル作成法を学ぶ
 - 前提(Premise)
     - 3Dで
