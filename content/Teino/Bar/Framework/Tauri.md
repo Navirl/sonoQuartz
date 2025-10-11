@@ -135,3 +135,161 @@ tauriからwebassembly読めば無敵？
 ## 他アプリ呼出し
 exeを登録できるsidecar機能というのがあるらしい。
 [【全CLIアプリGUI化計画】TauriでTypeScriptやRustからCLIアプリを呼び出す TypeScript - Qiita](https://qiita.com/namn1125/items/36482917d9c7a8adb658)
+
+## フォルダを移動したのでビルドできない
+cargo cleanでキャッシュ消し。
+
+## デバッグ
+フロントエンドならwebviewにデバッグポートを開いて、アタッチ。
+バックエンドならlldbから起動。
+
+launch.json
+```json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node-terminal",
+            "request": "launch",
+            "name": "Tauri Frontend Debug Launch",
+            "command": "$env:WEBVIEW2_ADDITIONAL_BROWSER_ARGUMENTS=\"--remote-debugging-port=1422\"; npm run tauri dev",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Tauri backend Debug",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--manifest-path=./src-tauri/Cargo.toml",
+                    "--no-default-features"
+                ]
+            },
+            "preLaunchTask": "ui:dev:start",
+            "postDebugTask": "ui:dev:stop",
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Tauri Prod Debug",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--release",
+                    "--manifest-path=./src-tauri/Cargo.toml"
+                ]
+            },
+            "preLaunchTask": "ui:build"
+        },
+        {
+            "name": "Tauri Frontend Attach to Webview",
+            "port": 1422,
+            "request": "attach",
+            "type": "msedge",
+            "webRoot": "${workspaceFolder}",
+            "sourceMaps": true
+        },
+    ],
+    "compounds": [
+        {
+            "name": "Tauri Debug Frontend",
+            "configurations": [
+                "Tauri Frontend Debug Launch",
+                "Tauri Frontend Attach to Webview"
+            ]
+        }
+    ]
+}
+```
+
+tasks.json
+```json
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "ui:dev:start",
+      "type": "shell",
+      "isBackground": true,
+      "command": "npm",
+      "args": [
+        "run",
+        "tauri",
+        "dev"
+      ],
+      "problemMatcher": {
+        "owner": "custom",
+        "pattern": {
+          "regexp": ".",
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": ".",
+          "endsPattern": "VITE .* ready ",
+        }
+      }
+    },
+    {
+      "label": "ui:dev:stop",
+      "type": "shell",
+      "command": "echo ${input:terminate}"
+    },
+    {
+      "label": "ui:build",
+      "type": "shell",
+      "command": "npm",
+      "args": [
+        "run",
+        "tauri",
+        "build"
+      ],
+    }
+  ],
+  "inputs": [
+    {
+      "id": "terminate",
+      "type": "command",
+      "command": "workbench.action.tasks.terminate",
+      "args": "ui:dev:start"
+    }
+  ]
+}
+```
+
+[Tauri 2.0をフロント(js側)含めてVSCodeでデバッグしてみる](https://zenn.dev/playree/articles/7700251ea74f2f)
+[VS Code でのデバッグ](https://v2.tauri.app/ja/develop/debug/vscode/)
+[Is there a recommended way to debug a tauri application (react used as frontend) in vscode on Windows? · tauri-apps/tauri · Discussion #4210](https://github.com/tauri-apps/tauri/discussions/4210)
+[\[docs\] how can i debug the frontend project in vs code with breakpoint instead of using the devtools · Issue #842 · tauri-apps/tauri-docs](https://github.com/tauri-apps/tauri-docs/issues/842)
+[Tauri v2 の VS Code デバッグを yarn 無しで実行する \| Aqua Ware つぶやきブログ](https://aquasoftware.net/blog/?p=2287)
+[【VSCode】タスクの問題マッチャ―(problemMatcher)を理解してみる](https://note.affi-sapo-sv.com/vscode-task-problemmatcher.php)
+
+本当はlaunch.jsonのcompound済みを`"presentation"{"hidden": true}"`で消すべきだが、見えないと不安なので。
+
+envでWEBVIEWへの環境変数は渡せるはずだが、何故か渡らなかったので。
+problemMatcherもcustomだとタスクが終わらなかった。
+
+problemMatcherはエラー文字列を正規表現で抜いて読みやすくするやつ。
+無いと警告が出て煩わしい。
+[【VSCode】タスクの問題マッチャ―(problemMatcher)を理解してみる](https://note.affi-sapo-sv.com/vscode-task-problemmatcher.php)
+
+
+### 中身
+[wails](<./wails.md>)のようにchromeで開いて、とやろうとするとtauri特有のAPIが呼べないとエラーが出る。
+```
+Tauri Error initialization: TypeError: Cannot read properties of undefined (reading 'invoke')
+```
+wailsはバックエンドでHTTPサーバーを開くことにより、フロントエンドからのAPI呼出し->HTTPリクエスト->サーバー->バックエンドというルートを辿らせている。なので通常のブラウザからでも開ける。
+
+tauriはWebViewを開いた後、そこに直接APIを注入する。API呼出し->WebViewの注入されたAPI->バックエンド。なので通常のブラウザからは呼び出す対象が無くエラーになる。
+
+APIを作成しているのはtauri-runtime?
+多分。
+
+[Tauri アーキテクチャ](https://v2.tauri.app/ja/concept/architecture/)
+[どうやって動いているの? \| Wails](https://wails.io/ja/docs/next/howdoesitwork/)
+
+なのでwebviewにデバッグポートを開かせて、それにデバッガをアタッチすることになる。
+これはwebview2を持つwindowsにしか今のところ出来てないっぽい。
+
+[\[docs\] how can i debug the frontend project in vs code with breakpoint instead of using the devtools · Issue #842 · tauri-apps/tauri-docs](https://github.com/tauri-apps/tauri-docs/issues/842)
