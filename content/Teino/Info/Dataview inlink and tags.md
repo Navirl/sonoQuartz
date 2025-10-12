@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Obsidian](<../Bar/App/Obsidian.md>)
+up:: [Obsidian](<../Bar/GUI/Obsidian.md>)
 source:: [Queries - Dataview](https://blacksmithgu.github.io/obsidian-dataview/query/queries/#from)
 source:: [Sources - Dataview](https://blacksmithgu.github.io/obsidian-dataview/query/sources/)
 source:: [[Bug] file.inlinks not working correctly · Issue 196 · blacksmithgu/obsidian-dataview · GitHub](https://github.com/blacksmithgu/obsidian-dataview/issues/196)

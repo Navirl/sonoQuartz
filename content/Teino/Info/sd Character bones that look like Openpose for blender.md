@@ -6,9 +6,9 @@ aliases:
   - sd blender
 ---
 
-up:: [Stable Diffusion](<../Bar/Stable Diffusion.md>)
+up:: [Stable Diffusion](<./Stable Diffusion.md>)
 up:: [sd ControlNet](<./sd controlnet.md>)
-up:: [Blender](<../Bar/App/Blender.md>)
+up:: [Blender](<../Bar/GUI/Blender.md>)
 
 オープンポーズ等をblenderから自由度高く出力するblendファイル。
 そこそこ手間がかかるので事前にSD1.5Scribble出力するなどしてイメージは固めておく。

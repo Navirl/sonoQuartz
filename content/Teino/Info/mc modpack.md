@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [minecraft](<../Bar/App/minecraft.md>)
+up:: [minecraft](<../Bar/GUI/minecraft.md>)
 
 ## [Cisco's Fantasy Medieval RPG [Ultimate]](https://www.modpackindex.com/modpack/74877/ciscos-fantasy-medieval-rpg-ultimate)
 2025/01/16

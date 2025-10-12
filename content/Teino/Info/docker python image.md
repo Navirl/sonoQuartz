@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Docker](<../Bar/App/Docker.md>)
+up:: [Docker](<../Bar/GUI/Docker.md>)
 
 pythonのver、debianのver、slim(余計なパッケージが入ってない)、alpineなどでイメージが分けられている。
 

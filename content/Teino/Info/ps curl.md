@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [ps](<../Bar/App/PowerShell_and_Command-Line.md>)
+up:: [ps](<../Bar/GUI/PowerShell_and_Command-Line.md>)
 
 簡単にサーバーとやり取りできるコマンド。
 client for URLsの略。

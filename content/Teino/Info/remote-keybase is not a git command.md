@@ -4,8 +4,8 @@ tags:
  - Info
 ---
 
-up:: [Termux](<../Bar/App/Termux.md>)
-up:: [Keybase](<../Bar/App/Keybase.md>)
+up:: [Termux](<../Bar/CLI/Termux.md>)
+up:: [Keybase](<../Bar/GUI/Keybase.md>)
 source:: [git: 'remote-keybase' is not a git command · Issue 15176 · keybase/client · GitHub](https://github.com/keybase/client/issues/15176)
 source:: [android - How to use Keybase Git repository in Termux - Stack Overflow](https://stackoverflow.com/questions/59877301/how-to-use-keybase-git-repository-in-termux)
 source:: [cli on Android: no external key store available · Issue 17203 · keybase/client · GitHub](https://github.com/keybase/client/issues/17203)

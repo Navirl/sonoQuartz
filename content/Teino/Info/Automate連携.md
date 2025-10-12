@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Termux](<../Bar/App/Termux.md>)
+up:: [Termux](<../Bar/CLI/Termux.md>)
 up:: [Automate](<../Bar/Program/Automate.md>)
 
 ## Automate連携

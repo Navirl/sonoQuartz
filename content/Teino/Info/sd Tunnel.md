@@ -6,7 +6,7 @@ aliases:
   - sd ngrok
 ---
 
-up:: [ComfyUI](<../Bar/App/ComfyUI.md>)
+up:: [ComfyUI](<../Bar/GUI/ComfyUI.md>)
 
 ngrokを使っていたが、上限がすぐ来るので。
 画面上から直接DLとかするからでは。

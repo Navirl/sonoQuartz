@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [Blender](<../Bar/App/Blender.md>)
+up:: [Blender](<../Bar/GUI/Blender.md>)
 
 ```python
 bl_info = {

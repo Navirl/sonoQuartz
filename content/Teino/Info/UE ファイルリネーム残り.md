@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [UE](<../Bar/App/Unreal_Engine.md>)
+up:: [UE](<../Bar/GUI/Unreal_Engine.md>)
 source:: [[UE4] リダイレクター ～消えないゴミファイルの謎～｜株式会社ヒストリア](https://historia.co.jp/archives/1028/)
 
 UEでファイルをリネームすると、前の名前のファイルが残ることがある。

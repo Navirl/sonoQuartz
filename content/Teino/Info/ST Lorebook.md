@@ -5,7 +5,7 @@ tags:
  - Info
 ---
 
-up:: [ST](<../Bar/App/Sillytavern.md>)
+up:: [ST](<../Bar/GUI/Sillytavern.md>)
 
 [World Info Encyclopedia](https://rentry.co/world-info-encyclopedia)
 

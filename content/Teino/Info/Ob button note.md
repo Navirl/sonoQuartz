@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Obsidian](<../Bar/App/Obsidian.md>)
+up:: [Obsidian](<../Bar/GUI/Obsidian.md>)
 
 目的：
 	手動でテンプレートが置いてあるフォルダーを指定すること

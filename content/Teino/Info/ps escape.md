@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [PowerShell\_and\_Command-Line](<../Bar/App/PowerShell_and_Command-Line.md>)
+up:: [PowerShell\_and\_Command-Line](<../Bar/GUI/PowerShell_and_Command-Line.md>)
 
 ドル記号の前にバッククオートを付けるだけで回避可能。
 ちなみに一回ファイルパスをテキストファイルに保存してから読み込んでもうまくいくらしい。

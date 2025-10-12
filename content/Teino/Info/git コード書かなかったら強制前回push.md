@@ -5,7 +5,7 @@ tags:
  - Info
 ---
 
-up:: [Git](<../Bar/App/Git.md>)
+up:: [Git](<../Bar/CLI/Git.md>)
 
 殺意を感じるgithub actions。
 

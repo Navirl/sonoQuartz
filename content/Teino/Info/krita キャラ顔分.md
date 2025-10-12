@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [krita](<../Bar/App/krita.md>)
+up:: [krita](<../Bar/GUI/krita.md>)
 
 眉、目、口とEXとして体が入ったpsdを出力すればいい
 

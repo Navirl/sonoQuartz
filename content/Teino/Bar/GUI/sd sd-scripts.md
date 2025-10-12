@@ -6,7 +6,7 @@ tags:
 ---
 
 up:: [sd LoRA 学習](<../../Info/sd LoRA 学習.md>)
-up:: [Stable Diffusion](<../Stable Diffusion.md>)
+up:: [Stable Diffusion](<../../Info/Stable Diffusion.md>)
 
 [GitHub - kohya-ss/sd-scripts](https://github.com/kohya-ss/sd-scripts/tree/main)
 

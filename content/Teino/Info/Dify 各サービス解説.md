@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [Dify](<../Bar/App/Dify.md>)
+up:: [Dify](<../Bar/GUI/Dify.md>)
 
 - aippt
   - AIを使ってプレゼンテーションを作成するサービス。

@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [Stable Diffusion](<../Bar/Stable Diffusion.md>)
+up:: [Stable Diffusion](<./Stable Diffusion.md>)
 
 サンプラーごと比較
 [サンプリングメソッドの比較 (Euler , DPM, DDIM, UniPC, LMS .....) - Stable Diffusion Tips | iPentec](https://www.ipentec.com/document/software-stable-diffusion-difference-sampling-method)

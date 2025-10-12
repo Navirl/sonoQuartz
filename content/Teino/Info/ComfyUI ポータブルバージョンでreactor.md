@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [ComfyUI](<../Bar/App/ComfyUI.md>)
+up:: [ComfyUI](<../Bar/GUI/ComfyUI.md>)
 
 [ログイン | クラウドソーシング「ランサーズ」](https://www.lancers.jp/project_board/86514?ref=finish)
 ランサーズでやったやつ。

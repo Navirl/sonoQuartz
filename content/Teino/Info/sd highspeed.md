@@ -6,7 +6,7 @@ aliases:
   - sd 高速化
 ---
 
-up:: [Stable Diffusion](<../Bar/Stable Diffusion.md>)
+up:: [Stable Diffusion](<./Stable Diffusion.md>)
 
 ステップ数を下げる奴は早いうちに方向性を決定する+プロンプトを指定できない→方向性が決まっており多様性が失われがち。
 

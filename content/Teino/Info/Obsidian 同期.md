@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Obsidian](<../Bar/App/Obsidian.md>)
+up:: [Obsidian](<../Bar/GUI/Obsidian.md>)
 
 ## Obsidian Win、iOS、Androidで同期
 Win、iOS、Androidの三機種間同期。なにもかもObsidian Gitがモバイルで動作しないのが悪い。

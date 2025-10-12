@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [sd](<../Bar/Stable Diffusion.md>)
+up:: [sd](<./Stable Diffusion.md>)
 
 ## ディティール
 [Add More Details - Detail Enhancer / Tweaker (细节调整) LoRA - v1.0 | Stable Diffusion LoRA | Civitai](https://civitai.com/models/82098/add-more-details-detail-enhancer-tweaker-lora)

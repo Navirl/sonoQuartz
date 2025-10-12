@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [UE5.0.2](<../Bar/App/UE5.0.2.md>)
+up:: [UE5.0.2](<../Bar/GUI/UE5.0.2.md>)
 source:: [Ue4 accessed none trying to read property callfunc create return value widget - Unreal Engine / Programming & Scripting - Unreal Engine Forums](https://forums.unrealengine.com/t/ue4-accessed-none-trying-to-read-property-callfunc-create-return-value-widget/460649)
 source:: [Multiplayer Widgets On One Or All Screens | Replication - Unreal Engine Tutorial - YouTube](https://www.youtube.com/watch?v=2GYicrkCElA)
 source:: [Is Server | Unreal Engine Documentation](https://docs.unrealengine.com/4.26/en-US/BlueprintAPI/Networking_1/IsServer/)

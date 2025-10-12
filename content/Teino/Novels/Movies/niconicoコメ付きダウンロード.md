@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [Termux](<../../Bar/App/Termux.md>)
+up:: [Termux](<../../Bar/CLI/Termux.md>)
 up:: [Shellscript](<../../Bar/Program/Shellscript.md>)
 
 nndownloadが第一候補。yt-dlpは大抵役に立たない。
@@ -29,4 +29,4 @@ nico_xml_to_biliでビリビリ形式にするなり。buggyだが。
 
 なんかbilibiliにすらdanmaku2assが使えないので（2024/10/11）nicoxml2assがよさそう。
 
-できた。[niconicoをコメント付きでダウンロードしてass変換](<../../Bar/App/Termux.md#niconicoをコメント付きでダウンロードしてass変換>)
+できた。[niconicoをコメント付きでダウンロードしてass変換](<../../Bar/CLI/Termux.md#niconicoをコメント付きでダウンロードしてass変換>)

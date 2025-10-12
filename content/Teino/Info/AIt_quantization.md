@@ -32,7 +32,7 @@ AWQ
 
 [GGML/GGUF/GPTQの違い](https://zenn.dev/kun432/scraps/6fc012752afa62)
 
-up:: [tgwebui](<../Bar/App/text-generation-webui.md>)
+up:: [tgwebui](<../Bar/GUI/text-generation-webui.md>)
 
 量子化。モデルを小さくしつつ精度を落とさない技術。
 

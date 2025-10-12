@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [UE5.0.2](<../Bar/App/UE5.0.2.md>)
+up:: [UE5.0.2](<../Bar/GUI/UE5.0.2.md>)
 source:: [Oculusの開発者登録　備忘録 - Qiita](https://qiita.com/nekoharuyuki/items/79c2c4fa6bf88d11b108)
 source:: [Site Unreachable](https://developer.oculus.com/documentation/unreal/unreal-quick-start-guide-quest/)
 source:: [Oculus Questで動くアプリをUnreal Engineで作ってみる(1) - Qiita](https://qiita.com/Azarashi-Tech/items/f69af9b496694e01c502#%E5%8F%82%E8%80%83%E3%81%AB%E3%81%97%E3%81%9F%E5%8B%95%E7%94%BB)

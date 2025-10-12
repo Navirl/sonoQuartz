@@ -4,14 +4,14 @@ tags:
  - Info
 ---
 
-up:: [text-generation-webui](<../Bar/App/text-generation-webui.md>)
+up:: [text-generation-webui](<../Bar/GUI/text-generation-webui.md>)
 
 
 テキストモデル。
 いくつかある小説特化型テキストモデルの中でも有力候補。検閲無しでNSFW含め何でも出せる。
 今はredditを始め、AIにキャラクターを持たせて話す研究の場としてどんどん成長した。一応歴史としては、2023年1月12日にHaggingFaceに公式モデルがアップされ、1月17日にreddit開設。
 
-ここでは[Sillytavern](<../Bar/App/Sillytavern.md>)などを使いAIキャラクターを生成して会話できるモデルとして扱う。
+ここでは[Sillytavern](<../Bar/GUI/Sillytavern.md>)などを使いAIキャラクターを生成して会話できるモデルとして扱う。
 
 関連リンクがまとめられている。
 [Helpful Links](https://rentry.co/PygmalionLinks)

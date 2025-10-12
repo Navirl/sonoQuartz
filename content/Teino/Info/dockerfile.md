@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Docker](<../Bar/App/Docker.md>)
+up:: [Docker](<../Bar/GUI/Docker.md>)
 
 これ見ながら書いてる。
 [stable-diffusion-webui-docker/Dockerfile.Stable at main · camenduru/stable-diffusion-webui-docker · GitHub](https://github.com/camenduru/stable-diffusion-webui-docker/blob/main/Dockerfile.Stable)

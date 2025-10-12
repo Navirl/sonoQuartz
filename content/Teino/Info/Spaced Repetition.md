@@ -7,7 +7,7 @@ aliases:
 ---
 
 up:: [Component](<../Bar/Novel/Chaos/Component.md>)
-up:: [Product](<../Bar/Product.md>)
+up:: [learning](<../Bar/learning.md>)
 same:: [Incremental Reading](<./Incremental Reading.md>)
 
 日を改めて同じ学習を続けることで、記憶を増強する手法。

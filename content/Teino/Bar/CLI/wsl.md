@@ -5,7 +5,7 @@ tags:
  - App
 ---
 
-up:: [PowerShell\_and\_Command-Line](<./PowerShell_and_Command-Line.md>)
+up:: [PowerShell\_and\_Command-Line](<../GUI/PowerShell_and_Command-Line.md>)
 
 脱出はexit。
 
@@ -84,7 +84,7 @@ appendWindowsPath = false
 
 
 なお、.exeを付けないとちゃんと読んでくれない。
-しゃーないので[mise](<../Tools/mise.md>)は`mise.exe x -- fd`のようにして呼んでる。
+しゃーないので[mise](<./mise.md>)は`mise.exe x -- fd`のようにして呼んでる。
 
 なんかプロセスを消してくれない？
 どんどんたまってタスクマネージャーが効かない位PCを重くしたので、あまり同じmiseをwslから使わないようにする。

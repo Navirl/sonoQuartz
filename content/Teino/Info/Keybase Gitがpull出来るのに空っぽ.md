@@ -4,8 +4,8 @@ tags:
  - Info
 ---
 
-up:: [Keybase](<../Bar/App/Keybase.md>)
-up:: [Git](<../Bar/App/Git.md>)
+up:: [Keybase](<../Bar/GUI/Keybase.md>)
+up:: [Git](<../Bar/CLI/Git.md>)
 source:: [Empty Git repository? : Keybase](https://www.reddit.com/r/Keybase/comments/tns1zc/empty_git_repository/)
 
 クライアントからGitリポジトリを覗くとき、見えるのはmasterブランチのモノのみ。

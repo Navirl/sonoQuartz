@@ -13,7 +13,7 @@ venvも作成可能。
 
 [GitHub - astral-sh/uv: An extremely fast Python package installer and resolver, written in Rust.](https://github.com/astral-sh/uv)
 
-仮想環境上での環境変数管理が出来ないが、[mise](<../Bar/Tools/mise.md>)に任せればいい。
+仮想環境上での環境変数管理が出来ないが、[mise](<../Bar/CLI/mise.md>)に任せればいい。
 
 [mise-en-placeとuvでPython環境をセットアップする 備忘録 - Qiita](https://qiita.com/jkawamoto/items/874bc0bb1bd5cf7aba5b)
 

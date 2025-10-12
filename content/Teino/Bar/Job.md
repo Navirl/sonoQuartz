@@ -5,5 +5,3 @@ tags:
 ---
 
 up:: [Univ](<./Univ.md>)
-
-[Company\_List](<./Company_List.md>)

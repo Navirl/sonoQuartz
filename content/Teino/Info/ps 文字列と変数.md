@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [PowerShell\_and\_Command-Line](<../Bar/App/PowerShell_and_Command-Line.md>)
+up:: [PowerShell\_and\_Command-Line](<../Bar/GUI/PowerShell_and_Command-Line.md>)
 
 `$()`で囲む。これ自体は文字列内でコマンドを実行するための記法。
 

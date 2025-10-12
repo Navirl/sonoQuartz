@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Docker](<../Bar/App/Docker.md>)
+up:: [Docker](<../Bar/GUI/Docker.md>)
 
 cloudflareのnanoservice
 

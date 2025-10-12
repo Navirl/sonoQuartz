@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [PowerShell\_and\_Command-Line](<../Bar/App/PowerShell_and_Command-Line.md>)
+up:: [PowerShell\_and\_Command-Line](<../Bar/GUI/PowerShell_and_Command-Line.md>)
 source:: [Expand-Archive (Microsoft.PowerShell.Archive) - PowerShell | Microsoft Docs](https://docs.microsoft.com/ja-jp/powershell/module/Microsoft.PowerShell.Archive/Expand-Archive?view=powershell-7.2)
 source:: [PowerShell 5.0で2GB以上のファイルをzip圧縮する - Qiita](https://qiita.com/qtach1/items/667a2160e5e2a421fcd2)
 source:: [7-Zipのコマンドライン操作 | CGBeginner たてはま](https://cgbeginner.net/7-zip/)

@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Fyrox](<../Bar/App/Fyrox.md>)
+up:: [Fyrox](<../Bar/GUI/Fyrox.md>)
 
 [Character controller - Fyrox Book](https://fyrox-book.github.io/fyrox/tutorials/rpg/tutorial-1/tutorial-part-1.html)
 

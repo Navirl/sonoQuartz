@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Obsidian](<../Bar/App/Obsidian.md>)
+up:: [Obsidian](<../Bar/GUI/Obsidian.md>)
 
 dataviewで取ったリストを上から読み取り、.trashに送る
 贈る前に確認でリストを表示

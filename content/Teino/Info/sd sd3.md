@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [sd](<../Bar/Stable Diffusion.md>)
+up:: [sd](<./Stable Diffusion.md>)
 
 sd3。svdなどと同じ非商用、許諾商用ライセンス。
 今あるmediumを解説。

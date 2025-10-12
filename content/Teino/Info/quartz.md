@@ -5,7 +5,7 @@ tags:
  - Info
 ---
 
-up:: [Obsidian](<../Bar/App/Obsidian.md>)
+up:: [Obsidian](<../Bar/GUI/Obsidian.md>)
 
 obsidianなどのマークダウンをウェブに公開するためのフレームワーク。
 v4.0でいろいろ変更された？

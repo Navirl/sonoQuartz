@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [PowerShell\_and\_Command-Line](<../Bar/App/PowerShell_and_Command-Line.md>)
+up:: [PowerShell\_and\_Command-Line](<../Bar/GUI/PowerShell_and_Command-Line.md>)
 
 `Read-Host`。これ自体は入力を受け付ける奴。
 `pause`でも動くが、内部的に`cmd pause`を実行している。

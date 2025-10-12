@@ -4,6 +4,6 @@ tags:
  - Info
 ---
 
-up:: [UE5.0.2](<../Bar/App/UE5.0.2.md>)
+up:: [UE5.0.2](<../Bar/GUI/UE5.0.2.md>)
 
 セット出来ない。

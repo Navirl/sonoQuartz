@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [UE](<../Bar/App/Unreal_Engine.md>)
+up:: [UE](<../Bar/GUI/Unreal_Engine.md>)
 source:: [BPの参照連鎖を断つ手法 | 株式会社ヘキサドライブ | HEXADRIVE | ゲーム制作を中心としたコンテンツクリエイト会社](https://hexadrive.jp/lab/tips/atc/101479/)
 
 UEはアセットがロードされるとき、そのアセットが参照している依存アセットも一緒にロードして軽くするという手法が使われている。

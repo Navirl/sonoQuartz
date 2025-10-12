@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [UE5.0.2](<../Bar/App/UE5.0.2.md>)
+up:: [UE5.0.2](<../Bar/GUI/UE5.0.2.md>)
 source:: [【UE5】ライティング と ライトベイク について　ライトの基礎を解説 | メタタイムCG](https://metatimecg.com/ue5-lighting-build-basic/)
 source:: [【UE5】Lumen の注意点やTipsをまとめてみた | メタタイムCG](https://metatimecg.com/ue5-lumen-tips/)
 source:: [【UE5】Lumenとは？使い方も解説！｜UnrealEngine5(UE5)の教科書[旧]](https://zenn.dev/daichi_gamedev/books/unreal-engine-5/viewer/how-to-use-lumen)

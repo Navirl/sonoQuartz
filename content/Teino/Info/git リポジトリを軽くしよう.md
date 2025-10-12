@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Git](<../Bar/App/Git.md>)
+up:: [Git](<../Bar/CLI/Git.md>)
 source:: [パーシャルクローンとシャロークローンを活用しよう - GitHubブログ](https://github.blog/jp/2021-01-13-get-up-to-speed-with-partial-clone-and-shallow-clone/)
 source:: [巨大なリポジトリをクローンするときに便利なパーシャルクローンとsparse-checkout - Vがいる日々](https://vlike-vlife.netlify.app/posts/git_partial_clone)
 source:: [Git - git-clone Documentation](https://git-scm.com/docs/git-clone#Documentation/git-clone.txt---depthltdepthgt)

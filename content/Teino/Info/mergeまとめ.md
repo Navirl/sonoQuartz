@@ -4,6 +4,6 @@ tags:
  - Info
 ---
 
-up:: [Git](<../Bar/App/Git.md>)
+up:: [Git](<../Bar/CLI/Git.md>)
 source:: [git merge解説 - Qiita](https://qiita.com/yunano/items/9f48fedca0a58f3befd1)
 

@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Termux](<../Bar/App/Termux.md>)
+up:: [Termux](<../Bar/CLI/Termux.md>)
 source:: [Is it possible to make work symlinks on mounted internal storage? · Issue 513 · termux/termux-app · GitHub](https://github.com/termux/termux-app/issues/513)
 
 ## シンボリックリンクが張れない

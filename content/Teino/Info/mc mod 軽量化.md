@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [minecraft](<../Bar/App/minecraft.md>)
+up:: [minecraft](<../Bar/GUI/minecraft.md>)
 
 というか描画設定を充実させる奴。
 

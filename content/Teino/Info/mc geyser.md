@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [minecraft](<../Bar/App/minecraft.md>)
+up:: [minecraft](<../Bar/GUI/minecraft.md>)
 
 javaサーバーにbedrockから接続するためのプラグイン。
 modはサーバー側のfabric modのみ対応。簡単に言うとバニラjavaが接続できるサーバーのみ。

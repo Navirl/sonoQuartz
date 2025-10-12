@@ -1,4 +1,4 @@
-[Git](<../../Bar/App/Git.md>)
+[Git](<../../Bar/CLI/Git.md>)
 
 [Git研修【MIXI 23新卒技術研修】 - YouTube](https://www.youtube.com/watch?v=lWkO8bQ9pSo)
 

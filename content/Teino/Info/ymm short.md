@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [YMM](<../Bar/App/YukkriMovieMaker.md>)
+up:: [YMM](<../Bar/GUI/YukkriMovieMaker.md>)
 
 # short
 通常、YMM4から直接アリアルを呼ぶとアクセントや間の調整が出来ません。

@@ -6,7 +6,7 @@ aliases:
   - 純粋関数
 ---
 
-up:: [UE5.0.2](<../Bar/App/UE5.0.2.md>)
+up:: [UE5.0.2](<../Bar/GUI/UE5.0.2.md>)
 source:: [UE4 Pure関数とNonPure関数｜株式会社ヒストリア](https://historia.co.jp/archives/3929/)
 
 ==戻り値が参照されているとき==に実行される関数。

@@ -82,7 +82,7 @@ MIDI変換。
 ## オートメーション
 ### Dify
 いろんなサービスを簡単に接続する。
-[Dify](<../App/Dify.md>)
+[Dify](<../GUI/Dify.md>)
 
 ### Restack
 AIエージェント。

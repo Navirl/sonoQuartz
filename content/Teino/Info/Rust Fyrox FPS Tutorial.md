@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Fyrox](<../Bar/App/Fyrox.md>)
+up:: [Fyrox](<../Bar/GUI/Fyrox.md>)
 
 [FPS Tutorial - Fyrox Book](https://fyrox-book.github.io/fyrox/tutorials/fps/intro.html)
 [Custom game loop (Obsolete) - Fyrox Book](https://fyrox-book.github.io/fyrox/obsolete/custom_game_loop.html?highlight=event%3A%3Amain#custom-game-loop)

@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Termux](<../Bar/App/Termux.md>)
+up:: [Termux](<../Bar/CLI/Termux.md>)
 source:: [AndroidにTermuxを入れてSSHで入ってLinux環境を作る【まとめ版】 | 楽しい活字中毒](https://tanokatu.com/2021/06/22/linux-android-linux-2/)
 source:: [termuxでSSHサーバを動かす - Smart Home](https://scrapbox.io/smart-home/termux%E3%81%A7SSH%E3%82%B5%E3%83%BC%E3%83%90%E3%82%92%E5%8B%95%E3%81%8B%E3%81%99)
 

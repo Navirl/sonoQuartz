@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [Stable Diffusion](<../Bar/Stable Diffusion.md>)
+up:: [Stable Diffusion](<./Stable Diffusion.md>)
 
 ## LoRA
 追加学習により他の画風を学んだり、特定のキャラクターの概念を教え込んだりできる機能。
@@ -12,7 +12,7 @@ up:: [Stable Diffusion](<../Bar/Stable Diffusion.md>)
 
 つくりたいならここ。
 簡易的なサンプル画像生成機能もついている。
-[sd sd-scripts](<../Bar/App/sd sd-scripts.md>)
+[sd sd-scripts](<../Bar/GUI/sd sd-scripts.md>)
 [\[Guide\] Make your own Loras, easy and free - colabs | Stable Diffusion Other | Civitai](https://civitai.com/models/22530)
 [Rough FAQ for 東方Project AI](https://rentry.org/tohoaifaq#opinionated-lora-guide-for-colab)
 [Tutorial: Lycoris/LoCon Training using Kohya\_SS | Civitai](https://civitai.com/articles/908/tutorial-lycorislocon-training-using-kohyass)

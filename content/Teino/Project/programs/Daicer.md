@@ -4,9 +4,7 @@ tags:
   - Info
 ---
 
-up:: [Idea](<../../Bar/Idea.md>)
-
-[Tauri](<../../Bar/Framework/Tauri.md>)
+up:: [Tauri](<../../Bar/Framework/Tauri.md>)
 
 リアルタイム動画
 Riveエディタ

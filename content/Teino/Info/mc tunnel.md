@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [mc](<../Bar/App/minecraft.md>)
+up:: [mc](<../Bar/GUI/minecraft.md>)
 
 Nuro10gにしたら、デュアルスタックからMAP-Eという方式に変わったらしい。ZXHN F2886S。
 つまりIPv4はIPv4、IPv6はIPv6というのだったのが、IPv4 over IPv6 トンネリング技術で4をカプセル化して6に流す、つまり全部6で流す方式になった。

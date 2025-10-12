@@ -1,10 +1,10 @@
 ---
 date: 2023-10-21
 tags:
-  - Bar
+  - Info
 ---
 
-up::
+up:: [Job](<../Bar/Job.md>)
 
 
 ## ITパスポート

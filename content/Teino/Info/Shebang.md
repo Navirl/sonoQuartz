@@ -5,7 +5,7 @@ tags:
 ---
 
 up:: [Shellscript](<../Bar/Program/Shellscript.md>)
-up:: [Termux](<../Bar/App/Termux.md>)
+up:: [Termux](<../Bar/CLI/Termux.md>)
 
 ## Shebang
 .shの一行目に書いてるコメントに酷似したこれ。

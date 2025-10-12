@@ -5,7 +5,7 @@ tags:
  - Info
 ---
 
-up:: [ST](<../Bar/App/Sillytavern.md>)
+up:: [ST](<../Bar/GUI/Sillytavern.md>)
 same:: [ST Lorebook](<./ST Lorebook.md>)
 
 Ali:ChatとPListの組み合わせが主流。

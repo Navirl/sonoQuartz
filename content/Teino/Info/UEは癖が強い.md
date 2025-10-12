@@ -4,8 +4,8 @@ tags:
  - Info
 ---
 
-up:: [Unreal\_Engine](<../Bar/App/Unreal_Engine.md>)
-up:: [Unity](<../Bar/App/Unity.md>)
+up:: [Unreal\_Engine](<../Bar/GUI/Unreal_Engine.md>)
+up:: [Unity](<../Bar/GUI/Unity.md>)
 source:: [UE4はまず最初にチュートリアル動画を沢山見よう - 3DCGで何をどう作るか考え中](https://www.yamato-tsukasa.com/entry/2020/01/06/031854)
 source:: [20 rules of formulating knowledge in learning](https://super-memory.com/articles/20rules.htm#mnemonic%20techniques)
 

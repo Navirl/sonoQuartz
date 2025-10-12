@@ -5,7 +5,7 @@ tags:
   - Project
 ---
 
-up:: [ComfyUI](<../Bar/App/ComfyUI.md>)
+up:: [ComfyUI](<../Bar/GUI/ComfyUI.md>)
 
 まずはxDiT。
 

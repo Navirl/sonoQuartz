@@ -5,7 +5,7 @@ tags:
   - Project
 ---
 
-up:: [ComfyUI](<../Bar/App/ComfyUI.md>)
+up:: [ComfyUI](<../Bar/GUI/ComfyUI.md>)
 
 ComfyUI-MultiGPUは現在の使用対象GPUの関数をパッチして使っている。
 Distrifusionはもっと根を書き換えないといけないのでこれは使えない。

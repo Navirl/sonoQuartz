@@ -17,7 +17,7 @@ up:: [AIt](<./AI_text.md>)
 
 ollamaもdockerで起動すること前提の設定（http://host.docker.internal:11434）。モデルのダウンロードもこのollamaで行う。
 なので一回ollamaのコンテナに接続する。
-[docker exec](<../App/Docker.md#docker exec>)
+[docker exec](<../GUI/Docker.md#docker exec>)
 
 その後、ollama runで好きなモデルを取ってくる。
 [Ollama で Hugging Face Hub の GGUF をそのまま使ってみる｜ぬこぬこ](https://note.com/schroneko/n/n6a7c34f0a50c)

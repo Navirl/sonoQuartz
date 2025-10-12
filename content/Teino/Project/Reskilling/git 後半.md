@@ -1,4 +1,4 @@
-[Git](<../../Bar/App/Git.md>)
+[Git](<../../Bar/CLI/Git.md>)
 
 # Git内部
 

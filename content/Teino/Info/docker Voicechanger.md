@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Docker](<../Bar/App/Docker.md>)
+up:: [Docker](<../Bar/GUI/Docker.md>)
 
 [AI歌声合成？ボイチェン？Diff-SVCを徹底解説してみた！【やり方もあるよ】(2023-1-15訂正) - アマノケイのまったり技術解説](https://amanokei.hatenablog.com/entry/2022/12/13/182636)
 

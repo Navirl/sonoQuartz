@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [Obsidian](<../Bar/App/Obsidian.md>)
+up:: [Obsidian](<../Bar/GUI/Obsidian.md>)
 
 ソース内にdebugger;という一文を入れるとブレークポイントを置いたのと同等の動作になる
 

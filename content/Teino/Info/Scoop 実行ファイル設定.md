@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Scoop](<../Bar/App/Scoop.md>)
+up:: [Scoop](<../Bar/CLI/Scoop.md>)
 
 `$env:SCOOP='C:\Scoop'`
 `environment:setEnvironmentVariable('SCOOP',$env:SCOOP,'User')`

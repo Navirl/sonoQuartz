@@ -5,7 +5,7 @@ tags:
  - Info
 ---
 
-up:: [Product](<../Bar/Product.md>)
+up:: [learning](<../Bar/learning.md>)
 
 [DACI：意思決定フレームワーク \| Atlassian Team Playbook](https://www.atlassian.com/ja/team-playbook/plays/daci)
 [チームで意思決定をするときのフレームワーク「DACI（デイシー）」](https://zenn.dev/manabuyasuda/articles/c8183c5e45d631)

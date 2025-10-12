@@ -4,7 +4,7 @@ tags:
  - Bar
 ---
 
-up:: [App](<./App.md>)
+
 
 [GitHub - zed-industries/zed: Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.](https://github.com/zed-industries/zed?tab=readme-ov-file)
 

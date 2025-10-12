@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [YMM](<../Bar/App/YukkriMovieMaker.md>)
+up:: [YMM](<../Bar/GUI/YukkriMovieMaker.md>)
 
 # 目パチ口パク実ボイス動画
 通常、目パチ口パクは手動でやると非常に手間がかかります。

@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [sdwebui](<../Bar/App/stable-diffusion-webui.md>)
+up:: [sdwebui](<../Bar/GUI/stable-diffusion-webui.md>)
 
 ## sd 問題確認
 - 使用している環境は何ですか

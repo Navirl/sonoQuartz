@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Unreal\_Engine](<../Bar/App/Unreal_Engine.md>)
+up:: [Unreal\_Engine](<../Bar/GUI/Unreal_Engine.md>)
 
 ## UE Android SDK
 マジでめんどくさかった。UE5.0.1。

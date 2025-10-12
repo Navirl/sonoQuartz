@@ -4,8 +4,8 @@ tags:
   - Info
 ---
 
-up:: [ps](<../Bar/App/PowerShell_and_Command-Line.md>)
-up:: [Scoop](<../Bar/App/Scoop.md>)
+up:: [ps](<../Bar/GUI/PowerShell_and_Command-Line.md>)
+up:: [Scoop](<../Bar/CLI/Scoop.md>)
 
 psというかscoopとwindows terminalの問題。
 

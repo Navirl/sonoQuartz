@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [mc](<../Bar/App/minecraft.md>)
+up:: [mc](<../Bar/GUI/minecraft.md>)
 
 
 ## 景観

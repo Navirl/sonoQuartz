@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [sdwebui](<../Bar/App/stable-diffusion-webui.md>)
+up:: [sdwebui](<../Bar/GUI/stable-diffusion-webui.md>)
 
 ## resize
 [【Stable Diffusion】img2imgで選べるResize mode4つの違いを検証！ | 動画編集ロードマップ動画編集ロードマップ](https://freeblog-video.com/stable-diffusion_img2img_resize/)

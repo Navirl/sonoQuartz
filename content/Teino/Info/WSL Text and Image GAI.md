@@ -4,12 +4,12 @@ tags:
  - Info
 ---
 
-up:: [WSL](<../Bar/App/wsl.md>)
+up:: [WSL](<../Bar/CLI/wsl.md>)
 up:: [GAI](<../Bar/AI/AI_local.md>)
 up:: [AIl local textchatbot](<./AIl local textchatbot.md>)
 up:: [sdwebui docker](<./sdwebui docker.md>)
-up:: [stable-diffusion-webui](<../Bar/App/stable-diffusion-webui.md>)
-up:: [text-generation-webui](<../Bar/App/text-generation-webui.md>)
+up:: [stable-diffusion-webui](<../Bar/GUI/stable-diffusion-webui.md>)
+up:: [text-generation-webui](<../Bar/GUI/text-generation-webui.md>)
 
 
 windowsで動かすのが一番早いが、別々に環境あるとめんどいなと思って。

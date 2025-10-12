@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [sd](<../Bar/Stable Diffusion.md>)
+up:: [sd](<./Stable Diffusion.md>)
 same:: [sd upscale](<./sd upscale.md>)
 
 大体OpenModelDBにある。

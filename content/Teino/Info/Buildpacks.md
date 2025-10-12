@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Docker](<../Bar/App/Docker.md>)
+up:: [Docker](<../Bar/GUI/Docker.md>)
 
 [buildpacksとは何なのか？ - Qiita](https://qiita.com/souhei-etou/items/5aab1bb02cdded065d05)
 [コンテナ化のメソッドの比較: Buildpacks、Jib、Dockerfile | Google Cloud 公式ブログ](https://cloud.google.com/blog/ja/products/containers-kubernetes/comparing-containerization-methods-buildpacks-jib-and-dockerfile?hl=ja)

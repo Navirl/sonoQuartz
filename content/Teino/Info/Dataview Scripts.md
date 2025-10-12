@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Obsidian](<../Bar/App/Obsidian.md>)
+up:: [Obsidian](<../Bar/GUI/Obsidian.md>)
 up:: [Dataview inlink and tags](<./Dataview inlink and tags.md>)
 source:: [Dataview](https://blacksmithgu.github.io/obsidian-dataview/)
 

@@ -6,7 +6,7 @@ aliases:
   - sd CN
 ---
 
-up:: [Stable Diffusion](<../Bar/Stable Diffusion.md>)
+up:: [Stable Diffusion](<./Stable Diffusion.md>)
 
 便利機能詰め合わせ。
 XLはPonyとAnimagineでつかうモデルが異なることも。

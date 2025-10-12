@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [UE5.0.2](<../Bar/App/UE5.0.2.md>)
+up:: [UE5.0.2](<../Bar/GUI/UE5.0.2.md>)
 source:: [UE4 - Tutorial - VR Widget Interactions! - YouTube](https://www.youtube.com/watch?v=jC91FFkxgh4)
 source:: [Unreal Engine の UMG Widget Interaction コンポーネント | Unreal Engine ドキュメント](https://docs.unrealengine.com/5.0/ja/umg-widget-interaction-components-in-unreal-engine/)
 

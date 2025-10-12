@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [Neovim](<../Bar/App/Neovim.md>)
+up:: [Neovim](<../Bar/CLI/Neovim.md>)
 
 
 ## lazy.nvim

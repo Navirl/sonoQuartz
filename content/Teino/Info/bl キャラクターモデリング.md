@@ -5,7 +5,7 @@ tags:
  - Info
 ---
 
-up:: [Blender](<../Bar/App/Blender.md>)
+up:: [Blender](<../Bar/GUI/Blender.md>)
 
 [【Blender】キャラクターモデリング＆アニメーションタイムラプス　～猫耳パーカー～](https://www.youtube.com/watch?v=d6-4_rjzkkM)
 

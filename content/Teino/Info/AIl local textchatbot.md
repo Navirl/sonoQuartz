@@ -4,10 +4,10 @@ tags:
  - Info
 ---
 
-up:: [Docker](<../Bar/App/Docker.md>)
+up:: [Docker](<../Bar/GUI/Docker.md>)
 up:: [AIl](<../Bar/AI/AI_local.md>)
 up:: [AIt](<../Bar/AI/AI_text.md>)
-up:: [text-generation-webui](<../Bar/App/text-generation-webui.md>)
+up:: [text-generation-webui](<../Bar/GUI/text-generation-webui.md>)
 
 だいたいはここの手法に沿えばいい。
 特にwindowsで動かすなら全自動かつ独立環境を提供するインストーラーがあるので、ダウンロード時間を考慮しなければすぐ使える。

@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Godot](<../Bar/App/Godot.md>)
+up:: [Godot](<../Bar/GUI/Godot.md>)
 
 RigidBodyノードを付ければOK。
 RigidBodyが動きの中心となるので、meshやcollisionノードはそれ以下にくっつくことになる。

@@ -1,17 +1,17 @@
 ---
 date: 2024-05-31
 tags:
-  - Bar
+  - Info
 aliases:
   - sd
 ---
 
-up:: 
+up:: [AIi](<../Bar/AI/AI_image.md>)
 
 安定拡散モデル。
 ノイズを取り払っていくことで画像を生成する。
 本当はこのタグの上にt2iみたいなのを入れるべきなんだけど、sdが圧倒してるので。
-hunyuanとかpixArtが台頭したら考える。
+hunyuanとかpixArtが台頭したら考える。->考えた[AIi](<../Bar/AI/AI_image.md>)
 
 ## 1.5とXL
 1.5モデル（の有名な奴）はDanbooruタグによって調整されている。そのためDanbooruタグを使えば狙った絵が出せる。いわゆる呪文。
@@ -48,7 +48,7 @@ SDXLかSD1.5かで使うモデルが違う。留意。
 
 この仕組み上、40stepの10と100stepの10は別物。
 
-[sdwebui resize](<../Info/sdwebui resize.md>)
+[sdwebui resize](<./sdwebui resize.md>)
 
 ## HuggingFace -   fatal: could not read Username for '[https://huggingface.co](https://huggingface.co/)': No such device or address
 

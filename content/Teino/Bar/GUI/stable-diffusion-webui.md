@@ -14,7 +14,7 @@ up:: [AI\_image](<../AI/AI_image.md>)
 same:: [ComfyUI](<./ComfyUI.md>)
 down:: [sdwebui docker](<../../Info/sdwebui docker.md>)
 down:: [sdwebui plugin](<../../Info/sdwebui plugin.md>)
-up:: [Stable Diffusion](<../Stable Diffusion.md>)
+up:: [Stable Diffusion](<../../Info/Stable Diffusion.md>)
 
 [AUTOMATIC1111/stable-diffusion-webui: Stable Diffusion web UI (github.com)](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 
@@ -105,7 +105,7 @@ EasySDXLWebUIを使うと元とモデルとか共有できて楽。
 [AIイラストが理解る！StableDiffusion超入門【2024年最新版】A1111、Forge対応｜賢木イオ @studiomasakaki](https://note.com/studiomasakaki/n/n7ad935416c5d)
 [Waifu Diffusion で効率的に画像を生成する](https://dskjal.com/deeplearning/waifu-diffusion-workflow.html#batch)
 
-[[../../Info/sd checkpoint]]
+[sd checkpoint](<../../Info/sd checkpoint.md>)
 
 ## soft inpainting
 事前に用意した白黒マスクを元にふんわりインペインティングする機能。

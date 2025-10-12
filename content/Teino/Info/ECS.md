@@ -5,7 +5,7 @@ tags:
 ---
 
 up:: [Programming](<../Bar/Program/Programming.md>)
-up:: [Unity](<../Bar/App/Unity.md>)
+up:: [Unity](<../Bar/GUI/Unity.md>)
 
 Entity Component System。
 全てをコンポーネントにし、GameObjectをコンポーネントにアクセスするキーに。

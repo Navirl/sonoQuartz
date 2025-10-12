@@ -6,7 +6,7 @@ aliases:
   - sdwebui extension
 ---
 
-up:: [sdwebui](<../Bar/App/stable-diffusion-webui.md>)
+up:: [sdwebui](<../Bar/GUI/stable-diffusion-webui.md>)
 
 # Plugin
 並べる。

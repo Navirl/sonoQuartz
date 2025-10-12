@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [UE5.0.2](<../Bar/App/UE5.0.2.md>)
+up:: [UE5.0.2](<../Bar/GUI/UE5.0.2.md>)
 source:: [UE4でマルチプレイヤーゲームを作ろう](https://www.slideshare.net/EpicGamesJapan/ue4howtocreatemultiplayergame)
 source:: [ゆるゆるUE4ネットワーク入門](https://www.slideshare.net/ssuser221848/ue4-107622315)
 source:: [UE4のネットワークハンズオン (Replicate、RPC) - Qiita](https://qiita.com/Shibash/items/2408b653abe0549abe37)

@@ -7,7 +7,7 @@ aliases:
   - sd highres
 ---
 
-up:: [sd](<../Bar/Stable Diffusion.md>)
+up:: [sd](<./Stable Diffusion.md>)
 
 [Reddit - Dive into anything](https://www.reddit.com/r/StableDiffusion/comments/13pa2uh/a_simple_comparison_of_4_latest_image_upscaling/)
 非常に詳しい投稿。2023年。

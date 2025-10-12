@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [Stable Diffusion](<../Bar/Stable Diffusion.md>)
+up:: [Stable Diffusion](<./Stable Diffusion.md>)
 
 ## 規約
 CreativeML Open RAIL-Mライセンスが一般的。

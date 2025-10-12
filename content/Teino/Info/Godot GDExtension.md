@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Godot](<../Bar/App/Godot.md>)
+up:: [Godot](<../Bar/GUI/Godot.md>)
 up:: [Rust](<../Bar/Program/Rust.md>)
 
 そもそもGDScriptを使うほうがほとんどの場合（修正しやすいという意味で）早く、GDExtensionはUEで言うC++みたいに最適化する場合に使うモノであることには留意。

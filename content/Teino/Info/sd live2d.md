@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [Stable Diffusion](<../Bar/Stable Diffusion.md>)
+up:: [Stable Diffusion](<./Stable Diffusion.md>)
 
 [AIイラストからLive2Dモデルとして動かすまでのまとめ – FaiREE｜ファイリー【フリーAI素材】](https://fairee.sozaiya-san.com/aiart-to-live2d/)
 

@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Obsidian](<../Bar/App/Obsidian.md>)
+up:: [Obsidian](<../Bar/GUI/Obsidian.md>)
 
 ## 前提
 何かしらをシンプルに表示したいだけなら、Javascriptが実行できるDataviewプラグインで間に合う。

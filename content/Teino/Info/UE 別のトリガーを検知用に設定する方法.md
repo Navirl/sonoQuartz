@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Unreal\_Engine](<../Bar/App/Unreal_Engine.md>)
+up:: [Unreal\_Engine](<../Bar/GUI/Unreal_Engine.md>)
 source:: [Unreal Engine 4.24 で近づくと動く物体を作る（外部のアクターを参照する） - Qiita](https://qiita.com/mml/items/acd1c8ccecaf6a9af113)
 
 ## 別のトリガーを検知用に設定する方法

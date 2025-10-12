@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [Stable Diffusion](<../Bar/Stable Diffusion.md>)
+up:: [Stable Diffusion](<./Stable Diffusion.md>)
 
 
 sdxlは1024x1024が基本だが、これは縦横比ではなくピクセル数が決まっている。約100万px。（1,048,576）

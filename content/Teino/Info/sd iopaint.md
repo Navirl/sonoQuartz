@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [sd](<../Bar/Stable Diffusion.md>)
+up:: [sd](<./Stable Diffusion.md>)
 
 所謂ローカル消しゴムマジック。pythonとgitで動く。
 昔の名称はLamaCleaner。というか、IOPaintの一部の機能がLamaCleanerという名称らしい。

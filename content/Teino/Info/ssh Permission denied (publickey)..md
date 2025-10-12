@@ -4,9 +4,9 @@ tags:
  - Info
 ---
 
-up:: [Termux](<../Bar/App/Termux.md>)
-up:: [Git](<../Bar/App/Git.md>)
-up:: [ssh](../Bar/ssh.md)
+up:: [Termux](<../Bar/CLI/Termux.md>)
+up:: [Git](<../Bar/CLI/Git.md>)
+up:: [ssh](<../Bar/CLI/ssh.md>)
 source:: [Error: Permission denied (publickey) - GitHub Docs](https://docs.github.com/ja/authentication/troubleshooting-ssh/error-permission-denied-publickey)
 source:: [SSHでgit cloneする（gitlab） - Qiita](https://qiita.com/altblanc/items/2ddcfa68ece7a68aff3d)
 source:: [何度、SSH keysを設定してもPermission denied (publickey)される問題 - Qiita](https://qiita.com/hi_erica_/items/17b5ee7432af9862347b)

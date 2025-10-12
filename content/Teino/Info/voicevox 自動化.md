@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [VOICEVOX](<../Bar/App/VOICEVOX.md>)
+up:: [VOICEVOX](<../Bar/GUI/VOICEVOX.md>)
 
 以下のような形式のファイル(.lab)を読み込み、任意のライブラリを使用し変数parent_phonemesに保管する。各行はスペース区切りで別々に保存され、それぞれの値を取り出せるようにすること。ラベルは左から'start_time','stop_time','phoneme'である。
 

@@ -6,7 +6,7 @@ aliases:
   - Symbolic_Link
 ---
 
-up:: [PowerShell\_and\_Command-Line](<../Bar/App/PowerShell_and_Command-Line.md>)
+up:: [PowerShell\_and\_Command-Line](<../Bar/GUI/PowerShell_and_Command-Line.md>)
 
 cmd:`mklink /D path target`
 pwd:`New-Item -ItemType SymbolicLink -Path path -Target target`

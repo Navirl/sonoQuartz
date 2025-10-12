@@ -4,9 +4,9 @@ tags:
  - Info
 ---
 
-up:: [Docker](<../Bar/App/Docker.md>)
+up:: [Docker](<../Bar/GUI/Docker.md>)
 up:: [AI\_local](<../Bar/AI/AI_local.md>)
-up:: [stable-diffusion-webui](<../Bar/App/stable-diffusion-webui.md>)
+up:: [stable-diffusion-webui](<../Bar/GUI/stable-diffusion-webui.md>)
 
 SDやWDを動かす奴。
 VRAM結構食うので設定注意。

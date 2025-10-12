@@ -15,7 +15,7 @@ up::
 
 ## 選定
 
-じゃあ何使うのって、ほぼ[Godot](<../../Bar/App/Godot.md>)しかない。まずエディタがクソ重いUEは除外。Unityは悪くないが前使ったので。Godotはスクリプト言語が使えて簡単。3Dももちろん使えるので後でVR移行も可能。エディタとしての成熟もよし。OSS。
+じゃあ何使うのって、ほぼ[Godot](<../../Bar/GUI/Godot.md>)しかない。まずエディタがクソ重いUEは除外。Unityは悪くないが前使ったので。Godotはスクリプト言語が使えて簡単。3Dももちろん使えるので後でVR移行も可能。エディタとしての成熟もよし。OSS。
 
 BevyとFyroxは成熟してない。スクリプトも使えない。（一応そういう拡張はあるっぽい）
 [bevy\_scriptum — Rust game dev // Lib.rs](https://lib.rs/crates/bevy_scriptum)

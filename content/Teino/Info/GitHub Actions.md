@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Git](<../Bar/App/Git.md>)
+up:: [Git](<../Bar/CLI/Git.md>)
 
 タスクランナー。GitHubへのプッシュなどをトリガーにいろいろできる。
 一番使うのはたぶんpagesへのオートビルド。

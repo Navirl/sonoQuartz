@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [WSL](<../Bar/App/wsl.md>)
+up:: [WSL](<../Bar/CLI/wsl.md>)
 
 いろいろ情報があるが、今はwslをシャットダウンしてからwindowsのアプリ設定で移動すればいいだけ。redditの二個目の返答がそのまま使える。
 

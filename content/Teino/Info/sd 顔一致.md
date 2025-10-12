@@ -4,9 +4,9 @@ tags:
   - Info
 ---
 
-up:: [sdwebui](<../Bar/App/stable-diffusion-webui.md>)
-up:: [ComfyUI](<../Bar/App/ComfyUI.md>)
-up:: [Stable Diffusion](<../Bar/Stable Diffusion.md>)
+up:: [sdwebui](<../Bar/GUI/stable-diffusion-webui.md>)
+up:: [ComfyUI](<../Bar/GUI/ComfyUI.md>)
+up:: [Stable Diffusion](<./Stable Diffusion.md>)
 
 [controlnet](<./sd controlnet.md>)を使用する。
 古いのだとReferenceを使うが、これは構図も持ってかれるのでなし。

@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [UE5.0.2](<../Bar/App/UE5.0.2.md>)
+up:: [UE5.0.2](<../Bar/GUI/UE5.0.2.md>)
 source:: [ProceduralMeshComponentを使ってみる - もんしょの巣穴ブログ Ver2.0](https://monsho.hatenablog.com/entry/2015/06/20/010747)
 
 動的にメッシュ・ポリゴンが作れるコンポーネント。
