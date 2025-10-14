@@ -279,3 +279,11 @@ Download zipと同じ。
 ## stash
 `git stash`だけで動く。取り出すときは`git stash pop`。
 [【Git】stashコマンドのまとめと使い方 〜変更差分の一時退避〜 #初心者 - Qiita](https://qiita.com/nakaji0210/items/330f6dcb361da074c2c0)
+
+## github-flowを使用する時
+開発ブランチと本番ブランチのデプロイは、本番ブランチにいろんな機能が組み合わさっていく以上別物。開発ブランチのデプロイだけで全部分からない。
+
+そこで本番ブランチのうち、タグを打ったコミットだけをデプロイする。
+簡単だが確認フェイズを入れることで本番ブランチデプロイの品質を担保する。
+
+[タグ付けデプロイの思想的裏付け - Qiita](https://qiita.com/niisan-tokyo/items/22500c8b7a3cb44331ee)
