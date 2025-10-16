@@ -2,7 +2,6 @@
 date: 2024-07-12
 tags:
   - Bar
-  - App
 ---
 
 up:: [AI\_local](<../AI/AI_local.md>)

@@ -2,7 +2,6 @@
 date: 2023-10-17
 tags:
   - Bar
-  - App
 ---
 
 up::

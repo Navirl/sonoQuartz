@@ -1,8 +1,12 @@
 ---
+date: 2025-10-17
+time: 01:40
 tags:
- - Bar
- - App
+  - Bar
 ---
+
+up::
+
 ## hit-a-hintみたいな飛び方がしたい
 easymotionという拡張機能がある。
 vscodeなら標準で入ってるので、機能をONにする**のとvim.leaderを設定する**ことで作動する。

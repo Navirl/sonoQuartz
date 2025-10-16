@@ -1,8 +1,7 @@
 ---
 date: 2023-04-08
 tags:
- - Bar
- - App
+  - Bar
 ---
 
 up:: [PowerShell\_and\_Command-Line](<../GUI/PowerShell_and_Command-Line.md>)

@@ -2,7 +2,6 @@
 date: 2023-05-03
 tags:
   - Bar
-  - App
 aliases:
   - ST
 ---

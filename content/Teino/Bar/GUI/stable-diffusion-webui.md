@@ -1,12 +1,11 @@
 ---
 date: 2023-05-07
 tags:
- - Bar
- - App
+  - Bar
 aliases:
- - AUTOMATIC1111
- - 1111
- - sdwebui
+  - AUTOMATIC1111
+  - 1111
+  - sdwebui
 ---
 
 up:: [Docker](<./Docker.md>)

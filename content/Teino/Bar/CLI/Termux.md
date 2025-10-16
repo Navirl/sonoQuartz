@@ -1,8 +1,7 @@
 ---
 date: 2022-04-22
 tags:
- - Bar
- - App
+  - Bar
 ---
 
 up::

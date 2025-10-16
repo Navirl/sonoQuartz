@@ -1,15 +1,17 @@
 ---
 date: 2022-08-05
 tags:
- - Bar
- - Nacaria
- - Novel/Item
+  - Bar
+  - Nacaria
+  - Novel/Item
+aliases:
+  - 角端
 ---
 
 up:: [Narana\_Tsunohashi](<./Narana_Tsunohashi.md>)
 up:: [Kirin](<./Kirin.md>)
 
-水を操る力。
+麒麟五家の一角。水を操る力を持つ。
 あと逸話補正でクッソ足が速くなる。
 
 楢名はめちゃくちゃにカスタムしてるため、水以外も細かい物なら大体何でも操れる。

@@ -1,11 +1,10 @@
 ---
 date: 2023-05-08
 tags:
- - Bar
- - App
+  - Bar
 aliases:
- - oobabooga
- - tgwebui
+  - oobabooga
+  - tgwebui
 ---
 
 up:: [Docker](<./Docker.md>)

@@ -1,8 +1,7 @@
 ---
 date: 2023-05-10
 tags:
- - Bar
- - App
+  - Bar
 ---
 
 up:: [sd LoRA 学習](<../../Info/sd LoRA 学習.md>)

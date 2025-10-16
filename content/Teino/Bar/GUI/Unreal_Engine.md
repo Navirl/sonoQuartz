@@ -2,7 +2,6 @@
 date: 2022-07-14
 tags:
   - Bar
-  - App
 aliases:
   - UE
 ---
@@ -16,7 +15,7 @@ up:: [UE5.0.2](<./UE5.0.2.md>)
 [[../../Others/CSandSR/CS C++]]
 
 [[../../Others/CSandSR/Hope Unreal Engine]]
-[[../../Info/UE Errors]]
+[UE Errors](<../../Info/UE Errors.md>)
 
 [Reroute Node](<../../Info/Reroute Node.md>)
 

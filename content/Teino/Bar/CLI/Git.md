@@ -1,8 +1,7 @@
 ---
 date: 2021-07-17
 tags:
- - Bar
- - App
+  - Bar
 ---
 
 up:: 
@@ -195,15 +194,6 @@ git push origin --force --all
 
 [Gitはどうやってテキストファイルとバイナリファイルを自動識別しているのか？ diff - Qiita](https://qiita.com/okuoku/items/a21bfa68570ca67817ac)
 
-## githubとssh接続
-ssh−agentにkey登録のひと手間がクライアント側に必要。
-`exec ssh-agent bash`でエージェントを実行し、`ssh-add privatekeypath`で登録。
-
-https://docs.github.com/ja/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
-
-場合によってパーミッションエラーが出るので、`chmod 600 privatekeypath`で自分しか変更できないようにする。
-
-https://qiita.com/yyy752/items/32f66d877de41655b7bb
 
 ## 取り消し
 add前なら`git checkout -- .`
@@ -214,8 +204,6 @@ add後なら`git reset`
 
 [Gitの変更を取り消すには( git statusした時の modifiedの取り消し方やコミットの取り消し方など)](https://zenn.dev/norihashimo/articles/8afc81ff48451c)
 
-## Githubに動画をアップ
-GithubのMarkdownエディタにD&Dでいける。
 
 ## 過去ファイルを検索して引っ張ってくる
 `git grep "Post" $(git log --pretty=format:%H -- ./src/CanvasNodesView.ts)`
@@ -264,10 +252,7 @@ safedirectoryに追加。
 `git config --global --add safe.directory /storage/emulated/0/Documents/Niztra/sonolart/.obsidian
 /plugins/obsidian-wom
 
-## githubでいうarchive
-読み取り専用リポジトリを指すほか、ソースコードをまるごとダウンロードするのにも使うURLの一部。
-Download zipと同じ。
-`https://github.com/libgit2/libgit2/archive/v1.9.1.tar.gz`で行けるが、本来`https://github.com/<owner>/<repo>/archive/refs/tags/<tag>.tar.gz`という形式のはず。何で通ってるんだ。
+
 
 ## Conventional Commits
 [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
@@ -287,3 +272,4 @@ Download zipと同じ。
 簡単だが確認フェイズを入れることで本番ブランチデプロイの品質を担保する。
 
 [タグ付けデプロイの思想的裏付け - Qiita](https://qiita.com/niisan-tokyo/items/22500c8b7a3cb44331ee)
+

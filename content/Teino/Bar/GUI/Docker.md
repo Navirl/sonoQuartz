@@ -1,8 +1,7 @@
 ---
 date: 2021-10-16
 tags:
- - Bar
- - App
+  - Bar
 ---
 
 up::

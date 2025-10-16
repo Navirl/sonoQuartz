@@ -2,7 +2,6 @@
 date: 2024-08-13
 tags:
   - Bar
-  - App
 ---
 
 up:: 

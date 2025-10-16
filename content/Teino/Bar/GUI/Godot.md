@@ -1,8 +1,7 @@
 ---
 date: 2023-03-15
 tags:
- - Bar
- - App
+  - Bar
 ---
 
 up:: 
