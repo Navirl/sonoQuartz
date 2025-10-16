@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Csharp](<../Bar/Program/Csharp.md>)
+up:: [Csharp](<../Bar/Program_lang/Csharp.md>)
 
 ## privateとstatic
 privateを指定すると、クラス内でしか参照できなくなる。

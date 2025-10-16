@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Programming](<../Bar/Program/Programming.md>)
+up:: [Programming](<../Bar/Program_lang/Programming.md>)
 
 オブジェクト指向プログラミングにおける、再利用性の高いコーディングのパターン、いわゆる**デザインパターン**をまとめた4人のプログラマ。
 

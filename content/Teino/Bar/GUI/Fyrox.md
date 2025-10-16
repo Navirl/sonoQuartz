@@ -5,7 +5,7 @@ tags:
  - App
 ---
 
-up:: [Rust](<../Program/Rust.md>)
+up:: [Rust](<../Program_lang/Rust.md>)
 
 rustで作られたゲームエンジン。元は3D専用だが2Dもできる。
 ECSが前提のBevyと違い、こちらは昔ながらのOOP。しかもUnityっぽいエディタ付き。

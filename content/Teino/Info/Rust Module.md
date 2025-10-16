@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Rust](<../Bar/Program/Rust.md>)
+up:: [Rust](<../Bar/Program_lang/Rust.md>)
 
 別ファイル読み込むやつ。
 Modを付けて塊を作り、表現する。

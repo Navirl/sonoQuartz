@@ -9,7 +9,7 @@ aliases:
   - pwsh
 ---
 
-up:: [Programming](<../Program/Programming.md>)
+up:: [Programming](<../Program_lang/Programming.md>)
 
 
 環境変数はターミナル再起動しないと反映されない。

@@ -4,7 +4,7 @@ tags:
   - Bar
 ---
 
-up:: [Rust](<../Program/Rust.md>)
+up:: [Rust](<../Program_lang/Rust.md>)
 
 Electronと同様、デスクトップアプリをブラウザ技術で作る。
 ElectronはChromiumを搭載しているのに比べ、こちらはWebViewというOS固有のものを使用しているので小さい。あとバックエンドがRustなので早い。

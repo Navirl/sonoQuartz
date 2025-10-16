@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [JavaScript and TypeScript](<../Bar/Program/JavaScript and TypeScript.md>)
+up:: [JavaScript and TypeScript](<../Bar/Program_lang/JavaScript and TypeScript.md>)
 source:: [JavaScriptのinstanceof演算子の使い方を現役エンジニアが解説【初心者向け】 | TechAcademyマガジン](https://magazine.techacademy.jp/magazine/32011)
 
 型チェック演算子。

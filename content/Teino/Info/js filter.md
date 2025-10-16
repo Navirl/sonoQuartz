@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [JavaScript and TypeScript](<../Bar/Program/JavaScript and TypeScript.md>)
+up:: [JavaScript and TypeScript](<../Bar/Program_lang/JavaScript and TypeScript.md>)
 
 `Array[]`の中から特定条件にあてはまるものを取り出し、新たな配列を作る関数。
 より詳しく言うと、コールバック関数でtrueを返した要素だけ残す関数。なのでコールバック関数は必ず戻り値がbooleanになる。

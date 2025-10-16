@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Python](<../Bar/Program/Python.md>)
+up:: [Python](<../Bar/Program_lang/Python.md>)
 source:: [Pythonのfor文によるループ処理（range, enumerate, zipなど） | note.nkmk.me](https://note.nkmk.me/python-for-usage/)
 
 forを回すときに便利な関数。

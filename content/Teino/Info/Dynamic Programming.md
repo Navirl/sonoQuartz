@@ -7,7 +7,7 @@ aliases:
  - 動的計画法
 ---
 
-up:: [Programming](<../Bar/Program/Programming.md>)
+up:: [Programming](<../Bar/Program_lang/Programming.md>)
 
 対象を複数の部分問題に分割し、部分問題の計算結果を記録しながら解いていく手法。
 フィボナッチ数列を解くときとか。

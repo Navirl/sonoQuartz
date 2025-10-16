@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Programming](<../Bar/Program/Programming.md>)
+up:: [Programming](<../Bar/Program_lang/Programming.md>)
 up:: [AIt](<../Bar/AI/AI_text.md>)
 
 chatGPTの無料版の中身のテキストモデル。（2023/05/03）

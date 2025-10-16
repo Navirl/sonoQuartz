@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Google Apps Script](<../Bar/Program/Google Apps Script.md>)
+up:: [Google Apps Script](<../Bar/Program_lang/Google Apps Script.md>)
 source:: [Class UrlFetchApp  |  Apps Script  |  Google Developers](https://developers.google.com/apps-script/reference/url-fetch/url-fetch-app)
 
 Httpを経由して情報を取る関数。

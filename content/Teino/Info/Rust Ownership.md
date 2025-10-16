@@ -6,7 +6,7 @@ aliases:
   - Rust 所有権
 ---
 
-up:: [Rust](<../Bar/Program/Rust.md>)
+up:: [Rust](<../Bar/Program_lang/Rust.md>)
 
 日本語では所有権。
 Rustは値を所有者と呼ばれる変数一つと紐づけている。所有者であることを所有権を持つという。

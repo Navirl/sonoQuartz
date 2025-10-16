@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [py](<../Bar/Program/Python.md>)
+up:: [py](<../Bar/Program_lang/Python.md>)
 
 isはメモリ上で同じ場所かどうかを判定する。
 `==`は値を比較する。

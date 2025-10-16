@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [Rust](<../Bar/Program/Rust.md>)
+up:: [Rust](<../Bar/Program_lang/Rust.md>)
 
 rustのバージョン管理ツール。
 `rustup update`でアップデートできる。

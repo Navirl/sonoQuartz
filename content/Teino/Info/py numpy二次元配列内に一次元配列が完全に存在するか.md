@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Python](<../Bar/Program/Python.md>)
+up:: [Python](<../Bar/Program_lang/Python.md>)
 
 ## numpy二次元配列内に一次元配列が完全に存在するか
 ```python

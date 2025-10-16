@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [Programming](<../Bar/Program/Programming.md>)
+up:: [Programming](<../Bar/Program_lang/Programming.md>)
 
 与えられたプログラムをワールドと呼び、
 ユーザーがその最終的な振る舞いを決定する

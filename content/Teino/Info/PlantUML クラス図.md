@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [PlantUML](<../Bar/Program/PlantUML.md>)
+up:: [PlantUML](<../Bar/Program_lang/PlantUML.md>)
 
 ## 基本
 

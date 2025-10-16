@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Cpp](<../Bar/Program/Cpp.md>)
+up:: [Cpp](<../Bar/Program_lang/Cpp.md>)
 
 [【C＋＋】C＋＋20のモジュールとincludeの違いについて詳しく調べてみた – 株式会社ロジカルビート](https://logicalbeat.jp/blog/6223/)
 [［C++］モジュール理論 基礎編 - 地面を見下ろす少年の足蹴にされる私](https://onihusube.hatenablog.com/entry/2019/07/07/025446)

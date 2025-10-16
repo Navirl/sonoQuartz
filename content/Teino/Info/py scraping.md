@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [Python](<../Bar/Program/Python.md>)
+up:: [Python](<../Bar/Program_lang/Python.md>)
 
 静的コンテンツならばrequestsでアクセス、BeautifulSoupで解析すればいい。
 動的コンテンツならpyppetter、playwright、seleniumが使える。

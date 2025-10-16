@@ -4,7 +4,7 @@ tags:
   - Bar
 ---
 
-up:: [Programming](<../Program/Programming.md>)
+up:: [Programming](<../Program_lang/Programming.md>)
 
 いろんなライブラリをモバイルアプリに変換するフレームワーク。
 [React](<./React.md>),Angular,Vueの他、SvelteやSolidJS,Ionic Portals、Pure Typescript,Pure Javascriptも使える。

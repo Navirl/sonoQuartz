@@ -4,8 +4,8 @@ tags:
   - Info
 ---
 
-up:: [Rust](<../Bar/Program/Rust.md>)
-up:: [py](<../Bar/Program/Python.md>)
+up:: [Rust](<../Bar/Program_lang/Rust.md>)
+up:: [py](<../Bar/Program_lang/Python.md>)
 
 py
 ```python

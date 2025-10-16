@@ -5,7 +5,7 @@ tags:
 ---
 
 up:: [Wiki](<../Bar/Wiki.md>)
-up:: [JavaScript and TypeScript](<../Bar/Program/JavaScript and TypeScript.md>)
+up:: [JavaScript and TypeScript](<../Bar/Program_lang/JavaScript and TypeScript.md>)
 
 Notion
 無料版だとゲスト10人

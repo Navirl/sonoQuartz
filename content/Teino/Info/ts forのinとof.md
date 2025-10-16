@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [JavaScript and TypeScript](<../Bar/Program/JavaScript and TypeScript.md>)
+up:: [JavaScript and TypeScript](<../Bar/Program_lang/JavaScript and TypeScript.md>)
 
 inはオブジェクトの列挙可能な文字列プロパティを返す。
 ofはイテラブルオブジェクトを返す。

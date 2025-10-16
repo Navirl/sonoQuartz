@@ -123,3 +123,5 @@ TDDは以下にシステムを導くための物。
 これを降霊して（t_wada の TDD で進めてください）PRレビューしてもらう方法がある。（t_wada さんになってこの PR を確認し、テストケースが充分かをレビューしてください [PR URL]）
 
 [降霊術で t\_wada を AI に降ろして PR レビューして貰うテクニックが伸びたのでその裏側記事を書きました！｜Ryo@VibeCoder](https://note.com/biwakonbu/n/n0f1c75418030)
+
+[人類は気づいていた。この勉強の仕方が1番早いということを。 - Qiita](https://qiita.com/Sicut_study/items/79838a4b8ec36bc3a961)

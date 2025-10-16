@@ -5,7 +5,7 @@ tags:
   - Bar
 ---
 
-up:: [Programming](<../Program/Programming.md>)
+up:: [Programming](<../Program_lang/Programming.md>)
 
 なんでもdlする。
 

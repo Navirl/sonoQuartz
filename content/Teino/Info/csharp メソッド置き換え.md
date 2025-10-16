@@ -4,8 +4,8 @@ tags:
  - Info
 ---
 
-up:: [Csharp](<../Bar/Program/Csharp.md>)
-up:: [Programming](<../Bar/Program/Programming.md>)
+up:: [Csharp](<../Bar/Program_lang/Csharp.md>)
+up:: [Programming](<../Bar/Program_lang/Programming.md>)
 
 ## メソッド置き換え
 ### new

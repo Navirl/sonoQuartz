@@ -4,8 +4,8 @@ tags:
  - Info
 ---
 
-up:: [Programming](<../Bar/Program/Programming.md>)
-up:: [JavaScript and TypeScript](<../Bar/Program/JavaScript and TypeScript.md>)
+up:: [Programming](<../Bar/Program_lang/Programming.md>)
+up:: [JavaScript and TypeScript](<../Bar/Program_lang/JavaScript and TypeScript.md>)
 
 引数として渡す関数をコールバック関数という。
 

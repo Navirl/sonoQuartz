@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [JavaScript and TypeScript](<../Bar/Program/JavaScript and TypeScript.md>)
+up:: [JavaScript and TypeScript](<../Bar/Program_lang/JavaScript and TypeScript.md>)
 
 js アンパサンドと縦線
 論理演算子。ifの中で使えるほか、値を入れるときにifを省略して入れられる。

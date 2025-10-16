@@ -4,7 +4,7 @@ tags:
   - Bar
 ---
 
-up:: [ts](<../Program/JavaScript and TypeScript.md>)
+up:: [ts](<../Program_lang/JavaScript and TypeScript.md>)
 
 コンポーネントを組み合わせてブラウザの画面を作れるライブラリ。
 

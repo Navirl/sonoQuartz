@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [Go](<../Bar/Program/Go.md>)
+up:: [Go](<../Bar/Program_lang/Go.md>)
 
 [クラスとオブジェクトの関係性（Go 言語編） オブジェクト指向 - Qiita](https://qiita.com/spiegel-im-spiegel/items/2da5e5902aa2cb6d9e30)
 [Go - メソッドとレシーバ プログラミング - Qiita](https://qiita.com/Yuuki557/items/e9f5bdfbbfe92973a05e)

@@ -4,7 +4,7 @@ tags:
  - Bar
 ---
 
-up:: [Go](<../Program/Go.md>)
+up:: [Go](<../Program_lang/Go.md>)
 same:: [Tauri](<./Tauri.md>)
 
 [GitHub - wailsapp/wails: Create beautiful applications using Go](https://github.com/wailsapp/wails)

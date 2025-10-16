@@ -4,7 +4,7 @@ tags:
  - Info
 ---
  
-up:: [Cpp](<../Bar/Program/Cpp.md>)
+up:: [Cpp](<../Bar/Program_lang/Cpp.md>)
 source:: [C++_アンパサンドの意味 - …Inertia](https://koshinran.hateblo.jp/entry/2018/04/07/153618)
 
 変数の前に付けるとアドレス演算子。`*`を付けた変数に入れることでアドレスを扱える。

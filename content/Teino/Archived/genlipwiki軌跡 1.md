@@ -5,7 +5,7 @@ tags:
 ---
 
 up:: [Wiki](<../Bar/Wiki.md>)
-up:: [JavaScript and TypeScript](<../Bar/Program/JavaScript and TypeScript.md>)
+up:: [JavaScript and TypeScript](<../Bar/Program_lang/JavaScript and TypeScript.md>)
 
 新しく同期した場合、まずnotionIDを見てヒットしたらそれを消して書き換える
 ヒットしなければ名前を見て、同名のファイルがあれば書き換える

@@ -5,7 +5,7 @@ tags:
  - Info
 ---
 
-up:: [Programming](<../Bar/Program/Programming.md>)
+up:: [Programming](<../Bar/Program_lang/Programming.md>)
 
 まず、スマートフォンでGPT4ALLと会話がしたいです。
 次に、FuguMTを介して日本語でGPT4Allと会話したいです。

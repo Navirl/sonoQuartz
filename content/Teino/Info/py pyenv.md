@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [Python](<../Bar/Program/Python.md>)
+up:: [Python](<../Bar/Program_lang/Python.md>)
 
 
 [GitHub - pyenv/pyenv: Simple Python version management](https://github.com/pyenv/pyenv)

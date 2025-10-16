@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Python](<../Bar/Program/Python.md>)
+up:: [Python](<../Bar/Program_lang/Python.md>)
 
 ## py 辞書逆検索
 ```python

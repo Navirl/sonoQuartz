@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Rust](<../Bar/Program/Rust.md>)
+up:: [Rust](<../Bar/Program_lang/Rust.md>)
 
 パッケージマネージャ―。依存関係をtomlファイルにまとめることで簡単に解決してくれる。
 ついでにビルドシステムでもある。

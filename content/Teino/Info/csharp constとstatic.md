@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Csharp](<../Bar/Program/Csharp.md>)
+up:: [Csharp](<../Bar/Program_lang/Csharp.md>)
 source:: [【C#の定数】const と readonly、static readonly の使い分け - Qiita](https://qiita.com/tanakaworld/items/eda69da263e24adfa07d)
 source:: [【C#】const、static、readonlyの違いと使い方 \| Engineers Method](https://bigpowermind.com/c-const-static-readonly/)
 source:: [constとreadonlyとstatic readonly、それぞれの特徴と使い分け方 - Qiita](https://qiita.com/4_mio_11/items/203c88eb5299e4a45f31)

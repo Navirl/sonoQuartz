@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Cpp](<../Bar/Program/Cpp.md>)
+up:: [Cpp](<../Bar/Program_lang/Cpp.md>)
 
 こんなもん書かなくていいけど整理できない……
 

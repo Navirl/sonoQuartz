@@ -4,8 +4,8 @@ tags:
   - Info
 ---
 
-up:: [py](<../Bar/Program/Python.md>)
-up:: [Rust](<../Bar/Program/Rust.md>)
+up:: [py](<../Bar/Program_lang/Python.md>)
+up:: [Rust](<../Bar/Program_lang/Rust.md>)
 
 rust製のpythonのパッケージインストーラ。
 10倍速いと謳っている。いつものpipの頭にuvを付けるだけで実行可能。

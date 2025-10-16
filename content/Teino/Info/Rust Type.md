@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Rust](<../Bar/Program/Rust.md>)
+up:: [Rust](<../Bar/Program_lang/Rust.md>)
 
 `let mut v:usize = 0usize`などとする。
 この場合は暗黙の型変換があるのでどっちかusizeは無くてもいい。

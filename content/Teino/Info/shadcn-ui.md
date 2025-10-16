@@ -5,7 +5,7 @@ tags:
  - Info
 ---
 
-up:: [CSS](<../Bar/Program/CSS.md>)
+up:: [CSS](<../Bar/Program_lang/CSS.md>)
 
 Radix UIとTailwind CSSを使って作られたUIコンポーネント集。
 カスタマイズが容易でコピペ容易。

@@ -4,7 +4,7 @@ tags:
   - Bar
 ---
 
-up:: [Programming](<../Program/Programming.md>)
+up:: [Programming](<../Program_lang/Programming.md>)
 
 最速のビルドツール。ReactやAngularにも対応。
 Vueの作者が作った。

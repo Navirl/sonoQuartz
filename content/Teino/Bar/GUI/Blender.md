@@ -5,7 +5,7 @@ tags:
   - App
 ---
 
-up:: [Python](<../Program/Python.md>)
+up:: [Python](<../Program_lang/Python.md>)
 
 ## 基本
 modifierはオブジェクト選んでスパナマークから。

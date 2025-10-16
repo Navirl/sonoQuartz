@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [MQL5](<../Bar/Program/MQL5.md>)
+up:: [MQL5](<../Bar/Program_lang/MQL5.md>)
 
 ```cpp
 //+------------------------------------------------------------------+

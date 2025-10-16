@@ -4,7 +4,7 @@ tags:
   - Bar
 ---
 
-up:: [py](<../Bar/Program/Python.md>)
+up:: [py](<../Bar/Program_lang/Python.md>)
 
 python3.4から使えるパス操作。
 オブジェクト指向に基づき、os.pathを置き換えることができるらしい。

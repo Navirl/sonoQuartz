@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Cpp](<../Bar/Program/Cpp.md>)
+up:: [Cpp](<../Bar/Program_lang/Cpp.md>)
 up:: [水素脆性](<./水素脆性.md>)
 
 金属

@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Cpp](<../Bar/Program/Cpp.md>)
+up:: [Cpp](<../Bar/Program_lang/Cpp.md>)
 
 他のソースファイルを読み込む機能。
 

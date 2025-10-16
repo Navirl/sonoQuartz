@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [ts](<../Bar/Program/JavaScript and TypeScript.md>)
+up:: [ts](<../Bar/Program_lang/JavaScript and TypeScript.md>)
 
 markdownからyamlを簡単に読み込めるライブラリ。最終更新2019。
 メソッドは`.loadFront`と`.safeLoadFront`だけ。safeの方だと正規表現をサポートしない。

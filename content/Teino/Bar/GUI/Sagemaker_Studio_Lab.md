@@ -4,7 +4,7 @@ tags:
   - Bar
 ---
 
-up:: [Python](<../Program/Python.md>)
+up:: [Python](<../Program_lang/Python.md>)
 
 Amazonが手掛けるColab競合。
 

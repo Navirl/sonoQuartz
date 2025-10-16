@@ -5,7 +5,7 @@ tags:
 ---
 
 up:: [Termux](<../../Bar/CLI/Termux.md>)
-up:: [Shellscript](<../../Bar/Program/Shellscript.md>)
+up:: [Shellscript](<../../Bar/Program_lang/Shellscript.md>)
 
 nndownloadが第一候補。yt-dlpは大抵役に立たない。
 (2024/12/06)pypyだとうまく動かないので、テストするときはcpythonで。

@@ -6,7 +6,7 @@ aliases:
   - virtual
 ---
 
-up:: [Programming](<../Bar/Program/Programming.md>)
+up:: [Programming](<../Bar/Program_lang/Programming.md>)
 source:: [連載：C#入門　第4回 継承とインターフェイス（2/3） - ＠IT](https://www.atmarkit.co.jp/fdotnet/csharp_abc/csharp_abc_004/csharp_abc02.html)
 
 ### virtualとoverride

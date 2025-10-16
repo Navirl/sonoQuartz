@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [py](<../Bar/Program/Python.md>)
+up:: [py](<../Bar/Program_lang/Python.md>)
 
 たまにpipが無い環境のpythonを触ることがある。
 その際にこれを使う。

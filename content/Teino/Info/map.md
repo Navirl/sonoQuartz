@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [Google Apps Script](<../Bar/Program/Google Apps Script.md>)
+up:: [Google Apps Script](<../Bar/Program_lang/Google Apps Script.md>)
 source:: [【GAS入門】Arrayオブジェクトのmapメソッドの使い方｜もりさんのプログラミング手帳](https://moripro.net/gas-array-map/)
 
 [js コールバック関数](<./js コールバック関数.md>)

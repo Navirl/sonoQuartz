@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Shellscript](<../Bar/Program/Shellscript.md>)
+up:: [Shellscript](<../Bar/Program_lang/Shellscript.md>)
 
 iconvで可能。文字コードを自動判別したいならfileかnkf。  
 nkfはtermuxだとパッケージ無いのでビルドからになる。

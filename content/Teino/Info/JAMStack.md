@@ -4,8 +4,8 @@ tags:
  - Info
 ---
 
-up:: [JavaScript and TypeScript](<../Bar/Program/JavaScript and TypeScript.md>)
-up:: [Markdown](<../Bar/Program/Markdown.md>)
+up:: [JavaScript and TypeScript](<../Bar/Program_lang/JavaScript and TypeScript.md>)
+up:: [Markdown](<../Bar/Program_lang/Markdown.md>)
 
 ## JAMstack
 ウェブサイトを構築・運用するための技術の組み合わせ。**Javascript・APIs・Markup**の頭文字。

@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [JavaScript and TypeScript](<../Bar/Program/JavaScript and TypeScript.md>)
+up:: [JavaScript and TypeScript](<../Bar/Program_lang/JavaScript and TypeScript.md>)
 source:: [letとvarの違い - Qiita](https://qiita.com/y-temp4/items/289686fbdde896d22b5e)
 
 let（ES6から）はブロックレベル、varは関数レベルで動作する。

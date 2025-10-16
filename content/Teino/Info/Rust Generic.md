@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Rust](<../Bar/Program/Rust.md>)
+up:: [Rust](<../Bar/Program_lang/Rust.md>)
 
 [csharp ジェネリックメソッド](<./csharp ジェネリックメソッド.md>)
 C系言語でよく見る型を実行時に指定できる機能。

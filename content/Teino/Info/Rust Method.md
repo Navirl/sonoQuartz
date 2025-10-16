@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Rust](<../Bar/Program/Rust.md>)
+up:: [Rust](<../Bar/Program_lang/Rust.md>)
 
 構造体に紐づけたメソッドのこと。
 implをつけ構造体と同じ名前で定義する。

@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Rust](<../Bar/Program/Rust.md>)
+up:: [Rust](<../Bar/Program_lang/Rust.md>)
 
 クレートはRustスクリプトの塊。
 クレートルートはクレートのルートモジュールを作るソースファイル。

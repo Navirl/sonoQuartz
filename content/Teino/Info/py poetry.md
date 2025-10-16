@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [py](<../Bar/Program/Python.md>)
+up:: [py](<../Bar/Program_lang/Python.md>)
 
 仮想環境でパッケージ管理までやるツール。
 中身はvenvなので安心。

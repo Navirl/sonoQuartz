@@ -4,9 +4,9 @@ tags:
   - Bar
 ---
 
-up:: [py](<../Program/Python.md>)
-up:: [Rust](<../Program/Rust.md>)
-up:: [js](<../Program/JavaScript and TypeScript.md>)
+up:: [py](<../Program_lang/Python.md>)
+up:: [Rust](<../Program_lang/Rust.md>)
+up:: [js](<../Program_lang/JavaScript and TypeScript.md>)
 
 読み方は`meez`。
 `pyenv`のようなランタイムバージョン管理は他の言語にもあるのだが、それらをまとめて管理するもの。

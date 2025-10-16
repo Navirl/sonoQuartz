@@ -5,7 +5,7 @@ tags:
  - Info
 ---
 
-up:: [Programming](<../Bar/Program/Programming.md>)
+up:: [Programming](<../Bar/Program_lang/Programming.md>)
 
 bit, byte
 最小単位はbit。0か1。

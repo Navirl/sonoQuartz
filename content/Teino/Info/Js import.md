@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [JavaScript and TypeScript](<../Bar/Program/JavaScript and TypeScript.md>)
+up:: [JavaScript and TypeScript](<../Bar/Program_lang/JavaScript and TypeScript.md>)
 source:: [TypeScriptでモジュールを作成する／インポートする (export, import)｜まくろぐ](https://maku.blog/p/fbu8k8j/)
 
 外部ファイルをモジュールとして読み込むやつ。

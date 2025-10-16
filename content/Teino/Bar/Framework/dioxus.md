@@ -5,7 +5,7 @@ tags:
   - Bar
 ---
 
-up:: [Rust](<../Program/Rust.md>)
+up:: [Rust](<../Program_lang/Rust.md>)
 same:: [Tauri](<./Tauri.md>)
 
 tauriと同じくクロスプラットフォームでアプリが作れる。

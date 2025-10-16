@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Rust](<../Bar/Program/Rust.md>)
+up:: [Rust](<../Bar/Program_lang/Rust.md>)
 
 Rustでは関数がコンパイル通るかどうかをテストする機能がある。フィルタリング可能。
 使いたい関数の宣言の上に`#[test]`と書き、`cargo test`。いつもは``はコメントだが、`[]`を付けることでコメントから属性というものに変わる。

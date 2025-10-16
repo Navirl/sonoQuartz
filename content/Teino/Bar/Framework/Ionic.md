@@ -4,7 +4,7 @@ tags:
   - Bar
 ---
 
-up:: [Programming](<../Program/Programming.md>)
+up:: [Programming](<../Program_lang/Programming.md>)
 
 UIツールキット。[React](<./React.md>)よりももっとカチカチに固まったコンポーネントを提供してくれる。
 作ったコンポーネントは[React](<./React.md>),Angular,Vueなどに持っていける。

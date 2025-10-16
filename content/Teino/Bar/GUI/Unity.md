@@ -5,7 +5,7 @@ tags:
  - App
 ---
 
-up:: [Programming](<../Program/Programming.md>)
+up:: [Programming](<../Program_lang/Programming.md>)
 
 [猫本](../猫本.md)
 [MUN](../MUN.md)
@@ -772,7 +772,7 @@ Enter,Update,Exit,RootMotionとIK関係が実装できる。
 Anyのように元に戻す遷移を書かなくて済むので、2Dだと神機能。
 上書きだけでなく加算もできる模様。
 
-[UnityのAnimatorのレイヤーのSyncを使ってアニメーションを全て変更する | Unityを使った３Dゲームの作り方（かめくめ）](https://gametukurikata.com/program/changelayer)
+[UnityのAnimatorのレイヤーのSyncを使ってアニメーションを全て変更する | Unityを使った３Dゲームの作り方（かめくめ）](https://gametukurikata.com/Program_lang/changelayer)
 
 ### Trigger
 一度だけ再生するアニメーションに対して設定する変数。

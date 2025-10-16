@@ -5,7 +5,7 @@ tags:
 ---
 
 up:: [Termux](<../Bar/CLI/Termux.md>)
-up:: [Automate](<../Bar/Program/Automate.md>)
+up:: [Automate](<../Bar/Program_lang/Automate.md>)
 
 ## Automate連携
 taskerプラグインを導入する。

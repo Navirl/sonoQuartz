@@ -5,8 +5,8 @@ tags:
  - Info
 ---
 
-up:: [Rust](<../Bar/Program/Rust.md>)
-up:: [Cpp](<../Bar/Program/Cpp.md>)
+up:: [Rust](<../Bar/Program_lang/Rust.md>)
+up:: [Cpp](<../Bar/Program_lang/Cpp.md>)
 
 Rustでdll作りたいときのアトリビュート。
 `--crate-type=cdylib`とするか、`"[crate_type = "cdylib"]`とするとその部分がdynamic system library、dllになる。dylibでもdllは作れるが、これはrust用に依存関係が出来るので少し重くなるらしい。

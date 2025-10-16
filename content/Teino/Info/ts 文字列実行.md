@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [ts](<../Bar/Program/JavaScript and TypeScript.md>)
+up:: [ts](<../Bar/Program_lang/JavaScript and TypeScript.md>)
 
 文字列からtypescript実行するときはwindow.evalを使う
 evalはローカル変数でwindow.evalはグローバル変数

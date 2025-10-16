@@ -6,7 +6,7 @@ aliases:
   - Rust 参照と借用
 ---
 
-up:: [Rust](<../Bar/Program/Rust.md>)
+up:: [Rust](<../Bar/Program_lang/Rust.md>)
 
 [Rust Ownership](<./Rust Ownership.md>)
 

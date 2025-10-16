@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [JavaScript and TypeScript](<../Bar/Program/JavaScript and TypeScript.md>)
+up:: [JavaScript and TypeScript](<../Bar/Program_lang/JavaScript and TypeScript.md>)
 
 スプレッド演算子や`Object.assign()`を使うことが出来る。
 

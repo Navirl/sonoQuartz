@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [ts](<../Bar/Program/JavaScript and TypeScript.md>)
+up:: [ts](<../Bar/Program_lang/JavaScript and TypeScript.md>)
 
 npmのバージョン管理ツール。
 

@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [regex](<../Bar/Program/Reguler Expression.md>)
+up:: [regex](<../Bar/Program_lang/Reguler Expression.md>)
 
 ## ""の中のエスケープ無し"に一致
 `(?<=[\s\S]+"\[.*)"(?=.*"\n)`

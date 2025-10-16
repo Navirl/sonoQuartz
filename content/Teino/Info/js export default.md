@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [js](<../Bar/Program/JavaScript and TypeScript.md>)
+up:: [js](<../Bar/Program_lang/JavaScript and TypeScript.md>)
 
 exportは変数や関数やクラス(ひっくるめてモジュール)を他のファイルから扱えるようにする奴。
 これにdefaultを付けると、そのファイルにおいて**そのモジュールだけをexportする**。なので省略して呼び出せる。

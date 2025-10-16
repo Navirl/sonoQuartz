@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Shellscript](<../Bar/Program/Shellscript.md>)
+up:: [Shellscript](<../Bar/Program_lang/Shellscript.md>)
 up:: [Termux](<../Bar/CLI/Termux.md>)
 
 ## Shebang

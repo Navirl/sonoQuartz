@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Rust](<../Bar/Program/Rust.md>)
+up:: [Rust](<../Bar/Program_lang/Rust.md>)
 
 参照が有効になるスコープ。正確に言うとその間だけメモリを保持する期間。
 スコープ外で変数を使おうとしてエラーになるのはこのライフタイムが切れているから。

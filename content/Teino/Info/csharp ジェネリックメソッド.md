@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [Csharp](<../Bar/Program/Csharp.md>)
+up:: [Csharp](<../Bar/Program_lang/Csharp.md>)
 
 ## ジェネリックメソッド
 一言で言うと、**型も引数で指定できるメソッド。** 
