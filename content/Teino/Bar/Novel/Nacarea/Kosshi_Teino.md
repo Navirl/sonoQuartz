@@ -15,12 +15,20 @@ aliases:
 up:: [Biscarnya](<./Biscarnya.md>)
 down:: [Knock-off](<../Topics/Knock-off.md>)
 
-source:: [Urban Dictionary: Pseudonecrophile](https://www.urbandictionary.com/define.php?term=Pseudonecrophile)
-source:: [Pseudo-Necrophilia In Gravediggers And Mortuary Attendants - Atmostfear Entertainment](https://www.atmostfear-entertainment.com/health/psychology/pseudo-necrophilia-in-gravediggers-and-mortuary-attendants/)
+[Cricia](<./Cricia.md>)と外を繋ぐ門番。酔い潰れた父親の代わりに仕事している。
+
+口調は穏やかな女性。[梁先茶樹](<./Saki_Yanasaki.md>)と話すときだけちょっと束縛が強い。
+あとちょいちょいうっかりしている。
+
+
+以下参考
+
+---
 
 「こんにちは。あなた、もしかして今来たばかり？」
 
-門番。酔い潰れた父親の代わりに
+source:: [Urban Dictionary: Pseudonecrophile](https://www.urbandictionary.com/define.php?term=Pseudonecrophile)
+source:: [Pseudo-Necrophilia In Gravediggers And Mortuary Attendants - Atmostfear Entertainment](https://www.atmostfear-entertainment.com/health/psychology/pseudo-necrophilia-in-gravediggers-and-mortuary-attendants/)
 
 [Boushi\_Timeline](<../Timeline/Boushi_Timeline.md>)
 

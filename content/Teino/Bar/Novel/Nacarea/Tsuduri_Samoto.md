@@ -13,7 +13,7 @@ up:: [Saki\_Yanasaki](<./Saki_Yanasaki.md>)
 up:: [Nainy\_Tokerny\_Deunant](<./Nainy_Tokerny_Deunant.md>)
 up:: [Chromisiro](<./Chromisiro.md>)
 down:: [Yoshimi\_Hitotsumi](<./Yoshimi_Hitotsumi.md>)
-down:: [Kanakuro\_Boushi](<./Kanakuro_Boushi.md>)
+down:: [Kanakuro\_Boushi](<./Kosshi_Teino.md>)
 
 乍本綴さま。サモトツヅリ
 貴女の死因は何ですか？
@@ -25,7 +25,7 @@ down:: [Kanakuro\_Boushi](<./Kanakuro_Boushi.md>)
 その能力は世界権威に達しており、[Higanono\_Soutsui](<./Higanono_Soutsui.md>)を試しで作るほど。ただしその中に入れる性格は大体終わってる奴ばっか。自分を参考にしてるのにね、何でだろうね。
 
 ただ最後に作った完成形、[Fully\_Sensitive\_Android](<./FSA.md>)である元[Yoshimi\_Hitotsumi](<./Yoshimi_Hitotsumi.md>)はびっくりするほどマトモ。無垢で新鮮な反応を返しながら、ちゃんと未来を考えている人間。何した。
-一罪の身体は男。あとで[Kanakuro\_Boushi](<./Kanakuro_Boushi.md>)と入れ替わってしまったが、実は[Sharlet](<./Sharlet.md>)と同じような境遇。梁先と普通に友人になりたかった綴の願いが滲んでる。
+一罪の身体は男。あとで[Kanakuro\_Boushi](<./Kosshi_Teino.md>)と入れ替わってしまったが、実は[Sharlet](<./Sharlet.md>)と同じような境遇。梁先と普通に友人になりたかった綴の願いが滲んでる。
 
 クロミシロ住み。その頃にはアンドロイド制作は一度止め、ネイニから盗みの技術を学ぶ学生になっている。辞めた理由は無能の人間しか作れなくなったから。つまりスランプ。ソフトではなくハード的な話。何かに特化しようとしても気づけば人間を作ってる。それがクロミシロの技術基礎になったわけだが。
 茶樹の体を取り戻したいとかは一ミリも考えてない。少なくともこの時の彼女の頭には無い。だから何考えてるのか全然分からなくてネイニが胃痛で悶えてる。名前を奪ったんだから綴自体は来てもおかしくないんだけどこいつ入れ替わりに気づいてないか？
@@ -58,7 +58,7 @@ down:: [Kanakuro\_Boushi](<./Kanakuro_Boushi.md>)
 
 [Yoshimi\_Hitotsumi](<./Yoshimi_Hitotsumi.md>)を一般人にしてFSAと入れ替わらせるだけでいいのだが、一罪はどう見てもまともな人間じゃないのでなんか説明が欲しい。なんで[Faw](<../Faw.md>)のがまともな人間してんだ。世界観が違う？　そうね。
 
-この世界で不可思議を司る発明と魔法、それぞれの極致であるFSAとヒト化が可換であるという点がなかなかいい。いや、一応どっちも発明か。[金黒帽子](<./Kanakuro_Boushi.md>)はアーシャの[KOW](<./KOW.md>)から出て来てるから。いやそこから機能する人間になってるのは魔法か。……人化は[Faw](<../Faw.md>)じゃなかったか。[Kanakuro\_Boushi](<./Kanakuro_Boushi.md>)の体、そういや[Arsha](<./Arsha.md>)の魔法だったか。[Saki\_Yanasaki](<./Saki_Yanasaki.md>)自身も人化っぽいんだけど、これは元があってそれと接続してるタイプ。魔法は一人一種とは誰も一言も言ってないからな。同じ方向に進むほど同じ人生を送る奴が居ないだけで。というか厳密にはFawは違う生物だし別にいい気がした。
+この世界で不可思議を司る発明と魔法、それぞれの極致であるFSAとヒト化が可換であるという点がなかなかいい。いや、一応どっちも発明か。[金黒帽子](<./Kosshi_Teino.md>)はアーシャの[KOW](<./KOW.md>)から出て来てるから。いやそこから機能する人間になってるのは魔法か。……人化は[Faw](<../Faw.md>)じゃなかったか。[Kanakuro\_Boushi](<./Kosshi_Teino.md>)の体、そういや[Arsha](<./Arsha.md>)の魔法だったか。[Saki\_Yanasaki](<./Saki_Yanasaki.md>)自身も人化っぽいんだけど、これは元があってそれと接続してるタイプ。魔法は一人一種とは誰も一言も言ってないからな。同じ方向に進むほど同じ人生を送る奴が居ないだけで。というか厳密にはFawは違う生物だし別にいい気がした。
 
 結局綴をアーシャとは違う性格にしてしまえばいいという話だが。
 夜の地球、理解のIF、スードネクロを持ってる奴が静かな清楚系でないわけなくないか。えっ、鷺沢文香方向……？

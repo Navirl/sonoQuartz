@@ -5,7 +5,7 @@ tags:
  - Timeline
 ---
 
-up:: [Kanakuro\_Boushi](<../Nacarea/Kanakuro_Boushi.md>)
+up:: [Kanakuro\_Boushi](<../Nacarea/Kosshi_Teino.md>)
 up:: [Timeline\_Sheet](<../Sheet/Timeline_Sheet.md>)
 
 ```timeline
