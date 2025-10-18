@@ -76,6 +76,9 @@ https://www-creators.com/archives/78
 `log`でファイルを見つけ、`restore`で戻す。コミットを忘れず。
 中身が知りたいならgit showを使う。
 
+`git log -- file`
+`git restore --source=commitID^ -- file`
+
 [Gitで、特定のファイルを削除したコミットを見つけて復元する方法 · GitHub](https://gist.github.com/hyuki/dad2ddc040b2b5670bdfdbfda0329ac2)
 [\[git\] 戻したい時よく使っているコマンドまとめ Git - Qiita](https://qiita.com/rch1223/items/9377446c3d010d91399b)
 [Gitで過去に削除したファイルを検索、復元させる方法](https://rcmdnk.com/blog/2017/10/01/computer-git/)
@@ -208,6 +211,8 @@ add後なら`git reset`
 ## 過去ファイルを検索して引っ張ってくる
 `git grep "Post" $(git log --pretty=format:%H -- ./src/CanvasNodesView.ts)`
 
+`git log -p -- file`で対象の変更履歴を全部見られる。
+
 `git checkout (hash)`
 
 ## does not have a commit checked out
@@ -272,4 +277,8 @@ safedirectoryに追加。
 簡単だが確認フェイズを入れることで本番ブランチデプロイの品質を担保する。
 
 [タグ付けデプロイの思想的裏付け - Qiita](https://qiita.com/niisan-tokyo/items/22500c8b7a3cb44331ee)
+
+## コミットメッセージで検索、ハッシュから過去ファイル確認
+`git log --grep name --oneline`でハッシュを手に入れ、
+`git show hash:file`で確認できる。fileは相対パス不可。
 

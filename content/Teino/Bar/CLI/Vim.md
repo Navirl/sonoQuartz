@@ -284,3 +284,9 @@ g!にすると一致しない物に対して。:vは=:g!。
 ```
 
 行頭、現在カーソルがある行数字がmod3で0のときブラックホールレジスタで空行追加
+
+## 差分確認
+`nvim -d file1 file2`で最初から開くか、`:vert diffsplit file2`でもう一つ開くか、複数開いてからそれぞれ`:diffthis`する。
+ちなみに`:windo diffthis`で全部一気にdiffthisできる。
+
+`:diffpatch`でバッファと比較できる。
