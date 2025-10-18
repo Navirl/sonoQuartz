@@ -81,6 +81,7 @@ up:: [Sakogaya](<./Sakogaya.md>)
 
 この時間遡行が通らないもの。[Eika_Mitsunagi](<../Nacarea/Eika_Mitsunagi.md>)は会いに来るだろうな感。
 
+仮にその自走が始まるとしても、何十年と経った瓢時代で殺戮も何も起きてないので杞憂だったんじゃないか説。
 
 
 

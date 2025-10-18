@@ -5,7 +5,7 @@ tags:
  - Info
 ---
 
-up:: [Liability](<../Bar/Novel/Topics/Liability.md>)
+up:: [Responsibility](<../Bar/Novel/Topics/Responsibility.md>)
 
 やり直し、最後まで遂行するResponsibility
 処分を受け入れAccountability
