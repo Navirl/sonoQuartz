@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [PowerShell\_and\_Command-Line](<../Bar/GUI/PowerShell_and_Command-Line.md>)
+up:: [PowerShell\_and\_Command-Line](<../Bar/CLI/PowerShell_and_Command-Line.md>)
 source:: [コマンドプロンプトとPowerSHellによるファイルとディレクトリの検索 - Qiita](https://qiita.com/gtom7156/items/cb72e5517ca16dc480c1)
 source:: [PowerShellで文字列検索してみよう](http://excel.wp.xdomain.jp/?p=88)
 

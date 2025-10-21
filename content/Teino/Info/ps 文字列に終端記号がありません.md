@@ -4,7 +4,7 @@ tags:
   - Info
 ---
 
-up:: [PowerShell\_and\_Command-Line](<../Bar/GUI/PowerShell_and_Command-Line.md>)
+up:: [PowerShell\_and\_Command-Line](<../Bar/CLI/PowerShell_and_Command-Line.md>)
 
 文字コードがutf-8かつ日本語を含んだファイルを読ませると怒られる。
 デフォルトがShift-JISのせいらしい。

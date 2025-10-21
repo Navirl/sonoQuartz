@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [PowerShell\_and\_Command-Line](<../Bar/GUI/PowerShell_and_Command-Line.md>)
+up:: [PowerShell\_and\_Command-Line](<../Bar/CLI/PowerShell_and_Command-Line.md>)
 up:: [Scoop](<../Bar/CLI/Scoop.md>)
 up:: [font](<./font.md>)
 

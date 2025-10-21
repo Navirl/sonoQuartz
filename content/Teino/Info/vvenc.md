@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [PowerShell\_and\_Command-Line](<../Bar/GUI/PowerShell_and_Command-Line.md>)
+up:: [PowerShell\_and\_Command-Line](<../Bar/CLI/PowerShell_and_Command-Line.md>)
 
 [GitHub - fraunhoferhhi/vvenc: Fraunhofer Versatile Video Encoder (VVenC)](https://github.com/fraunhoferhhi/vvenc)
 [GitHub - MartinEesmaa/VVCEasy: VVCEasy is that you don't have to compile or/and coding to encode VVC (known as Versatile Video Codec). Simple. Easy. Encode. Decode](https://github.com/MartinEesmaa/VVCEasy)

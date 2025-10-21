@@ -4,6 +4,6 @@ tags:
   - Info
 ---
 
-up:: [ps](<../Bar/GUI/PowerShell_and_Command-Line.md>)
+up:: [ps](<../Bar/CLI/PowerShell_and_Command-Line.md>)
 
 `TREE`。`/A`でフォルダのみ、`/F`でファイル含めたツリーを表示できる。

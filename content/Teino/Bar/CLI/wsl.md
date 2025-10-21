@@ -4,7 +4,7 @@ tags:
   - Bar
 ---
 
-up:: [PowerShell\_and\_Command-Line](<../GUI/PowerShell_and_Command-Line.md>)
+up:: [PowerShell\_and\_Command-Line](<./PowerShell_and_Command-Line.md>)
 
 脱出はexit。
 

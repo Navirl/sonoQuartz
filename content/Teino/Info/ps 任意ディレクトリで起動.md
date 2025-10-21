@@ -4,7 +4,7 @@ tags:
  - Info
 ---
 
-up:: [PowerShell\_and\_Command-Line](<../Bar/GUI/PowerShell_and_Command-Line.md>)
+up:: [PowerShell\_and\_Command-Line](<../Bar/CLI/PowerShell_and_Command-Line.md>)
 source:: [PowerShellを指定したディレクトリで起動する方法 | miajimyu note](https://www.miajimyu.com/docs/powershell/powershell-tips/how-to-set-location-at-startup/)
 
 `$profile`に起動オプションが設定できるので、`cd $home`とでもしてやればいい。
