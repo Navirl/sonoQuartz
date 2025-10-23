@@ -1,0 +1,16 @@
+```plantuml
+@startuml pot
+hide empty description
+
+[*] --> inputX
+inputX --> 右入力
+右入力 --> 右に最小の速さ : 右に最小の速さ以下
+右入力 --> 右に最小の速さ : 左に速さ
+右入力 --> 右に最大の速さ : 右に最大の速さ以上
+右入力 --> 右に加速 : 右に最小以上、最大以下の速さ
+inputX --> 左入力
+
+
+
+@enduml
+```
