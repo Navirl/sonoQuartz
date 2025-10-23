@@ -1,8 +1,8 @@
 ---
 date: 2022-10-15
 tags:
- - Bar
- - Novel/Topic
+  - Bar
+  - Novel/Topic
 ---
 
 up:: [Machine](<./Machine.md>)
