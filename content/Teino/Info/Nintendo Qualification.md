@@ -20,4 +20,4 @@ ITストラテジスト
 情報セキュリティスペシャリスト
 ITサービスマネージャ
 システム監査技術者
-![](<../images/Screenshot_2022-07-18-19-06-08-270_com.kiwibrowser.browser.jpg>)
+![](<../images/Screenshot_2022-07-18-19-06-08-270_com.kiwibrowser.browser.png>)

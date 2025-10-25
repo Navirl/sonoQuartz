@@ -10,8 +10,8 @@ source:: [Using MetaSounds, you can adjust audio parameters during runtime per c
 Variableの代わりに**Input**を増やし、Blueprint側からSet ~ Parameterで**名前指定して**いじくる。複数あるがどれでも動く。
 ただしTargetに付けるのはMetaSoundSourceを直接Blueprintにくっつけた時にできる**Audio Component**。MetaSoundSourceはSound Baseにもくっつくがこれでは値は変更できないらしい。
 
-![](<../images/Pasted image 20220701211410.webp>)
+![](<../images/Pasted image 20220701211410.png>)
 
 ![](<../images/Pasted image 20220701211439.webp>)
 
-![](<../images/Pasted image 20220701211527.webp>)
+![](<../images/Pasted image 20220701211527.png>)

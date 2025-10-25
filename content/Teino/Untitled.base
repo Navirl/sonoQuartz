@@ -1,7 +1,10 @@
 views:
-  - type: cards
+  - type: table
     name: Table
-    sort:
-      - property: file.name
-        direction: ASC
+    filters:
+      and:
+        - file.path.contains("webp")
+    sort: []
     cardSize: 220
+  - type: table
+    name: View

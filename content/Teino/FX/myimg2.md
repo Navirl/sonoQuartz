@@ -1,10 +1,10 @@
 [myimg](<./myimg.md>)
-![](<../images/myimg2-1747279675710.webp>)
+![](<../images/myimg2-1747279675710.png>)
 ![](<../images/myimg2 2025-05-15 12.28.08.excalidraw.md>)
 直近流れが上
 抜きのエントリーは勢い鳴ければアウト、大幅に切り上げ上髭は結構値する
 
-![](<../images/myimg2-1747285420791.webp>)
+![](<../images/myimg2-1747285420791.png>)
 ![](<../images/myimg2 2025-05-15 14.03.48.excalidraw.md>)
 
 レンジブロックは見やすくなるが、半値の存在を忘れない
@@ -18,7 +18,7 @@
 ちゃんと1hの押し目まで売るという意識があるなら、よい
 
 
-![](<../images/myimg2-1747311177944.webp>)
+![](<../images/myimg2-1747311177944.png>)
 
 ![](<../images/myimg2 2025-05-15 21.13.03.excalidraw.md>)
 マトモなレンジが全然ないところに突っ込むな
@@ -28,7 +28,7 @@
 
 ![](<../images/myimg2 2025-05-15 22.09.20.excalidraw.md>)
 
-![](<../images/myimg2-1747447637943.webp>)
+![](<../images/myimg2-1747447637943.png>)
 
 ![](<../images/myimg2 2025-05-17 11.07.26.excalidraw.md>)
 何処でレンジを察知するか
