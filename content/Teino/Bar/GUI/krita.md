@@ -30,3 +30,6 @@ https://www.youtube.com/watch?v=PPxOE9YH57E
 
 ## ブラシ大きさ変更
 shiftドラッグ。
+
+## 画像の大きさで選択範囲
+選択->不透明領域を選択。

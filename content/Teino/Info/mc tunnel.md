@@ -66,3 +66,6 @@ Tailscaleを採用する。
 [厄介な環境から Tailscale に接続する (プロキシなど)](https://zenn.dev/nzws/articles/connect-tailscale-via-troublesome-environment)
 
 他のアカウントにマシンを一つ共有する設定が出来る。
+
+今はRadminでサクッと繋げたり、zerotierという競合が出たりしてるらしい。
+[Gemini - Radmin VPNとTailscaleのゲーム用途比較](https://gemini.google.com/share/5f4fb98ebd6c)
