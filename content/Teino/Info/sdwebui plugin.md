@@ -396,6 +396,8 @@ SDなしで動く奴もあるが、そちらはpythonをコンパイルしてい
 
 [【イラストAI】ノイズやテクスチャを使って描き込み量をめちゃくちゃに増やそう！1/4｜御月望未（みつきのぞみ）](https://note.com/mitsukinozomi/n/n500c7a9ea195)
 
+comfyui版。
+[GitHub - Jonseed/ComfyUI-Detail-Daemon: A port of muerrilla's sd-webui-Detail-Daemon as a node for ComfyUI, to adjust sigmas that control detail.](https://github.com/Jonseed/ComfyUI-Detail-Daemon)
 ## sd-webui-cd-tuner
 ColorとDetailが調節できる。
 作成中のノイズに干渉する機能。ほぼカムカム。

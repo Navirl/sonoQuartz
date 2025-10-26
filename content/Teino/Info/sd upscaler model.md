@@ -53,3 +53,8 @@ same:: [sd upscale](<./sd upscale.md>)
 
 [4x_foolhardy_Remacri](https://huggingface.co/uwg/upscaler/blob/main/ESRGAN/4x_foolhardy_Remacri.pth)
 [\[UPDATED\] Comparing 4 popular upscalers in the SD Upscale | Civitai](https://civitai.com/articles/50/updated-comparing-4-popular-upscalers-in-the-sd-upscale)
+
+## AnimeSharpV4
+CC-BY-NC-SA-4.0
+
+[2x AnimeSharpV4](https://openmodeldb.info/models/2x-AnimeSharpV4)
