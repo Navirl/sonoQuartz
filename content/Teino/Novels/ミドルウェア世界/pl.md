@@ -46,3 +46,14 @@
 残す情報
 現地人に能力を伝える
 自分は失うことで悲しめると、そう言うために
+
+毒も蓬莱も、やるべきことに関連することを繋げていって出来てる
+pfも少なくとも能力獲得のため動いてる
+
+mwは？
+
+二次創作が参考にならないのは、目的達成のための道具が既に用意されていること。
+道具を用意するとこからやるのが一次。wisdom。
+
+![EfavwsdWoAAhUeZ.jpg:medium](https://pbs.twimg.com/media/EfavwsdWoAAhUeZ.jpg:medium)
+

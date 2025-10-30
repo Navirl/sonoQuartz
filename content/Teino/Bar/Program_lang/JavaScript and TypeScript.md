@@ -49,3 +49,6 @@ pnpm exec
 同一ドライブじゃないとだめ。
 [How to get pnpm store directory - Stack Overflow](https://stackoverflow.com/questions/55403775/how-to-get-pnpm-store-directory)
 [how to change pnpm store folder path · pnpm · Discussion 7289 · GitHub](https://github.com/orgs/pnpm/discussions/7289)
+
+## npm global list
+`npm list -g --depth=0`
