@@ -20,6 +20,8 @@ tags:
 
 ＜ここに目線画像＞
 
+平均描く
+
 - [ ] [my](obsidian://open?vault=Teino&file=FX/my)(見ないと増える)
 - [ ] 指標
 - [ ] 前日確認

@@ -120,3 +120,36 @@ CommanderでClose current tabとUndo close tabを繋げた、Refresh current not
 
 ## 簡単なannotateが欲しい
 image converterにくっついてる。
+
+## spaced repetitionにnotebooklmのテストを入れる
+[NotebookLM to PDF - Chrome Web Store](https://chromewebstore.google.com/detail/notebooklm-to-pdf/micfpbhlllbdpgdkkgdimdpmpeefoamk)
+[GitHub - farling42/obsidian-import-json: Plug-in for Obsidian.md which will create Notes from JSON files](https://github.com/farling42/obsidian-import-json)
+
+```markdown
+---
+tags:
+  - flashcards
+---
+{{question}}
+{{#each answerOptions}}
+- [ ] {{text}}
+{{/each}}
+<details>
+<summary>Hint</summary>
+{{hint}}
+</details>
+?
+{{#each answerOptions}}
+- {{#if isCorrect}}**[✅] {{text}}**{{else}}[ ] {{text}}{{/if}}
+  > *Rationale:* {{rationale}}
+{{/each}}
+```
+
+[Gemini - NotebookLM Quiz to Anki 拡張機能](https://gemini.google.com/share/f76d0b8a9ff8)
+
+json取って読ませる。
+ただ択のランダム化が出来ないので、択全体を隠すかAnkiに流すかなどめんどい作業が入る。
+
+あとそもそも択問題は覚える一点において非推奨。
+自分で想起しないといけないらしい。
+[よくある質問 (Frequently Asked Questions) - Anki日本語マニュアル Wiki\*](https://wikiwiki.jp/rage2050/2.0/FrequentlyAskedQuestions#da70c191)

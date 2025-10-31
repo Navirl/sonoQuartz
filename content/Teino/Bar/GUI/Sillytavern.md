@@ -97,3 +97,14 @@ WinとMacのぶんしかクライアントがない。
 [SillyTavern + LM Studio + 他 でMCPを使ったメモ｜ぬるぽらぼ](https://note.com/nullpolab/n/n4883fdf4b308#c8fb6818-5997-408a-a6bf-d1555d615a71)
 チャット完了、http://127.0.0.1:1234/v1、None。
 
+## 長い設定を作る
+https://note.com/nullpolab/n/n4883fdf4b308#c8fb6818-5997-408a-a6bf-d1555d615a71
+https://glama.ai/mcp/servers/@T1nker-1220/memories-with-lessons-mcp-server
+https://github.com/bmen25124/SillyTavern-MCP-Client
+https://github.com/aikohanasaki/SillyTavern-MemoryBooks
+https://gitgud.io/Monblant/sillytavern-loremanager/-/tree/master?utm_source=chatgpt.com
+https://github.com/bmen25124/SillyTavern-Character-Creator?utm_source=chatgpt.com
+https://github.com/LenAnderson/SillyTavern-WorldInfoPresets
+https://github.com/bmen25124/SillyTavern-Roadway
+https://github.com/bmen25124/SillyTavern-Magic-Translation
+https://github.com/bmen25124/SillyTavern-WorldInfo-Recommender/
