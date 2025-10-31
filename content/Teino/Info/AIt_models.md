@@ -150,3 +150,9 @@ Q2でも12Bの層は減るわけじゃないので、層を読みすぎると普
 ```
 “Hey girl, you gonna melt into that puddle of sweat or what?” Erin smirked as she leaned towards the other girl’s face and licked her lips sensuously before leaning forward again to press against the opposite cheek in a playful manner of teasing affection rather than desire for intimacy given their age difference between childhood friends who shared secrets while growing up alongside each other throughout high school years until present day college lives together now too close enough proximity where such interactions become normalized despite different intentions behind them both knew weren't romantic but sometimes blurred lines occurred naturally during those times especially since erin didn't mind teasing like this around her friend either knowing nothing would ever happen between them beyond playful gestures meant solely for fun
 ```
+
+## PantheonUnbound/Satyr-V0.1-4B
+[PantheonUnbound/Satyr-V0.1-4B · Hugging Face](https://huggingface.co/PantheonUnbound/Satyr-V0.1-4B)
+
+普通の話を書けっていってもR-18に寄るので封印。あと直接的過ぎてアレ。
+More refined and nuanced versions are in development.らしいのでバージョンアップに期待。
