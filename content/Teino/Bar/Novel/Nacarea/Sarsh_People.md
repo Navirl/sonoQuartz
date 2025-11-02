@@ -2,7 +2,7 @@
 date: 2022-07-01
 tags:
   - Bar
-  - Nacaria
+  - Novel/World/Nacaria
   - Novel/Character
 aliases:
   - サーシュの人々

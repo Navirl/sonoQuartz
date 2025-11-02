@@ -2,7 +2,7 @@
 date: 2023-04-09
 tags:
  - Bar
- - Nacaria
+ - Novel/World/Nacaria
  - Novel/Character
 aliases:
  - Fully_Sensitive_Android

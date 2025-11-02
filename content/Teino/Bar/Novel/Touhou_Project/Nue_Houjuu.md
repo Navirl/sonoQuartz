@@ -3,7 +3,7 @@ date: 2022-08-11
 tags:
   - Bar
   - Novel/Character
-  - Touhou_Project
+  - Novel/World/Touhou_Project
 aliases:
   - 封獣ぬえ
 ---

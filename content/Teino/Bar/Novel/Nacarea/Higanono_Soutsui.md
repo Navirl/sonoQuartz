@@ -3,7 +3,7 @@ date: 2022-10-30
 tags:
   - Bar
   - Novel/Character
-  - Nacaria
+  - Novel/World/Nacaria
 aliases:
   - 比嘉野双終
 ---

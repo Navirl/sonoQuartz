@@ -3,7 +3,7 @@ date: 2022-10-29
 tags:
   - Bar
   - Novel/Character
-  - Nacaria
+  - Novel/World/Nacaria
 aliases:
   - 三波塔鶴
   - 三繋章

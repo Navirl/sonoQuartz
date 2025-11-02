@@ -3,6 +3,7 @@ date: 2022-08-10
 tags:
   - Bar
   - Novel/World
+  - Novel/World/Just-World
 aliases:
 ---
 

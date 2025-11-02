@@ -3,7 +3,7 @@ date: 2022-09-20
 tags:
   - Bar
   - Novel/Location
-  - Nacaria
+  - Novel/World/Nacaria
 aliases:
   - アヤマ
 ---

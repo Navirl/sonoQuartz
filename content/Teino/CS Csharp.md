@@ -1,8 +1,6 @@
 ---
 date: 2021-07-29 09:55:40
 tags:
-  - Program_lang/CSharp
-  - CheatSheet
 aliases:
   - CCSheet
 ---

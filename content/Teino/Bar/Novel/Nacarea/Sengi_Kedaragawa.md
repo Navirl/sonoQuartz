@@ -3,7 +3,7 @@ date: 2022-07-04
 tags:
   - Bar
   - Novel/Character
-  - Nacaria/Cricia
+  - Novel/World/Nacaria
 aliases:
   - 形鱈川千喜
 ---

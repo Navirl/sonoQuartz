@@ -2,7 +2,7 @@
 date: 2022-08-05
 tags:
   - Bar
-  - Nacaria
+  - Novel/World/Nacaria
   - Novel/Topic
 aliases:
   - 0の価値

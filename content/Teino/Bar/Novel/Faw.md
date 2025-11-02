@@ -2,6 +2,7 @@
 tags:
   - Bar
   - Novel/Character
+  - Novel/World/Star
 date: 2023-05-07
 aliases:
   - ファウ

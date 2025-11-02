@@ -3,7 +3,7 @@ date: 2023-06-20
 tags:
  - Bar
  - Novel/Community
- - Nacaria
+ - Novel/World/Nacaria
 ---
 
 up:: [Ive](<./Ive.md>)

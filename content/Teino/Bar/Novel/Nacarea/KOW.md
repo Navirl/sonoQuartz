@@ -2,7 +2,7 @@
 date: 2022-07-27
 tags:
  - Bar
- - Nacaria
+ - Novel/World/Nacaria
  - Novel/Item
 aliases:
  - ナイフ・オブ・ワーズ

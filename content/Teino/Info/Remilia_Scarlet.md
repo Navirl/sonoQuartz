@@ -3,7 +3,7 @@ date: 2023-06-29
 tags:
  - Bar
  - Novel/Character
- - Touhou_Project
+ - Novel/World/Touhou_Project
 aliases:
  - レミリア・スカーレット
 ---

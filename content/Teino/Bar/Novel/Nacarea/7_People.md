@@ -2,7 +2,7 @@
 date: 2022-09-19
 tags:
  - Bar
- - Nacaria
+ - Novel/World/Nacaria
  - Novel/Character
 ---
 

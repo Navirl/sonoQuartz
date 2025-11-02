@@ -2,7 +2,7 @@
 date: 2022-07-05
 tags:
   - Bar
-  - Nacaria
+  - Novel/World/Nacaria
   - Novel/Character
 aliases:
   - 八階堂高目

@@ -3,7 +3,7 @@ date: 2023-05-07
 tags:
   - Bar
   - Novel/Character
-  - Star
+  - Novel/World/Star
 aliases:
   - 星夏
 ---

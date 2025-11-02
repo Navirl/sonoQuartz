@@ -3,7 +3,7 @@ date: 2022-08-05
 tags:
  - Bar
  - Novel/Community
- - Nacaria/Cricia
+ - Novel/World/Nacaria
 aliases:
  - 断繋探訪
  - 欠片教

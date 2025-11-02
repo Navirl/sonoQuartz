@@ -3,7 +3,7 @@ date: 2022-10-29
 tags:
  - Bar
  - Novel/Character
- - Nacaria
+ - Novel/World/Nacaria
 ---
 
 up:: [Huo](<./Huo.md>)

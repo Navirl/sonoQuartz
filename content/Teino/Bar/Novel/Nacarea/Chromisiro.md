@@ -3,7 +3,7 @@ date: 2022-08-04
 tags:
   - Bar
   - Novel/Location
-  - Nacaria
+  - Novel/World/Nacaria
 aliases:
   - クロミシロ
 ---

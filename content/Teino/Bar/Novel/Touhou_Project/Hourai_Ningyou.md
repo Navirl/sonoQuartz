@@ -3,7 +3,7 @@ date: 2022-08-10
 tags:
  - Bar
  - Novel/Character
- - Touhou_Project
+ - Novel/World/Touhou_Project
 banner_y: 0.35342
 banner: "![[../../../Banners/石川スペアリブ - 20470091/20220808 - お祝い.jpg]]"
 ---

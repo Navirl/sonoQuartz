@@ -2,7 +2,7 @@
 date: 2024-03-24
 tags:
   - Bar
-  - Canareal
+  - Novel/World/Canareal
   - Novel/Character
 aliases:
   - Fumi

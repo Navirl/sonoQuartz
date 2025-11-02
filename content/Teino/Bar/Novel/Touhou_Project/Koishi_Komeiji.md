@@ -3,7 +3,7 @@ date: 2022-09-20
 tags:
  - Bar
  - Novel/Character
- - Touhou_Project
+ - Novel/World/Touhou_Project
 banner: "![[../../../Banners/old/cinkai/Danbooru/__komeiji_koishi_touhou_drawn_by_cinkai__4f6d206477ce704c99528f78293d0153 - cinkai.png]]"
 banner_y: 0.21285
 ---

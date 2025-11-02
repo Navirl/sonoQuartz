@@ -3,7 +3,7 @@ date: 2022-12-26
 tags:
   - Bar
   - Novel/Community
-  - Nacaria
+  - Novel/World/Nacaria
 aliases:
   - 閠
 ---

@@ -3,7 +3,7 @@ date: 2022-11-01
 tags:
  - Bar
  - Novel/Character
- - Touhou_Project
+ - Novel/World/Touhou_Project
 ---
 
 up:: [Crazy\_Quartet](<./Crazy_Quartet.md>)

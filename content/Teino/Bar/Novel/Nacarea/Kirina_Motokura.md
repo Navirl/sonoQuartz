@@ -2,7 +2,7 @@
 date: 2022-09-03
 tags:
   - Bar
-  - Nacaria
+  - Novel/World/Nacaria
   - Novel/Character
 aliases:
   - 索冥桐名

@@ -85,7 +85,7 @@ sendで送る。
 ## ウィンドウ指定
 `#HotIf WinActive("ahk_exe Notepad.exe")`
 ウィンドウ名はwindowspyで確認。
-[\[AutoHotKey\]#IfWinActiveで対象ウインドウを指定する](https://pouhon.net/ahk-win-active/2812/)
+[\[AutoHotKey\]# IfWinActiveで対象ウインドウを指定する](https://pouhon.net/ahk-win-active/2812/)
 
 プロセス指定などもできる。
 [ウィンドウ指定の方法 - AutoHotkey Wiki](https://ahkwiki.net/Window)

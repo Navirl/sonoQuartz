@@ -3,7 +3,7 @@ date: 2022-08-19
 tags:
   - Bar
   - Novel/Character
-  - Nacaria
+  - Novel/World/Nacaria
 aliases:
   - 乍本綴
   - 綴

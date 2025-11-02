@@ -2,7 +2,7 @@
 date: 2022-08-18
 tags:
   - Bar
-  - Create
+  - Novel/World/Create
   - Novel/Character
 aliases:
   - ハルサ

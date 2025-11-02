@@ -3,7 +3,7 @@ date: 2022-07-11
 tags:
   - Bar
   - Novel/Character
-  - Nacaria/Ultia
+  - Novel/World/Nacaria
 aliases:
   - 角端楢名
 ---

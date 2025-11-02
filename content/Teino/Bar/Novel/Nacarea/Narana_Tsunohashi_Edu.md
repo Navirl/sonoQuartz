@@ -3,7 +3,7 @@ date: 2022-07-27
 tags:
  - Bar
  - Novel/Character
- - Nacaria/School
+ - Novel/World/Nacaria
 ---
 
 up:: [Novel/Topics/Education](<../Topics/Education.md>)

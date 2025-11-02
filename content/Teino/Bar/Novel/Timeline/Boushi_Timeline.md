@@ -2,7 +2,7 @@
 date: 2022-10-23
 tags:
  - Info
- - Timeline
+ - Novel/Timeline
 ---
 
 up:: [Kanakuro\_Boushi](<../Nacarea/Kosshi_Teino.md>)

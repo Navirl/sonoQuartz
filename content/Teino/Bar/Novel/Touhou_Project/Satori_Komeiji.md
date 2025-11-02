@@ -3,7 +3,7 @@ date: 2022-10-15
 tags:
  - Bar
  - Novel/Character
- - Touhou_Project
+ - Novel/World/Touhou_Project
 aliases:
  - 古明地さとり
 ---

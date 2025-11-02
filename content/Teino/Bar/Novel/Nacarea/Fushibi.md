@@ -3,7 +3,7 @@ date: 2022-10-22
 tags:
   - Bar
   - Novel/Location
-  - Nacaria
+  - Novel/World/Nacaria
 aliases:
   - フシビ
 ---

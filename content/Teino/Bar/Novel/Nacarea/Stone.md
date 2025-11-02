@@ -3,7 +3,7 @@ date: 2023-02-03
 tags:
  - Bar
  - Novel/Item
- - Nacaria
+ - Novel/World/Nacaria
 ---
 
 up:: [Fushibi](<./Fushibi.md>)

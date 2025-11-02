@@ -240,7 +240,7 @@ gitコマンドはworktreeでセットしたところで使える。
 
 [\[Feature\]: Make git usage on /storage/emulated/0 possible. · Issue #3777 · termux/termux-app](https://github.com/termux/termux-app/issues/3777)
 [Git Worktreeをわかりやすく解説](https://zenn.dev/hiraoku/articles/56f4f9ffc6d186)
-[徹底解説：git worktree の使い方 #Git - Qiita](https://qiita.com/syukan3/items/dab71e88ce91bca44432)
+[徹底解説：git worktree の使い方 # Git - Qiita](https://qiita.com/syukan3/items/dab71e88ce91bca44432)
 
 でもgitui経由でlibgit使ったほうが安定するし……
 
@@ -249,7 +249,7 @@ updateは親で記録しているコミットに子を更新。
 --initは親clone時に空になっているsubmoduleの本体ファイルを親記録コミットを元にclone。
 --remoteは親記録コミットを更新。
 
-[git submodule update \[--init\|--remote\] を勉強し直す #Git - Qiita](https://qiita.com/o-s-w/items/a214b9bf7b8504058118)
+[git submodule update \[--init\|--remote\] を勉強し直す # Git - Qiita](https://qiita.com/o-s-w/items/a214b9bf7b8504058118)
 
 ## repository path is not owned by current user
 safedirectoryに追加。
@@ -268,7 +268,7 @@ safedirectoryに追加。
 
 ## stash
 `git stash`だけで動く。取り出すときは`git stash pop`。
-[【Git】stashコマンドのまとめと使い方 〜変更差分の一時退避〜 #初心者 - Qiita](https://qiita.com/nakaji0210/items/330f6dcb361da074c2c0)
+[【Git】stashコマンドのまとめと使い方 〜変更差分の一時退避〜 # 初心者 - Qiita](https://qiita.com/nakaji0210/items/330f6dcb361da074c2c0)
 
 ## github-flowを使用する時
 開発ブランチと本番ブランチのデプロイは、本番ブランチにいろんな機能が組み合わさっていく以上別物。開発ブランチのデプロイだけで全部分からない。

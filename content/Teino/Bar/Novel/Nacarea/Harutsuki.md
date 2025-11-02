@@ -2,7 +2,7 @@
 date: 2022-09-05
 tags:
   - Bar
-  - Nacaria
+  - Novel/World/Nacaria
   - Novel/Character
 aliases:
   - 春月

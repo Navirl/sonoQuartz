@@ -3,7 +3,7 @@ date: 2022-10-12
 tags:
  - Bar
  - Novel/Character
- - Nacaria
+ - Novel/World/Nacaria
 aliases:
  - トーン・メルーシャ
  - 童濹路夏

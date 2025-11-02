@@ -25,7 +25,7 @@ public Vector2 FindNearestPointOnLine(Vector2 origin, Vector2 direction, Vector2
 次にoriginからpointへ$\overrightarrow{OP}$を引く。
 そして$\overrightarrow{OP}$と$\overrightarrow{D'}$でドット積。これは$\overrightarrow{OP}$に$\overrightarrow{D'}$への写像ベクトル$\overrightarrow{OP'}$を掛けた値。
 
-![Drawing 2022-08-06 22.29.47.excalidraw](<../Excalidraw/Drawing 2022-08-06 22.29.47.excalidraw.md>)
+![Drawing 2022-08-06 22.29.47.excalidraw](<../images/Drawing 2022-08-06 22.29.47.excalidraw.md>)
 
 ここで、$\overrightarrow{OP'}$はoriginからtへのベクトル$\overrightarrow{Ot}$と等しい。
 また、$\overrightarrow{Ot}$に原点からoriginへのベクトル$\overrightarrow{原O}$を加えると、tの座標$\overrightarrow{原t}$と等しくなる。

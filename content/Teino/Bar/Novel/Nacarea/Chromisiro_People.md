@@ -3,7 +3,7 @@ date: 2022-07-08
 tags:
   - Bar
   - Novel/Character
-  - Nacaria
+  - Novel/World/Nacaria
 aliases:
   - クロミシロの人々
 ---

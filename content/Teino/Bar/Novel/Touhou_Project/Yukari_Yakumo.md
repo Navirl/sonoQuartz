@@ -3,7 +3,7 @@ date: 2023-04-26
 tags:
  - Bar
  - Novel/Character
- - Touhou_Project
+ - Novel/World/Touhou_Project
 ---
 
 up::

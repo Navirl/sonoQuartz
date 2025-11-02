@@ -3,7 +3,7 @@ date: 2022-07-23
 tags:
   - Bar
   - Novel/Location
-  - Nacaria
+  - Novel/World/Nacaria
 aliases:
   - クライシア
 ---

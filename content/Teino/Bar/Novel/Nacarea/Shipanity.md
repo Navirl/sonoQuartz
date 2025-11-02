@@ -3,7 +3,7 @@ date: 2022-08-05
 tags:
   - Bar
   - Novel/Community
-  - Nacaria/Cricia
+  - Novel/World/Nacaria
 aliases:
   - 艇教
 ---

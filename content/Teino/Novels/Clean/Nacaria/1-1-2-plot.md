@@ -1,7 +1,6 @@
 ---
 date: 2022-07-30
 tags:
- - Novel/Plot
 ---
 
 up:: [Plot\_Sheet](<../../../Bar/Novel/Sheet/Plot_Sheet.md>)

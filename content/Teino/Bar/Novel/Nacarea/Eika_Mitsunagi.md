@@ -2,7 +2,7 @@
 date: 2022-07-06
 tags:
   - Bar
-  - Nacaria
+  - Novel/World/Nacaria
   - Novel/Character
 aliases:
   - 三繋瑛華

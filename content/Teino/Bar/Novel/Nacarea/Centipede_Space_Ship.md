@@ -2,7 +2,7 @@
 date: 2023-02-03
 tags:
   - Bar
-  - Nacaria
+  - Novel/World/Nacaria
   - Novel/Location
   - Novel/Item
   - Novel/Character

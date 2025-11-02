@@ -3,7 +3,7 @@ date: {{date}}
 time: {{time}}
 tags:
  - Info
- - Timeline
+ - Novel/Timeline
 ---
 
 up:: [Timeline\_Sheet](<../Bar/Novel/Sheet/Timeline_Sheet.md>)

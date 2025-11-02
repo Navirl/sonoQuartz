@@ -2,7 +2,7 @@
 date: 2022-12-25
 tags:
  - Bar
- - Timeline
+ - Novel/Timeline
 ---
 
 up:: [Cricia](<../Nacarea/Cricia.md>)

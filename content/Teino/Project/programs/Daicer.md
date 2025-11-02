@@ -52,7 +52,7 @@ ASCii Photo
 
 - 全ての操作についてUndo、Redoを付けたいので、これらを纏める親クラスが必要
 
-[Drawing 2024-08-12 22.16.39.excalidraw](<../../Excalidraw/Drawing 2024-08-12 22.16.39.excalidraw.md>)
+[Drawing 2024-08-12 22.16.39.excalidraw](<../../images/Drawing 2024-08-12 22.16.39.excalidraw.md>)
 
 [Daicer 技術選定](<../../Info/Daicer 技術選定.md>)
 
@@ -83,7 +83,7 @@ Vault
 
 [Daicer Item](<../../Info/Daicer Item.md>)
 
-[Drawing 2024-08-17 14.27.45.excalidraw](<../../Excalidraw/Drawing 2024-08-17 14.27.45.excalidraw.md>)
+[Drawing 2024-08-17 14.27.45.excalidraw](<../../images/Drawing 2024-08-17 14.27.45.excalidraw.md>)
 
 
 こまけえこと考えるのはリリースしてから

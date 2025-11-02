@@ -18,15 +18,15 @@
 
 
 
-#Info
+Info
 情報ファイル。
 
-#Bar
+Bar
 纏めファイル。
 
-#flashcards
+flashcards
 暗記用。
 
-#Project
+Project
 中長期目標。
 最も上のファイルはProject/Parent。

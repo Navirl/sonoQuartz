@@ -3,7 +3,7 @@ date: 2022-10-29
 tags:
  - Bar
  - Novel/Location
- - Nacaria
+ - Novel/World/Nacaria
 ---
 
 up:: [Nacarea](<./Nacarea.md>)

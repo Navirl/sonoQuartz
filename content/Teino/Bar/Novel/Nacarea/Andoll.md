@@ -3,7 +3,7 @@ date: 2022-08-09
 tags:
  - Bar
  - Novel/Character
- - Nacaria
+ - Novel/World/Nacaria
 ---
 
 up:: [Cricia](<./Cricia.md>)

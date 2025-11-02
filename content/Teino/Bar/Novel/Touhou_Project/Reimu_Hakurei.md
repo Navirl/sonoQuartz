@@ -3,7 +3,7 @@ date: 2022-08-19
 tags:
  - Bar
  - Novel/Character
- - Touhou_Project
+ - Novel/World/Touhou_Project
 ---
 
 up::

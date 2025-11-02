@@ -2,7 +2,7 @@
 date: 2024-04-09
 tags:
   - Bar
-  - Novel/World
+  - Novel/World/Canareal
 ---
 
 down:: [Manoki\_Ogata](<./Manoki_Ogata.md>)

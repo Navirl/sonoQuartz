@@ -3,7 +3,7 @@ date: 2022-09-03
 tags:
   - Bar
   - Novel/Character
-  - Nacaria
+  - Novel/World/Nacaria
 aliases:
   - 朝日羅弘樹
 ---

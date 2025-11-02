@@ -3,7 +3,7 @@ date: 2022-08-02
 tags:
  - Bar
  - Novel/Item
- - Nacaria
+ - Novel/World/Nacaria
 aliases:
  - 遠近法者
 ---

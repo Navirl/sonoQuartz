@@ -3,7 +3,7 @@ date: 2022-12-16
 tags:
   - Bar
   - Novel/Character
-  - Nacaria
+  - Novel/World/Nacaria
 aliases:
   - 閏閖闑
 ---

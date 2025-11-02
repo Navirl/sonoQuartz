@@ -3,7 +3,7 @@ date: 2023-06-29
 tags:
   - Bar
   - Novel/Character
-  - Nacaria
+  - Novel/World/Nacaria
 aliases:
   - モルキュール・オブスキュア
 ---

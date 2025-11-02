@@ -3,7 +3,7 @@ date: 2022-07-16
 tags:
   - Bar
   - Novel/Character
-  - Nacaria/Chromisiro
+  - Novel/World/Nacaria
 aliases:
   - ティラウ・アミア・シラリティ
   - ティラウ

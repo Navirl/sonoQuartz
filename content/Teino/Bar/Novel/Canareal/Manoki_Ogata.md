@@ -3,7 +3,7 @@ date: 2024-03-24
 tags:
   - Bar
   - Novel/Character
-  - Canareal
+  - Novel/World/Canareal
 aliases:
   - Mano
   - マノ

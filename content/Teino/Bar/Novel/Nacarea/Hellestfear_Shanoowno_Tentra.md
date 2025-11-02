@@ -3,7 +3,7 @@ date: 2022-10-14
 tags:
   - Bar
   - Novel/Character
-  - Nacaria
+  - Novel/World/Nacaria
 aliases:
   - ヘレストフィアル・シャノーノ・テントラ
   - ヘレスト

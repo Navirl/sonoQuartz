@@ -2,7 +2,7 @@
 date: 2022-08-05
 tags:
   - Bar
-  - Nacaria/Ultia
+  - Novel/World/Nacaria
   - Novel/Item
 aliases:
   - 索冥

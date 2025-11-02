@@ -3,7 +3,7 @@ date: 2022-08-04
 tags:
   - Bar
   - Novel/Character
-  - Nacaria
+  - Novel/World/Nacaria
 aliases:
   - 五良木愛土
 ---

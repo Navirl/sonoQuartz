@@ -3,7 +3,7 @@ date: 2022-11-14
 tags:
   - Bar
   - Novel/Character
-  - Nacaria
+  - Novel/World/Nacaria
 aliases:
   - シャーレット
 ---

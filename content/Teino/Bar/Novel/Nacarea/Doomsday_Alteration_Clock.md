@@ -3,7 +3,7 @@ date: 2022-07-17
 tags:
   - Bar
   - Novel/Item
-  - Nacaria
+  - Novel/World/Nacaria
 aliases:
   - 終末改変時計
 ---

@@ -3,7 +3,7 @@ date: 2022-07-17
 tags:
   - Bar
   - Novel/Character
-  - Nacaria
+  - Novel/World/Nacaria
 aliases:
   - 古府倫
 ---
