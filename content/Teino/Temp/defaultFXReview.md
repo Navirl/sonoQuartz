@@ -1,8 +1,6 @@
 ---
-date:
-  "{ date }":
-time:
-  "{ time }":
+date: {{date}}
+time: {{time}}
 tags:
   - review
 ---

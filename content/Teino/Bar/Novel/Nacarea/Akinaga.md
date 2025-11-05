@@ -8,7 +8,7 @@ aliases:
   - 秋永
 ---
 
-up:: [Cricia](<./Cricia.md>)
+up:: [Fraschia](<./Fraschia.md>)
 same:: [Harutsuki](<./Harutsuki.md>)
 
 source:: [大麻堂 / タバコが大幅に節約でき経済的!本来の繊細な香りや味が楽しめる大麻堂オリジナル ガラスきせる 「硝子煙管(ガラスキセル) ★緑青螺旋模様」](https://www.taimado.com/onlinestore2/products/detail.php?product_id=7970)

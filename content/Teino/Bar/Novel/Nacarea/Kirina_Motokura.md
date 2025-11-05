@@ -9,5 +9,6 @@ aliases:
 ---
 
 up:: [Ultia](<./Ultia.md>)
+up:: [Takame_Hakkaido](Takame_Hakkaido.md)
 
 

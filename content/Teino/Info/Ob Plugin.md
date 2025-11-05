@@ -50,3 +50,8 @@ repeatプラグインはdataviewが必要なので却下。
 
 つまり複数行をどうしても導入したいとき以外に使う用途が無い気がする。
 
+## chhoumann/quickadd
+[GitHub - chhoumann/quickadd: QuickAdd for Obsidian](https://github.com/chhoumann/quickadd)
+
+テンプレートを挿入したり、ノートから情報を読んだり、マクロ組んだりできる。
+特定のフォルダに特定のテンプレートを適用して挿入できる機能が便利。

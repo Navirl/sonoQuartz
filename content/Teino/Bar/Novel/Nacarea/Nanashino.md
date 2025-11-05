@@ -8,7 +8,7 @@ aliases:
   - 七篠
 ---
 
-up:: [Cricia](<./Cricia.md>)
+up:: [Fraschia](<./Fraschia.md>)
 up:: [7\_People](<./7_People.md>)
 
 学習主義者。というより実年齢5歳程度なので学習しないと生きていけないみたいなとこある。

@@ -6,7 +6,7 @@ tags:
 
 
 ## ObsidianPlugin一言紹介
-[ObsidianPlugin一言紹介](<../../Info/ObsidianPlugin一言紹介.md>)
+[Ob Plugin](<../../Info/Ob Plugin.md>)
 
 細かな記法はヘルプを読むのが一番早い。
 

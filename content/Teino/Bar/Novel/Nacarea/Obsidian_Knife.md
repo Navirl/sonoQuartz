@@ -8,7 +8,7 @@ aliases:
   - 黒曜石ナイフ
 ---
 
-up:: [Cricia](<./Cricia.md>)
+up:: [Fraschia](<./Fraschia.md>)
 
 むかしむかし、人々の石から蓋を取り除くのに使ったナイフ。
 

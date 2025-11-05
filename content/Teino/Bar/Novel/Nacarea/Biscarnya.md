@@ -1,9 +1,12 @@
 ---
 date: 2022-10-29
 tags:
- - Bar
- - Novel/Location
- - Novel/World/Nacaria
+  - Bar
+  - Novel/Location
+  - Novel/World/Nacaria
+aliases:
+  - ビスカーニャ
+  - B
 ---
 
 up:: [Nacarea](<./Nacarea.md>)

@@ -8,7 +8,7 @@ aliases:
   - 形鱈川千喜
 ---
 
-up:: [Cricia](<./Cricia.md>)
+up:: [Fraschia](<./Fraschia.md>)
 
 関係
 - [Merai\_Hezagami](<./Merai_Hezagami.md>)

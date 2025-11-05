@@ -8,7 +8,7 @@ aliases:
   - 辺座神銘礼
 ---
 
-up:: [Cricia](<./Cricia.md>)
+up:: [Fraschia](<./Fraschia.md>)
 up:: [Sengi\_Kedaragawa](<./Sengi_Kedaragawa.md>)
 
 セリフ集

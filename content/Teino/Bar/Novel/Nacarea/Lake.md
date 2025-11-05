@@ -10,6 +10,6 @@ aliases:
 ---
 
 up:: [Akinaga](<./Akinaga.md>)
-up:: [Cricia](<./Cricia.md>)
+up:: [Fraschia](<./Fraschia.md>)
 
 

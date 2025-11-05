@@ -6,7 +6,7 @@ tags:
  - Novel/World/Nacaria
 ---
 
-up:: [Cricia](<./Cricia.md>)
+up:: [Fraschia](<./Fraschia.md>)
 
 
 

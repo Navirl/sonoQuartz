@@ -6,7 +6,7 @@ tags:
  - Novel/World/Nacaria
 ---
 
-up:: [Cricia](<./Cricia.md>)
+up:: [Fraschia](<./Fraschia.md>)
 
 
 夜と発明の街。全員狂人。

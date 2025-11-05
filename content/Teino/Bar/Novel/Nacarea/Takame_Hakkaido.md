@@ -8,7 +8,7 @@ aliases:
   - 八階堂高目
 ---
 
-up:: [Takame\_Hakkaido\_Edu](<./Takame_Hakkaido_Edu.md>)
+down:: [Takame\_Hakkaido\_Edu](<./Takame_Hakkaido_Edu.md>)
 up:: [Kirina\_Motokura](<./Kirina_Motokura.md>)
 up:: [Sakumei](<./Sakumei.md>)
 same:: [Narana_Tsunohashi](<./Narana_Tsunohashi.md>)
@@ -30,7 +30,7 @@ same:: [Narana_Tsunohashi](<./Narana_Tsunohashi.md>)
 
 この能力は継承制。
 索冥家の人間に代々伝わっている。高目の本名も索冥桐名なのでちゃんとした継承者。
-今名前が違うのは本人が心機一転して[Cricia](<./Cricia.md>)で生きていきたかったのが八割。索冥家のある土地、[Ultia](<./Ultia.md>)から追放を受けてるので索冥桐名の名前を使うのは駄目だろうというのが二割。
+今名前が違うのは本人が心機一転して[Fraschia](<./Fraschia.md>)で生きていきたかったのが八割。索冥家のある土地、[Ultia](<./Ultia.md>)から追放を受けてるので索冥桐名の名前を使うのは駄目だろうというのが二割。
 
 [Narana_Tsunohashi](<./Narana_Tsunohashi.md>)とはアルティアにいた時からの友人。
 

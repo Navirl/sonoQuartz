@@ -6,6 +6,7 @@ tags:
   - Novel/World/Nacaria
 aliases:
   - クロミシロ
+  - C
 ---
 
 down:: [Game](<../Topics/Game.md>)

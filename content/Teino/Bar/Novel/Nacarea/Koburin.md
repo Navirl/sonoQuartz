@@ -8,6 +8,6 @@ aliases:
   - 古府倫
 ---
 
-up:: [Cricia](<./Cricia.md>)
+up:: [Fraschia](<./Fraschia.md>)
 
 

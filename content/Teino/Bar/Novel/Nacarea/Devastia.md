@@ -6,6 +6,7 @@ tags:
   - Novel/Location
 aliases:
   - デヴァスティア
+  - D
 ---
 
 up:: [Nacarea](<./Nacarea.md>)

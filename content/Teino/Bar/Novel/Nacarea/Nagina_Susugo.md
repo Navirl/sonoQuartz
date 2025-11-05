@@ -6,7 +6,7 @@ tags:
  - Novel/Character
 ---
 
-up:: [Cricia](<./Cricia.md>)
+up:: [Fraschia](<./Fraschia.md>)
 
 すすごなぎな。扉名と仲良しなお姉さん。201cm。
 五行的に木。お前か、大工支援してるのは。自由に弄るとかではなく、あくまで自然的緑化活動の手助け。木材にするには大工が必要。

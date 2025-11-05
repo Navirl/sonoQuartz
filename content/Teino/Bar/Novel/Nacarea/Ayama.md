@@ -6,6 +6,7 @@ tags:
   - Novel/World/Nacaria
 aliases:
   - アヤマ
+  - A
 ---
 
 up:: [Nacarea](<./Nacarea.md>)

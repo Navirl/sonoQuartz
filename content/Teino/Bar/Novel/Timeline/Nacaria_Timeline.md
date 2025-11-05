@@ -5,7 +5,7 @@ tags:
  - Novel/Timeline
 ---
 
-up:: [Cricia](<../Nacarea/Cricia.md>)
+up:: [Fraschia](<../Nacarea/Fraschia.md>)
 
 ```timeline
 [line-3, body-2]

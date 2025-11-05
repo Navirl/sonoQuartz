@@ -6,7 +6,7 @@ tags:
  - Novel/World/Nacaria
 ---
 
-up:: [Cricia](<./Cricia.md>)
+up:: [Fraschia](<./Fraschia.md>)
 
 
 宗教、教育、考古学、言語、文学の街。

@@ -6,6 +6,6 @@ tags:
  - Novel/Character
 ---
 
-up:: [Cricia](<./Cricia.md>)
+up:: [Fraschia](<./Fraschia.md>)
 
 

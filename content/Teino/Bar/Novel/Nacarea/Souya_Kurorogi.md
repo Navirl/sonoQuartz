@@ -6,7 +6,7 @@ aliases:
   - 九路々帰宗也
 ---
 
-up:: [Cricia](<./Cricia.md>)
+up:: [Fraschia](<./Fraschia.md>)
 same:: [Takame\_Hakkaido](<./Takame_Hakkaido.md>)
 
 [Takame_Hakkaido](<./Takame_Hakkaido.md>)の執事。

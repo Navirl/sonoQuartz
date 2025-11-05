@@ -6,7 +6,7 @@ tags:
  - Novel/World/Nacaria
 ---
 
-up:: [Cricia](<./Cricia.md>)
+up:: [Fraschia](<./Fraschia.md>)
 
 娯楽の街。
 総合芸術。世界のなにもかもを嘘で表している。

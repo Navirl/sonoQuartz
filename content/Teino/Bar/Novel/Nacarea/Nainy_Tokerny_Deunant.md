@@ -6,6 +6,8 @@ tags:
   - Novel/World/Nacaria
 aliases:
   - ネイニ・トーカニ・デウナント
+  - Nainy
+  - ネイニ
 ---
 
 up:: [Chromisiro](<./Chromisiro.md>)

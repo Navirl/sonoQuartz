@@ -15,7 +15,7 @@ aliases:
 up:: [Biscarnya](<./Biscarnya.md>)
 down:: [Knock-off](<../Topics/Knock-off.md>)
 
-[Cricia](<./Cricia.md>)と外を繋ぐ門番。酔い潰れた父親の代わりに仕事している。
+[Fraschia](<./Fraschia.md>)と外を繋ぐ門番。酔い潰れた父親の代わりに仕事している。
 
 口調は穏やかな女性。[梁先茶樹](<./Saki_Yanasaki.md>)と話すときだけちょっと束縛が強い。
 あとちょいちょいうっかりしている。
@@ -50,7 +50,7 @@ source:: [Pseudo-Necrophilia In Gravediggers And Mortuary Attendants - Atmostfea
 
 丁乃とビスカーニャで再会。めちゃくちゃ焦りながら主人公組を匿う。ここで正体判明。
 
-「あの、丁乃は私のクライシアの偵察名だから、あんまり連呼しないで……」
+「あの、丁乃は私のフラスキアの偵察名だから、あんまり連呼しないで……」
 
 といってもまずは名前が無いので名付けるところから始まるが。一時的でいい、と言ったのでド直球に。金髪……黒服。キンクロだと語呂が悪いから変換して……うん、カナクロボウシ！
 
