@@ -243,7 +243,7 @@ gitコマンドはworktreeでセットしたところで使える。
 [徹底解説：git worktree の使い方 # Git - Qiita](https://qiita.com/syukan3/items/dab71e88ce91bca44432)
 
 でもgitui経由でlibgit使ったほうが安定するし……
-
+ちなみにlazygitは動かなかった。
 ## git submodule update --init --remote
 updateは親で記録しているコミットに子を更新。
 --initは親clone時に空になっているsubmoduleの本体ファイルを親記録コミットを元にclone。
