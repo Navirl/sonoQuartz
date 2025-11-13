@@ -282,3 +282,30 @@ safedirectoryに追加。
 `git log --grep name --oneline`でハッシュを手に入れ、
 `git show hash:file`で確認できる。fileは相対パス不可。
 
+## no submodule mapping found
+submoduleでもないのにgit cloneを入れ子にし、.gitを削除してcommitすると発生。
+submoduleみたいなことしたのにそれを証明する.gitmodulesもなく.git/configも無いのでパニック。
+
+submodule扱いされてるフォルダをキャッシュから消してコミットし直せばOK。
+pwshにgrepは無いのでslsを使用する。
+
+```sh
+# ファイルパーミッションにSubmoduleになっているものを探す
+$ git ls-files --stage | grep 160000
+160000 58e597f4bb5d3f15680a25814bfee5041027b7c9 0	hadoop
+
+# 一旦ｒｍする
+$ git rm --cached hadoop
+rm 'hadoop'
+
+
+$ git status
+
+# 追加戻し
+$ git add .
+$ git commit --amend
+
+
+```
+
+[「no submodule mapping found in .gitmodules」解決の一例です - Qiita](https://qiita.com/liubin/items/6450dba5f63de7ff5675)
