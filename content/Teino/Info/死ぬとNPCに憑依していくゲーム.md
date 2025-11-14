@@ -6,6 +6,7 @@ tags:
 
 up:: [Game](<../Bar/Novel/Topics/Game.md>)
 up:: [Reincarnation](<../Bar/Novel/Topics/Reincarnation.md>)
+up:: [Seika](../Bar/Novel/Seika.md)
 
 死ぬとNPCに憑依していくゲーム
 ようやく……ようやく、おいでなさったか！

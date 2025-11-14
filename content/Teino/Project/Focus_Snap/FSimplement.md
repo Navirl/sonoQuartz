@@ -19,3 +19,6 @@
             - 外部ffmpegプロセスを使用してSRTストリームからフレームを抽出
             - プロトタイプ段階では外部ffmpeg、最適化時にffmpeg-nextへ移行を検討
     - KISS、YAGNI、DRY、リーダブルコードを念頭に、常にシンプルを意識する
+
+![](../../images/FSimplement-1763050142103.svg)
+![](../../images/FSimplement-1763050200014.svg)

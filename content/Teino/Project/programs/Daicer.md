@@ -6,6 +6,12 @@ tags:
 
 up:: [Tauri](<../../Bar/Framework/Tauri.md>)
 
+> [!caution]
+> 2025/11/14
+> nano bananaとかが台頭して、画風をわざわざ合わせる必要もなくなった。
+
+
+
 リアルタイム動画
 Riveエディタ
 
