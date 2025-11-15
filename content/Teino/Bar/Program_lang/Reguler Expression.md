@@ -43,3 +43,7 @@ up:: [Programming](<./Programming.md>)
 `(?:strings)`。この記法の為`[a|b|c]`は`(?:a|b|c)`と等価。
 
 https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Regular_expressions/Cheatsheet
+
+## 改行を含めた任意の文字マッチ
+`[\s\S\n]*`
+\sが改行含んだ空白系文字なので普通\nは要らないが、zedやvscodeだと一行ずつ検索するせいで必要。
