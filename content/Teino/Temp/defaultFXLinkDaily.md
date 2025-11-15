@@ -1,6 +1,6 @@
 ---
-date: {{date}}
-time: {{time}}
-tags:
-  - review
+date:
+  "{ date }":
+time:
+  "{ time }":
 ---
