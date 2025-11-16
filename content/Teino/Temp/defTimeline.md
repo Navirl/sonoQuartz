@@ -6,7 +6,7 @@ tags:
  - Novel/Timeline
 ---
 
-up:: [Timeline\_Sheet](<../Bar/Novel/Sheet/Timeline_Sheet.md>)
+up:: [Timeline\\\_Sheet](<../Bar/Novel/Sheet/Timeline_Sheet.md>)
 up::
 
 ```timeline

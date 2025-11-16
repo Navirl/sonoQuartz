@@ -47,3 +47,5 @@ https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Regular_expressions/C
 ## 改行を含めた任意の文字マッチ
 `[\s\S\n]*`
 \sが改行含んだ空白系文字なので普通\nは要らないが、zedやvscodeだと一行ずつ検索するせいで必要。
+
+[VS Codeで複数行に渡って正規表現を利用する # VSCode - Qiita](https://qiita.com/birdwatcher/items/dee34a11619b11e1fe81)
