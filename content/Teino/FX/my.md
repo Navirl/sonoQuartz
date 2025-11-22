@@ -12,6 +12,9 @@
 ありがち
 [myFXarchive](<./myFXarchive.md>)
 
+損切後の確定PA待ち
+[my2025-11-22](my2025-11-22.md)
+
 シナリオ
 [2025-11-19](../Daily_Note/2025-11-19.md)
 
