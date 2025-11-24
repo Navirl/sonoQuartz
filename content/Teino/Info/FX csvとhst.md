@@ -22,5 +22,8 @@ mt5だとカスタム銘柄として分けることができる。
 
 [MT4と同じヒストリカルデータをMT5でも使いたい！インポートの方法を解説 \| 世界のFX・暗号資産ニュース \| Myforex™（マイフォレックス）](https://myforex.com/ja/news/met23022701.html)
 
+## csv内部仕様
+足なら`Time (EET),Open,High,Low,Close,Volume`
+tickなら`Time (EET),Ask,Bid,AskVolume,BidVolume`
 
-
+一応。askは買値でbidが売値。

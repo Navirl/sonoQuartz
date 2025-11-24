@@ -60,4 +60,5 @@ qloraとunslothで結構削れそう。
 [Gemini - direct access to Google AI](https://gemini.google.com/share/a84fbb014d92)
 
 非構造ファイルをよしなに分割がeasy-datasetしかできない。
-やっぱりこれのコードちょっと描き直すのが一番だ。
+やっぱりこれのコードちょっと描き直すのが一番だ。質問を一つに限定して回答生成を連打する方法もあるけど。これでtemperature上げれば良いか？ Top-p上げると質問と関係ない答えが返ってきそうだが。
+
