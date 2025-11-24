@@ -8,3 +8,6 @@ views:
     cardSize: 220
   - type: table
     name: View
+    filters:
+      and:
+        - file.fullname.contains("excalidraw.md")
