@@ -4,105 +4,26 @@ time: {{time}}
 tags:
  - Daily
 ---
-> [!note]
->- +1万 事前認識 **開始5分**
+<% await tp.file.include("[[defFXEnvAnalysis]]") %>
 
-- [ ] [my](obsidian://open?vault=Teino&file=FX/my)(見ないと増える)
-- [ ] 指標
-    - 差し込まれる可能性有り、毎日
-
-4h
-
-＜ここに目線画像＞
-
-- [ ] トレーディングレンジ
-
-方向：
-
-1h
-
-＜ここに目線画像＞
-
-方向：
-
-15m
-
-＜ここに目線画像＞
-
-方向：
-
-全方向：
-
-- [ ] 使用足全ての目線確認
-
-
-＜ここにシナリオ画像＞
-
-b:
-s:
-
-- [ ] シナリオ
-- [ ] ぶつかり
-- [ ] 日出日入
-
-
-目線・シナリオ・強弱・横幅・PA・平均線方向・波
-
-
-> [!check]
-> - [ ] +1万 事前認識 **開始5分**
-> - [ ] +1万 5枚
+```meta-bind-button
+style: default
+label: Send
+actions:
+  - type: "replaceSelf"
+    replacement: "OK!\nExchage Start."
+```
 
 ---
 
-> [!note]
->- +1万 事前認識 **開始5分**
-
-- [ ] [my](obsidian://open?vault=Teino&file=FX/my)(見ないと増える)
-- [ ] 指標
-    - 差し込まれる可能性有り、毎日
-
-4h
-
-＜ここに目線画像＞
-
-- [ ] トレーディングレンジ
-
-方向：
-
-1h
-
-＜ここに目線画像＞
-
-方向：
-
-15m
-
-＜ここに目線画像＞
-
-方向：
-
-全方向：
-
-- [ ] 使用足全ての目線確認
-
-
-＜ここにシナリオ画像＞
-
-b:
-s:
-
-- [ ] シナリオ
-- [ ] ぶつかり
-- [ ] 日出日入
-
-
-目線・シナリオ・強弱・横幅・PA・平均線方向・波
-
-
-> [!check]
-> - [ ] +1万 事前認識 **開始5分**
-> - [ ] +1万 5枚
-
----
-
+```meta-bind-button
+style: default
+label: 明日分
+actions:
+  - type: "insertIntoNote"
+    line: selfEnd+1
+    value: "Temp/defFXEnvAnalysis.md"
+    templater: true
+  - type: "replaceSelf"
+    replacement: ""
+```
