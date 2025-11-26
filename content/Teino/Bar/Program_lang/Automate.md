@@ -65,6 +65,7 @@ https://llamalab.com/automate/doc/block/fork.html
 
 subroutineは新たな処理を行う。
 分岐側が終了するまで親は動かない。戻り値あり。
+戻り値以外の変数は親と互いに独立する。
 https://llamalab.com/automate/doc/block/subroutine.html
 
 ## Atomic
