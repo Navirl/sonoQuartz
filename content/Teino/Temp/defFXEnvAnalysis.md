@@ -47,5 +47,18 @@ s:
 > - [ ] +1万 事前認識 **開始5分**
 > - [ ] +1万 5枚
 
+```meta-bind-button
+style: default
+label: Send
+actions:
+  - type: "replaceSelf"
+    replacement: "OK!\nExchage Start.\n\n---"
+```
+
+
+
 ---
 
+- 1
+- 2
+- 3

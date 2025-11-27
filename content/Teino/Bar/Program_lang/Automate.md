@@ -176,3 +176,10 @@ public static final int VALUE_EXTRA_SESSION_ACTION_KEEP_CURRENT_SESSION_AND_DONT
 
 ## if
 expression true.
+
+## parallelで値を追加していく
+一度に一つしかできないnnのため、リストを追加していく。
+atomicがあればできなくはないだろうが、途中でfork挟むと結局処理ファイバーが増えてしまう。
+boolで閉じて内部でforで回して。
+
+parallelにしないと、全部終わった後に自動で終了してくれない。
