@@ -309,3 +309,22 @@ $ git commit --amend
 ```
 
 [「no submodule mapping found in .gitmodules」解決の一例です - Qiita](https://qiita.com/liubin/items/6450dba5f63de7ff5675)
+
+## lfsで過去改変
+lfsは過去を改変し、対象ファイルを最初からlfsであったようにすることが出来る。
+gitの都合上過去を変えないとlfsによる軽量化の恩恵が新規追加ファイルにしかかからない。
+
+`git lfs migrate --include="*.png" --everything`
+--includeは`git lfs track "*.png"などとして.gitattributeに追加する手間を省く。
+--everythingは全てのブランチに対して行う。
+
+## LFS objects are missing. Ensure LFS is properly set up or try a manual "git lfs push --all".
+workflowで起きた、lfs無いよ問題。
+よく考えればlfsを設定してないとポインタファイルしかcloneできないわけで。それをgitlabに流そうとしてもlfsはストレージに無いよと言われて当然な気がする。
+
+なので
+```
+    - run: |
+        git lfs install
+```
+をgitlab同期前に入れて解決。
