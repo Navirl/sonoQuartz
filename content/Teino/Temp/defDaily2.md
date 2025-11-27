@@ -5,7 +5,6 @@ tags:
  - Daily
 ---
 <% await tp.file.include("[[defFXEnvAnalysis]]") %>
-
 ```meta-bind-button
 style: default
 label: Send
