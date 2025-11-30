@@ -244,6 +244,8 @@ dead
 事件、立場、反応のEvent-Position-Reactionデータ。実際はEPがQでRがAになる。
 実際のQはeventのみ、Aはプレーンテキストのみ。jsonの分解手法は暗黙的に埋め込まれるが表には出ない。 
 
+Question-Character-Event-Position-Reaction-Answer
+
 claudeで改良。
 ```
 # 役割
