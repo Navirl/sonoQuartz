@@ -3,6 +3,7 @@ date: 2024-09-28
 tags:
   - Bar
   - Novel/Location
+  - Novel/World
 aliases:
   - ナカリア
 ---

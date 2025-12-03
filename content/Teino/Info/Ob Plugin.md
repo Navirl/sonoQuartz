@@ -49,9 +49,15 @@ spaced repetitionの別バージョン。
 repeatプラグインはdataviewが必要なので却下。
 
 つまり複数行をどうしても導入したいとき以外に使う用途が無い気がする。
+その複数行もspacedにあるので……
 
 ## chhoumann/quickadd
 [GitHub - chhoumann/quickadd: QuickAdd for Obsidian](https://github.com/chhoumann/quickadd)
 
 テンプレートを挿入したり、ノートから情報を読んだり、マクロ組んだりできる。
 特定のフォルダに特定のテンプレートを適用して挿入できる機能が便利。
+
+実はtemplater同様専用の構文が存在する。
+LINKCURRENTなどTemplaterでは出しにくいものも使える。
+テンプレートを含めることもできるが、dailynoteと連携などはできない。
+[Format syntax \| QuickAdd](https://quickadd.obsidian.guide/docs/FormatSyntax?utm_source=chatgpt.com)

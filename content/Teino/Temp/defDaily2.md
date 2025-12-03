@@ -5,6 +5,7 @@ tags:
  - Daily
 ---
 <% await tp.file.include("[[defFXEnvAnalysis]]") %>
+現状把握、利確予想まで落ち耐え
 
 ---
 

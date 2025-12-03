@@ -1,10 +1,10 @@
 ---
 date: 2022-09-03
 tags:
- - Bar
- - Novel/Situation
+  - Bar
+  - Novel/Topic
 ---
 
-up::
+up:: [Image](../Topics/Image.md)
 
 
