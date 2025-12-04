@@ -4,7 +4,7 @@ date:
 time:
   "{ time }":
 tags:
-  - Novel/Issue
+  - Novel/Issue/Open
 ---
 
 up:: {{LINKCURRENT}}

@@ -61,3 +61,9 @@ repeatプラグインはdataviewが必要なので却下。
 LINKCURRENTなどTemplaterでは出しにくいものも使える。
 テンプレートを含めることもできるが、dailynoteと連携などはできない。
 [Format syntax \| QuickAdd](https://quickadd.obsidian.guide/docs/FormatSyntax?utm_source=chatgpt.com)
+
+## SilentVoid13/Templater
+[GitHub - SilentVoid13/Templater: A template plugin for obsidian](https://github.com/SilentVoid13/Templater)
+
+独自テンプレート記法が使える。
+これを使う場合、{{date}}などの元のテンプレート記法は適用されないことに注意。
