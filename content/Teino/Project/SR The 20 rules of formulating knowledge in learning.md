@@ -7,7 +7,7 @@ Do not learn if you do not understand
 Learn before you memorize
 [20 rules of formulating knowledge in learning](http://super-memory.com/articles/20rules.htm#Do%20not%20learn%20if%20you%20do%20not%20understand)
 [20 rules of formulating knowledge in learning](http://super-memory.com/articles/20rules.htm#Learn%20before%20you%20memorize)
-<!--SR:!2025-11-15,1,236-->
+<!--SR:!2025-12-06,1,216-->
 +++
 
 
@@ -16,7 +16,7 @@ Learn before you memorize
 基本を学び、暗記することでその全体像をより正確にしていく。
 Build upon the basics
 [20 rules of formulating knowledge in learning](http://super-memory.com/articles/20rules.htm#Build%20upon%20the%20basics)
-<!--SR:!2025-11-15,1,236-->
+<!--SR:!2025-12-06,1,216-->
 +++
 
 
@@ -25,7 +25,7 @@ Build upon the basics
 覚えやすいよう、より小さくシンプルなものに分割する。
 Stick to the minimum information principle
 [20 rules of formulating knowledge in learning](http://super-memory.com/articles/20rules.htm#minimum%20information%20principle)
-<!--SR:!2025-11-15,1,236-->
+<!--SR:!2025-12-06,1,216-->
 +++
 
 
@@ -34,7 +34,7 @@ Stick to the minimum information principle
 質問の答えを意味のある順序付きリストにする
 Avoid sets
 [20 rules of formulating knowledge in learning](https://super-memory.com/articles/20rules.htm#Avoid%20sets)
-<!--SR:!2025-11-17,3,256-->
+<!--SR:!2025-12-07,2,236-->
 +++
 
 
@@ -43,13 +43,13 @@ Avoid sets
 [20 rules of formulating knowledge in learning](https://super-memory.com/articles/20rules.htm#Refer%20to%20other%20memories)
 [20 rules of formulating knowledge in learning](https://super-memory.com/articles/20rules.htm#Personalize%20and%20provide%20examples)
 [20 rules of formulating knowledge in learning](https://super-memory.com/articles/20rules.htm#Rely%20on%20emotional%20states)
-<!--SR:!2025-11-15,1,236!2025-11-18,4,276!2025-11-17,3,256!2025-11-18,4,276-->
+<!--SR:!2025-12-08,3,256!2025-12-07,2,256!2025-12-16,11,276!2025-12-20,15,296-->
 +++
 
 
 質問はそれ自体を適切に==分類==した方が覚えやすい。
 [20 rules of formulating knowledge in learning](https://super-memory.com/articles/20rules.htm#Context%20cues)
-<!--SR:!2025-11-18,4,276-->
+<!--SR:!2025-12-19,14,296-->
 +++
 
 
@@ -57,7 +57,7 @@ Avoid sets
 ?
 正しい。
 [20 rules of formulating knowledge in learning](https://super-memory.com/articles/20rules.htm#Redundancy)
-<!--SR:!2025-11-18,4,276-->
+<!--SR:!2025-12-19,14,296-->
 +++
 
 
@@ -65,7 +65,7 @@ Avoid sets
 ?
 正しい。
 [20 rules of formulating knowledge in learning](https://super-memory.com/articles/20rules.htm#Redundancy)
-<!--SR:!2025-11-18,4,276-->
+<!--SR:!2025-12-21,16,296-->
 +++
 
 
@@ -73,7 +73,7 @@ Avoid sets
 ?
 正しい。
 [20 rules of formulating knowledge in learning](https://super-memory.com/articles/20rules.htm#Redundancy)
-<!--SR:!2025-11-18,4,276-->
+<!--SR:!2025-12-21,16,296-->
 +++
 
 
@@ -82,7 +82,7 @@ Avoid sets
 誤り。
 一つを答えたらそれで良しとする。
 [20 rules of formulating knowledge in learning](https://super-memory.com/articles/20rules.htm#Redundancy)
-<!--SR:!2025-11-18,4,276-->
+<!--SR:!2025-12-07,2,256-->
 +++
 
 
@@ -90,7 +90,7 @@ Avoid sets
 ?
 他と比較することで、情報源の信頼性を測れるようになるため。
 [20 rules of formulating knowledge in learning](https://super-memory.com/articles/20rules.htm#sources)
-<!--SR:!2025-11-17,3,256-->
+<!--SR:!2025-12-13,8,256-->
 +++
 
 
@@ -98,7 +98,7 @@ Avoid sets
 ?
 それぞれの情報源に割く時間の割合
 [20 rules of formulating knowledge in learning](https://super-memory.com/articles/20rules.htm#Prioritize)
-<!--SR:!2025-11-15,1,236-->
+<!--SR:!2025-12-06,1,216-->
 +++
 
 
@@ -109,7 +109,7 @@ Avoid sets
 より多くの知識、より多くの時間、他の資料との比較などが必要な場合はインポート。
 これブックマークのこと言ってない？
 [20 rules of formulating knowledge in learning](https://super-memory.com/articles/20rules.htm#Prioritize)
-<!--SR:!2025-11-18,4,276-->
+<!--SR:!2025-12-20,15,296-->
 +++
 
 

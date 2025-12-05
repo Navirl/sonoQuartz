@@ -67,3 +67,132 @@ LINKCURRENTなどTemplaterでは出しにくいものも使える。
 
 独自テンプレート記法が使える。
 これを使う場合、{{date}}などの元のテンプレート記法は適用されないことに注意。
+## farling42/obsidian-import-json
+[GitHub - farling42/obsidian-import-json: Plug-in for Obsidian.md which will create Notes from JSON files](https://github.com/farling42/obsidian-import-json)
+
+csvとjsonをテンプレートに従い抽出。
+
+これは[NotebookLM to PDF - Chrome Web Store](https://chromewebstore.google.com/detail/notebooklm-to-pdf/micfpbhlllbdpgdkkgdimdpmpeefoamk)を使ってnotebooklmから抽出したクイズ。
+```json
+{
+  "quiz": [
+    {
+      "question": "ソースマテリアルによると、`git subtree split`コマンドの主な特徴は何ですか？",
+      "answerOptions": [
+        {
+          "text": "指定したディレクトリを、過去のコミット履歴も含めて新しいブランチとして切り分ける。",
+          "isCorrect": true,
+          "rationale": "このコマンドは、単にファイルを分離するだけでなく、そのファイルの歴史も一緒に移動させるため、コンポーネントの独立性を高める際に有用です。"
+        },
+        {
+          "text": "リポジトリの現在の状態のスナップショットのみを、新しいブランチとして作成する。",
+          "isCorrect": false,
+          "rationale": "この説明は、過去の履歴を考慮しない操作を示唆していますが、`git subtree split`の重要な点は履歴の維持にあります。"
+        },
+        {
+          "text": "外部リポジトリへの参照（ポインタ）のみをリポジトリ内に保存する。",
+          "isCorrect": false,
+          "rationale": "外部リポジトリへの参照を保存する機能は、`git submodule`の動作に近いものです。"
+        },
+        {
+          "text": "リモートリポジトリにのみ影響を与え、ローカルの作業ディレクトリは変更しない。",
+          "isCorrect": false,
+          "rationale": "`git subtree split`はローカルでブランチを作成する操作であり、直接リモートに影響を与えるわけではありません。"
+        }
+      ],
+      "hint": "このコマンドは、単にファイルを分離するだけでなく、そのファイルの「歴史」も一緒に移動させます。"
+    },
+    {
+      "question": "SSH接続で「Permission denied (publickey)」エラーが発生した場合、ソースマテリアルで推奨されているサーバー側のデバッグ手順は何ですか？",
+      "answerOptions": [
+        {
+          "text": "`firewall-cmd`を使ってSSHポートを一度閉じてから再度開く。",
+          "isCorrect": false,
+          "rationale": "ポートの問題であれば接続自体がタイムアウトする可能性が高く、公開鍵認証エラーの直接的な原因調査にはなりません。"
+        },
+        {
+          "text": "クライアント側で`ssh-keygen`を再度実行し、新しい鍵ペアを作成する。",
+          "isCorrect": false,
+          "rationale": "鍵の不一致が原因である可能性はありますが、まずサーバー側のログで原因を特定することが推奨されています。"
+        },
+        {
+          "text": "`/etc/ssh/sshd_config`ファイルで`LogLevel`を`DEBUG`に設定し、サービスを再起動後にログを確認する。",
+          "isCorrect": true,
+          "rationale": "ログレベルを上げることで、認証プロセスのどの段階で失敗しているのか、より詳細な情報を得ることができます。"
+        },
+        {
+          "text": "`chown`コマンドで`~/.ssh`ディレクトリの所有者を`root`に変更する。",
+          "isCorrect": false,
+          "rationale": "SSHの認証ディレクトリやファイルの所有者は、接続しようとしているユーザー自身である必要があり、`root`に変更すると問題が悪化する可能性があります。"
+        }
+      ],
+      "hint": "問題の原因を特定するためには、まずサーバーに通常より詳細な情報を記録させる必要があります。"
+    }
+  ]
+}
+
+```
+
+これに以下のようにhandlebarテンプレートを適用。
+```markdown
+---
+tags:
+  - flashcards
+---
+{{question}}
+{{#each answerOptions}}
+- [ ] {{text}}
+{{/each}}
+<details>
+<summary>Hint</summary>
+{{hint}}
+</details>
+?
+{{#each answerOptions}}
+- {{#if isCorrect}}**[✅] {{text}}**{{else}}[ ] {{text}}{{/if}}
+  > *Rationale:* {{rationale}}
+{{/each}}
+```
+
+すると大体以下のようになる。
+これは色々足してるが。
+```markdown
+---
+tags:
+  - flashcards
+  - imported/quiz
+---
+
+START
+Basic
+Front:
+ソースマテリアルによると、`git subtree split`コマンドの主な特徴は何ですか？
+
+- [ ] 指定したディレクトリを、過去のコミット履歴も含めて新しいブランチとして切り分ける。
+- [ ] リポジトリの現在の状態のスナップショットのみを、新しいブランチとして作成する。
+- [ ] 外部リポジトリへの参照（ポインタ）のみをリポジトリ内に保存する。
+- [ ] リモートリポジトリにのみ影響を与え、ローカルの作業ディレクトリは変更しない。
+
+<details>
+<summary>Hint</summary>
+このコマンドは、単にファイルを分離するだけでなく、そのファイルの「歴史」も一緒に移動させます。
+</details>
+
+Back:
+- **[✅] 指定したディレクトリを、過去のコミット履歴も含めて新しいブランチとして切り分ける。**
+  > *Rationale:* このコマンドは、単にファイルを分離するだけでなく、そのファイルの歴史も一緒に移動させるため、コンポーネントの独立性を高める際に有用です。
+- [ ] リポジトリの現在の状態のスナップショットのみを、新しいブランチとして作成する。
+  > *Rationale:* この説明は、過去の履歴を考慮しない操作を示唆していますが、`git subtree split`の重要な点は履歴の維持にあります。
+- [ ] 外部リポジトリへの参照（ポインタ）のみをリポジトリ内に保存する。
+  > *Rationale:* 外部リポジトリへの参照を保存する機能は、`git submodule`の動作に近いものです。
+- [ ] リモートリポジトリにのみ影響を与え、ローカルの作業ディレクトリは変更しない。
+  > *Rationale:* `git subtree split`はローカルでブランチを作成する操作であり、直接リモートに影響を与えるわけではありません。
+END
+```
+
+## Make-md/makemd
+[GitHub - Make-md/makemd](https://github.com/Make-md/makemd)
+
+notionみたいな運用が出来る。
+データベースであるspaceをいろいろに作ったり、タグやフォルダがspaceとして認識されたり。これを任意にjoinでくっつけて表示したりできる。
+spaceをいろいろな方法で見せるのが目的なので、ブロックエディターに縛られることはない。
