@@ -328,3 +328,24 @@ workflowで起きた、lfs無いよ問題。
         git lfs install
 ```
 をgitlab同期前に入れて解決。
+
+## Locking support detected on remote 
+lfsは他の人が編集できないように一度ファイルをロックする。
+その機能を使わないのかという警告。一人で使用しているならあまり気にしなくていい。
+
+[Git (LFS): what is locking support? And should I enable it?](https://stackoverflow.com/questions/42597408/git-lfs-what-is-locking-support-and-should-i-enable-it)
+
+## Your push was rejected due to missing or corrupt local objects.
+githubからクローンし、lfsファイルがポインタのままgitlabにpushしようとしたエラー。
+`git lfs fetch --all`をはさみファイルにする。
+
+[git push was rejected due to missing or corrupt local objects git-lfs](https://stackoverflow.com/questions/64316551/git-push-was-rejected-due-to-missing-or-corrupt-local-objects-git-lfs)
+
+workflowの場合はcheckoutを忘れず。
+```
+    - name: Checkout code
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+```
+
