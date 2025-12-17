@@ -178,8 +178,25 @@ public static final int VALUE_EXTRA_SESSION_ACTION_KEEP_CURRENT_SESSION_AND_DONT
 expression true.
 
 ## parallelで値を追加していく
-一度に一つしかできないnnのため、リストを追加していく。
+一度に一つしかできないnndownloadのため、リストを追加していく。
 atomicがあればできなくはないだろうが、途中でfork挟むと結局処理ファイバーが増えてしまう。
 boolで閉じて内部でforで回して。
 
 parallelにしないと、全部終わった後に自動で終了してくれない。
+
+いや、parallelそれぞれで値を共有するのは流石に無理だ。
+ファイルに書きこまないといけない。
+
+ファイル読み込み、URLがあればfork。その中でnndown。
+nndownが一つだけ動くように、fork内部でforkを動かすかどうかの変数を、これもparallel間で共有できるようにファイルに書きこまないと。.lockファイルを作るのが一番早い。
+
+forkは親が止まっても動かせるようにできる。
+
+nndown後に
+
+## File read
+\nも含めて読まれる。
+行分けの配列にしたいなら`split(variable,"\n")`。
+
+## Array Remove
+元のArrayからindexの値が削除され、その削除した値がValue Removedとして返される。つまり返り値は単体。
