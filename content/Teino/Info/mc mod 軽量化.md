@@ -10,7 +10,7 @@ up:: [minecraft](<../Bar/GUI/minecraft.md>)
 
 ## 結論
 ForgeならEmbeddium、Embeddium++、Canaryを入れればたぶんいい。
-追加でDynamic FPS、Clumps、Ferrite Core。
+追加でDynamic FPS、Clumps、Ferrite Core。All the leaksも。
 
 
 [【マイクラ】おすすめの軽量化MOD \| 1.21.1対応最新版｜yumu](https://note.com/yumu25/n/n23dc11607eda)
