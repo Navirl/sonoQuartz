@@ -5,7 +5,7 @@ tags:
 ---
 
 up:: [Component](<../Bar/Novel/Chaos/Component.md>)
-
+up:: [[]]
 
 目標設定の目安。
 
@@ -43,3 +43,8 @@ up:: [Component](<../Bar/Novel/Chaos/Component.md>)
 
 
 ![How to write SMART Goals v2](<../images/How to write SMART Goals v2.pdf>)
+
+オーバーシンキングにも効く。
+今に集中したり、ノート書いたりもあるけど。集中を解くのでなく何に集中するかを誘導するアプローチ。
+[【実は恐ろしい】「考えすぎ」から瞬時に解放される人の最強の習慣・ベスト1](https://diamond.jp/articles/-/370987)
+[オーバーシンキングとは？考えすぎる癖をやめて、脳をクリアにする7つの方法](https://haruis.jp/stop-overthinking/)
