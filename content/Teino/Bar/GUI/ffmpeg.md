@@ -54,4 +54,9 @@ dts。decoding time stamp。デコードタイムスタンプ。
 IPBフレームで表示とデコードのタイミングがずれるので二つ必要。
 
 [ffmpeg を使うなら知っておきたい話 PTSとかDTSの話：音ずれ問題や時間が変になるときのために ヽ(ﾟｰﾟ\*ヽ)(ﾉ\*ﾟｰﾟ)ﾉわぁい - Qiita](https://qiita.com/scleen_x_x/items/7f857f2d08de22dee274)
-## png切り出し
+
+## concat
+`((fd output | ls ).name | ForEach-Object { "file " + $_}) > merge.txt`
+`ffmpeg -f concat -i .\merge.txt -c copy merged.mkv
+`
+[FFmpegで複数の動画ファイルを結合する方法 - Qiita](https://qiita.com/knnkanda/items/7c069e43bd573a5e7ef8)
