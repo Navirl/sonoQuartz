@@ -1,3 +1,12 @@
+---
+date: 2025-12-23
+time: 09:45
+tags:
+ - Info
+---
+
+up:: [Component](<../Bar/Novel/Chaos/Component.md>)
+
 tips plugin system
 人間をソフトウェアとみなし、コツの固まりをそのプラグインというかパックとして扱う
 

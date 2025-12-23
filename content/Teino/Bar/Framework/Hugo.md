@@ -6,7 +6,7 @@ tags:
 
 up::
 
-[Git+Hugo+Netlify](<../../Git+Hugo+Netlify.md>)
+[Git+Hugo+Netlify](<../../Info/Git+Hugo+Netlify.md>)
 まさかの三年前からの続き。
 
 ## 特定のディレクトリのみビルド

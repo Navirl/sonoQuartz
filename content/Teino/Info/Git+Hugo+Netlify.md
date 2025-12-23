@@ -1,7 +1,12 @@
 ---
-date: 2021-10-17 09:24:16
+date: 2021-10-17
 tags:
+  - Info
+time: 09:24
 ---
+
+up:: [Git](<../Bar/CLI/Git.md>)
+up:: [Hugo](<../Bar/Framework/Hugo.md>)
 
 ## 流れ
 [Hugoでサイトを作る](<#Hugoでサイトを作る>)

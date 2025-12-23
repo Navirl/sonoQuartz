@@ -468,7 +468,7 @@ Unityで透過処理することになるのでおそらくどんな動画も可
 [アルファチャンネルでない動画をUnityでクロマキー処理して再生する \| パティオ](http://patio.work/archives/1208)
 
 わりといけた。
-[[../../../Others/CSandSR/CS Shader|../../../../../Others/CSandSR/CS Shader]]
+[[../../CS/CS Shader|../../../../../Others/CSandSR/CS Shader]]
 
 シート一枚にまとめて静止画として再生する手もある。
 これはおそらく仕事で描画負荷を減らす奴。
