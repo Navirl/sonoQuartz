@@ -96,6 +96,53 @@ Train。Assemblerと同様の問題がある。
 
 create-server.tomlのmaxBlocksMovedで運べるブロックの最大数を決定できる。
 
+## スナップショット
+ブロックのregion、チェスト中身などのentitiesをworldeditで復元できる。
 
+chunkyでロード。
+`/chunky center 0 0`
+`/chunky radius 10`
+`/chunky start`
 
+worldeditの設定にスナップショット先を書き込み。
+ここではsnapshots。`File 'file' resolution error: Path is outside allowable root`が出たらallow-symbolic-linksをtrueに。
+[World Edit Schematic Problems \| SpigotMC - High Performance Minecraft Software](https://www.spigotmc.org/threads/world-edit-schematic-problems.422114/)
+```
+minecraft/snapshots
+├───2025-12-27-00-00-00.zip
+│   └───main(ワールド名)
+│       └───region
+└───main(ワールド名)
+    └───2025-12-27-00-00-00.zip
+        └───main(ワールド名)
+            └───region
+```
+日付は日付じゃないとたぶん動かない。
+エンティティの復元も出来そう？
+[Implement restoring biomes, entities, and extended world heights by dordsor21 · Pull Request #1316 · IntellectualSites/FastAsyncWorldEdit](https://github.com/IntellectualSites/FastAsyncWorldEdit/pull/1316/commits)
+
+あとは`//wand`とか`//pos1`で場所設定して`/restore`。
+
+## エンドが下りてくる
+[Dimension Stack](https://qouteall.fun/immptl/wiki/Dimension-Stack.html#per-dimension-options)
+これでエンドを空に接続。アルファを弄りつつ降下。
+最終的にエンドラを排出し、咆哮から霧、ロードでエンド飛ばし。
+
+[Advanced Backups - Minecraft Mods - CurseForge](https://www.curseforge.com/minecraft/mc-mods/advanced-backups)
+[スナップショット](#スナップショット)
+[FastAsyncWorldEdit \| SpigotMC - High Performance Minecraft Software](https://www.spigotmc.org/resources/fastasyncworldedit.13932/)
+エンドはこれでめちゃくちゃ遠い場所にオーバーワールドのコピーとして作成する。
+これだと卵が取れないので、最終日にエンド側のど真ん中に岩盤柱を作成しておく。
+
+ネザーも上げていく以上、エンドにコピーするよりある一定以上をschematicにハメていくだけでいい気がするが。
+でもschemだとファイル分割とかで面倒。エンドにコピーして最終日に一定より下を空気ペーストで削るほうが楽。
+
+## 基本方針
+スポーン場所1チャンクを石材で固める。
+    敵の攻撃で破壊できないように、出入りはポータルのみ
+    外のボスを倒すと石材の破壊耐性が解除
+    ここに入ったら透明化同様、敵に発見されなくなる状態になる
+少しでも外に出ればハービンジャーなどのボスがプレイヤーを三回殺すまでONになる。
+    三回殺したらデスポーンで元の位置に
+    
 

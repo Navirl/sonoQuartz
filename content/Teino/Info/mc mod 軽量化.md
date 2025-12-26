@@ -9,9 +9,20 @@ up:: [minecraft](<../Bar/GUI/minecraft.md>)
 というか描画設定を充実させる奴。
 
 ## 結論
-ForgeならEmbeddium、Embeddium++、Canaryを入れればたぶんいい。
-追加でDynamic FPS、Clumps、Ferrite Core。All the leaksも。
-
+- [All The Leaks](https://www.curseforge.com/projects/1091339) by Uncandango
+- [Balm](https://www.curseforge.com/projects/531761) by BlayTheNinth
+- [Configured](https://www.curseforge.com/projects/457570) by MrCrayfish
+- [Controlling](https://www.curseforge.com/projects/250398) by Jaredlll08
+- [Crafting Tweaks](https://www.curseforge.com/projects/233071) by BlayTheNinth
+- [Ferrite Core](https://www.curseforge.com/projects/429235) by malte0811
+- [ImmediatelyFast](https://www.curseforge.com/projects/686911) by RK\_01
+- [Iris](https://www.curseforge.com/projects/455508) by coderbot, IMS212
+- [Jade](https://www.curseforge.com/projects/324717) by Snownee
+- [ModernFix](https://www.curseforge.com/projects/790626) by embeddedt
+- [Mouse Tweaks](https://www.curseforge.com/projects/60089) by Ivan Molodetskikh \(YaLTeR\)
+- [Searchables](https://www.curseforge.com/projects/858542) by Jaredlll08
+- [Simple Inventory Sorter](https://www.curseforge.com/projects/240633) by cpw
+- [Sodium](https://www.curseforge.com/projects/394468) by JellySquid \(jellysquid3\), IMS212
 
 [【マイクラ】おすすめの軽量化MOD \| 1.21.1対応最新版｜yumu](https://note.com/yumu25/n/n23dc11607eda)
 [\[minecraft\] 軽量化MODまとめメモ \[1.16.5～1.21\] - minecraft](http://kannatsuki0514.blog.fc2.com/blog-entry-567.html)
