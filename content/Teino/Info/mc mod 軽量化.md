@@ -23,6 +23,7 @@ up:: [minecraft](<../Bar/GUI/minecraft.md>)
 - [Searchables](https://www.curseforge.com/projects/858542) by Jaredlll08
 - [Simple Inventory Sorter](https://www.curseforge.com/projects/240633) by cpw
 - [Sodium](https://www.curseforge.com/projects/394468) by JellySquid \(jellysquid3\), IMS212
+- [Just Enough Items](https://modrinth.com/mod/u6dRKJwZ) by mezz
 
 [【マイクラ】おすすめの軽量化MOD \| 1.21.1対応最新版｜yumu](https://note.com/yumu25/n/n23dc11607eda)
 [\[minecraft\] 軽量化MODまとめメモ \[1.16.5～1.21\] - minecraft](http://kannatsuki0514.blog.fc2.com/blog-entry-567.html)

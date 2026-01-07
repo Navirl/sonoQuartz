@@ -21,3 +21,4 @@ Include・Excludeで文字含む・含まないの検索が効く。
 
 
 grepだけやりたいなら`Select-String ""`でできる。
+

@@ -19,7 +19,7 @@ up:: [Programming](<../Program_lang/Programming.md>)
 ## 環境変数
 `echo $Env:名前`
 Get-Itemと等価。
-直接`$Env:名前`でも出るっぽい。
+直接`$Env:名前`でも出るっぽい。普通はこれでいい、そのままパスの接続もできる。
 
 [WindowsのPowerShellで環境変数の確認 PowerShell - Qiita](https://qiita.com/zabu/items/85b01ec14e697cb2ff35)
 
