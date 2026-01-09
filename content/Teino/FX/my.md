@@ -20,6 +20,9 @@ aliases:
 ありがち
 [myFXarchive](<./myFXarchive.md>)
 
+損切を上げない
+[2026-01-07](../Daily_Note/2026-01-07.md)
+
 どの足の損切に引きつけてるか
 急降下急上昇のケアはやったか
 [my2026-01-02](My_Test/my2026-01-02.md)

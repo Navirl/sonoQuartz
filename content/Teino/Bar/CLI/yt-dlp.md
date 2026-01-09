@@ -29,3 +29,7 @@ cookieは適当な拡張機能でyoutubeのやつだけ。`--cookies-from-browse
 
 なぜか`$env`というゴミファイルができてしまう。
 `$env:appdata`の時点で$envファイルのappdataにアクセスする、という意味になるためらしい。回避法が特に見当たらないので放置。""で囲ってもダメだし、スラッシュにしたらそもそも読まなくなる。
+
+この書き方でもcookie読めなくなった。
+もうわからん。`--cookies "D:\Scoop\persist\yt-dlp\cookies.txt"`に移行。
+
