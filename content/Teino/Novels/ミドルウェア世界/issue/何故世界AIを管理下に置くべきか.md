@@ -5,6 +5,6 @@ tags:
   - Novel/Issue/Open
 ---
 
-up:: [ためし](Novels/ミドルウェア世界/ためし.md)
+up:: [ためし](../ためし.md)
 
 世界AIを管理しなければ、
