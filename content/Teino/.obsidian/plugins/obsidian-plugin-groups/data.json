@@ -1,0 +1,98 @@
+{
+  "groups": [
+    {
+      "loadAtStartup": true,
+      "disableOnStartup": false,
+      "delay": 5,
+      "id": "pga",
+      "name": "a",
+      "plugins": [
+        {
+          "id": "obsidian-auto-link-title",
+          "name": "Auto Link Title"
+        },
+        {
+          "id": "obsidian-banners",
+          "name": "Banners"
+        },
+        {
+          "id": "better-markdown-links",
+          "name": "Better Markdown Links"
+        },
+        {
+          "id": "calendar",
+          "name": "Calendar"
+        },
+        {
+          "id": "dangerzone-writing-plugin",
+          "name": "Dangerzone Writing"
+        },
+        {
+          "id": "obsidian-excalidraw-plugin",
+          "name": "Excalidraw"
+        },
+        {
+          "id": "obsidian-hotkeys-for-templates",
+          "name": "Hotkeys for templates"
+        },
+        {
+          "id": "image-converter",
+          "name": "Image Converter"
+        },
+        {
+          "id": "wikilinks-to-mdlinks-obsidian",
+          "name": "Wikilinks to MDLinks"
+        },
+        {
+          "id": "new-note-fixer",
+          "name": "New Note Fixer"
+        },
+        {
+          "id": "refresh-preview",
+          "name": "Refresh Any View"
+        },
+        {
+          "id": "obsidian-scroll-to-top-plugin",
+          "name": "Scroll to Top"
+        },
+        {
+          "id": "quickadd",
+          "name": "QuickAdd"
+        },
+        {
+          "id": "obsidian-spaced-repetition",
+          "name": "Spaced Repetition"
+        },
+        {
+          "id": "tag-wrangler",
+          "name": "Tag Wrangler"
+        },
+        {
+          "id": "better-word-count",
+          "name": "Better Word Count"
+        },
+        {
+          "id": "obsidian-image-toolkit",
+          "name": "Image Toolkit"
+        },
+        {
+          "id": "obsidian-meta-bind-plugin",
+          "name": "Meta Bind"
+        },
+        {
+          "id": "templater-obsidian",
+          "name": "Templater"
+        }
+      ],
+      "groupIds": [],
+      "generateCommands": false,
+      "autoAdd": true
+    }
+  ],
+  "generateCommands": true,
+  "showNoticeOnGroupLoad": "none",
+  "devLogs": false,
+  "devices": [],
+  "doLoadSynchronously": true,
+  "showStatusbarIcon": "None"
+}

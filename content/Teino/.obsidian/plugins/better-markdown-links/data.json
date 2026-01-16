@@ -1,0 +1,12 @@
+{
+  "excludePaths": [],
+  "includePaths": [],
+  "shouldAllowEmptyEmbedAlias": true,
+  "shouldAutomaticallyConvertNewLinks": false,
+  "shouldAutomaticallyUpdateLinksOnRenameOrMove": true,
+  "shouldIncludeAttachmentExtensionToEmbedAlias": false,
+  "shouldPreserveExistingLinkStyle": false,
+  "shouldUseAngleBrackets": false,
+  "shouldUseLeadingDotForRelativePaths": true,
+  "shouldUseLeadingSlashForAbsolutePaths": true
+}

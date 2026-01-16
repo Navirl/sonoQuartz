@@ -1,0 +1,13 @@
+{
+  "files": [
+    "defInfo.md",
+    "defBar.md",
+    "defEntry.md"
+  ],
+  "templaterFiles": [
+    "defFXTest.md"
+  ],
+  "newFileTemplates": [],
+  "openNewFileTemplateInNewPane": true,
+  "useNewFileTemplateOnFileCreation": false
+}

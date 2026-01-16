@@ -349,3 +349,20 @@ workflowの場合はcheckoutを忘れず。
         fetch-depth: 0
 ```
 
+## obsidianのdata.jsonだけ管理するgitignore
+```
+/.obsidian/*
+!/.obsidian/
+
+/.obsidian/plugins/*
+!/.obsidian/plugins/
+
+/.obsidian/plugins/**/*
+!/.obsidian/plugins/**/
+
+!/.obsidian/plugins/**/data.json
+
+```
+
+親フォルダを残してないと否定の否定が通じない。
+[.gitignoreの書き方を完全解説【パターン記法から実践例まで初心者向け】](https://git-navi.com/articles/gitignore-how-to-write)
