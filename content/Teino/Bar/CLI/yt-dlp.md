@@ -33,3 +33,43 @@ cookieは適当な拡張機能でyoutubeのやつだけ。`--cookies-from-browse
 この書き方でもcookie読めなくなった。
 もうわからん。`--cookies "D:\Scoop\persist\yt-dlp\cookies.txt"`に移行。
 
+```
+--js-runtime node
+--embed-metadata
+--embed-subs
+--embed-thumbnail
+--cookies "D:\Scoop\persist\yt-dlp\cookies.txt"
+-o "%(uploader)s/%(playlist)s/%(playlist_index)02d%(playlist_index& - |)s%(title)s.%(ext)s"
+--output-na-placeholder ""
+```
+
+## playlistの途中から
+```
+-I, --playlist-items ITEM_SPEC  Comma-separated playlist_index of the items
+                                to download. You can specify a range using
+                                "[START]:[STOP][:STEP]". For backward
+                                compatibility, START-STOP is also supported.
+                                Use negative indices to count from the right
+                                and negative STEP to download in reverse
+                                order. E.g. "-I 1:3,7,-5::2" used on a
+                                playlist of size 15 will download the items
+                                at index 1,2,3,7,11,13,15
+```
+
+## あるフィールドがある時だけ
+`%(field&true_str|false_str)s`
+フィールドがあればtrue_strが、無ければfalse_strが出力される。
+フィールド自体を出力するなら`{}`で出る。
+strになるので02dなどは機能しない。
+
+なのでこういう冗長になる。
+`-o "%(uploader)s/%(playlist)s/%(playlist_index)02d%(playlist_index& - |)s%(title)s.%(ext)s"`
+
+それぞれは`&置換演算子`、`|デフォルト値演算子`。
+なのであるだけでいいなら`%(field&true_str)`、ないだけでいいなら`%(field|false_str)`でいい。
+
+[GitHub - yt-dlp/yt-dlp: A feature-rich command-line audio/video downloader](https://github.com/yt-dlp/yt-dlp#output-template)
+
+## プレイリストがある時だけ以下のフォルダへ
+問題はない時にNAが出力され、NAフォルダに入れられること。
+`--output-na-placeholder ""`でプレースホルダを文字無しにすればOK。

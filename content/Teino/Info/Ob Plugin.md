@@ -196,3 +196,31 @@ END
 notionみたいな運用が出来る。
 データベースであるspaceをいろいろに作ったり、タグやフォルダがspaceとして認識されたり。これを任意にjoinでくっつけて表示したりできる。
 spaceをいろいろな方法で見せるのが目的なので、ブロックエディターに縛られることはない。
+
+## xRyul/obsidian-image-converter
+[GitHub - xRyul/obsidian-image-converter at 5dad8168a54dfe67f01bec890fbf0be01d40010b](https://github.com/xRyul/obsidian-image-converter/tree/5dad8168a54dfe67f01bec890fbf0be01d40010b)
+
+画像の変換・アノテーションの追加が出来る。
+
+(2026/01/16)
+アノテーション追加後に変換で圧縮したかったので追記。バージョンアップで壊れる。
+
+`obsidian-image-converter/src/ImageAnnotation/ImageAnnotationModal.ts`
+
+```ts
+import { ProcessSingleImageModal } from "../ProcessSingleImageModal";
+
+//~~~中略~~~
+
+onClose(): void {
+        const { contentEl } = this;
+        contentEl.empty();
+        this.cleanup();
+        this.componentContainer.unload();
+        super.onClose();
+        new ProcessSingleImageModal(this.app,this.plugin,this.file).open();
+
+    }
+
+```
+

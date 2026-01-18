@@ -48,4 +48,11 @@ error: the following build command crashed:
 .zig-cache/o/614da89b860f530423296b1f5fde7746/build /usr/lib/zig/zig /usr/lib/zig/lib /home/hys .zig-cache /home/.cache/zig --seed 0xd4212543 -Zb23f7176112f87e5 -Doptimize=ReleaseSafe install -p /home/.local
 ```
 
+なおproot-distroでubuntuでやろうとしたらそもそもzig入らなかった。snapでやろうとするからであって公式から落とせばできるだろうけど、さすがにhysのためだけにそこまでやるのはちょっと。
+
+[やさしく学ぶ Zig 入門ガイド - Qiita](https://qiita.com/automation2025/items/f138062afee32d5b04e6)
+
 windowsでやろうとすると`error: unable to find dynamic system library 'curl' using strategy 'paths_first'. searched paths: none`で止まる。curlの挙動が違うっぽいんだけど分からん。どうしてもというならWSL出すのがいい。
+
+wslだと`sudo apt-get install libexpat1-dev`を行うだけで入った。
+
