@@ -113,8 +113,15 @@ python /storage/emulated/0/Download/Flud/nicodanmaku2ass/danmaku2ass.py -o "${fi
 
 （2025/03/09）うまく動かない。grepで出力を拾ってしまうのが悪そう。
 
+```sh
+nndownload -c -l /storage/emulated/0/Movies/Flud/nnlog.txt --session-cookie "$1" "$2"
+filename=$(tac nnlog.txt | grep -Po -m 1 '(?<=\").*(?=\.(mp4|mkv)\")')
+python /storage/emulated/0/Movies/Flud/nicojson2xml/nicojson2xml.py "${filename}.comments.json"
+python /storage/emulated/0/Movies/Flud/nicodanmaku2ass/danmaku2ass.py -o "${filename}.ass" -a 0.8 "${filename}.comments.xml"
+```
 
-
+愚直に改良した奴
+ログのファイルを指定してそれを拾っている
 
 オプションでページ内ニコニコ動画リンク一括コピーブックマークレット。
 ```javascript

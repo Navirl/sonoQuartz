@@ -52,16 +52,8 @@
           "name": "Refresh Any View"
         },
         {
-          "id": "obsidian-scroll-to-top-plugin",
-          "name": "Scroll to Top"
-        },
-        {
           "id": "quickadd",
           "name": "QuickAdd"
-        },
-        {
-          "id": "obsidian-spaced-repetition",
-          "name": "Spaced Repetition"
         },
         {
           "id": "tag-wrangler",
@@ -82,6 +74,14 @@
         {
           "id": "templater-obsidian",
           "name": "Templater"
+        },
+        {
+          "id": "homepage",
+          "name": "Homepage"
+        },
+        {
+          "id": "obsidian-spaced-repetition",
+          "name": "Spaced Repetition"
         }
       ],
       "groupIds": [],
@@ -89,10 +89,10 @@
       "autoAdd": true
     }
   ],
-  "generateCommands": true,
+  "generateCommands": false,
   "showNoticeOnGroupLoad": "none",
   "devLogs": false,
   "devices": [],
-  "doLoadSynchronously": true,
+  "doLoadSynchronously": false,
   "showStatusbarIcon": "None"
 }

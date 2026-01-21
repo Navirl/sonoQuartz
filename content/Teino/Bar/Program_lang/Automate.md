@@ -21,6 +21,7 @@ taskerプラグインがそのまま読めるのでそれを使う。
 そこに置いてればchmodが7かどうかは問題ないらしい。
 [GitHub - termux/termux-tasker: Termux add-on app for integration with Tasker.](https://github.com/termux/termux-tasker#plugin-variables)
 
+working directoryは~使用不可
 
 ## Termux git
 コア機能
