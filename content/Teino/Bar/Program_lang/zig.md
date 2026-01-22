@@ -7,7 +7,6 @@ tags:
 
 up:: [Programming](./Programming.md)
 
-![](../../images/zig-1768555310479.png)
 ## hys
 termuxでインストールはできなかった。まずFHS準拠じゃないので`/etc/resolv.conf`がなく名前解決が出来ない。ので`termux-chroot`でprootを起動して再度。
 
@@ -51,6 +50,9 @@ error: the following build command crashed:
 なおproot-distroでubuntuでやろうとしたらそもそもzig入らなかった。snapでやろうとするからであって公式から落とせばできるだろうけど、さすがにhysのためだけにそこまでやるのはちょっと。
 
 [やさしく学ぶ Zig 入門ガイド - Qiita](https://qiita.com/automation2025/items/f138062afee32d5b04e6)
+
+とか言いつつやったら`error: failed to find libc installation: LibCRuntimeNotFound`。cコンパイラがあればいいのでllvmを入れるといい？
+
 
 windowsでやろうとすると`error: unable to find dynamic system library 'curl' using strategy 'paths_first'. searched paths: none`で止まる。curlの挙動が違うっぽいんだけど分からん。どうしてもというならWSL出すのがいい。
 
