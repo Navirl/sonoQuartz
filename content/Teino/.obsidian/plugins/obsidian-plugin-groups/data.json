@@ -82,6 +82,10 @@
         {
           "id": "obsidian-spaced-repetition",
           "name": "Spaced Repetition"
+        },
+        {
+          "id": "remember-scrollposition",
+          "name": "Remember Scrollposition"
         }
       ],
       "groupIds": [],

@@ -1,0 +1,120 @@
+{
+  "settings": {
+    "scrollInstantly": true,
+    "maxAge": 14
+  },
+  "scrollpositions": [
+    {
+      "editorRange": {
+        "from": {
+          "line": 76,
+          "ch": 1
+        },
+        "to": {
+          "line": 76,
+          "ch": 1
+        }
+      },
+      "path": "FX/my.md",
+      "updated": 1769564333607
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 114,
+          "ch": 1
+        },
+        "to": {
+          "line": 114,
+          "ch": 1
+        }
+      },
+      "path": "Daily_Note/2026-01-27.md",
+      "updated": 1769516734285
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 52,
+          "ch": 1
+        },
+        "to": {
+          "line": 52,
+          "ch": 1
+        }
+      },
+      "path": "FX/利確損切.md",
+      "updated": 1769513594943
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 24,
+          "ch": 1
+        },
+        "to": {
+          "line": 24,
+          "ch": 1
+        }
+      },
+      "path": "Daily_Note/2026-01-28.md",
+      "updated": 1769564470656
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 1,
+          "ch": 1
+        },
+        "to": {
+          "line": 1,
+          "ch": 1
+        }
+      },
+      "path": "FX/調整.md",
+      "updated": 1769566385162
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 20,
+          "ch": 1
+        },
+        "to": {
+          "line": 20,
+          "ch": 1
+        }
+      },
+      "path": "FX/急上下.md",
+      "updated": 1769569761945
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 28,
+          "ch": 1
+        },
+        "to": {
+          "line": 28,
+          "ch": 1
+        }
+      },
+      "path": "FX/レンジ.md",
+      "updated": 1769565520127
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 6,
+          "ch": 1
+        },
+        "to": {
+          "line": 6,
+          "ch": 1
+        }
+      },
+      "path": "FX/My_Test/my2026-01-28.md",
+      "updated": 1769570005549
+    }
+  ]
+}
