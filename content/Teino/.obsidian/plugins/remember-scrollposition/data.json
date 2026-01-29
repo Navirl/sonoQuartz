@@ -7,16 +7,16 @@
     {
       "editorRange": {
         "from": {
-          "line": 76,
+          "line": 78,
           "ch": 1
         },
         "to": {
-          "line": 76,
+          "line": 78,
           "ch": 1
         }
       },
       "path": "FX/my.md",
-      "updated": 1769564333607
+      "updated": 1769647475536
     },
     {
       "editorRange": {
@@ -77,16 +77,16 @@
     {
       "editorRange": {
         "from": {
-          "line": 20,
+          "line": 34,
           "ch": 1
         },
         "to": {
-          "line": 20,
+          "line": 34,
           "ch": 1
         }
       },
       "path": "FX/急上下.md",
-      "updated": 1769569761945
+      "updated": 1769651049836
     },
     {
       "editorRange": {
@@ -115,6 +115,20 @@
       },
       "path": "FX/My_Test/my2026-01-28.md",
       "updated": 1769570005549
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 24,
+          "ch": 1
+        },
+        "to": {
+          "line": 24,
+          "ch": 1
+        }
+      },
+      "path": "Daily_Note/2026-01-29.md",
+      "updated": 1769647674990
     }
   ]
 }
