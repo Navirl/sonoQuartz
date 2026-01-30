@@ -7,16 +7,16 @@
     {
       "editorRange": {
         "from": {
-          "line": 78,
+          "line": 336,
           "ch": 1
         },
         "to": {
-          "line": 78,
+          "line": 336,
           "ch": 1
         }
       },
       "path": "FX/my.md",
-      "updated": 1769647475536
+      "updated": 1769774826932
     },
     {
       "editorRange": {
@@ -63,16 +63,16 @@
     {
       "editorRange": {
         "from": {
-          "line": 1,
+          "line": 11,
           "ch": 1
         },
         "to": {
-          "line": 1,
+          "line": 11,
           "ch": 1
         }
       },
-      "path": "FX/調整.md",
-      "updated": 1769566385162
+      "path": "FX/推進調整.md",
+      "updated": 1769773038716
     },
     {
       "editorRange": {
@@ -119,16 +119,142 @@
     {
       "editorRange": {
         "from": {
-          "line": 24,
+          "line": 91,
           "ch": 1
         },
         "to": {
-          "line": 24,
+          "line": 91,
           "ch": 1
         }
       },
       "path": "Daily_Note/2026-01-29.md",
-      "updated": 1769647674990
+      "updated": 1769700357027
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 139,
+          "ch": 1
+        },
+        "to": {
+          "line": 139,
+          "ch": 1
+        }
+      },
+      "path": "Daily_Note/2026-01-30.md",
+      "updated": 1769779096782
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 45,
+          "ch": 1
+        },
+        "to": {
+          "line": 45,
+          "ch": 1
+        }
+      },
+      "path": "FX/ぶつかり.md",
+      "updated": 1769772721132
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 1,
+          "ch": 1
+        },
+        "to": {
+          "line": 1,
+          "ch": 1
+        }
+      },
+      "path": "FX/シナリオ.md",
+      "updated": 1769775126189
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 1,
+          "ch": 1
+        },
+        "to": {
+          "line": 1,
+          "ch": 1
+        }
+      },
+      "path": "Temp/defFXEnvAnalysis.md",
+      "updated": 1769775007203
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 14,
+          "ch": 1
+        },
+        "to": {
+          "line": 14,
+          "ch": 1
+        }
+      },
+      "path": "FX/目線.md",
+      "updated": 1769774263915
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 12,
+          "ch": 1
+        },
+        "to": {
+          "line": 12,
+          "ch": 1
+        }
+      },
+      "path": "FX/トレーディング・レンジ.md",
+      "updated": 1769775104603
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 29,
+          "ch": 1
+        },
+        "to": {
+          "line": 29,
+          "ch": 1
+        }
+      },
+      "path": "FX/前回勢いの止め（トレンド転換）.md",
+      "updated": 1769778454646
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 12,
+          "ch": 1
+        },
+        "to": {
+          "line": 12,
+          "ch": 1
+        }
+      },
+      "path": "FX/ジグザグ.md",
+      "updated": 1769775466909
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 1,
+          "ch": 1
+        },
+        "to": {
+          "line": 1,
+          "ch": 1
+        }
+      },
+      "path": "FX/平均線.md",
+      "updated": 1769775381260
     }
   ]
 }
