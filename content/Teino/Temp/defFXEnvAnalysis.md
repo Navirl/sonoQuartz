@@ -1,7 +1,7 @@
 > [!note]
 >- +1万 事前認識 **開始5分**
 
-- [ ] [my](obsidian://open?vault=Teino&file=FX/my)(見ないと増える)
+- [ ] [my](../FX/my.md)(見ないと増える)
 - [ ] 指標
     - 差し込まれる可能性有り、毎日
 

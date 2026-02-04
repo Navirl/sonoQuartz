@@ -7,16 +7,16 @@
     {
       "editorRange": {
         "from": {
-          "line": 336,
+          "line": 92,
           "ch": 1
         },
         "to": {
-          "line": 336,
+          "line": 92,
           "ch": 1
         }
       },
       "path": "FX/my.md",
-      "updated": 1769774826932
+      "updated": 1770160768618
     },
     {
       "editorRange": {
@@ -133,16 +133,16 @@
     {
       "editorRange": {
         "from": {
-          "line": 139,
+          "line": 127,
           "ch": 1
         },
         "to": {
-          "line": 139,
+          "line": 127,
           "ch": 1
         }
       },
       "path": "Daily_Note/2026-01-30.md",
-      "updated": 1769779096782
+      "updated": 1769962753334
     },
     {
       "editorRange": {
@@ -255,6 +255,160 @@
       },
       "path": "FX/平均線.md",
       "updated": 1769775381260
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 102,
+          "ch": 1
+        },
+        "to": {
+          "line": 102,
+          "ch": 1
+        }
+      },
+      "path": "Daily_Note/2026-01-31.md",
+      "updated": 1769963005887
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 28,
+          "ch": 1
+        },
+        "to": {
+          "line": 28,
+          "ch": 1
+        }
+      },
+      "path": "Novels/ミドルウェア世界/issue/MWW憲法.md",
+      "updated": 1769944358289
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 8,
+          "ch": 1
+        },
+        "to": {
+          "line": 8,
+          "ch": 1
+        }
+      },
+      "path": "Novels/ミドルウェア世界/issue/何故世界AIを管理下に置くべきか.md",
+      "updated": 1769944363612
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 4,
+          "ch": 1
+        },
+        "to": {
+          "line": 4,
+          "ch": 1
+        }
+      },
+      "path": "Novels/ミドルウェア世界/pl.md",
+      "updated": 1769944374640
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 1,
+          "ch": 1
+        },
+        "to": {
+          "line": 1,
+          "ch": 1
+        }
+      },
+      "path": "Novels/ミドルウェア世界/スライド.md",
+      "updated": 1769955187994
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 328,
+          "ch": 1
+        },
+        "to": {
+          "line": 328,
+          "ch": 1
+        }
+      },
+      "path": "Novels/ミドルウェア世界/ミドルウェア世界.md",
+      "updated": 1769957672183
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 44,
+          "ch": 1
+        },
+        "to": {
+          "line": 44,
+          "ch": 1
+        }
+      },
+      "path": "Info/サウレン・アルメレッタ・スランケート.md",
+      "updated": 1769944433773
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 7,
+          "ch": 1
+        },
+        "to": {
+          "line": 7,
+          "ch": 1
+        }
+      },
+      "path": "Daily_Note/2026-02-02.md",
+      "updated": 1770167256877
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 8,
+          "ch": 1
+        },
+        "to": {
+          "line": 8,
+          "ch": 1
+        }
+      },
+      "path": "FX/大きい足.md",
+      "updated": 1769990631111
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 121,
+          "ch": 1
+        },
+        "to": {
+          "line": 121,
+          "ch": 1
+        }
+      },
+      "path": "Daily_Note/2026-02-03.md",
+      "updated": 1770167195791
+    },
+    {
+      "editorRange": {
+        "from": {
+          "line": 33,
+          "ch": 1
+        },
+        "to": {
+          "line": 33,
+          "ch": 1
+        }
+      },
+      "path": "Daily_Note/2026-02-04.md",
+      "updated": 1770160887106
     }
   ]
 }
