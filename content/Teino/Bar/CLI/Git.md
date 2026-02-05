@@ -361,8 +361,11 @@ workflowの場合はcheckoutを忘れず。
 !/.obsidian/plugins/**/
 
 !/.obsidian/plugins/**/data.json
-
+/.obsidian/plugins/remember-scrollposition/data.json
 ```
 
 親フォルダを残してないと否定の否定が通じない。
 [.gitignoreの書き方を完全解説【パターン記法から実践例まで初心者向け】](https://git-navi.com/articles/gitignore-how-to-write)
+
+remember-scrollpositionだけ更新が頻繁過ぎるので却下。
+上から順に適用されるのに注意。!はその時点で除外内の物を戻すので、rsを先にすると`rsを除外 -> **/data.json を戻す（rs含む）`となってしまいrsを除外できない。

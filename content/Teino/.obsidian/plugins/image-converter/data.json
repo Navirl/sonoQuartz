@@ -376,6 +376,7 @@
   "enableContextMenu": true,
   "showSpaceSavedNotification": true,
   "revertToOriginalIfLarger": true,
+  "minimumCompressionSavingsInKB": 30,
   "enableImageCaptions": true,
   "skipCaptionExtensions": "icns",
   "captionFontSize": "var(--font-smaller)",
