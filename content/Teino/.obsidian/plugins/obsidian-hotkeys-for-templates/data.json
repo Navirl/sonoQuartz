@@ -1,8 +1,7 @@
 {
   "files": [
     "defInfo.md",
-    "defBar.md",
-    "defEntry.md"
+    "defBar.md"
   ],
   "templaterFiles": [
     "defFXTest.md"
