@@ -224,3 +224,4 @@ onClose(): void {
 
 ```
 
+アノテーション後に一番上までスクロールしてしまう問題はtypewriter modeのcursor positionで対応。これに他のプラグインを使う手もあったが、typewriterだけで行けるならいいだろう。
