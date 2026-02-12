@@ -4,7 +4,8 @@
     "defBar.md"
   ],
   "templaterFiles": [
-    "defFXTest.md"
+    "defFXTest2.md",
+    "defEntry2.md"
   ],
   "newFileTemplates": [],
   "openNewFileTemplateInNewPane": true,

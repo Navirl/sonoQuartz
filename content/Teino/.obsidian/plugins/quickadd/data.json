@@ -5,7 +5,7 @@
       "name": "FXTestPage",
       "type": "Template",
       "command": true,
-      "templatePath": "Temp/defFXTest.md",
+      "templatePath": "Temp/defFXTest2.md",
       "fileNameFormat": {
         "enabled": true,
         "format": "my{{date}}"
@@ -92,6 +92,41 @@
       "openFile": true,
       "fileOpening": {
         "location": "tab",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "011d709e-24ff-46cf-a135-f0ff6e52b861",
+      "name": "FXEntry",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Temp/defEntry2.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "en{{date:yyyyMMDDThhmmss}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "FX/Entry"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": {
+        "enabled": true,
+        "placement": "replaceSelection",
+        "requireActiveFile": true,
+        "linkType": "embed"
+      },
+      "openFile": true,
+      "fileOpening": {
+        "location": "reuse",
         "direction": "vertical",
         "mode": "default",
         "focus": true

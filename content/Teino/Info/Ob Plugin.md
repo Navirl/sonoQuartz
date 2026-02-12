@@ -67,6 +67,14 @@ LINKCURRENTなどTemplaterでは出しにくいものも使える。
 
 独自テンプレート記法が使える。
 これを使う場合、{{date}}などの元のテンプレート記法は適用されないことに注意。
+
+`<%* -%>`でjavascriptが実行可能。-を入れると消去されるブロック分の空行を詰められる。
+この中でファイル内容を変更する場合は`tR`に追記すること。
+[Execution Commands - Templater](https://silentvoid13.github.io/Templater/commands/execution-command.html)
+
+`tp.hooks.on_all_templates_executed`で変更終了後にフックできる。これに`tp.app.commands.executeCommandById`でコマンドパレットのコマンドの遅延入力もできる。実際quickaddで使った。
+コマンドのidは開発者ツールで`app.commands.commands`で出る。
+
 ## farling42/obsidian-import-json
 [GitHub - farling42/obsidian-import-json: Plug-in for Obsidian.md which will create Notes from JSON files](https://github.com/farling42/obsidian-import-json)
 
@@ -225,3 +233,12 @@ onClose(): void {
 ```
 
 アノテーション後に一番上までスクロールしてしまう問題はtypewriter modeのcursor positionで対応。これに他のプラグインを使う手もあったが、typewriterだけで行けるならいいだろう。
+
+……と思ったがquickaddのtp.file.cursorで競合発生。
+カーソルじゃなく欲しいのはスクロール位置なので結局別プラグインへ。
+
+そもそもスクロール位置保存とtypewriterが相性悪い。そりゃそうか。描き込みした時点でカーソルが最上段に行くためtypewriterがあると強制で最上段に行く。
+そしてカーソル位置を覚えるとquickaddと競合する。only active first interactionも書きこみと変換で二回変更するせいか効果なし。しゃーない、typewriterはお預けで。
+
+いや、最初の一回だけquickadd競合を耐えそう。
+ならそれでいいか。

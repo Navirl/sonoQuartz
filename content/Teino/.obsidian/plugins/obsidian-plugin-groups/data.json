@@ -56,10 +56,6 @@
           "name": "QuickAdd"
         },
         {
-          "id": "tag-wrangler",
-          "name": "Tag Wrangler"
-        },
-        {
           "id": "better-word-count",
           "name": "Better Word Count"
         },
@@ -88,12 +84,16 @@
           "name": "Remember Scrollposition"
         },
         {
-          "id": "typewriter-mode",
-          "name": "Typewriter Mode"
-        },
-        {
           "id": "obsidian-scroll-to-top-plugin",
           "name": "Scroll to Top"
+        },
+        {
+          "id": "last-position",
+          "name": "Last Position"
+        },
+        {
+          "id": "typewriter-mode",
+          "name": "Typewriter Mode"
         }
       ],
       "groupIds": [],
