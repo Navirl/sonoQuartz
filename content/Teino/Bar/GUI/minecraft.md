@@ -137,7 +137,7 @@ minecraft/snapshots
 ネザーも上げていく以上、エンドにコピーするよりある一定以上をschematicにハメていくだけでいい気がするが。
 でもschemだとファイル分割とかで面倒。エンドにコピーして最終日に一定より下を空気ペーストで削るほうが楽。
 
-## 基本方針
+### 基本方針
 スポーン場所1チャンクを石材で固める。
     敵の攻撃で破壊できないように、出入りはポータルのみ
     外のボスを倒すと石材の破壊耐性が解除
@@ -165,3 +165,223 @@ APEXのごとくルートを拾ってマシンづくり
 
 
 最終日はループするポータルが四方から迫る感じで
+
+## opencomputer
+luaスクリプトで色々
+
+compact machinesのprojectorでエンパを作る
+
+インベントリ検知
+アイテムによる作成物変更
+構造体からデータ採る
+
+
+```mermaid
+flowchart
+    A[インベントリ検知] --> Aa[検査]
+    Aa --> B[アイテムによる作成物変更]
+    B --> |データ呼出し| Ba[構造体]
+    Ba -->|データ| B
+    B --> C[データを元に１つ作成]
+    C --> |インベントリ信号無くなるまで繰り返し| A
+    
+```
+
+
+```psuedo
+-- エンパ材料
+-- 実際は構造体から受け取る
+local projdata = {
+                    {
+                        {"obsidian","obsidian","obsidian"},
+                        {"obsidian","obsidian","obsidian"},
+                        {"obsidian","obsidian","obsidian"}
+                    },
+                    {
+                        {"obsidian","obsidian","obsidian"},
+                        {"obsidian","redblock","obsidian"},
+                        {"obsidian","obsidian","obsidian"}
+                    },
+                    {
+                        {"obsidian","obsidian","obsidian"},
+                        {"obsidian","obsidian","obsidian"},
+                        {"obsidian","obsidian","obsidian"}
+                    }
+                }
+
+local dropitem = "redstone"
+
+-- プロジェクターサイズ
+-- 立方体しかないはずなので楽
+local projsize = 3
+
+-- 高さサイズ
+local heightsize = table.maxtn(projdata)
+
+local sub = projsize - heightsize
+
+if sub <= 0
+    return
+end
+
+-- プロジェクター都合上一つ周りに物はおけない
+-- チャージャーはその外にあるのでそこまで移動
+right 2
+for i1,v1 in projdata do
+    local rowsize = table.maxn(v1)
+    for i2,v2 in v1 do
+        local colsize = table.maxn(v2)
+        for i3,v3 in v2 do
+            -- 設置
+            place v3
+            -- もし現在値が右端なら、左へ戻り次の行へ
+            if i3 >= colsize
+                left colsize-1
+                -- 最終行以外で一つ下へ
+                if i1 >= rowsize
+                    south 1
+                end
+            else
+                right
+            end
+        end
+    end 
+    -- 最終行なら元の位置へ、一つ上昇
+    if i1 >= rowsize
+        north rowsize-1
+        up
+end
+
+-- proj3, height2みたいなときにprojectorの外まで出る
+if sub <= 0
+    up sub
+end
+
+dropdown dropitem
+left 2
+down projsize
+
+```
+
+
+一次元をmodでやったらどうだ
+無いとこにnilを詰める方針ならそれでいいが
+
+{"","",""...}ってやるより{{"iron"},{"red"}}のが記述少なくていいだろ
+んでも{{full},{真ん中だけ}}みたいなのを見た覚えがある、ゾンビのやつ
+無いとこnilで詰めたほうが早いか
+
+projsizeで作成サイズを絞る
+nilならその必要性すらなさそう
+全体サイズが8,27...で比較してmod数値も割り出せる
+
+```psuedo
+-- エンパ材料
+-- 実際は構造体から受け取る
+-- nilの可能性がある場合、1,8,27...と3乗の要素持ちしか通さないことにする
+local projdata = {
+                    "obsidian","obsidian","obsidian",
+                    "obsidian","obsidian","obsidian",
+                    "obsidian","obsidian","obsidian",
+                    
+                    "obsidian","obsidian","obsidian",
+                    "obsidian","redblock","obsidian",
+                    "obsidian","obsidian","obsidian",
+                    
+                    "obsidian","obsidian","obsidian",
+                    "obsidian","obsidian","obsidian",
+                    "obsidian","obsidian","obsidian",
+                }
+
+local dropitem = "redstone"
+
+-- プロジェクターサイズ
+-- 立方体しかないはずなので楽
+local projsize = 3
+
+-- サイズ
+local size = table.maxtn(projdata)
+
+-- ここでやってるけど、本来は構造体に含むべきだと思う
+local edgesize
+local facesize
+for i,v in range(5) do
+    if size == i^3
+        edgesize = i
+        facesize = i^2
+    end
+
+if size % edgesize != 0
+    error("mismatch size %", size)
+    return
+end
+
+local sub = projsize - edgesize
+
+if sub <= 0
+    return
+end
+
+-- プロジェクター都合上一つ周りに物はおけない
+-- チャージャーはその外にあるのでそこまで移動
+right 2
+for i1,v1 in projdata do
+    if v1 ~= nil
+        -- 設置
+        place v1
+    end
+    -- 右端なら、左へ戻る
+    if i1 % edgesize == 0
+        left edgesize-1
+        -- 最終行なら最初の行に戻って上へ
+        if i1 % facesize == 0
+            north edgesize-1
+            up 1
+        end
+        -- 最終行でないなら次の行へ
+        else
+            south 1
+        end
+    end
+    -- 右端でないなら、次のブロックへ
+    else
+        right
+    end
+end
+
+-- proj3, height2みたいなときにprojectorの外まで出る
+if sub >= 0
+    up sub
+end
+
+dropdown dropitem
+left 2
+down projsize
+
+```
+
+
+
+
+
+placeは単純にカーソル合わせたものを置く機能しかない
+インベントリのどこにそれがあって、どうやってカーソル置くかをサポートしてない
+
+黒曜石を元に検知してるので、インベントリ1が黒曜石、2がレッドブロック、3がレッドストーンパウダーのはず
+構造体からこれももらっておきたい
+
+```psuedo
+local itemlist = {"obsidian:26","redblock:1”,"redstone:1"}
+```
+
+:で分けて、物体名と数をそれぞれ処理
+
+あっ、外部チェストの確認できなさそう？
+ロボット自体に
+```pseudo
+local chestsize = getinventorysize(sides.front)
+for i in range chestsize
+    local itemtable = getstackinslot(sides.front, i)
+    if itemtable[name] == "obsidian"
+        
+```

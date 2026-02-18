@@ -1,11 +1,12 @@
 {
   "files": [
     "defInfo.md",
-    "defBar.md"
+    "defBar.md",
+    "defEntry2.md",
+    "defFXLastEntry.md"
   ],
   "templaterFiles": [
-    "defFXTest2.md",
-    "defEntry2.md"
+    "defFXTest2.md"
   ],
   "newFileTemplates": [],
   "openNewFileTemplateInNewPane": true,

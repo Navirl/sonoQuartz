@@ -133,6 +133,41 @@
       },
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
+    },
+    {
+      "id": "3499072b-8828-42d6-a7de-135561490cda",
+      "name": "FXLastEntry",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Temp/defFXLastEntry.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "len{{date:yyyyMMDDThhmmss}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "FX/Last_Entry"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": {
+        "enabled": true,
+        "placement": "replaceSelection",
+        "requireActiveFile": true,
+        "linkType": "embed"
+      },
+      "openFile": true,
+      "fileOpening": {
+        "location": "reuse",
+        "direction": "vertical",
+        "mode": "default",
+        "focus": true
+      },
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     }
   ],
   "inputPrompt": "single-line",
