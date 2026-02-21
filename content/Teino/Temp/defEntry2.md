@@ -10,6 +10,8 @@ Incline_Ratio: false
 
 <画像>
 
+`INPUT[inlineSelect(option(Range), option(Trend)):type]`
+
 TPSL
 ```meta-bind
 INPUT[toggle:TPSL]
@@ -32,4 +34,3 @@ Incline_Ratio
 ```meta-bind
 INPUT[toggle:Incline_Ratio]
 ```
-

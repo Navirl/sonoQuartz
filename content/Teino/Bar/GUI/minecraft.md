@@ -189,6 +189,9 @@ flowchart
 
 
 ```psuedo
+
+-- 作成
+
 -- エンパ材料
 -- 実際は構造体から受け取る
 local projdata = {
@@ -276,6 +279,8 @@ nilならその必要性すらなさそう
 全体サイズが8,27...で比較してmod数値も割り出せる
 
 ```psuedo
+-- 作成
+
 -- エンパ材料
 -- 実際は構造体から受け取る
 -- nilの可能性がある場合、1,8,27...と3乗の要素持ちしか通さないことにする
@@ -377,11 +382,242 @@ local itemlist = {"obsidian:26","redblock:1”,"redstone:1"}
 :で分けて、物体名と数をそれぞれ処理
 
 あっ、外部チェストの確認できなさそう？
-ロボット自体に
-```pseudo
-local chestsize = getinventorysize(sides.front)
-for i in range chestsize
-    local itemtable = getstackinslot(sides.front, i)
-    if itemtable[name] == "obsidian"
-        
+ロボット自体に物入れる仕組みっぽい。……なら64以上黒曜石を入れられたら、使っていった黒曜石の位置がずれていくのでは？
+suckで出来そう。controllerのsuckfromslotなら自由にスロット選べるはず。
+
+```mermaid
+flowchart
+    a[全てのアイテムに対し、検知アイテムが存在するか確認] -->|検知アイテムテーブル要求| aA[構造体]
+    aA -->|検知アイテムテーブル返却| a
+    a -->|全て検知無しなら、sleep後もう一度| a
+    a -->|検知| b[検知アイテムに連なる残りのアイテム問い合わせ]
+    b -->|残りのアイテム要求| aA[構造体]
+    aA -->|残りのアイテム返却| b
+    b --> c{全てのアイテムに対し、残りのアイテムが存在するか確認}
+    c -->|あれば| d[該当スロットに確保]
+    d -->|三番目以降も同様に| c
+    c -->|なければsleep後にもう一度| c
+    c -->|すべて終了| e[配置関数を呼出し]
 ```
+
+アイテムが見つかった時点でチェストは回し直すのだから、アイテム->チェストスロットの順で回すほうがいい
+
+```pseudo
+-- 検査及び変更、ツールバー作成
+
+-- 本来は構造体
+local detectitems = {"obsidian:26","ironblock:1"}
+local receipeitems = {{"redblock:1”,"redstone:1"},{redstone:2"}}
+
+local chestsize = getinventorysize(sides.front)
+
+func getitemfromtable(table,chestsize): detectitemid
+    for i,v in table do
+        name,num = split(v,":")
+        for i2 in range chestsize
+            local itemdata = getstackinslot(sides.front, i)
+            if itemdata.name == name
+                suckfromslot(i,num)
+                local detectitemid = i
+                return detectitemid
+            end
+        end
+    end
+end
+
+local detectitemid = getitemfromtable(detectitems,chestsize)
+
+if detectitemid == nil
+    -- スリープして検知に戻る
+else
+    getitemfromtable(receipeitems[detectitemid],chestsize)
+end  
+```
+
+このテーブル通りにツールバーに配置されたとして、
+```psuedo
+local toolbarlist = {"obsidian:26","redblock:1”,"redstone:1"}
+```
+
+place時にはこれと比較して配置していくことになる
+```psuedo
+local projdata = {
+                    "obsidian","obsidian","obsidian",
+                    "obsidian","obsidian","obsidian",
+                    "obsidian","obsidian","obsidian",
+                    
+                    "obsidian","obsidian","obsidian",
+                    "obsidian","redblock","obsidian",
+                    "obsidian","obsidian","obsidian",
+                    
+                    "obsidian","obsidian","obsidian",
+                    "obsidian","obsidian","obsidian",
+                    "obsidian","obsidian","obsidian",
+                }
+```
+
+使用するアイテムの種類数は当然異なり、ツールバーに配置されるものを決め打ちは難しい
+いやそうか？toolbaritemsをそのままツールバーに反映するように書いたから、この順のまま取り出せばよくないか。
+だとしてもredblockが何番スロットなのかは必要か。
+
+```psuedo
+-- 作成ヘルパー
+func getslotnumfromtable(toolbaritems,itemname):slotnum
+    for i,v in toolbaritems do
+        name,num = split(v,":")
+        if name == itemname
+            local slotnum = i
+            return slotnum
+        end
+    end
+end
+```
+
+後は構造体とインベントリ検知
+インベントリ検知は後でいいから、構造体
+luaにstructはないっぽいので、全部テーブルで
+
+基本はこれ
+これにdropitem,toolbaritems,detectitemを追加する
+```psuedo
+local projdata = {
+                    "obsidian","obsidian","obsidian",
+                    "obsidian","obsidian","obsidian",
+                    "obsidian","obsidian","obsidian",
+                    
+                    "obsidian","obsidian","obsidian",
+                    "obsidian","redblock","obsidian",
+                    "obsidian","obsidian","obsidian",
+                    
+                    "obsidian","obsidian","obsidian",
+                    "obsidian","obsidian","obsidian",
+                    "obsidian","obsidian","obsidian",
+                }
+```
+toolbaritemsがあれば、detectitemは最初切って残りをreceipeitemに当てるだけなので簡単
+そしてその二つは検査と変更でしか使わないので、そこにtoolbaritemsからの変更関数を入れればいい
+
+dropitemは流石にprojdataとは別枠で管理したい
+toolbaritemは理論上projdataから作成できる
+作成でも検査変更でもtoolbaritemsは使用するので事前に置いておきたい
+
+あれ、dropitemを別枠にしたところでツールバーには出てきて。
+作成ヘルパーはtoolbaritemsのアイテムしか読めないから、toolbaritemsに追加しないとダメだ。
+わざわざprojdataから切り出すのも面倒なので、dropitem別枠自体はいい
+ただtoolbaritems作成関数にprojdataとdropitemが必要なだけ
+
+toolbaritemsは一回こんなん作ったほうがいいか
+実際のを作ると一つずつ増やせない、連想配列のキーは64という最大数が決まっている以上同じキーが出る可能性は普通にあり無理
+```psuedo
+local temptollbar = {"obsidian",26,"redblock",1,"redstone",1}
+```
+
+luaのテーブルに便利な関数は大してない
+全部自分で実装
+
+```psuedo
+-- 構造体
+-- エンパ
+
+local projdata = {
+                    "obsidian","obsidian","obsidian",
+                    "obsidian","obsidian","obsidian",
+                    "obsidian","obsidian","obsidian",
+                    
+                    "obsidian","obsidian","obsidian",
+                    "obsidian","redblock","obsidian",
+                    "obsidian","obsidian","obsidian",
+                    
+                    "obsidian","obsidian","obsidian",
+                    "obsidian","obsidian","obsidian",
+                    "obsidian","obsidian","obsidian",
+                }
+
+local dropitem = "redstone"
+
+local detectitem = "obsidian"
+
+-- detectitemはtoolbaritemsの一番最初にする、作成してから最後に入れ替え
+-- この関数は別ファイルに移したほうがよさそう
+func maketoolbaritems(projdata,dropitem):toolbaritems
+    local temptoolbar = {}
+    local table.insert(projdata,dropitem)
+    for i,v in projdata
+        for i2,v2 in temptoolbar
+            if v2 == v
+                temptoolbar[i2+1] = temptoolbar[i2+1] + 1
+            end
+        end
+        table.insert(temptoolbar,v)
+        table.inert(temptoolbar,1) 
+    end
+    
+    local toolbaritems = {}
+    for i = 1, #temptoolbar, 2
+        table.insert(toolbaritems,concat(
+                        temptoolbar[i],":",temptoolbar[i+1]
+                    ))
+        if temptoolbar[i] == detectitem
+            table.insert(toolbaritems,0,toolbaritems[-1])
+            table.remove(toolbaritems)
+        end
+    end
+    return toolbaritems
+end 
+
+local toolbaritems = maketoolbaritems(projdata,dropitem)
+
+-- 分かりやすさ優先、連想配列
+-- 物によっては余計なもんが付いてくるが、allitemdata.projdataみたいな感じで呼べると考えたら
+local enderparldata = {projdata:projdata,dropitem:dropitem,toolbaritems:toolbaritems}
+
+-- 最後のデータを返すように、それぞれの作成で別の構造体ファイルを用意
+-- 何かの関数で全ての構造体を読み込んだテーブルとか用意しておけばいいかな
+
+```
+
+```psuedo
+-- 検査変更ヘルパー
+func makedetectitems(alldata):detectitems
+    local detectitems = {}
+    for i,v in alldata
+        table.insert(detectitems,v.toolbaritems[1])
+    end
+    return detectitems
+end
+```
+
+後はインベントリ検知
+チェストにコンパレータくっつければ一つ入った時に1を出力するはず
+これでロボット自体を起動できれば早いんだが、起動し続けるcomputerからnetwork介して起こすなどになる。
+それは面倒なのでos.sleepで何とかするのが流石に一番早いだろ、networkやったとこでcomputer分の電力消費するだろうし
+
+[Signals \[OpenComputers\]](https://ocdoc.cil.li/component:signals)
+
+redstone_changedシグナルを出してくれるらしい
+
+```lua
+local event = require("event")
+print("信号を待機中...")
+
+-- レッドストーン信号（redstone_changed）が変わるまで一時停止
+while true do
+  local _, _, side, _, newValue = event.pull("redstone_changed")
+  if newValue > 0 then
+    print("信号検知！作業を開始します。")
+    break
+  end
+end
+
+-- ここに実行したい作業を書く
+```
+
+これでいけるなら、autorun.luaあたりにこれ書いて動かせるな
+
+先にinternetでテスト
+作成部だけ動かす
+
+[Tutorial: The OpenPrograms Package Manager (OPPM) \[OpenComputers\]](https://ocdoc.cil.li/tutorial:program:oppm)
+oppmなるマネージャを使うらしい
+準備としてmasterブランチ持ちのgithubリポジトリを作成する、その前にluaを真面目にまとめる
+

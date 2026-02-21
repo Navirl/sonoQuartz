@@ -27,6 +27,14 @@ Width
 ```meta-bind
 INPUT[toggle:Width]
 ```
+Direction
+```meta-bind
+INPUT[toggle:Direction]
+```
+Incline_Ratio
+```meta-bind
+INPUT[toggle:Incline_Ratio]
+```
 
 Env_Wave
 ```meta-bind
@@ -45,14 +53,9 @@ Entry_Candle_Wicks
 INPUT[toggle:Entry_Candle_Wicks]
 ```
 
-Direction
-```meta-bind
-INPUT[toggle:Direction]
-```
-Incline_Ratio
-```meta-bind
-INPUT[toggle:Incline_Ratio]
-```
+
+比較対象
+
 
 
 環境足波
