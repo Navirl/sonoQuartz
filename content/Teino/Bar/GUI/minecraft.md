@@ -169,6 +169,8 @@ APEXのごとくルートを拾ってマシンづくり
 ## opencomputer
 luaスクリプトで色々
 
+[[minecraft]]
+
 compact machinesのprojectorでエンパを作る
 
 インベントリ検知
@@ -397,10 +399,15 @@ flowchart
     c -->|あれば| d[該当スロットに確保]
     d -->|三番目以降も同様に| c
     c -->|なければsleep後にもう一度| c
-    c -->|すべて終了| e[配置関数を呼出し]
+    c -->|すべて終了| e[作成関数を呼出し]
 ```
 
 アイテムが見つかった時点でチェストは回し直すのだから、アイテム->チェストスロットの順で回すほうがいい
+いや、detectでは見つかった時点で終了してほしいが、receipeだと見つかってもそのまま回してほしい。
+というか物を指定してチェスト回す方式だと、チェスト内に別々に同じアイテムあったら両方吸い出してしまう。
+
+
+
 
 ```pseudo
 -- 検査及び変更、ツールバー作成
@@ -411,15 +418,23 @@ local receipeitems = {{"redblock:1”,"redstone:1"},{redstone:2"}}
 
 local chestsize = getinventorysize(sides.front)
 
-func getitemfromtable(table,chestsize): detectitemid
+-- テーブルを回し、チェストを回し、チェスト内でアイテムを確認し、名前が一致するなら取り出し
+-- detectの時は問答無用で一番に取り出すのでモード指定
+func getitemfromtable(table,chestsize,detectmode): detectitemid
     for i,v in table do
         name,num = split(v,":")
         for i2 in range chestsize
             local itemdata = getstackinslot(sides.front, i)
             if itemdata.name == name
-                suckfromslot(i,num)
-                local detectitemid = i
-                return detectitemid
+                if itemdata.num ~= num 
+                
+                if detectmode
+                    suckfromslot(1,num)
+                    local detectitemid = i
+                    return detectitemid
+                else
+                    suckfromslot(i+1,num)
+                    break
             end
         end
     end
@@ -431,8 +446,75 @@ if detectitemid == nil
     -- スリープして検知に戻る
 else
     getitemfromtable(receipeitems[detectitemid],chestsize)
+    
 end  
 ```
+
+
+アイテムがあったところでチェストに残りのアイテムも入っている可能性は保証されないし、そもそもレシピのアイテムがあるかも怪しい。
+つまりテーブルのアイテムとツールバーのアイテムが一致しない可能性が高い。
+
+アイテムと数値、両方が揃わないと一致とみなさないことにする。
+レシピの一部だけ存在する場合、inventorychangeが起きるまで放置したいが外部インベントリにはさすがにシグナルないだろ。
+
+一致したスロットの数値だけスタックしといて、レシピ全部が揃ったと分かったら一気に吸出し。
+そうでなければどのスロット数値が足りないかだけエラー出力。再び全体が呼び出されるまで待ち。
+吸出しが失敗したら全部返却してどのスロット数値で失敗したかエラー出力。全体呼び出されるまで待ち。
+
+まって。`obsidian:2,obsidian:22,obsidian:9`とかで配置されてた時にまとめて吸い出せない。
+設定で26個スロットから吸い出す以上、こうなることは予想がつく。といってインベントリのソート関数はない。何かしらで26個ずつ黒曜石を、とやろうにも他にも数値違いで黒曜石を使う用事はある。
+1スロットに入るアイテムが馬鹿多ければ問題ない。もういっそグリッドから読むか。そもそも読めるか分からんが。
+
+グリッド読めなかった。
+もう仕方ない、作りたいアイテムごとにチェストとクラフターを分けて一定アイテム数だけ取り出すようにする。
+黒曜石と黒曜石で被るのもダメなので、同じ部屋に別々にチェストを置くことになる。
+いちいち場所探すのもあれなのでwaypointとチェストをセット。
+クラフター-チェスト-フィルター-チェスト-waypoint。これだけでめちゃくちゃ部屋を占有する。9x9だが中央5x5は使えない、壁際に並べて何種類か。
+
+これ以上は止めよう。waypoint無し、フィルタリングチェストまで。フィルタリングを別ロボットに任せれば楽だろうが、一応menrilも確認。レシピ通りが全部そろった時だけ同じ個数フィルタリングチェストに入れる。フィルタリングチェストが一つでも入ってたらやらない。
+
+```pseudo
+-- 検査及び変更、ツールバー作成
+
+-- 本来は構造体
+local detectitems = {"obsidian:26","ironblock:1"}
+local receipeitems = {{"redblock:1”,"redstone:1"},{redstone:2"}}
+
+local chestsize = getinventorysize(sides.front)
+
+-- テーブルを回し、チェストを回し、チェスト内でアイテムを確認し、名前が一致するなら取り出し
+-- detectの時は問答無用で一番に取り出すのでモード指定
+func getitemfromtable(table,chestsize,detectmode): detectitemid
+    for i,v in table do
+        name,num = split(v,":")
+        for i2 in range chestsize
+            local itemdata = getstackinslot(sides.front, i)
+            if itemdata.name == name
+                if itemdata.num == num
+                     
+                
+                if detectmode
+                    suckfromslot(1,num)
+                    local detectitemid = i
+                    return detectitemid
+                else
+                    suckfromslot(i+1,num)
+                    break
+            end
+        end
+    end
+end
+
+local detectitemid = getitemfromtable(detectitems,chestsize)
+
+if detectitemid == nil
+    -- スリープして検知に戻る
+else
+    getitemfromtable(receipeitems[detectitemid],chestsize)
+    
+end  
+```
+
 
 このテーブル通りにツールバーに配置されたとして、
 ```psuedo
@@ -621,3 +703,76 @@ end
 oppmなるマネージャを使うらしい
 準備としてmasterブランチ持ちのgithubリポジトリを作成する、その前にluaを真面目にまとめる
 
+
+
+
+
+壁削るためのやつ
+
+inventory_changed(slot: number)でシグナルが出る、これを拾えばok
+
+```psuedo
+
+fn minewall(inventorysize)
+    local swingging = true
+    
+    while swingging
+        -- 現在値と最大値が出る
+        local durability, _  =  robot.durability()
+        
+        -- 壊れるまで振る
+        while durability
+            robot.swing()
+            durability = robot.durability()
+        
+        
+         -- 耐久値があるものを選ぶ
+        for i=1,inventorysize,1
+            select(i)
+            if robot.durability() ~= nil
+                break()
+            -- インベントリに使えるものがなくなった
+            if i == inventorysize
+                select(1)
+                swingging = false
+```
+
+whileが足りない
+
+```psuedo
+local inventorysize = inventorysize()
+
+while true do
+local icslot = event.pull("inventory_changed")
+if icslot == 0
+    minewall(inventorysize())
+end
+```
+
+このロボット壁削れねぇ。
+壁削りはauto clickerに任す。
+
+
+useとplace分けるために、構造体に追加
+`local hasuse == false`
+
+セレクタを追加してhasuse持ちだけ分けたい
+ほぼ同じ関数なのだが、hasuseならその旨をprojdataに入れなきゃいけなくて。
+`{"flintsteel/use"}`みたいなことになる。これを処理単位で分けるとなると、アイテムセレクト時に/含んでたら分ける。でその情報を外に出して、ってなる。じゃhasuseいらんな。
+
+```psuedo
+-- 作成ヘルパー
+func getslotnumfromtable(toolbaritems,itemname):slotnum,ifuse
+    for i,v in toolbaritems do
+        name,num = split(v,":")
+        if name == itemname
+            local slotnum = i
+            
+            return slotnum
+        end
+    end
+end
+```
+
+この関数を使うのはplaceの時だけ。
+それは作成でしか使ってない。書き換えはそこだけ。
