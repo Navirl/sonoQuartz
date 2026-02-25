@@ -473,6 +473,24 @@ end
 
 これ以上は止めよう。waypoint無し、フィルタリングチェストまで。フィルタリングを別ロボットに任せれば楽だろうが、一応menrilも確認。レシピ通りが全部そろった時だけ同じ個数フィルタリングチェストに入れる。フィルタリングチェストが一つでも入ってたらやらない。
 
+2,22,9でも一旦名前一致で取り出してループ最後で揃ってなかったら戻して、とかやろうにもな。それでインベントリにゴミが溜まったら、即刻取り出さないと動かなくなる。でもメンリル依存するよりシンプルか。
+
+
+| /      | ツールバーあり      | ツールバーなし      |
+| ------ | ------------ | ------------ |
+| チェストあり | 差分数取り出し      | 定数取り出し       |
+| チェストなし | 全数取り出し、ループ継続 | 全数取り出し、ループ継続 |　
+
+チェストになく、ツールバーにある場合
+チェスト分ではみ出る可能性、足りない可能性が出る
+足りてるかは吸出し後に調べるので、はみ出ないようにすればいい
+でも足りてなくて出そうとしたらエラーしそうなので、はみ出るか足りてないかだけif
+
+足りてない
+じゃあ全数出せばいいか
+
+
+
 ```pseudo
 -- 検査及び変更、ツールバー作成
 
@@ -490,17 +508,42 @@ func getitemfromtable(table,chestsize,detectmode): detectitemid
         for i2 in range chestsize
             local itemdata = getstackinslot(sides.front, i)
             if itemdata.name == name
-                if itemdata.num == num
-                     
-                
                 if detectmode
-                    suckfromslot(1,num)
+                        -- チェスト内に使用数以上ある
+                        if getchestslot(i2).num > num
+                                -- ツールバーに既にいくつかある
+                                if getrobotslot(1).num > 0
+                                        suckfromslot(1,num-getrobotslot(1).num)
+                                else
+                                        suckfromslot(1,num)
+                        -- チェスト分ない
+                        else
+                                -- ツールバーに既にいくつかある
+                                if getrobotslot(1).num > 0
+                                        -- 仮に全部吸い出しても使用数以下なら
+                                        if getrobotslot(1).num + getchestslot(i2).num < num
+                                                -- 全部吸い出す
+                                                suckfromslot(1,getchestslot(i2).num)
+                                        -- 全部だとはみ出るなら、使用数からロボット持ち分だけ引いた数出す
+                                        -- チェストが支払えるかどうかは、はみ出るとわかってればヘーキ
+                                        else
+                                                suckfromslot(1,num-getrobotslot(1).num)
+                                else
+                                        suckfromslot(1,getchestslot(i2).num)
                     local detectitemid = i
-                    return detectitemid
+                    
+                    break
+                    
                 else
                     suckfromslot(i+1,num)
                     break
-            end
+                end
+                -- スロットを読み込み、数が揃ってればOK
+                -- 揃ってなければ全部返却とエラー
+                if detectmode
+                        
+                return detectitemid
+            endreturn detectitemid
         end
     end
 end
@@ -514,6 +557,13 @@ else
     
 end  
 ```
+
+いや駄目だ。複雑すぎる。
+事前に必要数だけ分ける部分を関数に分けたほうがいい、けど必要数に分けられるならそのまま出しゃよくない。
+少し拾う、少し拾うを繰り返してるのが悪い。やっぱメンリルでいっか。いいか？
+
+64以上がある以上、適当なソートだと結局数は必要。
+ディテクトモードに関しては、テーブルに対して一個目の素材が揃ってたら
 
 
 このテーブル通りにツールバーに配置されたとして、
