@@ -78,7 +78,7 @@ style: default
 label: Send
 actions:
   - type: "replaceSelf"
-    replacement: "![](my.md#やり方)\n\nOK!\nExchage Start.\n\n---"
+    replacement: "![](my.md#やり方)\n\nOK!\nExchage Start."
 ```
 
 ## メモ
