@@ -107,7 +107,7 @@
       "templatePath": "Temp/defEntry2.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "en{{date:yyyyMMDDThhmmss}}"
+        "format": "Aen{{date:yyyyMMDDThhmmss}}"
       },
       "folder": {
         "enabled": true,
@@ -142,7 +142,7 @@
       "templatePath": "Temp/defFXLastEntry.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "len{{date:yyyyMMDDThhmmss}}"
+        "format": "BaMen{{date:yyyyMMDDThhmmss}}"
       },
       "folder": {
         "enabled": true,
