@@ -563,7 +563,94 @@ end
 少し拾う、少し拾うを繰り返してるのが悪い。やっぱメンリルでいっか。いいか？
 
 64以上がある以上、適当なソートだと結局数は必要。
-ディテクトモードに関しては、テーブルに対して一個目の素材が揃ってたら
+ディテクトモードに関しては、テーブルに対して一個目の素材が揃ってたら通すで簡略化できる。
+
+アダプターとかトランスポーザーでグリッドも読めそうな感じがあるが、それでも素材が足りない可能性はある
+
+
+```pseudo
+-- 検査及び変更、ツールバー作成
+
+-- 本来は構造体
+
+local toolbarlist = {{"obsidian:26","redblock:1”,"redstone:1"},{ironbrock:1,redstone:2"}}
+
+local chestsize = getinventorysize(sides.front)
+
+-- テーブルを回し、チェストを回し、チェスト内でアイテムを確認し、名前が一致するなら取り出し
+-- インデックスを返さないと、あとでレシピも取り出すんだから
+func getitemfromtable(toolbarlist,chestsize)
+    local toolbarlistindex = 0
+    for i,v in toolbarlist do
+            local clearnum = 0
+            for i2,v2 in v do
+                local robotslotnum = getrobotslot(i2).num
+                name,num = split(v,":")
+                for i3 in range chestsize
+                    
+                    local chestslotdata = getstackinslot(sides.front, i3)
+                    if chestslotdata.name == name
+                                -- チェスト内に使用数以上ある
+                                if chestslotdata.num > num
+                                        -- ツールバーに既にいくつかある
+                                        if robotslotnum > 0
+                                                -- 使用数からツールバー分を引いた数出す
+                                                suckfromslot(1,num-robotslotnum)
+                                        -- ツールバーにない
+                                        else
+                                                -- 使用数出す
+                                                suckfromslot(1,num)
+                                -- チェスト内に使用数以下しかない
+                                else
+                                        -- ツールバーに既にいくつかある
+                                        if robotslotnum > 0
+                                                -- 仮に全部吸い出しても使用数以下なら
+                                                if robotslotnum + chestslotdata.num < num
+                                                        -- 全部吸い出す
+                                                        suckfromslot(1,chestslotdata.num)
+                                                -- 全部だとはみ出るなら、使用数からロボット持ち分だけ引いた数出す
+                                                -- チェストが支払えるかどうかは、はみ出るとわかってればヘーキ
+                                                else
+                                                        suckfromslot(1,num-robotslotnum)
+                                        else
+                                                suckfromslot(1,chestslotdata.num)
+                    -- スロットを読み込み、数が揃ってればチェストループ抜け
+                    if robotslotnum == num
+                            clearnum = clearnum + 1
+                            break
+                -- ツールバーループ
+                -- 全部揃ってブレイクした場合と、チェストを探したけどなかった場合がある
+                -- これを数値揃ってるかで判定
+                -- 揃ってればツールバーの次へ
+                if robotslotnum ~= num
+                        -- なければリスト分全部ドロップしてブレイク、ツールバーリストの次へ
+                        for i4=1,i2,1
+                                dropfromslot(i4)
+                        clearnum = 0
+                        break
+                end
+        -- ツールバー数と揃った判定数が揃ってるか判定
+        if #v == clearnum 
+                toolbarlistindex = i
+                return  toolbarlistindex
+    end
+    if clearnum  <= 0
+            return result("no founded receipe.")
+    else 
+            return result("failed initialize toolbarlistindex.")
+end
+
+local toolbarlistindex = getitemfromtable(toolbarlist,chestsize)
+if type(toolbarlistindex) == string
+        print(toolbarlistindex)
+        return error
+local toolbar = toolbarlist[toolbarlistindex]
+return toolbar
+
+
+```
+
+
 
 
 このテーブル通りにツールバーに配置されたとして、
@@ -826,3 +913,7 @@ end
 
 この関数を使うのはplaceの時だけ。
 それは作成でしか使ってない。書き換えはそこだけ。
+
+adapterにgridを隣接させ、ケーブルでつないでcomputerからcomponent.list()を調べると、block_refinedstorage_grid_0というのが見つかる。
+これにextractItemメソッドがあり、({name="obsidian"},num,sides)みたいな感じで出せる。sidesはグリッドに隣接したストレージ。
+流石にロボットに直接は出せないが、バニラチェストには出せるっぽい。

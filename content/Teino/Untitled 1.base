@@ -3,7 +3,7 @@ views:
     name: Table
     filters:
       and:
-        - file.path.contains("webp")
+        - file.path == "FX/After_Entry/Aen20260211T104914"
     sort: []
     cardSize: 220
   - type: table

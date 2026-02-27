@@ -104,7 +104,7 @@
       "name": "FXEntry",
       "type": "Template",
       "command": true,
-      "templatePath": "Temp/defEntry2.md",
+      "templatePath": "Temp/defAfterEntry.md",
       "fileNameFormat": {
         "enabled": true,
         "format": "Aen{{date:yyyyMMDDThhmmss}}"
@@ -112,7 +112,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "FX/Entry"
+          "FX/After_Entry"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -147,7 +147,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "FX/Last_Entry"
+          "FX/Before_and_Mid_Entry"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,

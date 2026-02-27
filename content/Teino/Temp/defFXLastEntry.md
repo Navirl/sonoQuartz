@@ -53,6 +53,7 @@ Entry_Candle_Wicks
 INPUT[toggle:Entry_Candle_Wicks]
 ```
 
+ルールに沿っているか
 
 比較対象
 
