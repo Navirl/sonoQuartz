@@ -185,3 +185,5 @@ foo.greet() -- Hello from foo
 
 findは一致した場所、gmatchはfor文用のイテレータを返す。
 
+## EmmyLua
+Luaに型サポートなど追加するデバッガープラグイン。

@@ -806,6 +806,15 @@ func makedetectitems(alldata):detectitems
 end
 ```
 
+このツールバーアイテム関数、いつでもvと1がinsertされてしまう。
+```mermaid
+flowchart
+a[projのn番目要素を読む]-->b[toolbarのn番目要素を読む]
+b-->c[projとtoolbarが一致したらその次の数値に数追加、break]
+```
+
+
+
 後はインベントリ検知
 チェストにコンパレータくっつければ一つ入った時に1を出力するはず
 これでロボット自体を起動できれば早いんだが、起動し続けるcomputerからnetwork介して起こすなどになる。
@@ -914,6 +923,14 @@ end
 この関数を使うのはplaceの時だけ。
 それは作成でしか使ってない。書き換えはそこだけ。
 
-adapterにgridを隣接させ、ケーブルでつないでcomputerからcomponent.list()を調べると、block_refinedstorage_grid_0というのが見つかる。
+adapterにgridを隣接させ、ケーブルでつないでcomputerからcomponent.list()を調べると、block_refinedstorage_grid_0というのが見つかる。`for i,v in pairs(component.block_refinedstorage_grid_0) do print(i) end`でごり押せばメソッドを探せる。
 これにextractItemメソッドがあり、({name="obsidian"},num,sides)みたいな感じで出せる。sidesはグリッドに隣接したストレージ。
 流石にロボットに直接は出せないが、バニラチェストには出せるっぽい。
+
+transposerも近場のインベントリと取引するAPIを提供するみたいだが
+
+内部の名前が分からないので、getItems()をwebhook.siteに投げる。internet.request(url,content)。
+
+minecraft以降の名前で充分。完全一致でないと出ない。
+
+メモリが足りなくなったらcomputer.freeMemory()
