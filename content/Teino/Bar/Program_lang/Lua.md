@@ -186,4 +186,14 @@ foo.greet() -- Hello from foo
 findは一致した場所、gmatchはfor文用のイテレータを返す。
 
 ## EmmyLua
-Luaに型サポートなど追加するデバッガープラグイン。
+Luaに型サポートなど追加するプラグイン。
+zedでdebuggerを使う場合はテストに追加コードが必要。
+
+テストでデバッガがアタッチされるまで実行を止め、それからデバッガを起動する。
+実行を止めるあたりはこれ。
+[GitHub - EmmyLua/EmmyLuaDebugger: EmmyLua Debugger](https://github.com/EmmyLua/EmmyLuaDebugger)
+
+でzedにこれをインストールしてデバッガを起動。
+EmmyLua Debug Adapterはこれに含まれるっぽい。
+[GitHub - EmmyLuaLs/Zed-EmmyLua](https://github.com/EmmyLuaLs/Zed-EmmyLua)
+
