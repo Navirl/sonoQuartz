@@ -946,9 +946,121 @@ grid直は、作成個数を取得
 これを空になるたび、作成個数分繰り返し
 redstoneblockが使えるのでコンパレータでチェストが空いたことは分かるはず
 
+```psuedo
+local extractFromGridForToolbar(toolbar,create_num){
+    local sigstr = getRedstoneSignalStrength()
+    assert(sigstr ~= 0,"chest is not empty.")
+
+        -- 残数があることを確認してから、改めて取り出し
+        for i,v in toolbar do
+            local name,num = string.match(v, "([^:]+):(%d+)")
+            extractItem(name,num)
+        end
+        
+}
+
+local isIteminGrid(toolbar,create_num){
+    for _i=1,create_num,1 do
+        for i,v in toolbar do
+            local name,num = string.match(v, "([^:]+):(%d+)")
+            local itemnum = getItem(name)
+            assert(itemnum == nil,name.." is "..(i*)
+        end
+    end
+}
+
+```
+
+
 ロボットがチェストから取り出すほうが問題
 いうてextractItemが終わったらロボットにイベント飛ばせば、必ずアイテムはチェストに入ってる
 イベントでtransferをやらせれば済む
 
 イベントにどのアイテムを作るかも載せる
 これは関数呼び出しにそもそも必要だから必ずやるはず
+
+requestの関数が存在するので、一回ごとにリクエスト出して短時間スリープ、揃ったらツールバー割付がいいか
+リクエストは全部グリッドに集中させたいからずっとコンパレータとかディテクト考えてたんでは。
+
+リクエスト自体は適当にimporter付きchestに出して、処理はgridから出す方式
+一瞬溜まるチェストをコンパレータで取得、getTasks()でデータを取得。
+これなら何を作るかまで含めて拾えるか。以降自身が可能なtaskが無くなるまで実行とgetTasksを繰り返す。
+
+マシンウォールだけで作れるlargeが一番面倒
+
+データごとにディテクトの関数を付けたほうがよさそう
+datalistでディテクト関数も一気に実行し、該当を元に抜出する
+
+
+```mermaid
+flowchart
+a[detect] --> b[wall_detect]
+b --> ba{wall_make}
+ba --> |done| z[finish]
+ba --> |fail| bb[wallの次の検知から続ける]
+bb --> a
+a --> c[ender_detect]
+```
+RAM足りるかこれ。
+
+getTasks()の戻り値が良ければ、作成結果アイテムでタスクを割り出し
+extractItem()で準備アイテムをグリッドからワンセット割り出し
+ディテクトをスキップしていけるか
+
+タスクはざっくり以下の感じ
+
+```
+{
+    [{
+    qunatity=2（作成数）
+    stack={
+        item={
+            作成アイテムの基本情報
+        }
+    },
+    pattern={
+        パターンのinput,output
+            それぞれの個数含む
+    }
+    }],
+    n=1
+}
+```
+
+これなら全部のタスクの作成アイテム基本情報を抜き、patternから直接アイテムのワンセット情報を抜いてextractでディテクトスキップできる、自身に可能なタスクが無くなるまでその繰り返し
+
+その抜出作るのが面倒なので、しばらくはこちら側から指定できるように
+いやどの道64制限のチェストから取り出すよりグリッドから抜いたほうが早いので、これやる
+
+```
+quantity
+[for]["quantity"]
+
+createName
+[for]["stack"]["item"]["name"]
+(minecraft:red_mushroomなど:がある)
+(ラピスとかは全部minecraft:dyeなのでlabelで分ける必要がある)
+
+input
+[for]["pattern"]["inputs"][for][1]["name"]
+([1]と["n"]があるので、[1]必須)
+(全体数でもないこの位置になぜnがあるのかわからない)
+
+size
+[for]["pattern"]["inputs"][for][1]["size"]
+(float注意)
+
+output
+[for]["pattern"]["outputs"][for]["name"]
+(こっちはこれでいい)
+```
+
+```psuedo
+function getCapableTask()
+    
+end
+
+function extractItemFromTask()
+    
+end
+```

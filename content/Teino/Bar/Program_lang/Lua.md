@@ -197,3 +197,55 @@ zedでdebuggerを使う場合はテストに追加コードが必要。
 EmmyLua Debug Adapterはこれに含まれるっぽい。
 [GitHub - EmmyLuaLs/Zed-EmmyLua](https://github.com/EmmyLuaLs/Zed-EmmyLua)
 
+## table出力
+```lua
+-- Source - https://stackoverflow.com/a/27028488
+-- Posted by hookenz, modified by community. See post 'Timeline' for change history
+-- Retrieved 2026-03-05, License - CC BY-SA 4.0
+
+function dump(o)
+   if type(o) == 'table' then
+      local s = '{ '
+      for k,v in pairs(o) do
+         if type(k) ~= 'number' then k = '"'..k..'"' end
+         s = s .. '['..k..'] = ' .. dump(v) .. ','
+      end
+      return s .. '} '
+   else
+      return tostring(o)
+   end
+end
+
+```
+
+どこかで見つけたものの改変らしい
+SO以外で書かれてるならCC-BY-SAはかからないが、改変を加えられてるなら微妙なところじゃないか
+
+[lua - How to dump a table to console? - Stack Overflow](https://stackoverflow.com/questions/9168058/how-to-dump-a-table-to-console)
+
+```lua
+-- Print contents of `tbl`, with indentation.
+-- `indent` sets the initial level of indentation.
+function tprint (tbl, indent)
+  if not indent then indent = 0 end
+  for k, v in pairs(tbl) do
+    formatting = string.rep("  ", indent) .. k .. ": "
+    if type(v) == "table" then
+      print(formatting)
+      tprint(v, indent+1)
+    elseif type(v) == 'boolean' then
+      print(formatting .. tostring(v))		
+    else
+      print(formatting .. v)
+    end
+  end
+end
+```
+
+気になるならこっちを
+
+[Added check for boolean.](https://gist.github.com/ripter/4270799)
+
+大きいプロジェクトならライブラリとして以下を使うのも
+
+[GitHub - kikito/inspect.lua: Human-readable representation of Lua tables](https://github.com/kikito/inspect.lua)

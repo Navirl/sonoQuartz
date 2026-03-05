@@ -107,7 +107,7 @@
       "templatePath": "Temp/defAfterEntry.md",
       "fileNameFormat": {
         "enabled": true,
-        "format": "Aen{{date:yyyyMMDDThhmmss}}"
+        "format": "Aen{{date:YYYYMMDDThhmmss}}"
       },
       "folder": {
         "enabled": true,
