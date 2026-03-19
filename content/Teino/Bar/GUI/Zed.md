@@ -39,3 +39,10 @@ vimのjjでNormalに戻るキーバインドはこう。
 [思考のスピードでコードを書け！！Rust製の次世代エディタ「Zed」](https://zenn.dev/smartcamp/articles/c421e752119cee)
 
 extensionはGUI上にない。コマンドパレット`C-P`で開くか直接`C-X`で開ける。
+
+## format
+settings.jsonのlanguage_overrides内で、言語ごとにformatterを設定すればいい。
+外部コマンドにそのまま投げられるので、jsonなら`"formatter": { "external": { "command": "python -m json.tool", "arguments": [] } }`でも動く。
+
+[【Zed】formatterの設定方法 - Qiita](https://qiita.com/P-man_Brown/items/bab5246b3c29e719ac63)
+[unix - もう悩まない！シェルでJSONをprettifyするコマンドたち - command line](https://iifx.dev/ja/articles/1257542/もう悩まない-シェルでjsonをprettifyするコマンドたち)

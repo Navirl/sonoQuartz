@@ -1,0 +1,20 @@
+{
+  "clearAfterHidden": false,
+  "enableInputHotkeys": true,
+  "sourceModeWhenSearch": true,
+  "moveCursorToMatch": true,
+  "useSelectionAsSearch": true,
+  "useObsidianSearchInRead": true,
+  "useEscapeCharInReplace": true,
+  "enableHistory": true,
+  "historyMaxCount": 10,
+  "historySortOrder": "lastUsedAt",
+  "searchHistory": [
+    {
+      "text": "t\\n",
+      "lastUsedAt": 1773488048082,
+      "createdAt": 1773488030050,
+      "count": 1
+    }
+  ]
+}

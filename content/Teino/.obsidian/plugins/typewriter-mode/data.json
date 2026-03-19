@@ -1,36 +1,780 @@
 {
-  "version": null,
-  "isAnnounceUpdatesEnabled": true,
-  "isPluginActivated": true,
-  "isTypewriterScrollEnabled": true,
-  "isOnlyActivateAfterFirstInteractionEnabled": false,
-  "isOnlyMaintainTypewriterOffsetWhenReachedEnabled": true,
-  "isTypewriterOnlyUseCommandsEnabled": false,
-  "typewriterOffset": 0.5,
-  "isKeepLinesAboveAndBelowEnabled": false,
-  "linesAboveAndBelow": 5,
-  "isMaxCharsPerLineEnabled": false,
-  "maxCharsPerLine": 64,
-  "isDimUnfocusedEnabled": false,
-  "isDimHighlightListParentEnabled": false,
-  "isDimTableAsOneEnabled": true,
-  "dimUnfocusedMode": "paragraphs",
-  "dimUnfocusedEditorsBehavior": "dim",
-  "dimmedOpacity": 0.25,
-  "isPauseDimUnfocusedWhileScrollingEnabled": true,
-  "isPauseDimUnfocusedWhileSelectingEnabled": true,
-  "isHighlightCurrentLineEnabled": false,
-  "isFadeLinesEnabled": false,
-  "fadeLinesIntensity": 0.5,
-  "isHighlightCurrentLineOnlyInFocusedEditorEnabled": false,
-  "currentLineHighlightStyle": "box",
-  "currentLineHighlightUnderlineThickness": 1,
-  "currentLineHighlightColor-dark": "#444",
-  "currentLineHighlightColor-light": "#ddd",
-  "doesWritingFocusShowHeader": false,
-  "doesWritingFocusShowStatusBar": false,
-  "doesWritingFocusShowVignette": true,
-  "isWritingFocusFullscreen": true,
-  "writingFocusVignetteStyle": "box",
-  "isRestoreCursorPositionEnabled": true
+  "general": {
+    "version": "1.3.1",
+    "isAnnounceUpdatesEnabled": true,
+    "isPluginActivated": true,
+    "isOnlyActivateAfterFirstInteractionEnabled": false,
+    "enabledPlatforms": "both"
+  },
+  "typewriter": {
+    "isTypewriterScrollEnabled": true,
+    "isOnlyMaintainTypewriterOffsetWhenReachedEnabled": true,
+    "isTypewriterOnlyUseCommandsEnabled": false,
+    "typewriterOffset": 0.5
+  },
+  "keepLinesAboveAndBelow": {
+    "isKeepLinesAboveAndBelowEnabled": false,
+    "linesAboveAndBelow": 5
+  },
+  "maxChars": {
+    "isMaxCharsPerLineEnabled": false,
+    "maxCharsPerLine": 64
+  },
+  "dimming": {
+    "isDimUnfocusedEnabled": false,
+    "isDimHighlightListParentEnabled": false,
+    "isDimTableAsOneEnabled": true,
+    "dimUnfocusedMode": "paragraphs",
+    "dimUnfocusedEditorsBehavior": "dim",
+    "dimmedOpacity": 0.25,
+    "isPauseDimUnfocusedWhileScrollingEnabled": true,
+    "isPauseDimUnfocusedWhileSelectingEnabled": true
+  },
+  "currentLine": {
+    "isHighlightCurrentLineEnabled": false,
+    "isFadeLinesEnabled": false,
+    "fadeLinesIntensity": 0.5,
+    "isHighlightCurrentLineOnlyInFocusedEditorEnabled": false,
+    "isPauseCurrentLineHighlightWhileScrollingEnabled": false,
+    "isPauseCurrentLineHighlightWhileSelectingEnabled": false,
+    "currentLineHighlightStyle": "box",
+    "currentLineHighlightUnderlineThickness": 1,
+    "currentLineHighlightColor-dark": "#444",
+    "currentLineHighlightColor-light": "#ddd"
+  },
+  "writingFocus": {
+    "doesWritingFocusShowHeader": false,
+    "doesWritingFocusShowVignette": true,
+    "doesWritingFocusShowStatusBar": false,
+    "isWritingFocusFullscreen": true,
+    "writingFocusVignetteStyle": "box",
+    "writingFocusFontSize": 0
+  },
+  "restoreCursorPosition": {
+    "isRestoreCursorPositionEnabled": true,
+    "cursorPositions": {
+      "Daily_Note/2026-02-11.md": {
+        "anchor": 928,
+        "head": 928
+      },
+      "FX/Entry/en20260211T094741.md": {
+        "anchor": 857,
+        "head": 857
+      },
+      "Temp/defEntry2.md": {
+        "anchor": 115,
+        "head": 115
+      },
+      "FX/Entry/en20260211T104914.md": {
+        "anchor": 224,
+        "head": 224
+      },
+      "Daily_Note/2026-02-12.md": {
+        "anchor": 1070,
+        "head": 1070
+      },
+      "FX/Entry/en20260212T081612.md": {
+        "anchor": 425,
+        "head": 425
+      },
+      "FX/固め.md": {
+        "anchor": 128,
+        "head": 128
+      },
+      "FX/Link_Daily/ld2026-02-12.md": {
+        "anchor": 37,
+        "head": 37
+      },
+      "FX/Link_Daily/ld2025-02-17.md": {
+        "anchor": 37,
+        "head": 37
+      },
+      "FX/My_Test/my2026-02-12.md": {
+        "anchor": 2021,
+        "head": 2021
+      },
+      "Temp/defFXEnvAnalysis.md": {
+        "anchor": 101,
+        "head": 101
+      },
+      "FX/Entry/en20260212T094945.md": {
+        "anchor": 445,
+        "head": 445
+      },
+      "FX/Entry/en20260212T101501.md": {
+        "anchor": 484,
+        "head": 484
+      },
+      "Temp/arc/defEntry意味.md": {
+        "anchor": 142,
+        "head": 142
+      },
+      "FX/Entry/en20260212T101721.md": {
+        "anchor": 162,
+        "head": 162
+      },
+      "FX/Entry/en20260212T102219.md": {
+        "anchor": 464,
+        "head": 464
+      },
+      "FX/Entry/en20260212T102454.md": {
+        "anchor": 508,
+        "head": 508
+      },
+      "FX/Entry/en20260212T102655.md": {
+        "anchor": 582,
+        "head": 582
+      },
+      "FX/Entry/en20260212T103320.md": {
+        "anchor": 461,
+        "head": 461
+      },
+      "Daily_Note/2026-02-13.md": {
+        "anchor": 1420,
+        "head": 1420
+      },
+      "FX/my.md": {
+        "anchor": 2265,
+        "head": 2265
+      },
+      "Novels/Hint.md": {
+        "anchor": 137,
+        "head": 137
+      },
+      "Novels/ぶんせき.md": {
+        "anchor": 6655,
+        "head": 6655
+      },
+      "Daily_Note/2026-02-14.md": {
+        "anchor": 1030,
+        "head": 1030
+      },
+      "FX/Entry/en20260214T100643.md": {
+        "anchor": 758,
+        "head": 758
+      },
+      "Daily_Note/2026-02-15.md": {
+        "anchor": 52,
+        "head": 52
+      },
+      "FX/オーバーシュート.md": {
+        "anchor": 391,
+        "head": 391
+      },
+      "Daily_Note/2026-02-16.md": {
+        "anchor": 1239,
+        "head": 1239
+      },
+      "Novels/ショートショート/20251003T200115.md": {
+        "anchor": 31,
+        "head": 31
+      },
+      "Info/「なかなか出てこない」じゃねえんだよ。.md": {
+        "anchor": 78,
+        "head": 78
+      },
+      "Info/「なぜ」に答えられるのは科学ではない。.md": {
+        "anchor": 239,
+        "head": 239
+      },
+      "Info/11の普遍の法則.md": {
+        "anchor": 101,
+        "head": 101
+      },
+      "Info/AIで執筆-log.md": {
+        "anchor": 11,
+        "head": 11
+      },
+      "FX/Link_Daily/ld2026-02-16.md": {
+        "anchor": 37,
+        "head": 37
+      },
+      "FX/My_Test/my2026-02-16.md": {
+        "anchor": 1880,
+        "head": 1880
+      },
+      "FX/Entry/en20260216T100727.md": {
+        "anchor": 515,
+        "head": 515
+      },
+      "FX/Entry/en20260216T101103.md": {
+        "anchor": 589,
+        "head": 589
+      },
+      "Daily_Note/2026-02-17.md": {
+        "anchor": 2817,
+        "head": 2817
+      },
+      "FX/Entry/en20260217T071217.md": {
+        "anchor": 517,
+        "head": 517
+      },
+      "FX/Entry/en20260217T110734.md": {
+        "anchor": 461,
+        "head": 461
+      },
+      "FX/Entry/en20260218T011826.md": {
+        "anchor": 445,
+        "head": 445
+      },
+      "Daily_Note/2026-02-18.md": {
+        "anchor": 2403,
+        "head": 2403
+      },
+      "FX/Link_Daily/ld2026-02-18.md": {
+        "anchor": 37,
+        "head": 37
+      },
+      "FX/My_Test/my2026-02-18.md": {
+        "anchor": 3618,
+        "head": 3618
+      },
+      "FX/Entry/en20260218T105644.md": {
+        "anchor": 111,
+        "head": 165
+      },
+      "FX/Entry/en20260218T105849.md": {
+        "anchor": 714,
+        "head": 714
+      },
+      "FX/Entry/en20260218T125325.md": {
+        "anchor": 593,
+        "head": 593
+      },
+      "FX/Entry/en20260218T125703.md": {
+        "anchor": 671,
+        "head": 671
+      },
+      "Temp/FXLast_Entry.md": {
+        "anchor": 0,
+        "head": 0
+      },
+      "Temp/FXLastEntry.md": {
+        "anchor": 33,
+        "head": 33
+      },
+      "Temp/defFXLastEntry.md": {
+        "anchor": 715,
+        "head": 715
+      },
+      "FX/Last_Entry/len20260218T024734.md": {
+        "anchor": 294,
+        "head": 294
+      },
+      "Bar/GUI/minecraft.md": {
+        "anchor": 33054,
+        "head": 33054
+      },
+      "FX/Entry/en20260219T120714.md": {
+        "anchor": 1090,
+        "head": 1090
+      },
+      "Daily_Note/2026-02-19.md": {
+        "anchor": 2855,
+        "head": 2855
+      },
+      "FX/Last_Entry/len20260219T123634.md": {
+        "anchor": 392,
+        "head": 392
+      },
+      "Bar/Program_lang/Lua.md": {
+        "anchor": 8337,
+        "head": 8337
+      },
+      "FX/Last_Entry/len20260219T080332.md": {
+        "anchor": 711,
+        "head": 711
+      },
+      "FX/Entry/en20260219T093538.md": {
+        "anchor": 644,
+        "head": 644
+      },
+      "FX/Last_Entry/len20260219T100016.md": {
+        "anchor": 202,
+        "head": 202
+      },
+      "FX/Entry/en20260219T103455.md": {
+        "anchor": 563,
+        "head": 563
+      },
+      "FX/Entry/en20260219T112030.md": {
+        "anchor": 626,
+        "head": 626
+      },
+      "Daily_Note/2026-02-20.md": {
+        "anchor": 2147,
+        "head": 2147
+      },
+      "FX/レンジ.md": {
+        "anchor": 58,
+        "head": 58
+      },
+      "FX/Entry/en20260221T024320.md": {
+        "anchor": 182,
+        "head": 182
+      },
+      "Daily_Note/2026-02-21.md": {
+        "anchor": 376,
+        "head": 376
+      },
+      "FX/Daily_Note/2026-02-21.md": {
+        "anchor": 972,
+        "head": 972
+      },
+      "FX/Daily_Note/2022-09-06.md": {
+        "anchor": 23,
+        "head": 23
+      },
+      "FX/Daily_Note/2026-02-20.md": {
+        "anchor": 829,
+        "head": 829
+      },
+      "FX/エントリー.md": {
+        "anchor": 6172,
+        "head": 6172
+      },
+      "tempcraft.md": {
+        "anchor": 1051,
+        "head": 1051
+      },
+      "Bar/Program_lang/Mermaid.md": {
+        "anchor": 13293,
+        "head": 13293
+      },
+      "FX/Daily_Note/2026-02-22.md": {
+        "anchor": 52,
+        "head": 52
+      },
+      "FX/Link_Daily/ld2026-02-22.md": {
+        "anchor": 37,
+        "head": 37
+      },
+      "FX/My_Test/my2026-02-22.md": {
+        "anchor": 3991,
+        "head": 3965
+      },
+      "FX/Link_Daily/ld2025-02-23.md": {
+        "anchor": 37,
+        "head": 37
+      },
+      "FX/Entry/en20260222T021242.md": {
+        "anchor": 645,
+        "head": 645
+      },
+      "FX/Entry/en20260222T022413.md": {
+        "anchor": 166,
+        "head": 166
+      },
+      "FX/Entry/en20260222T023301.md": {
+        "anchor": 576,
+        "head": 576
+      },
+      "FX/Entry/en20260222T023942.md": {
+        "anchor": 560,
+        "head": 560
+      },
+      "FX/Entry/en20260222T031557.md": {
+        "anchor": 489,
+        "head": 489
+      },
+      "FX/Entry/en20260222T032108.md": {
+        "anchor": 739,
+        "head": 739
+      },
+      "FX/Last_Entry/len20260222T034031.md": {
+        "anchor": 999,
+        "head": 999
+      },
+      "FX/Entry/en20260222T034348.md": {
+        "anchor": 603,
+        "head": 603
+      },
+      "FX/Daily_Note/2026-02-23.md": {
+        "anchor": 720,
+        "head": 720
+      },
+      "FX/My_Test/my2026-02-23.md": {
+        "anchor": 0,
+        "head": 0
+      },
+      "FX/Daily_Note/2026-02-24.md": {
+        "anchor": 1510,
+        "head": 1510
+      },
+      "FX/Daily_Note/2026-02-25.md": {
+        "anchor": 1578,
+        "head": 1578
+      },
+      "FX/Last_Entry/len20260225T095337.md": {
+        "anchor": 1043,
+        "head": 1043
+      },
+      "FX/Entry/en20260225T113104.md": {
+        "anchor": 1670,
+        "head": 1670
+      },
+      "FX/Entry/en20260226T122020.md": {
+        "anchor": 564,
+        "head": 564
+      },
+      "FX/Daily_Note/2026-02-26.md": {
+        "anchor": 52,
+        "head": 52
+      },
+      "FX/Link_Daily/ld2026-02-26.md": {
+        "anchor": 37,
+        "head": 37
+      },
+      "FX/My_Test/my2026-02-26.md": {
+        "anchor": 4657,
+        "head": 4657
+      },
+      "Temp/test.md": {
+        "anchor": 25,
+        "head": 25
+      },
+      "Info/Untitled.md": {
+        "anchor": 233,
+        "head": 233
+      },
+      "FX/Last_Entry/len20260226T051142.md": {
+        "anchor": 504,
+        "head": 504
+      },
+      "FX/Entry/en20260226T052038.md": {
+        "anchor": 680,
+        "head": 680
+      },
+      "FX/Last_Entry/len20260226T054621.md": {
+        "anchor": 507,
+        "head": 507
+      },
+      "FX/Entry/en20260226T055841.md": {
+        "anchor": 800,
+        "head": 800
+      },
+      "FX/Entry/Aen20260226T055841.md": {
+        "anchor": 485,
+        "head": 485
+      },
+      "FX/Before_and_Mid_Entry/BaMen20260226T054621.md": {
+        "anchor": 256,
+        "head": 256
+      },
+      "FX/After_Entry/Aen20260226T055841.md": {
+        "anchor": 955,
+        "head": 955
+      },
+      "FX/After_Entry/Aen20260225T113104.md": {
+        "anchor": 667,
+        "head": 667
+      },
+      "FX/目線.md": {
+        "anchor": 554,
+        "head": 554
+      },
+      "FX/Entry/Aen20260226T101917.md": {
+        "anchor": 623,
+        "head": 623
+      },
+      "FX/Last_Entry/BaMen20260226T102832.md": {
+        "anchor": 496,
+        "head": 496
+      },
+      "FX/Entry/Aen20260226T104232.md": {
+        "anchor": 637,
+        "head": 637
+      },
+      "FX/Last_Entry/BaMen20260226T104552.md": {
+        "anchor": 205,
+        "head": 205
+      },
+      "FX/Entry/Aen20260226T105758.md": {
+        "anchor": 412,
+        "head": 412
+      },
+      "FX/Daily_Note/2026-02-27.md": {
+        "anchor": 1488,
+        "head": 1488
+      },
+      "FX/After_Entry/Aen20260211T094741.md": {
+        "anchor": 159,
+        "head": 159
+      },
+      "FX/After_Entry/Aen20260222T032108.md": {
+        "anchor": 337,
+        "head": 337
+      },
+      "Temp/arc/defEntry2 1.md": {
+        "anchor": 184,
+        "head": 179
+      },
+      "Temp/arc/defAfterEntry.md": {
+        "anchor": 65,
+        "head": 65
+      },
+      "FX/My_Test/my2026-02-27.md": {
+        "anchor": 528,
+        "head": 528
+      },
+      "FX/Daily_Note/2025-12-08.md": {
+        "anchor": 388,
+        "head": 388
+      },
+      "FX/After_Entry/Aen20260227T110221.md": {
+        "anchor": 745,
+        "head": 745
+      },
+      "FX/Daily_Note/2026-02-28.md": {
+        "anchor": 1595,
+        "head": 1595
+      },
+      "FX/Daily_Note/2026-03-01.md": {
+        "anchor": 58,
+        "head": 58
+      },
+      "FX/Daily_Note/2026-03-02.md": {
+        "anchor": 1208,
+        "head": 1208
+      },
+      "FX/Before_and_Mid_Entry/BaMen00080302T100455.md": {
+        "anchor": 871,
+        "head": 871
+      },
+      "FX/Before_and_Mid_Entry/BaMen00080302T103826.md": {
+        "anchor": 197,
+        "head": 197
+      },
+      "FX/Daily_Note/2026-03-03.md": {
+        "anchor": 1741,
+        "head": 1741
+      },
+      "FX/After_Entry/Aen00080303T061528.md": {
+        "anchor": 393,
+        "head": 393
+      },
+      "FX/After_Entry/Aen00080303T065514.md": {
+        "anchor": 326,
+        "head": 326
+      },
+      "FX/Daily_Note/2026-03-04.md": {
+        "anchor": 1512,
+        "head": 1512
+      },
+      "FX/After_Entry/Aen00080305T013143.md": {
+        "anchor": 391,
+        "head": 391
+      },
+      "FX/Daily_Note/2026-03-05.md": {
+        "anchor": 1591,
+        "head": 1591
+      },
+      "FX/After_Entry/Aen20260305T013143.md": {
+        "anchor": 599,
+        "head": 599
+      },
+      "FX/Before_and_Mid_Entry/BaMen00080305T030347.md": {
+        "anchor": 767,
+        "head": 767
+      },
+      "FX/Before_and_Mid_Entry/BaMen20260305T042621.md": {
+        "anchor": 509,
+        "head": 509
+      },
+      "FX/Before_and_Mid_Entry/BaMen20260305T105635.md": {
+        "anchor": 503,
+        "head": 503
+      },
+      "FX/After_Entry/Aen20260305T114220.md": {
+        "anchor": 386,
+        "head": 386
+      },
+      "FX/Before_and_Mid_Entry/BaMen20260306T121112.md": {
+        "anchor": 853,
+        "head": 853
+      },
+      "FX/Daily_Note/2026-03-06.md": {
+        "anchor": 1580,
+        "head": 1580
+      },
+      "FX/Daily_Note/2026-03-07.md": {
+        "anchor": 1117,
+        "head": 1117
+      },
+      "FX/My_Test/my2026-03-06.md": {
+        "anchor": 2091,
+        "head": 2091
+      },
+      "Bar/Novel/For_CC/Sierra.md": {
+        "anchor": 5160,
+        "head": 5160
+      },
+      "Temp/defDaily2.md": {
+        "anchor": 63,
+        "head": 63
+      },
+      "FX/After_Entry/Aen20260308T020156.md": {
+        "anchor": 295,
+        "head": 295
+      },
+      "FX/After_Entry/Aen20260308T021833.md": {
+        "anchor": 362,
+        "head": 362
+      },
+      "FX/After_Entry/Aen20260308T022305.md": {
+        "anchor": 439,
+        "head": 439
+      },
+      "FX/After_Entry/Aen20260308T023418.md": {
+        "anchor": 283,
+        "head": 283
+      },
+      "FX/After_Entry/Aen20260308T024233.md": {
+        "anchor": 130,
+        "head": 130
+      },
+      "FX/After_Entry/Aen20260308T024455.md": {
+        "anchor": 312,
+        "head": 312
+      },
+      "FX/Daily_Note/2026-03-09.md": {
+        "anchor": 1033,
+        "head": 1033
+      },
+      "FX/After_Entry/Aen20260309T113434.md": {
+        "anchor": 715,
+        "head": 715
+      },
+      "FX/Daily_Note/2026-03-10.md": {
+        "anchor": 1399,
+        "head": 1399
+      },
+      "FX/After_Entry/Aen20260310T111736.md": {
+        "anchor": 600,
+        "head": 600
+      },
+      "FX/Daily_Note/2026-03-11.md": {
+        "anchor": 52,
+        "head": 52
+      },
+      "FX/After_Entry/Aen20260311T023112.md": {
+        "anchor": 321,
+        "head": 321
+      },
+      "FX/Daily_Note/2026-03-12.md": {
+        "anchor": 3142,
+        "head": 3142
+      },
+      "Temp/defAfterEntry.md": {
+        "anchor": 133,
+        "head": 133
+      },
+      "FX/Before_and_Mid_Entry/BaMen20260312T063434.md": {
+        "anchor": 295,
+        "head": 295
+      },
+      "FX/Before_and_Mid_Entry/BaMen20260312T093647.md": {
+        "anchor": 550,
+        "head": 550
+      },
+      "FX/After_Entry/Aen20260312T095101.md": {
+        "anchor": 702,
+        "head": 702
+      },
+      "FX/Daily_Note/2026-03-13.md": {
+        "anchor": 1072,
+        "head": 1072
+      },
+      "Bar/GUI/Zed.md": {
+        "anchor": 1497,
+        "head": 1497
+      },
+      "Bar/Program_lang/JSON.md": {
+        "anchor": 524,
+        "head": 524
+      },
+      "FX/After_Entry/Aen20260313T052332.md": {
+        "anchor": 495,
+        "head": 495
+      },
+      "FX/Daily_Note/2026-03-14.md": {
+        "anchor": 1300,
+        "head": 1300
+      },
+      "FX/Daily_Note/2026-03-15.md": {
+        "anchor": 52,
+        "head": 52
+      },
+      "FX/Daily_Note/2026-03-16.md": {
+        "anchor": 799,
+        "head": 799
+      },
+      "FX/Daily_Note/2026-03-17.md": {
+        "anchor": 1041,
+        "head": 1041
+      },
+      "FX/Daily_Note/2026-03-18.md": {
+        "anchor": 1183,
+        "head": 1183
+      },
+      "FX/My_Test/my2026-03-18.md": {
+        "anchor": 1036,
+        "head": 1036
+      },
+      "FX/After_Entry/Aen20260318T123941.md": {
+        "anchor": 411,
+        "head": 411
+      },
+      "FX/Before_and_Mid_Entry/BaMen20260318T012123.md": {
+        "anchor": 441,
+        "head": 441
+      },
+      "Info/ゲームの最大最後の仕事は、.md": {
+        "anchor": 195,
+        "head": 195
+      },
+      "FX/After_Entry/Aen20260318T032153.md": {
+        "anchor": 405,
+        "head": 405
+      },
+      "Info/想像力っていうのは、何も存在しないものばかり.md": {
+        "anchor": 592,
+        "head": 592
+      },
+      "Novels/ナカリア/ナカリアタイムライン.md": {
+        "anchor": 4271,
+        "head": 4271
+      },
+      "Bar/Novel/Nacarea/Forbidden_library.md": {
+        "anchor": 384,
+        "head": 384
+      },
+      "Info/どうせ世界に何言ったって、何も返しちゃくれないなら。.md": {
+        "anchor": 157,
+        "head": 157
+      },
+      "Bar/Novel/Nacarea/Centipede_Space_Ship.md": {
+        "anchor": 1848,
+        "head": 1848
+      },
+      "FX/After_Entry/Aen20260318T075849.md": {
+        "anchor": 392,
+        "head": 392
+      },
+      "FX/After_Entry/Aen20260318T090833.md": {
+        "anchor": 595,
+        "head": 595
+      },
+      "FX/Daily_Note/2026-03-19.md": {
+        "anchor": 946,
+        "head": 946
+      }
+    }
+  },
+  "hemingwayMode": {
+    "isHemingwayModeEnabled": false,
+    "isAllowBackspaceInHemingwayModeEnabled": false,
+    "isShowHemingwayModeStatusBarEnabled": true,
+    "hemingwayModeStatusBarText": "Hemingway"
+  }
 }

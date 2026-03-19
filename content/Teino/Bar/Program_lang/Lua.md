@@ -243,9 +243,113 @@ end
 ```
 
 気になるならこっちを
+ただしさっきのと違って、コードに貼りつけて直接テーブルとして再利用できない
 
 [Added check for boolean.](https://gist.github.com/ripter/4270799)
 
 大きいプロジェクトならライブラリとして以下を使うのも
 
 [GitHub - kikito/inspect.lua: Human-readable representation of Lua tables](https://github.com/kikito/inspect.lua)
+
+## luarocks
+luaのパッケージマネージャ。
+scoopで入れられる。
+
+[GitHub - luarocks/luarocks: LuaRocks is the package manager for the Lua programming language.](https://github.com/luarocks/luarocks)
+
+
+luarocks initをかまさないとカレントディレクトリではなくluarocksに入る。
+が、scoopから入れたluarocksだとバージョンを正しく認識できずpurge諸々が使えなくなるっぽい。
+なのでluarocksに入れてしまうのがいいかもしれない。エディターのエラーは無視。(2026/03/10)
+
+luarocks initで(project_name)-dev-1.rockspecというファイルが出来る
+これはluarocksにアップロードするときに必要なファイル
+
+## TypescriptToLua
+tsからluaに変換できる。
+luaはスクリプト言語としてシンプルで柔軟だが、forのあとのdoとかcontinueないとか、大きいプロジェクトでは力不足。
+そこでこれ。`local name = require("lib")`も`import * as name from "lib"`で可能。
+
+テストフレームワークを考えるとこれがいいか。
+
+[GitHub - TypeScriptToLua/TypeScriptToLua: Typescript to lua transpiler. https://typescripttolua.github.io/](https://github.com/TypeScriptToLua/TypeScriptToLua)
+## moonscript
+luaを書きやすくしたやつ。
+最近はほぼ動いておらず、yuescriptやtealの方が優勢。
+[GitHub - leafo/moonscript: :crescent\_moon: A language that compiles to Lua](https://github.com/leafo/moonscript)
+## YueScript
+luaを書きやすくしたやつ。
+Dora SSRというゲームエンジン向けに書かれてる。
+[GitHub - IppClub/YueScript: A delightful language that compiles to Lua](https://github.com/IppClub/YueScript)
+## busted
+luaのテストフレームワーク。
+[GitHub - lunarmodules/busted: Elegant Lua unit testing.](https://github.com/lunarmodules/busted)
+
+`describe("name",function())`でテストの説明、そのfunction中に`it("name",function())`で一つのテストを定義できる。
+実際のテストはassertやassert以下に追加された一連のテスト関数、あるいは独自のassertで行う。
+
+起動はターミナルから`busted testfile`。luaから起動する方法もあるけどscoopから入れてる都合上試せなかった。
+
+### describe
+describeは代わりにinsulate、exposeを使用することもできる。
+insulateは環境をそのブロック内に隔離する。exposeは公開する。
+平たく言うとexposeなら変数を外に出せる。
+
+デフォルトで全てのdescribeブロックはinsulate扱い。
+無効化も可能。
+
+説明中にタグを付けられる。`describe("name #tag",function())`。
+あるタグのテストだけ実行したり、逆に除外したりできる。
+
+### it
+itは代わりにsetup,before_each,after_each,teardownが使える。
+setupはdescribeブロックの最初で動く。
+before_eachはsetupの直前。
+after_eachはsetupの直後。
+teardownはdescribeブロックの最後。
+
+it内部では`finally(function())`が使える。
+外側の変数を無視して関数を実行する。
+
+itの名前だけ決まってるときは、代わりに`pending("name")`が使える。
+
+### assert
+まず`assert.is`か`assert.is_not`かで、そのアサートがTFどっちを求めてるか決める。
+それから`assert.is.equal(v,v)`などとしてアサートする。
+
+are,are_not,has_no,was,was_notなどのエイリアスがある。
+
+equals。二つのインスタンスが同じか。
+same。二つの値が同じか。equalsより深い。
+
+trushy。trueか。これはisがいらない。
+反対はfals。
+
+error。メッセージだけ出す通常の例外。これも使える。
+
+boolを返す関数をassert:registerで登録すると、独自のアサーションを登録できる。
+
+### spy
+関数をラッピングし、その関数が何回呼ばれたか・ある引数で呼ばれたかといった情報を自動で登録する関数。
+
+関数に使うときは`spy.new(function())`。
+テーブルのメソッドに使うときは`spy.on(tbl,"method_name")`。
+これでラッピングした関数を`assert.spy(s).was.called()`などとしてアサーションに使う。
+
+テーブルのメソッドに使えるので、`spy.on(_G,"print")`でprintを取得できる。
+
+情報を登録するには一度メソッドを実行する必要がある。
+メソッドを実行せず、呼ばれたという情報だけ登録したい場面では`stub(tbl,"method_name")`が使える。
+printをprintせずに読んだり。
+
+テーブルのメソッドを全部ラップしたい時は、`mock(tbl,bool)`が使える。boolをtrueにするとstubとしてラップできる。
+
+### Matcher
+spyで引数を調べる時、なんでもいいから引数が呼ばれた場合・二つの引数で呼ばれた場合・文字列で呼ばれた場合といった条件で調べたい時がある。
+そういう時はMatcher。`require("luassert.match")`を入れておかないと使えない。
+
+## `_G`,`_ENV`
+`_G`はグローバル変数を全部保持するテーブル。Lua起動時に作成される。
+`_ENV`はどのテーブルの変数を見に行くかを決定するローカル参照。ここを書き換えると以降グローバル変数はそのテーブルを参照することになる。デフォルトでは`_G`を指す。
+
+[Programming in Lua : 14](https://www.lua.org/pil/14.html)

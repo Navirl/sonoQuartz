@@ -8,12 +8,12 @@ aliases:
 ---
 
 up:: [Programming](<../Bar/Program_lang/Programming.md>)
-same:: [TDD](<../Bar/Program_lang/Spec/TDD.md>)
+same:: [TDD](../Bar/Program_lang/TDD.md)
 
 Universal Specification Describing Manner。
 万人に伝わる仕様を描写する作法。
     表記法だけでない
-[TDD](<../Bar/Program_lang/Spec/TDD.md>)チックにいうならテスト以前、そもそもテストで満たしてほしい要求。そしてそこから導かれる仕様。これを伝えるための決まり。
+[TDD](../Bar/Program_lang/TDD.md)チックにいうならテスト以前、そもそもテストで満たしてほしい要求。そしてそこから導かれる仕様。これを伝えるための決まり。
 仕様は要求に含まれる動詞と目的語から導かれる。
 
 [affordd\_conference2015\_tutorial.pdf](https://affordd.jp/wp-content/uploads/conference2015/affordd_conference2015_tutorial.pdf)

@@ -4,8 +4,8 @@ tags:
   - Bar
 ---
 
-up:: [Programming](<../Programming.md>)
-same:: [TDD](<./TDD.md>)
+up:: [Programming](./Programming.md)
+same:: [TDD](./TDD.md)
 
 [Gherkin記法はじめました テスト - Qiita](https://qiita.com/jyoppomu/items/8f9f8980c8364dc50909)
 

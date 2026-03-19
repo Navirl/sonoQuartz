@@ -94,6 +94,10 @@
         {
           "id": "typewriter-mode",
           "name": "Typewriter Mode"
+        },
+        {
+          "id": "text-finder",
+          "name": "Text Finder"
         }
       ],
       "groupIds": [],

@@ -5,7 +5,7 @@ tags:
 ---
 
 up:: [Programming](<../Bar/Program_lang/Programming.md>)
-same:: [TDD](<../Bar/Program_lang/Spec/TDD.md>)
+same:: [TDD](../Bar/Program_lang/TDD.md)
 
 設計は仕様変更に対して変更箇所を定めるための道具である。
 
