@@ -134,8 +134,8 @@
         "head": 1420
       },
       "FX/my.md": {
-        "anchor": 2265,
-        "head": 2265
+        "anchor": 1779,
+        "head": 1779
       },
       "Novels/Hint.md": {
         "anchor": 137,
@@ -262,8 +262,8 @@
         "head": 294
       },
       "Bar/GUI/minecraft.md": {
-        "anchor": 33054,
-        "head": 33054
+        "anchor": 33247,
+        "head": 33247
       },
       "FX/Entry/en20260219T120714.md": {
         "anchor": 1090,
@@ -278,8 +278,8 @@
         "head": 392
       },
       "Bar/Program_lang/Lua.md": {
-        "anchor": 8337,
-        "head": 8337
+        "anchor": 4890,
+        "head": 4890
       },
       "FX/Last_Entry/len20260219T080332.md": {
         "anchor": 711,
@@ -798,8 +798,24 @@
         "head": 162
       },
       "FX/Daily_Note/2026-03-20.md": {
-        "anchor": 795,
-        "head": 795
+        "anchor": 1113,
+        "head": 1113
+      },
+      "FX/After_Entry/Aen20260321T010917.md": {
+        "anchor": 425,
+        "head": 425
+      },
+      "FX/Daily_Note/2026-03-21.md": {
+        "anchor": 1061,
+        "head": 1061
+      },
+      "Bar/CLI/yt-dlp.md": {
+        "anchor": 5174,
+        "head": 5174
+      },
+      "FX/Daily_Note/2026-03-22.md": {
+        "anchor": 52,
+        "head": 52
       }
     }
   },
