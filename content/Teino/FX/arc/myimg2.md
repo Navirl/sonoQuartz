@@ -1,11 +1,11 @@
-[myimg](<./myimg.md>)
-![](<../images/myimg2-1747279675710.png>)
-![](<../images/myimg2 2025-05-15 12.28.08.excalidraw.md>)
+[myimg](./myimg.md)
+![](../../images/myimg2-1747279675710.png)
+![myimg2 2025-05-15 12.28.08.excalidraw](../../images/myimg2%202025-05-15%2012.28.08.excalidraw.md)
 直近流れが上
 抜きのエントリーは勢い鳴ければアウト、大幅に切り上げ上髭は結構値する
 
-![](<../images/myimg2-1747285420791.png>)
-![](<../images/myimg2 2025-05-15 14.03.48.excalidraw.md>)
+![](../../images/myimg2-1747285420791.png)
+![myimg2 2025-05-15 14.03.48.excalidraw](../../images/myimg2%202025-05-15%2014.03.48.excalidraw.md)
 
 レンジブロックは見やすくなるが、半値の存在を忘れない
 
@@ -18,18 +18,18 @@
 ちゃんと1hの押し目まで売るという意識があるなら、よい
 
 
-![](<../images/myimg2-1747311177944.png>)
+![](../../images/myimg2-1747311177944.png)
 
-![](<../images/myimg2 2025-05-15 21.13.03.excalidraw.md>)
+![myimg2 2025-05-15 21.13.03.excalidraw](../../images/myimg2%202025-05-15%2021.13.03.excalidraw.md)
 マトモなレンジが全然ないところに突っ込むな
 取れるとこはちゃんと取ってるので、マイナスを減らすほうが早い
 
-![](<../images/myimg2-1747314553809.webp>)
+![](../../images/myimg2-1747314553809.webp)
 
-![](<../images/myimg2 2025-05-15 22.09.20.excalidraw.md>)
+![myimg2 2025-05-15 22.09.20.excalidraw](../../images/myimg2%202025-05-15%2022.09.20.excalidraw.md)
 
-![](<../images/myimg2-1747447637943.png>)
+![](../../images/myimg2-1747447637943.png)
 
-![](<../images/myimg2 2025-05-17 11.07.26.excalidraw.md>)
+![myimg2 2025-05-17 11.07.26.excalidraw](../../images/myimg2%202025-05-17%2011.07.26.excalidraw.md)
 何処でレンジを察知するか
 やっぱり高値更新を失敗したこの時点だろう

@@ -1,20 +1,20 @@
-![](<../images/myimg 2025-03-23 21.30.07.excalidraw.md>)
+![myimg 2025-03-23 21.30.07.excalidraw](../../images/myimg%202025-03-23%2021.30.07.excalidraw.md)
 
 xレンジ抜けの下滞留破り
 抜けが確認できた時点で即売りだけど、応用
 本来損切を巻き込んだ押し目買いが成立するところ、それで出なかったので逆に行く
 レンジ内上張り付きも同じ理論？
 
-![](<../images/myimg-1742733250680.png>)
-![](<../images/myimg-1742733260270.png>)
-![](<../images/myimg-1742733270248.png>)
+![](../../images/myimg-1742733250680.png)
+![](../../images/myimg-1742733260270.png)
+![](../../images/myimg-1742733270248.png)
 
 
-![](<../images/myimg 2025-03-28 20.50.49.excalidraw.md>)
+![myimg 2025-03-28 20.50.49.excalidraw](../../images/myimg%202025-03-28%2020.50.49.excalidraw.md)
 逆パターン
 
 
-![Drawing 2025-05-06 19.50.47.excalidraw](<../images/Drawing 2025-05-06 19.50.47.excalidraw.md>)
+![Drawing 2025-05-06 19.50.47.excalidraw](../../images/Drawing%202025-05-06%2019.50.47.excalidraw.md)
 戻りが出ない場合の可能性
 戻り決済用のポイントが見つからない
 3
@@ -22,24 +22,24 @@ xレンジ抜けの下滞留破り
 戻りを待つのも入り方としてあり
 実際に起きたことに対しての説明用として
 
-![](<../images/myimg 2025-05-08 10.27.12.excalidraw.md>)
+![myimg 2025-05-08 10.27.12.excalidraw](../../images/myimg%202025-05-08%2010.27.12.excalidraw.md)
 
 
-![](<../images/myimg-1746686101755.png>)
-![](<../images/myimg 2025-05-08 15.34.28.excalidraw.md>)
+![](../../images/myimg-1746686101755.png)
+![myimg 2025-05-08 15.34.28.excalidraw](../../images/myimg%202025-05-08%2015.34.28.excalidraw.md)
 押し目抜き、切り上げで上
 二押しから上昇
 
-![](<../images/myimg-1746872038271.png>)
+![](../../images/myimg-1746872038271.png)
 
-![](<../images/myimg 2025-05-10 19.14.06.excalidraw.md>)
+![myimg 2025-05-10 19.14.06.excalidraw](../../images/myimg%202025-05-10%2019.14.06.excalidraw.md)
 勢いよく降下、レンジからさらに降下
 しかし4h半値で止められレンジ破って上昇→上の力が強い
 
-![](<../images/myimg 2025-05-10 19.23.03.excalidraw.md>)
+![myimg 2025-05-10 19.23.03.excalidraw](../../images/myimg%202025-05-10%2019.23.03.excalidraw.md)
 ここで上に届かず途中でレンジとるなら、上の反発でも下に勝てないということで売ってもいい
 
-![](<../images/myimg 2025-05-10 19.24.38.excalidraw.md>)
+![myimg 2025-05-10 19.24.38.excalidraw](../../images/myimg%202025-05-10%2019.24.38.excalidraw.md)
 
 実際はこう
 この時点で4hと1hの殴り合い
@@ -48,9 +48,9 @@ xレンジ抜けの下滞留破り
 
 これが分かるまでに金をつぎ込みがち
 
-![](<../images/myimg-1746874353017.png>)
+![](../../images/myimg-1746874353017.png)
 
-![](<../images/myimg 2025-05-10 19.52.43.excalidraw.md>)
+![myimg 2025-05-10 19.52.43.excalidraw](../../images/myimg%202025-05-10%2019.52.43.excalidraw.md)
 
 大きなレンジに戻っていった
 4hレンジ上の反発が強く、上の方でレンジ
@@ -63,26 +63,26 @@ VS15ｍ半値、7時急上昇からのレンジ上値踏み上昇
 前回の押し合い部分を抜いてもないのに何で買ってるんですか。
 レンジ上などを抜いて上を主張、改めて抜く
 
-![](<../images/myimg-1747012305464.png>)
+![](../../images/myimg-1747012305464.png)
 
-![](<../images/myimg 2025-05-12 10.11.53.excalidraw.md>)
+![myimg 2025-05-12 10.11.53.excalidraw](../../images/myimg%202025-05-12%2010.11.53.excalidraw.md)
 切り上げで上に行きそうだが、直近と反する
 大きな足だと反発を喰らってるので証拠充分
 
 いきなり反発はV字になるので予測不可、証拠待ち
 今回は勢いよく下に行こうとして途中で止められた、なので元の上予想と合わせて買える
 
-![](<../images/myimg 2025-05-12 10.19.01.excalidraw.md>)
+![myimg 2025-05-12 10.19.01.excalidraw](../../images/myimg%202025-05-12%2010.19.01.excalidraw.md)
 完全に上にはいかず切り下げ
 1h反発
 
-![](<../images/myimg-1747014453904.png>)
+![](../../images/myimg-1747014453904.png)
 
 この長さで売るならせめて証拠か下部分の切り下げ起きてからに
 
-![](<../images/myimg-1747014854073.png>)
+![](../../images/myimg-1747014854073.png)
 
 集中ぶっ切れてる
 4h最終との殴り合い、あまり長く望んではいけない
 
-[myimg2](<./myimg2.md>)
+[myimg2](./myimg2.md)

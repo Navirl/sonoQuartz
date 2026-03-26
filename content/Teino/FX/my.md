@@ -378,7 +378,7 @@ aliases:
 [2025-09-18](./Daily_Note/2025-09-18.md)
 [2025-09-09](./Daily_Note/2025-09-09.md)
 
-[fx基礎archive](<./fx基礎archive.md>)
+[fx基礎archive](./arc/fx基礎archive.md)
 
 
 

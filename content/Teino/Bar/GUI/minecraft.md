@@ -6,6 +6,7 @@ aliases:
   - mc
 ---
 
+
 up:: [Linux](<../Linux.md>)
 
 ## test
@@ -1317,6 +1318,7 @@ deu x deuだと水では冷却が足りず爆発する？
 
 home/.shrcで起動時のコマンドを打てる
 スクリーンが無いとここでは動かない
+[Custom Startup Programs \[OpenComputers\]](https://ocdoc.cil.li/tutorial:autorun_options#boot_scripts_boot)
 
 `<C-A-c>`で強制ストップ
 
