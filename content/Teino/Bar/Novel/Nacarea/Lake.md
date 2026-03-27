@@ -6,7 +6,7 @@ tags:
  - Novel/World/Nacaria
 aliases:
  - レイク
- - 0193110246510
+ - "0193110246510"
 ---
 
 up:: [Akinaga](<./Akinaga.md>)
