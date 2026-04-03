@@ -770,8 +770,8 @@
         "head": 1005
       },
       "Novels/ナカリア/CCへ捧ぐ/本文/マノキより1-1.md": {
-        "anchor": 466,
-        "head": 466
+        "anchor": 1449,
+        "head": 1449
       },
       "Novels/ナカリア/CCへ捧ぐ/憲法.md": {
         "anchor": 80,
@@ -810,8 +810,8 @@
         "head": 1061
       },
       "Bar/CLI/yt-dlp.md": {
-        "anchor": 5174,
-        "head": 5174
+        "anchor": 1997,
+        "head": 2014
       },
       "FX/Daily_Note/2026-03-22.md": {
         "anchor": 52,
@@ -954,8 +954,8 @@
         "head": 98
       },
       "Project/movie t.md": {
-        "anchor": 98,
-        "head": 98
+        "anchor": 586,
+        "head": 586
       },
       "FX/Daily_Note/2026-03-31.md": {
         "anchor": 493,
@@ -980,6 +980,10 @@
       "Bar/GUI/Multilogin.md": {
         "anchor": 431,
         "head": 431
+      },
+      "FX/Daily_Note/2026-04-03.md": {
+        "anchor": 52,
+        "head": 52
       }
     }
   },
